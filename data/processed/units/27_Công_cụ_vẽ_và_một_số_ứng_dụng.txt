@@ -1,0 +1,512 @@
+BÀl
+27
+CÔNG CU VẼ
+VÀ MỘT SỔ ỨNG DỤNG
+SAU BÀI HỌC NÀY EM SẼ:
+Biết được khái niệm lớp ảnh.
+Biết một số
+cụ vẽ đơn giản.
+Thực hiện được một số
+dụng để tẩy; làm sạch và xoá các vết xước trên ảnh
+Khi chỉnh sửa ảnh em muốn thực hiện những việc gì? Em đã
+những phần
+mềm chỉnh sửa ảnh nào?
+1. GIỚl THIỆU VỂ LỚP ẢNH
+Hoạt động 1
+Nên xanh để làm gì?
+Khi làm
+các cảnh quay thường diễn ra như'
+Hình 27.1.
+Em có biết nền màu xanh để làm gì không?
+Hình 27.1
+Ảnh với nền xanh
+Lớp ảnh (Layer)
+vai trò quan trọng trong chỉnh sửa ảnh, giúp xử lí các
+riêng biệt của bức ảnh mà không Iàm ảnh hưởng đến các
+khác và dễ
+SU
+dụng lại từng
+nhỏ trong ảnh
+Khái niệm về lớp ảnh tương tự
+Lzyer;
+Channels .vaths
+như trong Inkscape; nghĩa là
+mỗi
+Mode
+Nornal
+ảnh sẽ chứa một sỗ đối tượng
+Anacity
+1oo.O
+Độ trong
+hinh ảnh
+thứ tự sắp xếp của các
+Lock
+2
+suốt của lớp
+và độ trong suốt của mỗi Iớp
+LSC
+Lớp đang
+sẽ ảnh hưởng đến hinh ảnh
+[SK
+chỉnh sửa
+thể của tệp ảnh. Các thao tác
+Org
+lí các lớp ảnh được tim thấy trong
+Thứ tự hiển
+hộp thoại Layer ở góc dưới bên
+Hình 27.2. Hộp Layer
+thị các lớp
+màn hình của GIMP.
+Có thể thêm mới , xoá
+đổi thứ tự các lớp ảnh. Cáclớp ảnh được sắp theo
+thứ tự hiển thị từ dưới Iên trên. Có
+không hình con mắt bên cạnh biểu tượng và
+tên lớp cho biết lớp được hiển thị
+ẩn. Chọn một lớp để xử lí
+(chỉnh sửa
+vẽ thêm). Có thể
+đổi thứ tự
+cách kéo thả lên trên hoặc xuống dưới .
+Mỗi lớp ảnh chứa một số đối tượng của ảnh để có thể xử Ií
+Thứ tự
+sắp xếp của các Iớp quyết định ảnh sản
+Trong Hình 27.2, Iớp nào đượchiển thị, lớp nàokhông?
+128
+công
+ứng
+dùng
+phim,
+phần
+đóng
+phần
+dàng
+phần
+Iớp
+Iớp
+tổng
+quản
+phải
+hay
+thay
+haỵ
+hay
+riêng
+hay
+bằng
+thay
+lớp
+riêng.
+phẩm
+
+2.GIỚI THIỆU MỘT SỔ CÔNG CỤ VẼ
+Hoạt động 2
+Chinh sta ảnh thời xưa
+Hinh 27.3 là một bức ảnh nổi
+của nhiếp ảnh gia Kusaikabe Kimbei được chụp
+từ những năm 1870. Em có thể xác định được tác giả đã
+vẽ thêm những gì để
+thu được tấm hinh này không?
+Vẽ thêm vào ảnh gốc là một
+của
+việc chỉnh sửa ảnh.
+Các
+Cụ vẽ trong
+GIMP
+được
+cung cấp trong
+chọn
+Tools
+Paint
+Tools
+cụ vẽ gồm
+ba nhóm chính: vẽ thêm (ví dụ như Paint
+Brush
+Bucket Fill , Gradient) , tẩy
+Eraser)
+và vẽ
+chọn (ví dụ như Clone và
+Healing) (Bảng 27.1). Để
+một
+cụ nào đó em nháy chuột vào biểu
+tương ứng trong hộp công cụ hoặc nhấn tổ
+tắt tương
+Hình 27.3. Người đàn bà
+cầm ô dưói mưa
+Các
+cụ Clone và Healing thường
+để sửa nhược điểm trên ảnh
+Iấp
+https:/www.metmuseum.orglartl
+collectionlsearch/294829)
+đầy một
+ảnh đã cắt.
+Bảng 27.1_
+Một số
+cụ vẽ thường
+Công cụ
+Chức
+Lưu ý
+Vẽ thêm
+cho
+Chọn kiểu cọvẽ trong hộp thoại Brushes bên phải
+chọn
+màn hinh
+Paint Brush
+Mặc định là dùng màu nổi và tô màu cả vùng chọn.
+Tômàu
+chọn
+Có thể
+đổi trong mục Fill Type và Affected
+Bucket Fill
+Tô
+mau
+Mặc định
+từ màu nổi sang màu nền
+sắc vùng chọn.
+nhiên có thể thay đổi trong hộp tuỳ chọn.
+Gradient
+Nếu lớp đang chọn không có kênh alpha thì điểm
+Xoá điểm ảnh trên
+ảnh được xoá sẽ có màu nền. Ngược lại, nếu Iớp
+lớp đang chọn hoặc
+có kênh alpha thì điểm ảnh trong suốt, hiển thị bởi
+Eraser
+một vùng chọn
+lưới ô vuông xám
+đen.
+Vẽ
+cách
+Chọn độ
+nhoè
+và kích thước nét vẽ trong hộp
+sao chép chính xác
+tuỳ chọn.
+Clone
+một vùng chọn.
+Vẽ bằng cách sao
+Tương tự như Clone nhưng công cụ này kết
+chép một
+đíểm ảnh ở
+chọn và điểm ảnh cần vẽ
+Healing
+chọn.
+(chỉnh sửa)
+Các công cụ vẽ là phương tiện để chúng ta vẽ thêm chi tiết hoặc loại bỏ
+các nhược đíểm trên ảnh.
+Nêu sự khác nhau giữa hai
+cụ Clone và
+Healing:
+129
+tiếng
+phải
+phần
+công
+bảng
+Công
+bằng
+vùng
+dùng
+công
+tượng
+phím
+hợp
+ứng.
+công
+dùng
+hay
+vùng
+công
+dùng
+năng
+Jớp
+đang
+vùng
+thay
+chuyển
+chuyển
+tuy
+bằng
+hợp
+giữa
+vùng
+vùng
+công
+
+3. THIÊT LÂẬP MÀU SẮC
+Hoạt động 3
+Mau sác
+Khi viết trên bảng, các thầy cô sử dụng
+màu
+còn khi viết trong vở học sinh
+thường
+mực màu gì? Tại sao không
+bút mực trắng?
+Ngoài ba kênh màu cơ bản R, G và B, giá trị màu sắc của các điểm ảnh còn có
+một kênh nữa là kênh alpha: Khi Iớp ảnh có kênh alpha; trên lớp có thể có những
+điểm ảnh trong suốt; giống như khi ta nhin qua tấm kính
+Khi khổng có kênh alpha;
+lớp ảnh giống như tờ giấy; không thể nhin thấy các hình ảnh ở dưới. Mặc định là chỉ
+có lớp dưới cùng không có kênh alpha. Ta có thể thêm kênh alpha vào một Iớp
+cách nháy nút
+chuột vào lớp và chọn Add Alpha Chanel, chọn Remove Alpha
+Chanel để xoá kênh alpha.
+GIMP phân biệt màu nổi (Foreground) và màu nền (Background): màu nổi là màu
+của các đối tượng được vẽ khi sử dụng các
+cụ như cọ vẽ, bút chi
+màu nền
+được coi là màu của giấy vẽ. Khi
+cụ Erase để xoá tại một điểm ảnh, nếu
+Iớp không có kênh alpha thi điểm ảnh đó sễ có màu nền, còn nếu có kênh alpha thi
+điềm ảnh đó sẽ không có màu và ta có thể nhìn thấy hình ảnh ở lớp dưới tại vị trí
+được xoá (Hình 27.4).
+Màu vẽ
+Miu nên
+Lớp có kênh alpha
+Lởp
+có kênh alpha
+Hình 27.4. Kết
+khi xoá trên lóp có/không có kênh alpha
+Để chọn màu cho màu nổilmàu nền
+ta nháy chuột vào ô tương ứng. Trong hộp
+thoại chọn màu; chọn dải màu trước rồi nháy chuột vào màu muốn chọn. Có thể sử
+dụng
+cụ Color Picker
+để lấy màu từ một điểm ảnh.
+Màu nổi là màu
+cho các
+cụ vẽ, màu nền được coi là màu giấy vẽ
+Có ba lớp ảnh theo thứ tự từ dưới Iên là 1, 2 và 3. Lớp 1 có một
+hoa, lớp 2 có
+một
+táo và lớp 3 có một chiếc bàn. Biết chỉ có lớp 2 có kênh alpha và độ mờ của
+cả 3 lớp là 100. Hỏi khi hiển thị cả ba lớp em thấy hinh gì?
+4. THỰC HÀNH
+Nhiệm vụ 1. Xoá đoạn chi tiêt thừa
+công cụ Clone và Healing
+Hướng dẫn:
+Xoá hình dây điện trên ảnh (Hinh 27.5): Chọn
+Cụ
+Healing
+rồi chọn loại
+cọ và độ lớn của cọ vẽ (sử dụng cọ đầu tròn, độ Iớn 300).
+Đưa con trỏ chuột Iên vùng trời màu xanh; nhấn
+phím Ctrl và nháy chuột để
+sao (vùng nguồn) (Hinh 27.6). Nhấn giữ và di chuyển chuột vào
+dây điện để sao
+chép điểm ảnh ở
+vào
+chỉnh sửa để xoá hình dây điện.
+130
+phấn
+trắng,
+dùng
+dùng
+bằng
+phải
+công
+dùng
+công
+hông
+quả
+công
+dùng
+công
+bông
+quả
+bẵng
+công
+giữ
+vùng
+nguồn
+vùng
+vùng
+
+Vung chinh sửa
+Vung nguổn
+Hình 27.5. Ảnh cần sửa ban đầu
+Hình 27.6. Xoá dây đện
+công cụ Healing
+Xoá gạch đen: Sử dụng
+cụ Clone
+và làm tương tự
+Cụ
+Healing
+Lưu ý: Với
+ảnh sát với lá cây; cần
+độ lớn của cọ (10) để không làm ảnh
+hưởng đến phẩn lá
+Trong phần ảnh
+ta muốn nền trời phía sau xanh hoàn toàn.
+Khác biệt hoàn
+toàn so với
+ảnh bên cạnh nên không thể dùng công cụ Healing vi
+cụ này
+kết
+với mẫu tại điểm vẽ nên sẽ tạo ra hiện tượng lem màu do ảnh hưởng của
+lá cây tại điểm giao (Hình 27.7a)
+Viên bị nhoè
+Ảnh ban đẩu
+Sủ dung công cu Healing
+Sủ dung công cụ Clone
+a)
+b)
+c)
+Hình 27.7. So sánh kết quả tẩy vạch đen
+Healing và Clone
+Nhiệm vụ 2
+nển trời trong ỏnh cánh
+hoa
+nền trời trong hinh
+cánh
+hoa (Hinh 27.8) bằng một Iớp
+màu
+đơn
+mô phỏng trời trong xanh.
+UU
+Hướng dẫn:
+Tách phần phong cảnh
+Bước 1
+Sau khi mở tệp ảnh chỉ có một Iớp
+nhất chứa ảnh cánh
+hoa
+Nháy nút
+chuột vào tên lớp trong hộp thoại Layer và chọn Duplicate layer. Sửa
+tên lớp mới thành phong
+canh. Sửa trên bản sao phong_canh để không ảnh hưởng
+đến ảnh
+Hình 27.8. Cánh
+hoa nền tròi xám
+Hình 27.9. Ảnh sau khi cắt phần nền trời
+131
+bằng
+công
+công
+phần
+giảm
+cây.
+này
+phần
+công
+hợp
+phần
+bằng
+đỗng
+Thay
+đồng
+phần
+Thay
+chuyển
+giản
+đồng
+duy
+phải
+gốc.
+đồng
+
+Bưóc 2. Nháy nút
+chuột vào
+phong_canh và chọn Add alpha Channel.
+Bước 3. Sử dụng
+cụ chọn tự do để chọn phần bầu trời.
+Lưu ý: Nên phóng to ảnh để dễ thực hiện; để đơn giản; nên cắt cả phần cây
+trên.
+Bước 4. Nháy nút
+chuột vào vùng vừa chọn, chọn Edit
+Clear (Hình 27.9)
+Phần lưới ô vuông xám
+đen là
+trong suốt; có thể nhin thấy Iớp bên dưới.
+Bưóc 5. Chỉnh lại
+Sử
+cụ Eraser
+để tẩy các
+còn sót lại
+hoặc
+cọ vẽ để thêm viền
+cho
+Có thể chỉnh màu sắc của cây
+các
+cụ đã học trong Bài 26.
+Vẽ nền trời
+Bưóc 5. Nháy nút phải chuột vào lớp dưới cùng (ảnh gốc) và chọn New Layer,
+nhập tên
+mới là bau_troi trong ô Layer Name. Lớp bau_troi mới tạo sẽ nằm dưới
+lớp phong_canh.
+Để tiện thao tác với lớp nàỵ; ta tắt hiển thị của tất cả các lớp còn lại (nháy chuột
+vào hinh con mắt bên cạnh mỗi lớp)
+Bưóc 6. Chọn màu nổi và màu nền là hai
+màu của màu xanh lam (các màu
+có giá trị 4b9dde và cle6fb, nhập vào ô HTML notation trong hộp thoại chọn màu) .
+Bưóc 7. Chọn công cụ màu chuyển Gradient
+trong hộp công cụ.
+Bưóc &. Chọn kiểu
+FB to GB (RGB) trong hộp thoại Gradients
+Bưóc 9. Nháy chuột vào đíểm sát phía trên
+của ảnh
+kéo thả chuột theo
+phương thẳng đứng xuống phía dưới đề đổ màu cho ớp (Hinh 27.10).
+Để xem ảnh
+thể
+em hiển thị Iại Iớp phong
+canh (Hình 27.11)
+KET Mo
+TRI
+VỚ} cUÔc S-
+Hình 27.10. Đổ màu
+sắc cho
+Hình 27.11. Ảnh sau khi sửa nền tròi
+lóp nền trời
+LUYÊN TÂP
+1. Trong Nnhiệm vụ 2, nếu thực hiện các bước từ 5 đến 9trước thì khi hiển thị cả ba
+lớp ta thu được ảnh như thế nào?
+2. Giả sử màu nổi và màu nền đang có giá trị theo hệ RGB là
+100
+125
+125) và
+(225, 225, 0). Nếu ta thực hiện bước 3và 4 trên Iớp ảnh ban đầu (ảnh gốc sau khi
+mở) thì hinh ảnh mới của lớp như thế nào?
+3. Nếu ta cần sử
+cụ Clone trên một vùng ảnh hinh chữ nhật thi theo em
+ta nên
+đầu cọ nào?
+VẬN DỤNG
+Lấy một ảnh
+chân dung có nhược điểm như nám
+mụn
+Thực hiện việc xoá
+các vết này
+cụ Clone và
+Healing: So sánh kết
+khi chỉ
+một trong
+hai loại .
+132
+phải
+Iớp
+cộng
+phía
+phải
+phần
+phần
+cây:
+dụng
+công
+bằng
+dùng
+cây
+đẹp-
+công
+Iớp
+tông
+chuyển
+cùng
+tổng
+chuyển
+dụng
+công
+dùng
+chụp
+bằng
+quả
+công
+dùng

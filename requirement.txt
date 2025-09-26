@@ -1,0 +1,18 @@
+# PDF scanning
+pdf2image
+
+# OCR
+easyocr
+opencv-python
+torch         # PyTorch CPU/GPU version
+
+# NLP + Embedding
+langchain
+langchain_google_genai
+
+
+# ML models
+scikit-learn
+numpy
+scipy
+

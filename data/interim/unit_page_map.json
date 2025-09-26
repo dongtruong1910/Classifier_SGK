@@ -1,0 +1,40 @@
+{
+  "units": [
+    { "unit_id": "1", "unit_name": "Hệ điều hành", "start_page": 6, "end_page": 10, "notes": "Bài 1: Hệ điều hành" },
+    { "unit_id": "2", "unit_name": "Thực hành sử dụng hệ điều hành", "start_page": 11, "end_page": 15, "notes": "Bài 2: Thực hành sử dụng hệ điều hành" },
+    { "unit_id": "3", "unit_name": "Phần mềm nguồn mở và phần mềm chạy trên Internet", "start_page": 16, "end_page": 21, "notes": "Bài 3: Phần mềm nguồn mở và phần mềm chạy trên Internet" },
+    { "unit_id": "4", "unit_name": "Bên trong máy tính", "start_page": 22, "end_page": 27, "notes": "Bài 4: Bên trong máy tính" },
+    { "unit_id": "5", "unit_name": "Kết nối máy tính với các thiết bị số", "start_page": 28, "end_page": 32, "notes": "Bài 5: Kết nối máy tính với các thiết bị số" },
+
+    { "unit_id": "6", "unit_name": "Lưu trữ và chia sẻ tệp tin trên Internet", "start_page": 33, "end_page": 36, "notes": "Bài 6: Lưu trữ và chia sẻ tệp tin trên Internet" },
+    { "unit_id": "7", "unit_name": "Thực hành tìm kiếm thông tin trên Internet", "start_page": 37, "end_page": 39, "notes": "Bài 7: Thực hành tìm kiếm thông tin trên Internet" },
+    { "unit_id": "8", "unit_name": "Thực hành nâng cao sử dụng dịch vụ điện tử và mạng xã hội", "start_page": 40, "end_page": 43, "notes": "Bài 8: Thực hành nâng cao sử dụng dịch vụ điện tử và mạng xã hội" },
+
+    { "unit_id": "9", "unit_name": "Giao tiếp an toàn trên Internet", "start_page": 44, "end_page": 49, "notes": "Bài 9: Giao tiếp an toàn trên Internet" },
+
+    { "unit_id": "10", "unit_name": "Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí", "start_page": 51, "end_page": 54, "notes": "Bài 10: Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí" },
+    { "unit_id": "11", "unit_name": "Cơ sở dữ liệu", "start_page": 55, "end_page": 59, "notes": "Bài 11: Cơ sở dữ liệu" },
+    { "unit_id": "12", "unit_name": "Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu", "start_page": 50, "end_page": 65, "notes": "Bài 12: Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu" },
+    { "unit_id": "13", "unit_name": "Cơ sở dữ liệu quan hệ", "start_page": 66, "end_page": 70, "notes": "Bài 13: Cơ sở dữ liệu quan hệ" },
+    { "unit_id": "14", "unit_name": "SQL – Ngôn ngữ truy vấn có cấu trúc", "start_page": 71, "end_page": 74, "notes": "Bài 14: SQL – Ngôn ngữ truy vấn có cấu trúc" },
+    { "unit_id": "15", "unit_name": "Bảo mật và an toàn hệ cơ sở dữ liệu", "start_page": 75, "end_page": 78, "notes": "Bài 15: Bảo mật và an toàn hệ cơ sở dữ liệu" },
+
+    { "unit_id": "16", "unit_name": "Công việc quản trị cơ sở dữ liệu", "start_page": 79, "end_page": 82, "notes": "Bài 16: Công việc quản trị cơ sở dữ liệu" },
+    { "unit_id": "17", "unit_name": "Quản trị cơ sở dữ liệu trên máy tính", "start_page": 83, "end_page": 87, "notes": "Bài 17: Quản trị cơ sở dữ liệu trên máy tính" },
+    { "unit_id": "18", "unit_name": "Thực hành xác định cấu trúc bảng và các trường khoá", "start_page": 88, "end_page": 92, "notes": "Bài 18: Thực hành xác định cấu trúc bảng và các trường khoá" },
+    { "unit_id": "19", "unit_name": "Thực hành tạo lập cơ sở dữ liệu và các bảng", "start_page": 93, "end_page": 96, "notes": "Bài 19: Thực hành tạo lập cơ sở dữ liệu và các bảng" },
+    { "unit_id": "20", "unit_name": "Thực hành tạo lập các bảng có khoá ngoài", "start_page": 97, "end_page": 101, "notes": "Bài 20: Thực hành tạo lập các bảng có khoá ngoài" },
+    { "unit_id": "21", "unit_name": "Thực hành cập nhật và truy xuất dữ liệu các bảng", "start_page": 102, "end_page": 106, "notes": "Bài 21: Thực hành cập nhật và truy xuất dữ liệu các bảng" },
+    { "unit_id": "22", "unit_name": "Thực hành cập nhật bảng dữ liệu có tham chiếu", "start_page": 107, "end_page": 110, "notes": "Bài 22: Thực hành cập nhật bảng dữ liệu có tham chiếu" },
+    { "unit_id": "23", "unit_name": "Thực hành truy xuất dữ liệu qua liên kết các bảng", "start_page": 111, "end_page": 114, "notes": "Bài 23: Thực hành truy xuất dữ liệu qua liên kết các bảng" },
+    { "unit_id": "24", "unit_name": "Thực hành sao lưu dữ liệu", "start_page": 115, "end_page": 117, "notes": "Bài 24: Thực hành sao lưu dữ liệu" },
+
+    { "unit_id": "25", "unit_name": "Phần mềm chỉnh sửa ảnh", "start_page": 118, "end_page": 123, "notes": "Bài 25: Phần mềm chỉnh sửa ảnh" },
+    { "unit_id": "26", "unit_name": "Công cụ tính chỉnh màu sắc và công cụ chọn", "start_page": 124, "end_page": 129, "notes": "Bài 26: Công cụ tính chỉnh màu sắc và công cụ chọn" },
+    { "unit_id": "27", "unit_name": "Công cụ vẽ và một số ứng dụng", "start_page": 130, "end_page": 134, "notes": "Bài 27: Công cụ vẽ và một số ứng dụng" },
+    { "unit_id": "28", "unit_name": "Tạo ảnh động", "start_page": 135, "end_page": 138, "notes": "Bài 28: Tạo ảnh động" },
+    { "unit_id": "29", "unit_name": "Khám phá phần mềm làm phim", "start_page": 139, "end_page": 144, "notes": "Bài 29: Khám phá phần mềm làm phim" },
+    { "unit_id": "30", "unit_name": "Biên tập phim", "start_page": 145, "end_page": 149, "notes": "Bài 30: Biên tập phim" },
+    { "unit_id": "31", "unit_name": "Thực hành tạo phim hoạt hình", "start_page": 150, "end_page": 152, "notes": "Bài 31: Thực hành tạo phim hoạt hình" }
+  ]
+}

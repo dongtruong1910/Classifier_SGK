@@ -1,0 +1,511 @@
+BÀl
+15
+BẢO MÂT VÀ AN TOÀN
+HỆ CƠ SỞ DỮ LIỆU
+SAU BÀI HỌC NÀY EM SỄ:
+Hiểu được tầm quan trọng và một số biện pháp bảo vệhệ CSDL.
+Mỗi hệ CSDL đều được
+dựng với mục đích xác định nhằm phục vụ một hệ
+quản lí như hệ
+bán vé máy
+đặt chỗ khách sạn;
+lí bệnh án ở
+bệnh viện
+Ií kết
+học tập,
+lí website mạng xã hội ,
+có nhiều
+tin về việc
+khối lượng lớn dữ liệu bị đánh cắp; những tài khoản người
+mạng xã hội bị gán những phát biểu sai trái,
+Tinh trạng này xảy ra một
+do các hệ CSDL liên quan chưa được bảo vệ đủ tốt. Cần
+làm gi để đảm
+bảo an ninh; an toàn cho các hệ CSDL?
+1. BẢO MÂT HÊ CSDL
+Hoạt động 1
+Tẩ chức phân quyễn véi website âm nhac
+Tất cả người
+Internet đều có thể được tìm kiếm; được xem danh sách các bản
+nhạc theo tên bản nhạc; tên ca sĩ, tên nhạc sĩ mà không cần
+nhập hệ
+Ngoài ra, một số người
+xác định có
+nhập thêm dữ liệu về bản nhạc mới
+nhạc sĩ mới và ca sĩ mới
+Theo các em, cần
+tổ chức phân
+cập CSDL như thế nào để đáp
+các yêu cầu trên?
+T
+10
+U
+Việc lập danh sách và xác định quyền hạn các nhóm người dùng đối với hệ CSDL
+chính là
+việc đầu tiên cần
+thực hiện để Xây dựng chính sách bảo mật
+CSDL.
+Trong trường hợp website âm nhạc; có thể thấy có bốn nhóm người
+với
+quyền hạn khác nhau:
+Nhóm 1: Nhóm người
+không cần khai báo,
+nhập, được
+chỉ tìm
+kiếm, xem, không có
+cập nhật
+Nhóm 2 Nhóm người
+có quyền thêm vào CSDL các bản nhạc mới , tên
+nhạc sĩ, ca sĩ mới. Nhưng không có quyền xoá,
+sửa
+Nhóm
+3: Nhóm người dùng có
+xOá,
+sửa dữ liệu trong các
+của
+CSDL; nhưng
+có
+thay đổi cấu trúc bảng,
+có quyễn xoá bảng:
+Nhóm 4: Nhóm người
+có toàn
+đối với các
+CSDL, chính
+là
+người
+có quyền tạo Iập các bảng của CSDL
+Người ta sẽ thiết lập một
+user để
+Ií
+những người có
+nhập
+website âm nhạc, bao gồm các cột: tên
+nhập; mật khẩu và nhóm người
+73
+xây
+thống
+thống
+quản
+bay
+quản
+quả
+Từng
+quán
+thông
+những
+dùng
+phần
+phải
+dùng
+thống
+đăng
+quyền
+dùng
+quyền
+phải
+truy
+ứng
+phải
+công
+dùng
+quyền
+dùng,
+đăng
+quyền
+dùng
+quyền
+bảng
+quyền
+không
+không
+quyền
+bảng
+dùng
+trong
+dùng
+quyền
+bảng
+quản
+đẳng
+đăng
+dùng.
+
+Mỗi khi người dùng đăng nhập website âm nhạc sẽ biết được họ thuộc nhóm người
+dùng nào, 2hay 3 hay 4. Người
+nhóm 1
+cần đăng
+website âm nhạc.
+Để tất cả người
+Internet có thể tìm kiếm
+xem danh sách các bản nhạc mà
+không cần
+nhập website âm nhạc,
+có thể tạo một tài khoản khách (guest) và
+cấp cho tài khoản
+SELECT đối với tất cả các
+nhacsi
+casi, bannhac;
+banthuam. Tất cả người
+khi vào xem website âm nhạc sẽ mặc nhiên được xem
+như
+xuất CSDL music với tài khoản guest.
+Tiếp theo có thể tạo một tài khoản; chẳng hạn là moderator và cấp
+SELECT,
+INSERT đối với tất cả các bảng cho moderator. Tất cả những người
+nhóm này
+có quyền nhập thêm dữ liệu về bản nhạc mới và ca sĩ mới,
+sau khi
+nhập vào
+website âm nhạc sẽ truy xuất CSDL music với tài khoản nàỵ.
+Đối với nhóm 3,
+có thể tạo tài khoản; chẳng hạn là master
+mod
+CÓ tất cả
+SELECT, INSERT, UPDATE, DELETE đối với tất cả các bảng nhacsi,
+casi, bannhac;
+banthuam trong CSDL music. Tất cả những người
+nhóm này khi
+nhập
+website âm nhạc sẽ
+tài khoản master
+mod để truy xuất; cập nhật CSDL.
+Cuối cùng là tài khoản admin có toàn
+đối với tất cả các
+trong CSDL
+music cho người
+thuộc nhóm 4
+Tài khoản
+Nhóm 1
+Nhóm 2
+Nhóm 3
+Nhóm 4
+nhập website
+(không cần tài khoản)
+Tài khoản truy xuất
+guest
+moderator
+master_mod
+admin
+CSDL
+Như vậy các nhóm người
+khác nhau đều có
+xuất CSDL phù
+nhưng ngay cả người
+có
+cao nhất ở nhóm
+4
+cũng không thể can thiệp
+vào các CSDL khác được
+trị trong
+hệ QTCSDL_
+nhiên, việc đảm bảo an ninh CSDL còn phụ thuộc vào chính ý thức của người
+Nếu những người
+thuộc các nhóm 2, 3, 4
+bảo vệ
+của minh, để
+lộ
+để người khác chiếm được tài khoản của minh thì
+pháp bảo mật theo hình
+thức phân
+nói trên sẽ hạn chế tác dụng. Nói
+ra đối với những CSDLcần bảo
+mật như CSDL ngân
+chứng khoán;
+nếu người
+tiết lộ
+tin
+cập thì
+dữ liệu
+không còn được bảo mật.
+Vi vậy; khi xây dựng chính sách bảo mật CSDL; cần
+bổ sung cả những nội
+dung liên quan đến ý thức và trách nhiệm của người
+đối với tài khoản của mình
+như đối với dữ liệu trong CSDL
+Khi một ứng dụng CSDL hoạt
+nó có thể trở thành một hệ
+thống với
+nghin, hàng trăm nghin; thậm chí hàng triệu người truy cập
+thời và trở nên
+'phần
+nào giống như một hộp đen;
+quản trị không thể biết được hết người dùng đang
+làm gì, các hoạt
+đang diễn ra bên trong hệ thống ra sao; có điều gì bất ỗn
+có nguy cơ nào rình rập
+không,
+Vì vậỵ; cũng cần có chính sách, với những kế
+hoạch cụ thể, tổ chức
+sát hoạt
+của hệ
+số người truy cập, tinh trạng
+thiết bị
+máy móc,
+Những truy xuất của người
+có thể cần
+được lưu lại
+dưới dạng biên bản (thường
+là
+file) để khi cần có thể kiểm
+phân tích. Phải
+xây dựng kế hoạch xử lí các tinh huổng dự tính có thể xảy ra.
+74
+dùng
+không
+nhập
+dùng
+đăng
+quyền
+bảng
+này
+dùng
+truy
+quyền
+dùng
+đăng
+quyền
+dùng
+đẳng
+dùng
+quyền
+bảng
+dùng
+đăng
+quyền
+dùng
+truy
+hợp.
+quyền
+dùng
+quản
+cùng
+Tuy
+quyền
+dùng
+dùng.
+không
+giải
+hay
+quyền
+rộng
+dùng
+thông
+hàng .
+truy
+cũng
+phải
+dùng
+cũng
+động,
+hàng
+đồng
+người
+động
+hay
+hay
+thống:
+giám
+động
+phải
+dùng
+gọi
+tra,
+log
+
+Cuối
+cần chú ý khi hệ
+máy tính chứa CSDL được kết nối vào mạng
+cần
+có kế hoạch cụ thể về các giải pháp an ninh mạng
+về
+cứng và
+mềm) để chống lại các cuộc tấn
+qua mạng_
+Công tác bảo mật CSDL cần được thực hiện với một chính sách bảo mật
+toàn diện bao
+Quy định liên quan đến ý thức và trách nhiệm của người
+đốị với
+tài khoản của mình và dữ liệu trong CSDL
+Quy định về tổ chức đảm bảo an ninh mạng
+với hệ
+thống
+và
+mềm cụ thể
+Danh sách các nhóm người
+và danh sách tài khoản
+xuất
+CSDL với
+hạn tương ứng.
+Biện pháp giám sát trạng thái hoạt
+của hệ thống, người
+Có
+những quy định về làm biên bản Iưu trữ hoạt
+của hệ
+và kế
+hoạch xử Ií
+những tình huống có thể xảy ra.
+Nêu tóm tắt các
+của các tài khoản moderator và admin
+2. BẢO ĐẢM AN TOÀN DỮ LIÊU
+Hoạt động 2
+Bảo đảm an toàn dữ liệu là việc đảm bảo để dữ liệu trong CSDL không bị sai lạc; mất
+mát khi hệ
+thống _
+cứng;
+mềm gặp sự cố rủi ro. Hãy nêu một vài sự cố có thể
+xảy ra và cách hạn chế, khẳc phục các sự cố nàỵ
+Taoc
+Vd CUoc SOnG
+a)
+cổ vể
+điện
+Hệ thống cấp điện không đủ
+suất. Giải pháp: Xây dựng hệ
+cấp điện
+đủ
+suất.
+Hệ
+cấp điện bị quá tải do nhu cầu sử dụng điện
+đột biến. Giải pháp
+Thường xuyên kiếm tra hệ
+cấp điện, đặc biệt trong những thời gian nhu cầu sử
+dụng điện
+vọt.
+Hệ thống cấp điện ngừng đột ngột vì những lí do khác:. Giải pháp: Dùng bộ lưu
+điện để cấp điện ngay cho hệ thống máy tính
+trị CSDLkhi mất điện đột ngột
+b) Sự cổ hư
+thiết bi Iưu trữ
+Các thiết bị Iưu trữ (ví dụ ổ đĩa cứng) có khả
+gặp sự cố. Khi đó, nói chung rất
+khó Iấy lại được toàn bộ và chính xác dữ liệu trong thiết bị Iưu trữ bị hỏng:
+Thiết bị lưu trữ bị hư
+vÌ
+tuổi thọ. Giải pháp: Quản lí thời gian sử dụng
+của thiết bị lưu trữ,
+thế trước khi thiết bị đến giai đoạn thường bị hư hỏng:
+75
+thống
+cùng
+phần
+phần
+phải
+(cả
+công
+gồm:
+dùng
+phần
+cùng
+phần
+cứng
+dùng
+truy
+quyền
+động
+dùng
+thống
+động
+quyền
+phần
+phần
+nguổn
+Sự
+thống
+công
+công
+thống
+tăng
+thống
+tăng
+quản
+hỏng
+năng
+hỏng
+quá
+thay
+
+Thiết bị Iưu trữ bị hư
+vì các lí do khác. Giải pháp: Sao lưu dữ liệu định kì.
+Tất cả các hệ QTCSDL đều hỗ trợ khả
+sao lưu toàn bộ dữ liệu ra thiết bị dự
+phòng. Dùng
+pháp thiết bị Iưu trữ hỗ trợ bảo vệ dữ liệu (các hãng sản xuất thiết
+bị lưu trữ có những giải pháp để Iưu trữ hai phiên bản dữ liệu; kiểm tra chéo để đảm
+bảo tính chính xác của dữ liệu).
+Tóm lại, tuỳ theo những yêu cầu cụ thể của mỗi tổ chức; đặc điểm về CSDL để
+dựng những chính sách đảm bảo an toàn dữ liệu. Trong đó cần quan tâm tới các
+sự cố có thể xảy ra và giải pháp hạn chế, khắc phục. Chính sách
+bao
+những quy định về ý thức, trách nhiệm đối với những người vận hành hệ thống .
+Để đảm bảo an toàn dữ liệu cần xây dựng chính sách an toàn dữ liệu
+cùng kế hoạch xử lí các sự cố có thể
+ra và giải pháp hạn chế, khắc
+phục. Chính sách an toàn dữ liệu
+bao gồm những quy định
+vềý thức;, trách nhiệm đối với người
+và người vận hành hệ
+Các hệ QTCSDL đều hỗ trợ chức
+sao lưu định kì và phục hồi dữ
+liệu từ bản sao Iưu gần nhất.
+Vi sao cần
+sao Iưu dữ liệu định kì?
+LUYÊN TÂP
+1. Tại sao cần phải có những quy định về ý thức và trách nhiệm của người
+đối
+với tài khoản của mình và dữ liệu trong CSDL?
+2. Tại sao cần có những quy định về ý thức trách nhiệm của những người vận hành
+hệ thống?
+VoI CUÔc SỖNG
+VÂN DỤNG
+Ở một trung tâm
+Anh; có bốn
+viên
+bốn môn học là luyện nghe,
+luyện nói, luyện đọc, luyện viết. CSDL
+lí điểm học tập của
+viên có các
+là diemnghe; diemnoi , diemdoc;
+diemviet. Các
+viên được
+chỉ xem
+các
+bảng đíểm,
+các
+viên được quyền thêm mới, cập nhật;
+xoá các bản ghi
+trong bảng điểm môn
+minh
+chỉ một người dùng có toàn quyền đối với tất
+cả các bảng trong CSDL. Hãy xây dựng mô hình phân nhóm người
+truy cập
+CSDL nói trên.
+76
+hỏng
+năng
+giải
+xây
+phải
+này
+cũng
+gồm
+xảy
+phải
+cũng
+thống
+dùng
+năng
+phải
+dùng
+tiếng
+giáo
+dạy
+dạy
+quản
+học
+quyền
+bảng
+học
+giáo
+học
+dạỵ
+dùng

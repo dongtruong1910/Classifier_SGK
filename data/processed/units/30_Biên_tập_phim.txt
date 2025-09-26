@@ -1,0 +1,602 @@
+BÀI
+30
+BIÊN TÂP PHIM
+SAU BÀI HỌC NÀY EM SẼ:
+Sử dụng được một số
+cụ cơ bản biên tập phim: chỉnh sửa hình ảnh; âm thanh;
+tạo phụ đề, tạo các hiệu ứng chuyển cảnh; căn chỉnh thời gian.
+Hãy cho biết cảm nghĩ của em sau tiết thực hành ở Bài 29? Em có hài
+về
+đoạn
+minh tạo được không? Em có mong muốn tìm hiểu thêm các
+Cụ
+để chỉnh sửa cho đoạn phim đó trở nên hấp dẫn hơn không?
+1. BlÊN TÂP PHIM
+Để có được những đoạn
+chuyên nghiệp, người
+có thể sử dụng các
+cụ, tính
+biên tập của
+mềm làm phim như sau:
+a) Chỉnh sửa hinh ỏnh
+Chỉnh sửa các hình ảnh
+video clip tại các phân đoạn của phim với các thao
+tác
+thường dùng bao
+bổ sung,
+thế hoặc xoá; căn chỉnh hướng: góc quay;
+tạo hiệu ứng cho ảnh hoặc video clip.
+Các thao tác chỉnh sửa này có thể thực hiện
+bởi các Iệnh trong
+Tư liệu. Các Iệnh này sẽ hiện ra khi ta nháy nút phải chuột
+vào một tư liệu bất kì như ảnh hoặc video (Hình 30.1)
+b) Chỉnh sửa âm thanh
+Bên cạnh các tư liệu ảnh
+video clip, âm thanh cũng là một trong những yếu
+tố góp phẩn làm nên thành
+của đoạn phim. Phần mềm làm phim cho phép đưa
+các tệp âm thanh vào đoạn phim; ghép nối ,
+đổi độ dài, âm lượng và các chỉnh
+sửa khác (Hinh 30.2).
+c) Tao các hiêu
+chuyển cỏnh
+SOng
+Với đoạn phim được tạo ra từ chuỗi các phân cảnh là các tư liệu ảnh
+video
+đầu vào, việc sử
+hiệu ứng
+cảnh giúp cho đoạn phim mượt mà, hấp dẫn
+hơn.
+Vi vậy; tính
+này
+được các
+mềm làm phim không ngừng
+tạo và cải tiến (Hinh 30.4).
+d) Căn chỉnh thời
+Một trong
+yếu tố quan trọng của một đoạn
+là thời lượng của
+cảnh
+Như ta đã biết, một đoạn phim có thể chứa nhiều lớp
+hình, lớp âm thanh
+lớp chữ
+phụ đề khác nhau; việc căn chỉnh thời gian xuất hiện giữa phân cảnh trên
+các
+cần được thực hiện sao cho khớp với kịch bản mà ta mong muốn. Những
+thao tác này được hỗ
+thực hiện tại
+tiến trình của
+mềm làm phim.
+e) Tạo phụ đề
+Tạo phụ đề cho phim
+là một trong những yếu tố giúp cho đoạn phim trở nên
+chuyên nghiệp, góp
+truyền tải
+tin tốt hơn.
+Do đó, tính
+tạo, chỉnh sửa
+định dạng phụ đề cho phim
+được một số
+mềm cung cấp và tương đối dễ
+sỬ
+dụng.
+143
+công
+lòng
+phim
+công
+phim
+dùng
+phần
+công
+năng
+hay
+gồm:
+thay
+ngăn
+hay
+công
+thay
+ứng
+hay
+chuyển
+dụng
+phần
+cũng
+sáng
+năng
+gian
+những
+phim
+từng
+phân
+băng
+hay
+lớp
+này
+phần
+ngăn
+trợ
+cũng
+phần
+thông
+năng
+phần
+cũng
+
+Để đoạn phim trở nên chuyên nghiệp và hấp dẫn; phần mềm làm phim
+cung cấp các
+cụ chỉnh sửa cơ bản như chỉnh sửa hình ảnh, âm
+thanh; tạo các hiệu ứng chuyển cảnh; căn chỉnh thời gian và tạo phụ đề
+Chỉ ra các
+cụ cần thiết để thực hiện được
+một phân cảnh phim với yêu cầu như sau: Tại
+(1)
+cụ chỉnh sửa âm thanh
+giây thứ 10 của phim, video clip số 1 sẽ hiện ra,
+đề
+(2) Công cụ tạo phụ
+từ giây thứ 12 đến 18,
+chữ "Video clip này
+được thực hiện tại Nha
+ngày 20/6/20217
+(3) Công cụ căn chỉnh thời gian.
+hiện ra.
+A. Cả ba
+cụ trên
+B. (1) và (2)
+c. (2) và (3)
+D. (1) và (3)
+2. THỰC HÀNH
+Nhiệm vụ chung. Biên tậP đoạn phim đã
+hiên ở
+hành Bài 30
+Hướng dẫn:
+Bưóc 1. Khởi
+mềm VideoPad
+Bước 2Mở dự án phim đã thực hiện ở phần thực hành Bài 29.
+Bưóc 3.Lưu dự án với tên mới <Tên phim> . <Ngày tạoz .vpj
+Nhiệm vụ 1. Chỉnh sửa ảnh
+thế một ảnh trong
+ảnh mới,
+chẳng hạn ảnh cần thay thếlà ảnh số 5.
+Hướng dẫn:
+Bưóc 1. Nháy chuột phải vào ảnh 5 tại trang Images
+Meli Rin
+Sequznzer
+Mderfic;
+Cuok Alea
+n9ges
+của
+Tư liệu. Khi
+Iệnh hiện ra (Hinh 30.1),
+chọn Iệnh Replace file _
+IrliA
+Plrce C F or S-quonce
+Ctr+Y
+Plsce or '{quenre
+ulr
+Bưóc 2. Chọn đường dẫn tới tệp ảnh mới sẽ
+Cye 0,
+Srvueie bi (urvi
+CIr -She+PeUp
+Rrrarefil
+để
+thế cho ảnh 5.
+CFsn Fil lou
+Iin
+clâc SẾnG
+OpenFil Kilh
+Cu:
+Cui <
+Sau bước này; ảnh mới sẽ được đưa vào ngăn tư
+Co9 
+Ctl C
+liệu,
+thế cho ảnh 5 cũ. Khi đó
+cảnh sử dụng
+[a:
+DELETE
+Revn:
+ảnh 5 cũ trong đoạn phim
+sẽ
+đổi theo.
+Und:0 <lif nS0q :nc:
+[Fet
+A6
+On:rqe Clip SFeeo .
+Bưóc 3. Chọn nút
+trong ngăn xem trước để
+Rersecif
+nip
+kiểm tra kết
+thế ảnh vừa thực hiện.
+Rulslv Sl"
+Mirge €ia
+'Fcat Rmio
+Lưu ý: Cũng trong ngăn tiến trình
+em có thể
+Jae~lefies Bratrul
+Pre:n:s_
+ERT:R
+đổi vị trí các phân cảnh bằng cách kéo thả
+Hãy
+thử thực hành để khám phá tính
+này
+như
+các tính
+chỉnh sửa ảnh khác trong bảng Iệnh tại
+Hình 30.1. Bảng các lệnh
+chỉnh sửa ảnh đang chọn
+Hinh 30.1.
+Nhiệm vụ 2. Chỉnh sửa âm thanh
+Tạo hiệu ứng nhỏ dần cho nhạc nền của đoạn
+'nghe lại nhạc nền trong
+đoạn
+của em
+so sánh với đoạn phim của bạn Nam có nhạc nền nhỏ dần lại ở
+phía cuối phim trước khi kết thúc. Theo em; việc điều chỉnh âm Iượng này có cần thiết
+không? Vì sao?
+144
+công
+công
+Công
+dòng
+Trang,
+công
+phẩn
+thực
+thực
+phần
+động
+bằng
+Thay 
+phim
+bảng
+ngăn
+dùng
+thay
+thay
+phân
+cũng
+thay
+Play
+quả
+thay 
+này
+thay
+nẵng
+cũng
+năng
+phim
+Hãy
+phim
+
+Hướng dẫn:
+Việc điều chỉnh âm Iượng của âm thanh cần thực hiện tại ngăn tiến trinh, ở chế
+độ hiển thị theo Dòng thời gian (Timeline)
+Bước 1. Tại ngăn tiến trinh;
+chuột vào hộp chọn
+Sequence 1 <
+Intro <
+Outo <
+Strryhoard
+Iimehne
+Storyboard, trong
+chọn hiện ra, nháy chọn Timeline
+Stcrybcard
+để mở chế độ Dòng thời gian trong ngăn tiến trình.
+Bước 2
+Fadc Out
+2
+Chọn Fade
+(rcssFede
+out trong bảng
+FadeEntire Clip
+lệnh hiện ra
+Remcv? All Fader
+Sequenge 1 <
+Irto <
+Outro <
+Timcine
+Speechtc Tect
+Moco Treo 2
+Efferts
+Elt-L
+1. Nháy chuột phải vào
+Vdco Trao: 1
+Lppl Last Used Lodic Effect
+Alt _ E
+vị trí bất kì của đoạn
+RavereClip
+âm thanh trong lớp
+Ch? Sfe-d. 
+Âm thanh (Audio
+Audo Trad
+Properties _
+Alt-Enter
+track)
+Hình 30.2
+lệnh chỉnh sửa âm thanh
+Bước 3. Hộp thoại Fade Out hiện ra, cho phép thiếtlập các thông số để điều chỉnh
+âm Iượng nhỏ dần về cuối phim:
+Facc Out
+Audbdo
+Uude 5810 nor
+1. Tích chọn From the
+arrar pxdhon:
+0-10-07 70
+end of the clip
+Qir Cpboz?
+Tcin te Exdaithe do t hi? CUED pobinn
+2. Thiết lập thời lượng
+Auil Uu anofthe Jo
+của đoạn âm thanh
+FcM tC OrSy Fosor
+nhỏ dần
+7othe Ursy ECsln
+Cuatan (ezanu):
+Oca
+3. Nháy chọn OK.
+Ok
+Cn
+KẾ
+Hình 30.3.
+Hộp thoại Fade Out
+Quan sát hinh ảnh minh hoạ đoạn âm thanh trên lớp Audio track 1
+ta sẽ thấỵ; ở
+vị trí 2 giây cuối
+đường kẻ
+màu xanh (biểu thị âm Iượng) có chiều đi xuổng
+(Hinh 30.3). Điều đó có
+là, trong vòng 2 giây cuối, âm Iượng nhạc nền sẽ nhỏ
+dần cho đến hết đoạn
+Nhiệm vụ 3. Tạo hiệu
+chuyển cảnh
+Hướng dẫn:
+Bước 1
+Mở chế độ hiển thị
+Board
+trên ngăn tiến trình.
+M Trancibur
+Fanumn
+Bưóc 2
+chọn lệnh
+2820
+tại phân cảnh
+76d3
+muốn thực hiện hiệu ứng chuyển cảnh.
+Ccss F88e
+Dsso2
+Dssone
+FejeIAihr
+Faseour
+Roun
+Bước 3. Trong danh sách các hiệu ứng mở
+FscEsfFam the cument € Ĩp into thcfc icwving
+ra (Hình 30.4) chọn một hiệu ứng bất kì.
+sceoutleft  Fadaldaougislir
+Cou
+Bước 4. Xem đoạn phim ở ngăn xem trước
+để theo dõi hiệu ứng
+cảnh vừa thiết
+Hình 30.4. Danh sách các hiệu
+lập_
+Có thể thực hiện lại Bước 3 để đổi sang
+cảnh
+hiệu ứng khác nếu muốn.
+145
+nháy
+bảng
+Change
+Bảng
+cùng
+giữa
+nghĩa
+phim.
+ứng
+Story
+Nháy
+Fade
+ứng
+chuyển
+chuyển
+
+Nhiệm vụ 4. Căn chỉnh thời gian các
+cảnh trong
+Hướng dẫn:
+Trong đoạn phim của em
+mềm đã mặc định sẵn thời lượng của mỗi phân
+cảnh,
+con số này thể hiện trong
+tiến trình ở chế độ Storyboad. Để
+đổi thời
+lượng; em thực hiện như sau:
+Bưóc 1. Bật chế độ hiển thị dạng Story board cho ngăn tiến trinh.
+Bưóc 2 Nháy chọn phân cảnh cần căn chỉnh thời gian;
+sử
+cảnh 2 Phân
+cảnh này sẽ được hiện ra ở ngăn xem trước
+Bưóc 3. Gõ vào thời Iượng mong muốn tại ô Duration trong dãy Iệnh ở
+xem
+trước (Hinh 30.2) rồi nhấn phím Enter.
+Bưóc 4. Xem lại đoạn
+để theo dõi sự
+đổi thời lượng phân cảnh vừa điều
+chỉnh. Có thể quay lại Bước 3 để chỉnh lại thời Iượng nếu cần
+Thực hiện tương tự với các phân cảnh khác để đoạn phim có thời lượng như em
+mong muốn:
+Nhiệm vụ 5. Tạo phụ đề để chú thích cho các ảnh trong đoạn
+Hướng dẫn:
+Bưóc 1. Mở hộp thoại tạo phụ đề
+cách: trên dải Iệnh; chọn Iệnh Sequence;
+tiếp theo chọn Iệnh Subtitles.
+amg
+Cps
+sequerre
+Efrt
+Audd
+ExFoct
+Hcla
+Suio
+Orta
+T
+X
+Upgred=
+Cell
+Duaralf
+5ile
+Azl Filedl
+TertfikLI
+Zaue
+anehion
+Sa alTrak
+Dsele
+sul =
+Kihuen
+KGSut
+Hình 30.5. Thanh
+CU
+Sequence
+Bước 2 Khi hộp thoại Subtitles hiện ra, lần Iượt thực hiện theo các chỉ dẫn trong
+Hinh 30.6.
+Lệnh Format đề định dạng
+danh sách các phụ đề và thời điểm xuất hiện;
+chữ cho phụ đề
+kết thúc của chúng để điều chỉnh cho phù
+Sublilles
+Seqjence
+File
+Edit
+IC
+Edp
+I
+Add
+Aulo Gengate
+Loed
+Delele
+Move Up
+Move Dowvty
+Unco
+Redo
+Oplcns
+Shur
+Te
+Format
+Strt Time
+Cod Time
+Test
+8,00;01,215
+0,0t;04,215
+NJay tỬ 2,dI ciu c
+C,on: 17,122
+0.00:19,261
+Ngey #ir > Wvotvin
+Ngày thứ 3, lướt ván
+2
+Noay thứ 3, lujtván
+0:0o:0o 0oo
+0,0o:40.00o
+0.00;20 Coo
+Cuo:
+0.00:17.669
+0.01217.122
+O:oo: 19.651
+3
+Sl Slare
+Seledd
+Apcly
+Cance)
+Hình 30.6. Hộp thoại tạo phụ đề cho các phân đoạn chinh trong phim
+146
+phân
+phim
+phần
+ngăn
+thay
+giả
+phân
+ngăn
+phim
+thay
+phim
+bằng
+công
+Bảng
+hợp
+
+Đặt con trỏ vào vị trí chỉ thời đíểm bắt đầu có phụ đề
+Gõ nội dung phụ đề
+3
+Căn chỉnh lại thời gian cho từng phụ đề để khớp với phân cảnh:
+Chọn Add để bổ sung phụ đề
+Sau khi đã tạo xong các phụ đề khớp với các phân cảnh, chọn Apply để
+hộp
+thoại và Iưu lại các phụ đề vừa tạo.
+Bước 3. Xem lại toàn bộ đoạn phim để kiểm tra. Thực hiện Iại các bước trên để
+điều chỉnh nếu cần:
+LUYỆN TẬP
+Hoàn thiện đoạn phim em đã thực hiện ở tiết thực hành với các yêu cầu sau:
+a) Số lượng tư liệu đầu vào phù
+với kịch bản của em
+b) Phim có hiệu ứng chuyển cảnh và thời lượng phù hợp với phụ đề để người xem
+dễ
+theo dõi đủ cả kênh hình lẫn kênh chữ .
+c) Âm thanh
+nhạc nền
+hấp
+phù
+với nội dung đoạn phim -
+VẬN DỤNG
+Khám phá và thực hiện các thao tác sau để đoạn phim của em hấp dẫn hơn:
+a) Bổ sung thêm ảnh hoặc video clip
+b)
+thế nhạc nền
+bài hát em yêu thích, Iưu ý chỉnh sửa để có âm lượng phù
+và thời lượng bài hát
+với thời Iượng
+c) Căn chỉnh thời lượng của mỗi phân cảnh trong chế độ Dòng thời gian;
+vÌ Ở
+chế độ
+hình như đã thực hiện ở nhiệm vụ 4,
+bằng cách
+đổi độ
+của
+các phân cảnh như sau:
+Gunc SONG
+Đưa trỏ chuột vào vị trí cuối của một phân cảnh; cho tới khi con trỏ chuột có hinh mũi
+tên hai chiều thì kéo thả chuột sang trái để
+thời lượng hoặc sang
+để
+thời lượng, cho tới khi đạt được thời Iượng mong muốn thì thả
+Trong
+trinh kéo, có thể quan sát sự thay đổi thời lượng của phân cảnh tại ô
+Duration xuất hiện ngay bên
+con trỏ chuột (Hinh 30.7)-
+Duration: 0.00.02.632
+Hình 30.7.
+Thời lượng của phân cảnh
+thực hiện thay đổi
+147
+đóng
+hợp
+dàng
+dẫn,
+hay
+hợp
+bằng
+Thay
+hợp
+khớp
+phim
+thay
+băng
+rộng
+thay
+phải
+giảm
+tăng
+tay.
+quá
+phải
+đang

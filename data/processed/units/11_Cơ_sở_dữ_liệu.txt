@@ -1,0 +1,611 @@
+BÀI
+77
+CƠ SỞ DỮ LIỆU
+SAU BÀI HỌC NÀY EM sỄ:
+Hiểu được khái niệm và các thuộc tính cơ bản của cơ sở dữ liệu.
+Theo em, việc lưu trữ dữ liệu phục vụ các bài toán
+Ií có
+chỉ là việc
+các
+chép trên giấy thành văn bản trên máy tính không?
+1 YÊU CẨU TỔ CHỨC LUU TRỮ DỮ LlỆU MỘT CÁCH KHOA HỌC
+Hoạt động 1
+Có cân Iưu trữ
+ẩIểm lớp học không?
+Giáo viên
+mỗi môn học bắt buộc phải có một sổ đíểm
+điểm môn học. Một
+bản sao của
+điểm môn học được
+cho giáo viên chủ nhiệm lớp. Hãy
+thảo
+luận xem có cần lưu trữ
+điểm lớp học không:
+a) Hạn chế dư thừa trong Iưu trữ dữ liệu
+Ví dụ về
+điểm môn học và
+điểm của lớp ở Mục 1
+Bài 10 được xem xét
+từ thực tế thầy cô giáo
+chép dữ liệu trên giấy.
+Khi ghi chép
+lưu trữ trên giấy
+viên chủ nhiệm lớp thường lưu trữ cả các
+điểm môn học và
+điểm lớp
+nhiên, có thể
+nhiều dữ liệu lặp lại
+trong các
+điểm này và có thể dẫn đến sự không nhất
+dữ liệu,
+VÍ dụ:
+Ở
+điểm môn Toán; ĐĐG cuối kì của Nguyễn Kì Duyên là 9.
+STT
+Họ vàtên
+ĐĐG thường
+ĐĐG giữa kì
+ĐĐG cuối kì
+3
+Nguyễn Ki Duyên
+7
+8
+10
+9
+Hình 11.1. Trich xuất
+điểm môn Toán
+Nhưng ở
+điểm Iớp học; ĐĐG cuối kì môn Toán của Nguyễn Kì Duyên có thể
+bị ghi nhầm là 8 (Hinh 11.2)
+STT
+và tên
+Toán
+Tin học Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí
+3
+Nguyễn Kì Duyên
+8
+10
+10
+10
+8
+Hình 11.2.
+Trích xuất
+điểm lớp học có điểm trung bình
+53
+quản
+phải
+chuyển
+ghi
+bang
+bảng
+dạy
+bảng
+gửi
+cùng
+bảng
+bảng
+bảng
+ghi
+giáo
+thấy
+bảng
+bảng
+Tuy
+học.
+bảng
+quán
+bảng
+xuyên
+bảng
+bảng
+Họ
+bảng
+
+Thói quen cá nhân của người lưu trữ
+có thể dẫn đến sự không nhất
+của dữ liệu khi lưu trữ thủ
+Ví dụ, điểm có thể ghi
+chữ hoặc các kí hiệu
+vì các cột điểm
+số dễ nhận biết và tính toán.
+Khi dữ liệu được lưu trữ trên máy tính; việc lập
+điểm Iớp học từ dữ liệu cơ
+sở (các
+điểm môn học) có thể được thực hiện một cách dễ
+Vì thế, không
+cần lưu trữ
+điểm Iớp học do
+này chỉ là một khung nhin
+từ dữ liệu
+CƠ sở
+cách ghép các
+điểm môn học.
+Ví dụ trên cho thấy việc lưu trữ dữ liệu trên máy tính không đơn thuần là việc
+các văn bản trên
+giấy thành các tệp văn bản trên máy tính. Cần phải tổ chức
+việc lưu trữ sao cho có thể hạn chế
+Iặp làm dư thừa dữ liệu, khắc phục những
+lỗi không nhất quán về dữ liệu. Đây
+là yêu cầu chung đối với việc Iưu trữ dữ liệu
+của mọi bài toán
+Ií .
+6)
+thuôc
+mêm và dữ liêu
+Việc lưu trữ dữ liệu không tách rời với việc khai thác
+tin nhờ các
+mềm
+ứng dụng vì khai thác
+tin chính là mục đích của việc lưu trữ dữ liệu. Để thấy rõ
+hơn sự cần thiết
+tổ chức lưu trữ dữ liệu một cách khoa học, ta sẽ xem xét một
+cách tiếp cận
+kết chương trình
+dữ liệu để khai thác
+tin.
+Việc lưu trữ dữ liệu điểm các môn học trên
+tính đòi hỏi cần có những
+mềm hỗ trợ cập nhật dữ liệu điểm và khai thác thông tin từ những dữ liệu ấỵ. Có thể
+chỉ ra một số thành
+cần có của
+mềm (thường được gọi là các mô đun
+mềm) đó là: cập nhật điểm môn học (Điểm môn học)
+lí danh sách lớp học
+(Danh sách lớp) và Iập
+điểm Iớp học từ dữ liệu điểm môn học (Lập
+điểm)
+Nếu viết các mô đun
+mềm này
+một ngôn ngữ Iập trình; vÍ dụ Python; giải
+pháp lưu trữ đơn
+nhất thường được
+đến sử dụng trực tiếp hệ thống tệp; ví
+dụ tệp văn bản (text) 
+Danh sách lớp học sẽ
+các
+mỗi
+có nội dung lần Iượt Ià: tên
+số
+thứ tự, họ và tên của một học sinh,
+cách nhau bởi dấu phẩy; ví
+UTgtuu *Uitg
+11A
+1
+Dương Hồng Anh
+1A, 2, Lương Việt Anh
+I1A, 3, Nguyễn Kì Duyên
+điểm môn học sẽ gồm các
+mỗi
+có nội dung lần Iượt là: tên
+số thứ tự , họ và tên của một học sinh;
+4 ĐĐG
+ thường xuyên; 1 ĐĐG giữa kì và 1ĐĐG
+cuối kì, ngăn cách nhau bởi dấu phẩy (,) Ví dụ:
+11A
+1, Dương
+Anh
+8
+7,
+7, 9, 8
+11A, 2, Lương Việt Anh;
+5, 6, 5, 5,
+5
+11A, 3,
+Nguyễn Ki Duyên;
+7,
+8,0, 10,
+9
+Hinh 11.3 là sơ đồ cho thấy quan hệ
+các mô đun
+mềm và cáctệp dữ liệu.
+54
+cũng
+quán
+bằng
+công.
+bằng
+riêng
+thay
+bảng
+bảng
+dàng
+tổng7
+bảng
+bảng
+hợp
+bằng
+bảng
+chuyển
+trùng
+cũng
+quản
+Phẩn
+Sự
+phụ
+phần
+thông
+thông
+phải
+gắn
+thông
+phần
+máy
+phần
+phần
+phần
+quản
+bảng
+bảng
+phần
+bằng
+giản
+nghĩ
+gồm
+dòng
+dòng
+lớp
+ngăn
+dụ:
+Bảng
+dòng,
+dòng
+Iớp.
+Hồng
+phần
+giữa
+
+Danh sách lớp
+Điểm môn học
+Lập bảng điểm
+Danh sách
+Danh sách
+Bảng điểm
+Bảng điểm
+lớp học
+lớp học
+môn học
+môn học
+Hình 11.3.
+Các mô đun phần mềm và quan hệ với các tệp dữ liệu
+Khi viết mỗi mô đun
+mềm, người Iập chương trinh
+biết cấu trúc của
+các tệp dữ liệu để lần Iượt đọc từng dòng; rồi tách các thành
+dữ liệu tương ứng
+theo dấu phẩỵ _
+Mô đun Danh sách lớp chịu trách nhiệm đọc và ghi dữ liệu cập nhật vào Danh
+sách lớp
+Mô đun Điểm môn
+đọc dữ liệu từ Danh sách lớp học; tạo lập
+tệp Bảng điểm môn học nếu chưa có, cập nhật tệp Bảng điểm môn học nếu xuất hiện
+những
+mới trong Danh sách
+học; đọc và ghi dữ liệu cập nhật vào
+điểm
+môn học. Mô đun Lập
+điểm
+đọc dữ liệu từ Bảng điểm môn học, xử lí dữ liệu
+để tạo và kết xuất ra
+điẻm Iớp học.
+Khi
+đổị cấu trúc các
+ghi dữ liệu thi các mô đun
+mềm liên quan bắt
+buộc
+chỉnh sửa theo.
+Ví dụ quy định mới về điểm có
+lẻ thập phân
+dấu phẩy làm dấu ngăn cách
+nguyên và
+thập phân của điểm dẫn tới việc
+dấu khác dấu phẩy để ngăn cách các thành
+của
+dữ liệu: Khi đó
+người viết chương trinh buộc phải sửa mô đun Điểm môn học và Lập
+điểm ở
+những câu Iệnh phân tích, tách dòng dữ liệu.
+Như
+tinh trạng phụ thuộc
+chương trình và dữ liệu dẫn tới việc nếu
+đổi cách lưu trữ dữ liệu
+sửa đổi
+mềm làm cho việc thiết kế, bảo trì, phát triển
+mềm mất nhiều thời gian và
+SứC.
+Bên cạnh đó, bài toán
+Ií, nhất là khi
+liên quan tới những lĩnh vực lớn hoặc có nhiều biến
+lại thường xuất hiện các yêu
+cầu khai thác
+tin đa dạng khác nhau từ dữ liệu Iưu trữ. Do vậy việc tổ chức dữ
+liệu độc lập để
+mềm không cần "nhin
+chi tiếtvề cách lưu trữ mà vẫn sử dụng
+được dữ liệu là một trong các ý tưởng quan trọng để hình thành nên khoa học về cơ sở
+dữ liệu (CSDL) được nêu trong mục tiếp theo.
+Dữ liệu cần được tổ chức Iưu trữ một cách độc Iập với việc xây dựng phát
+triển
+mềm, đảm bảo dễ
+chia sẻ, dễ
+bảo tri phát triển,
+thời đảm bảo hạn chế tối đa việc dữ liệu lặp Iại, gây dư thừa dữ liệu
+và hỗ
+đảm bảo tính nhất quán dữ liệu
+1. Hãy giải thích yêu cầu về tính nhất
+dữ liệu trong lưu trữ dữ liệu.
+2 Tại sao cần tổ chức Iưu trữ dữ liệu độc Iập với phần mềm?
+55
+phần
+phải
+phần
+phải
+học
+học
+Bảng
+dòng
+ Iớp
+bảng
+phải
+bảng
+phần
+thay
+dòng
+phần
+phải
+dùng
+phần
+phần
+phần
+phải
+dùng
+dòng
+bảng
+giữa
+vậỵ
+thay
+phần
+phải
+phần
+quản
+công
+động
+thông
+phần
+thấy"
+phần
+dàng
+dàng
+đồng_
+trợ
+quán
+
+2. CƠ SỞ DỮ LlỆU VÀ MỘT SỔ THUỘC TÍNH CƠ BẢN
+Hoạt động 2
+cần thiêt phải Iưu trữ dữ liệu theo một cấu trúc xác đinh
+Hãy so sánh cách thức ghi chép và lưu trữ kết
+điểm môn học nêu trong Mục 1 với
+cách ghi chép và lưu trữ dưới dạng bảng. Theo em; cách nào là phù
+hơn? Thông
+qua ví dụ
+điểm môn học hãy chỉ ra một vài lí do cần lưu trữ dữ liệu theo một cấu
+trúc xác định.
+a) Khái niệm CSDL
+thể tiếp tục với cách tiếp cận có sự phụ thuộc Iẫn nhau
+dữ liệu và
+mềm như mô tả ở trên. Cần
+chọn cách tiếp cận khác; theo đó việc lưu trữ
+dữ liệu phải là một vấn đề độc lập cần được xem xét một cách khái
+Nhu cầu tổ
+chức dữ liệu sao cho việc khai thác dữ liệu thuận tiện,
+được
+sức và thời
+gian làm
+mềm là lí do chính cần tổ chức lưu trữ dữ liệu dưới
+các CSDL
+CSDL là một tập
+dữ các liệu có liên quan với nhau; được lưu trữ một cách có
+tổ chức trên hệ
+máy tính
+điểm các môn học khi được lưu trữ trong máy tinh có thể được xem là ví dụ
+về CSDL Thông tin về tài khoản ngân hàng bao gồm tên chủ tài khoản, số căn cước
+dân; số dư có trong tài khoản,
+có thể được tổ chức thành CSDL để
+Ií và
+phục vụ khách
+một cách nhanh chóng và tiện lợi
+b) Một sổ thuộc tính cơ bản của CSDL
+Thug
+Hoạt
+2 cho ta hinh dung về tính cấu trúc của CSDL Dễ hinh dung nhất về
+tính cấu trúc của CSDL khi dữ liệu được Iưu trữ dưới dạng
+gồm các
+và
+các cột
+Tính không dư thừa: Trong
+trên ta đã thấy cần hạn chế việc lưu trữ các
+dữ liệu
+Iặp cũng như những dữ liệu dễ dàng có được
+qua việc khai thác
+tin từ dữ liệu đã có. Thuộc tính này được
+là tính
+dư thừa của CSDL.
+Dưới đây ta sẽ xem xét thêm một số thuộc tính quan trọng khác của CSDL.
+Tính độc lập dữ liệu:
+Mục 1, các em có thể thấy sự cần thiết phải đảm bảo tính độc lập dữ liệu với
+phần mềm. Trong
+vi kiến thức
+tính độc lập dữ liệu có thể được hiểu
+là khả
+các mô đun
+mềm ứng dụng không cần phải cập nhật khi
+đổi
+cách thức tổ chức hoặc Iưu trữ dữ liệu: Trong thực tế, các CSDL được thiết kế nhằm
+phục vụ nhiều người
+với nhiều mục đích
+Ií khác nhau,
+phụ thuộc
+vào bài toán
+lí cụ thể
+phương tiện Iưu trữ , xử lí dữ liệu,
+đòi hỏi họ
+phải biết được các chi tiết kĩ thuật liên quan đến CSDL
+Do
+việc đảm bảo độc lập
+dữ liệu là một trong các thuộc tính quan trọng nhất của CSDL
+56
+Sụ
+quả
+hợp
+bảng
+Không
+giữa
+phần
+phải
+quát.
+giảm
+công
+phần
+dạng
+hợp
+thống
+Bảng
+quản
+công
+hàng
+động
+bảng
+hàng
+phần
+trùng
+thông
+thông
+gọi
+không
+phổ
+phạm
+thông ,
+phần
+năng
+thay
+quản
+dùng
+không
+quản
+hay
+không
+vậỵ
+
+Tính toàn vẹn: Các
+trị dữ liệu lưu trữ
+thoả mãn những
+buộc cụ
+thể tuỳ thuộc vào thực tế mà nó phản ánh,
+vÍ dụ điểm đánh
+tập
+là số
+nguyên (hay số thập phân) không âm và nhỏ hơn hoặc bằng 10, tuỳ theo quy định về
+đánh giá điểm học tập của tổ chức.
+Tính nhất quán: Trong Mục
+1
+ta đã biết sơ suất khi cập nhật dữ liệu trong
+trường
+CSDLtổ chức không tốt có thể làm ảnh hưởng tới tính nhất quán của dữ
+liệu: Khái niệm về tính nhất quán còn đòi hỏi dữ liệu trong các CSDL được đảm bảo
+đắn sau các thao tác cập nhật dữ liệu, kể cả khi xảy ra sự cố ngay trong
+trình cập nhật. Ví dụ
+cÓ cƠ' chế để đảm bảo
+xảy ra hiện tượng số tiền đã
+bị trừ bớt trong tài khoản
+đi
+nhưng lại chưa xuất hiện trong tài khoản nhận về;
+hoặc hai đại lí vé máy
+bán
+một vé ngồi cho hai khách
+khác nhau,
+Để
+xảy ra những trường
+như vậy đều là sự vi phạm tới tính nhất quán của dữ liệu:
+Tính bảo mật và an toàn: Điều này có nghĩa là dữ liệu
+được bảo vệ an
+toàn; ngăn chặn được những truy xuất trái phép, chống được việc sao chép dữ liệu
+hợp lệ.
+CSDL cần được tổ chức sao cho
+ai
+có quyền truy
+cập
+cập nhật dữ liệu: Ví dụ với CSDL Bảng điểm môn học
+ai
+có
+thế vào sửa chữa điểm; với CSDL tài khoản ngân
+người không có thẩm quyền
+không được
+xuất để Iấy
+tin cá nhân
+sửa đổi số dư tài khoản
+Bên
+cạnh đó, dữ liệu
+được bảo vệ an toàn, không dễ bị sai lạc, mất mát, có thể khôi
+phục dù có xảy ra các sự cố liên quan tới phần
+phần mềm của máy tinh.
+CSDL là một tập
+dữ liệu có liên quan với nhau, được lưu trữ một
+cách có tổ chức trong hệ
+máy tính.
+Một số thuộc tính cơ bản của CSDL bao
+tính cấu trúc; tính
+dư thừa; tính độc Iập; tính toàn vẹn; tính nhất quán; tính bảo mật và
+an toàn.
+II
+Vn
+SÃNG
+Hãy nêu ví dụ minh hoạ cho một vài thuộc tính cơ bản của CSDL.
+LUYỆN TÂP
+1. Khi lưu trữ trên máy tính, theo em, có cần Iưu trữ cột điểm trung bình trong
+điểm môn học không?
+2 Hãy lấy một ví dụ minh hoạ cho sự cần thiết của việc lưu trữ dữ liệu độc lập với
+mềm khai thác dữ liệu.
+VẬN DỤNG
+Thư' viện là nơi em có thể đến để đọc
+mượn sách. Hãy đề xuất các dữ liệu cần
+lí của một thư viện.
+57
+phải
+giá
+ràng
+phải
+giá
+học
+hợp
+đúng
+quá
+phải
+không
+chuyển
+bay
+cùng
+hàng
+hợp
+phải
+phải
+không
+không
+cũng
+phải
+không
+cũng
+hay
+hàng
+truy
+thông
+hay
+phải
+cứng
+hay
+hợp
+thống
+gồm:
+không
+bảng
+phần
+hay
+quản

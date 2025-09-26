@@ -1,0 +1,166 @@
+{
+  "framework": [
+    {
+      "id": "1",
+      "title": "Khai thác dữ liệu và thông tin",
+      "description": "Xác định nhu cầu thông tin, tìm kiếm, đánh giá, lưu trữ và quản lý dữ liệu, thông tin và nội dung số.",
+      "sub_competencies": [
+        {
+          "id": "1.1",
+          "name": "Duyệt, tìm kiếm và lọc dữ liệu, thông tin và nội dung số",
+          "description": "Xác định nhu cầu thông tin, tìm kiếm được dữ liệu, thông tin và nội dung trong môi trường số, truy cập và khai thác kết quả tìm kiếm; tạo và cập nhật chiến lược tìm kiếm."
+        },
+        {
+          "id": "1.2",
+          "name": "Đánh giá dữ liệu, thông tin và nội dung số",
+          "description": "Phân tích, so sánh và đánh giá mức độ tin cậy và tính xác thực của nguồn dữ liệu, thông tin và nội dung số; giải thích và đánh giá thông tin thu được."
+        },
+        {
+          "id": "1.3",
+          "name": "Quản lý dữ liệu, thông tin và nội dung số",
+          "description": "Tổ chức, lưu trữ và truy xuất dữ liệu, thông tin và nội dung trong môi trường số; sắp xếp trong môi trường có cấu trúc."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Giao tiếp và hợp tác trong môi trường số",
+      "description": "Tương tác, giao tiếp, hợp tác qua công nghệ số; tham gia cộng đồng, quản lý danh tính và danh tiếng số.",
+      "sub_competencies": [
+        {
+          "id": "2.1",
+          "name": "Tương tác thông qua công nghệ số",
+          "description": "Tương tác thông qua các công nghệ số khác nhau và nhận biết phương tiện giao tiếp số phù hợp."
+        },
+        {
+          "id": "2.2",
+          "name": "Chia sẻ thông tin và nội dung qua công nghệ số",
+          "description": "Chia sẻ dữ liệu, thông tin và nội dung số với người khác qua công nghệ phù hợp; thực hành trích dẫn và ghi nguồn."
+        },
+        {
+          "id": "2.3",
+          "name": "Sử dụng công nghệ số để thực hiện trách nhiệm công dân",
+          "description": "Tham gia và đóng góp cho xã hội thông qua việc sử dụng dịch vụ số công và tư; tìm kiếm cơ hội, trao quyền và thực hành công dân số."
+        },
+        {
+          "id": "2.4",
+          "name": "Hợp tác thông qua công nghệ số",
+          "description": "Sử dụng công cụ và công nghệ số trong quá trình hợp tác, đồng sáng tạo dữ liệu, tài nguyên và tri thức."
+        },
+        {
+          "id": "2.5",
+          "name": "Thực hiện quy tắc ứng xử trên mạng",
+          "description": "Nhận thức và tuân thủ chuẩn mực hành vi, điều chỉnh chiến lược giao tiếp phù hợp với bối cảnh và sự đa dạng văn hóa, thế hệ."
+        },
+        {
+          "id": "2.6",
+          "name": "Quản lý danh tính số",
+          "description": "Tạo và quản lý một hoặc nhiều danh tính số để bảo vệ danh tiếng trực tuyến, xử lý dữ liệu cá nhân qua công cụ và dịch vụ số."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Sáng tạo nội dung số",
+      "description": "Tạo lập, chỉnh sửa, tích hợp nội dung số; hiểu biết bản quyền, giấy phép và lập trình cơ bản.",
+      "sub_competencies": [
+        {
+          "id": "3.1",
+          "name": "Phát triển nội dung số",
+          "description": "Tạo và chỉnh sửa nội dung số ở nhiều định dạng nhằm thể hiện bản thân qua phương tiện số."
+        },
+        {
+          "id": "3.2",
+          "name": "Tích hợp và tái lập nội dung số",
+          "description": "Sửa đổi, tinh chỉnh và tích hợp thông tin, nội dung mới vào tri thức hiện có để tạo ra nội dung, kiến thức độc đáo và phù hợp."
+        },
+        {
+          "id": "3.3",
+          "name": "Thực thi bản quyền và giấy phép",
+          "description": "Hiểu và áp dụng bản quyền, giấy phép cho thông tin và nội dung số."
+        },
+        {
+          "id": "3.4",
+          "name": "Lập trình",
+          "description": "Lập kế hoạch và phát triển chuỗi lệnh để hệ thống máy tính giải quyết vấn đề hoặc thực hiện nhiệm vụ cụ thể."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "An toàn",
+      "description": "Bảo vệ thiết bị, dữ liệu cá nhân, sức khỏe và môi trường trong môi trường số.",
+      "sub_competencies": [
+        {
+          "id": "4.1",
+          "name": "Bảo vệ thiết bị",
+          "description": "Bảo vệ thiết bị và nội dung số trước rủi ro và mối đe dọa kỹ thuật số; áp dụng biện pháp an toàn và bảo mật."
+        },
+        {
+          "id": "4.2",
+          "name": "Bảo vệ dữ liệu cá nhân và quyền riêng tư",
+          "description": "Bảo vệ dữ liệu cá nhân và quyền riêng tư; hiểu cách sử dụng, chia sẻ thông tin định danh an toàn."
+        },
+        {
+          "id": "4.3",
+          "name": "Bảo vệ sức khỏe và an sinh số",
+          "description": "Tránh rủi ro ảnh hưởng sức khỏe thể chất, tinh thần khi dùng công nghệ số; chống bạo lực mạng; nhận biết công nghệ hỗ trợ thịnh vượng xã hội."
+        },
+        {
+          "id": "4.4",
+          "name": "Bảo vệ môi trường",
+          "description": "Nhận thức tác động của công nghệ số đến môi trường và sử dụng bền vững."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Giải quyết vấn đề",
+      "description": "Xác định, phân tích, giải quyết vấn đề và đổi mới trong môi trường số.",
+      "sub_competencies": [
+        {
+          "id": "5.1",
+          "name": "Giải quyết các vấn đề kỹ thuật",
+          "description": "Xác định và giải quyết vấn đề kỹ thuật khi vận hành thiết bị, môi trường số từ sự cố đơn giản đến phức tạp."
+        },
+        {
+          "id": "5.2",
+          "name": "Xác định nhu cầu và giải pháp công nghệ",
+          "description": "Đánh giá nhu cầu, lựa chọn, sử dụng công cụ số phù hợp để giải quyết vấn đề; tùy chỉnh môi trường số theo nhu cầu cá nhân."
+        },
+        {
+          "id": "5.3",
+          "name": "Sử dụng sáng tạo công nghệ số",
+          "description": "Sử dụng công cụ, công nghệ số để tạo tri thức, đổi mới quy trình và sản phẩm; tham gia giải quyết tình huống phức tạp."
+        },
+        {
+          "id": "5.4",
+          "name": "Xác định các vấn đề cần cải thiện về năng lực số",
+          "description": "Hiểu năng lực số của bản thân cần cải thiện, cập nhật; tìm kiếm cơ hội phát triển cá nhân và công nghệ."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Ứng dụng trí tuệ nhân tạo",
+      "description": "Ứng dụng AI trong học tập, làm việc và cuộc sống một cách có đạo đức và trách nhiệm.",
+      "sub_competencies": [
+        {
+          "id": "6.1",
+          "name": "Hiểu biết về AI",
+          "description": "Hiểu cách AI ảnh hưởng cuộc sống hằng ngày, vai trò trong các lĩnh vực; nắm nguyên tắc, khả năng và hạn chế của AI."
+        },
+        {
+          "id": "6.2",
+          "name": "Sử dụng AI có đạo đức và trách nhiệm",
+          "description": "Sử dụng hiệu quả hệ thống AI trong thực tế; áp dụng AI để tạo nội dung, khám phá kiến thức, giải quyết vấn đề trong học tập, công việc."
+        },
+        {
+          "id": "6.3",
+          "name": "Đánh giá các công cụ AI",
+          "description": "Đánh giá, lọc thông tin từ AI; phân tích độ tin cậy, minh bạch, an toàn và tác động của công cụ AI."
+        }
+      ]
+    }
+  ]
+}

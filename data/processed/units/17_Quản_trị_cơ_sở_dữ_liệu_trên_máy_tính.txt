@@ -1,0 +1,648 @@
+Chủ đề
+Thực hành tạo
+6
+và khai thác co sỏ dữ liệu
+QUẢN TRỊ CƠ SỞ DỮ LIỆU
+BÀI
+77
+TRÊN MÁY TÍNH
+SAU BÀI HỌC NÀY EM sẼ
+Biết được lợi ích của vệc quản trị CSDL trên máy tính
+Làm quen với MySQL và HeidiSQL_
+=
+bộ công cụ hỗ trợ việc quản trị CSDLtrên máy tính.
+Trở lại với các bài toán
+Ií
+điểm, quản Ií các bản thu âm (Bài 10 đến Bài 15),
+em có nhận xét,
+so sánh gì về việc
+nhật, chỉnh sửa dữ liệu giữa quản lí thủ
+và
+Ií CSDL trên máy tính?
+1 LỢl ÍCH CỦA VIỆC QUẢN TRỊ CƠ SỞ DỮ LIỆU TRÊN MÁY TÍNH
+Hoạt động 1
+Tim hiêu Ici ich cúa quán tri CSDL trên máy tinh
+Các bài toán
+Ií
+với việc lưu trữ dữ liệu, khai thác thông tin đã xuất hiện
+từ rất lâu trong các hoạt
+kinh tế
+xã hội với những nghiệp vụ được vận hành
+nề nếp; ổn định từ rất nhiều năm
+Hãy cùng tìm hiểu tại sao lại
+đổi thói
+quen
+Ií thủ
+chuyển sang sử dụng máy tính với hệ QTCSDL
+Trước khi có máy tính và giải pháp quản trị CSDL trên máy tính, việc
+Ií dữ
+liệu thủ
+là
+việc rất vất vả, khó kiểm soát, đòi hỏi nhiều
+sức, đặc biệt
+với những dữ liệu không được phép sai sót dù rất nhỏ; chẳng hạn như với ngành
+ngân
+ngày, nhân viên ngân hàng
+tiếp số lượng Iớn khách
+đến thực hiện
+các giao dịch gửi , rút tiền,
+Mỗi giao dịch đều
+tiếp nhận
+tin khách
+đối chiếu với
+tin lưu trong sổ sách; ghi
+chính xác Iượng tiền gửi vào
+rút ra, Iập các chứng từ cần thiết,
+Vì vậy; cần nhiều thời gian cho mỗi giao dịch.
+Cuối ngàỵ; nhân viên ngân hàng lại
+thực hiện rà soát số liệu;
+sO sánh; đối
+chiếu để
+hiện; xử lí nếu có sai sót; làm sổ
+dữ liệu tài khoản, số dư
+trong ngày; làm các
+từ
+dịch liên ngân
+Vì vậỵ tiền tệ Iuân
+chậm, mất nhiều thời gian; ảnh hưởng Iớn đến tất cả các hoạt
+sản xuất kinh
+doanh trong xã hội.
+Những chức
+được thiết kế để hạn chế tối đa dư thừa dữ liệu; đảm bảo tính
+nhất quán của dữ liệu; đảm bảo an ninh và an toàn dữ liệu;
+đã giúp hoạt
+của
+ngân
+ngày nay có nhiều
+biến tiến bộ
+81
+quản
+cập
+công
+quản
+quản
+cùng
+động
+phải
+thay
+quản
+công .
+quản
+công
+công
+công
+hàng.
+Hằng
+phải
+hàng
+phải
+thông
+hàng,
+thông
+chép
+hay
+phải
+tổng
+phát
+hợp
+chuyển
+chứng
+giao
+hàng;
+động
+năng
+động
+chuyển
+hàng
+
+Việc tìm kiếm, xác định một khách
+cùng danh sách các giao dịch đã thực hiện
+như số dư tài khoản trong CSDL có thể thực hiện một cách nhanh chóng và chính
+xác. Tài khoản đích trong mỗi
+dịch cũng có thể được kiểm tra xác nhận ngay trước
+khi thực hiện giao dịch_
+những rút ngắn thời gian giao dịch mà còn hạn chế tối
+đa
+những giao dịch nhầm lẫn. Nhiều hệ QTCSDL cho phép cài đặt bổ sung các dịch vụ
+(phần mểm) hỗ
+giao dịch trực tuyến trên máy tính; điện thoại di
+mà không
+cần yêu cầu khách
+trực tiếp tới các chi nhánh ngân hàng.
+chỉ
+lĩnh vực
+hàng; việc ứng dụng mô hinh tổ chức và quản trị
+CSDL một cách khoa học trên máy tính trong
+lí của các lĩnh vực khác nhau đều
+đem lại nhiều Iợi ích to lớn. Chính vì vậy; ngày nay; việc ứng dụng
+trị CSDL trên
+máy tính đã được thực hiện một cách
+biến ở hầu khắp các hoạt
+Ií
+kinh tế
+
+xã hội
+Việc ứng dụng CSDL trong
+lí đem lại nhiều lợi ích to lớn: tiện Iợi , kịp
+thời , nhanh chóng, hạn chế sai sót,
+Hãy nêu vài ví dụ thực tế minh hoạ về việc
+trị CSDL trên máy tính
+và
+những lợi ích mà nó mang lại.
+2 HỆQUẢN TRỊCƠ SỞDỮ LỆU MYSQL VÀ PHẨN MÊM HEIDISQL
+Hoat
+2
+Tim hiểu và lựa chon hệ OTCSDL
+Hãy sử
+từ khoá "hệ
+trị CSDL
+biến" để tìm kiếm thông tin trên Internet
+và trả lời câu hỏi "Nếu được Iựa chọn
+em sẽ chọn hệ QTCSDL nào để đáp ứng
+được các tiêu chí nhiều người
+và là hệ QTCSDL miễn phí"?
+Để có thể làm việc được với CSDL (khởi tạo CSDL,
+tạo
+bảng; cập nhật dữ liệu
+và khai thác
+tin) cần
+có một hệ QTCSDL và một
+mềm giúp giao tiếp
+với hệ QTCSDL đó
+Các hệ QTCSDL được
+biến nhất hiện nay có thể kể
+tới là ORACLE, MySQL; Microsoft SQL Server, _
+Trong số đó chỉ có MySQL là sản
+phẩm mã
+mở miễn
+MySQL
+được đánh giá là gọn nhẹ; tốc độ xử Ií
+nhanh, hỗ
+lí chặt chẽ sự nhất quán dữ liệu, đảm bảo an ninh và an toàn dữ
+liệu, thích
+cho cả các bài toán quản trị CSDL Iớn
+như các bài toán quản trị
+CSDL trên Internet.
+Vì những đặc điểm trên, MySQL được sử
+biến trong các ứng dụng
+lí hiện nay: Trong sách nàỵ; em sẽ làm quen với MySQL để thực hành
+trị CSDL
+a) Câi đặt và lôm việc với MySQL
+cập trang dev mysql comldownloadslmysqll để tải về một trong các bản:
+Bản cài đặt tự
+Wndows (x86, 32864-bit) MySQL Installer MSI.
+Bản Wndows (x86, 64-bit) ZIP archive (gọn nhẹ)
+Bản đầy đủ Windows (x86, 64-bit) ZIP archive (với Debug Binaries & Test Suite
+Với bản cài đặt tự
+trong
+trinh cài đặt sẽ có yêu cầu nhập mật khẩu cho
+người
+root (tương tự administrator của hệ điều hành Windows). Cần ghi nhớ
+mật khẩu này để
+xuất MySQL.
+Sau khi cài đặt, MySQL sẽ hoạt
+như một
+dịch vụ hệ
+(Service)
+82
+hàng
+cũng
+giao
+không
+trợ
+động
+phải
+hàng
+Không
+riêng
+ngân
+quản
+quản
+phổ
+quản
+động
+quản
+quản
+dụng
+ứng
+động
+phổ
+quản
+dụng
+dùng
+phần
+phải
+thông
+phổ
+dùng
+nguồn
+cũng
+phí .
+quản
+trợ
+cũng
+hợp
+phổ
+quản
+dụng
+quản
+Truy
+động:
+động 
+quá
+dùng
+truy
+động
+thống
+
+MySQL có sẵn
+mềm khách giúp người dùng có thể kết nối,
+làm việc với
+MySQL,
+giao diện
+Iệnh; có tên là mysql.exe trong thư mục bin của thư mục
+MySQL
+Hãy mở cửa sổ dòng Iệnh
+(chẳng
+hạn
+chạy
+cmd exe
+Command Prompt - my:ql -u
+188
+Nhập mysql -u root -P và nhấn
+phím
+Enter (u là viết tắt
+của
+(c: Terp>mysql
+~4
+rcct
+"P
+[Enter password:
+từ
+user,
+p
+là
+viết tắt
+của
+từ
+password)
+mật khẩu của
+người
+root
+nhấn
+phím
+Enter để mở
+cửa sổ làm
+việc
+Hình 17.1. Gọi chạy mysql trong cửa sổ lệnh
+của MySQL
+Command Prompt
+Mysql -U root-P
+Nelcome
+to
+the MySQL
+Tonitor.
+Commands end with
+;
+Or
+1g.
+MySQL
+connection
+id
+is
+97
+IServer version;
+5.5.5-10.6.4-MariaDB mariadb.org binary distribution
+Kopyright (c) 2000,
+2022, Oracle and/or its affiliates.
+lracle
+15
+0
+registered trademark of Oracle Corporation andlor its
+laffiliates.
+Other
+nanes
+may
+be trademarks of their respective
+owners.
+[Type
+help;
+Gr
+Vh '
+for
+Type
+I
+tc clear the
+current input statement.
+Hình 17.2 Cửa sổ làm việc của MySQL sau khi đăng nhập
+NE
+N5T
+R7
+Tol
+Trong cửa sổ làm việc này; có thể nhập các câu truy vấn SQLvà nhận được
+báo về kết
+và thời gian thực hiện câu truy vấn đó, tính đến phần trăm giâỵ:
+Command Prompt
+mysql -uroot-P
+select
+from Tymusic.bannhac;
+idBannhac
+tenBannhac
+idMhacsi
+1
+Du
+kích
+Thac
+1
+7
+Nhac
+3
+6
+Tien
+về
+Hà Nội
+2
+8
+Tỉẳng hát
+Pẳc
+Bá
+4
+3
+Tinh
+ca
+3
+2
+Trường
+ca
+Lô
+2
+5
+ViỆt Nam
+huong tÊỉ
+1
+Xa khơi
+4
+Fons
+in
+set
+(8.80 sec)
+Hình 17.3. Ví dụ về câu
+vấn đọc toàn bộ nội dung bảng bannhac trong CSDL mymusic
+83
+phần
+dùng
+dòng
+Nhập
+dùng
+Kour
+help.
+Imysql>
+thông
+quả
+rysql>
+sông
+rững
+gita
+rừng
+Sông
+quê
+truy
+
+b) Phẩn mêm HeidiSQL
+Phần mềm mysql.exe giúp kết nối, làm việc với hệ QTCSDL MySQL
+rất gọn
+nhẹ nhưng
+giao diện
+Iệnh nên không thật thuận tiện với người
+mới.
+Sẽ thuận lợi hơn nếu có một
+mềm tương tự,
+giao diện đồ hoạ. HeidiSQL
+là
+mềm như vậỵ: Đây là một phần mềm mã
+mở
+miễn phí, giúp kết
+nối, làm việc với nhiều hệ QTCSDL như MySQL; MariaDB;
+Microsoft SQL Server;
+PostgreSQL
+Hơn nữa, HeidiSQL còn là hệ QTCSDL có hỗ trợ
+Việt nên được
+Iựa chọn giới thiệu trong sách
+Cài đặt HeidiSQL
+cập trang www heidisql.comldownload php để tải về một trong hai bản sau:
+Bản cài đặt tự
+Installer; 32/64 bit combined.
+Bản Portable version (zipped): 32 bit; 64 bit.
+Bản Portable là bản nén dạng zip; chỉ cần giải nén vào một thư mục và
+tệp
+heidisql exe. Bản cài đặt tự
+sẽ thêm biểu tượng HeidiSQL trên màn hinh nền:
+Làm việc với HeidiSQL
+Nháy đúp chuột vào biểu tượng HeidiSQL trên màn hinh nền để khởi
+hoặc
+nháy đúp trực tiếp tệp heidisql exe.
+Giao diện ban đầu như Hinh 17.4.
+Trình quán lý phiên
+Filter
+Cãu hinh
+Advanced
+SSL
+Thjng kè
+Ten
+Máy
+Kiểu mạng;
+MariaDB or MySQL (TCP/IP)
+Unnaned
+127,
+Library;
+libmariadb, dIl
+Ten may chủ / IP
+127,0.0,1
+Nhác nhở chứng chỉ
+K
+T No1 TRLTh
+Sửdụng xảc thuc của Window:
+Nguci
+Mat khẩu
+Jog S0 |
+Cêng:
+3306
+Phương thức nén máy trạm
+may c
+Nhũng co sở dữ liệu:
+[Phân chia bởi dấu chFm phẩy
+Binh Iuan:
+Moi
+Luu
+Xóa bả
+Mở
+Hủy
+More
+Hình 17.4. Giao diện đầutiên cúa HeidiSQL
+Các ô Kiểu mạng, Library được đặt các
+trị mặc định để kết nối với các hệ
+QTCSDL MySQL
+MariaDB
+Ô Tên máy chủ
+IP và các ô kiểm đi kèm được đặt
+trị mặc định vì MySQL và
+HeidiSQL được cài đặt trên
+một máỵ.
+Ô Người
+(tên người
+CSDL): hãy nhập root.
+84
+tuy
+dùng
+dòng
+dùng
+phần
+dùng
+phần
+nguồn
+tiếng 7
+này.
+Truy
+động
+chạy
+động
+động
+phiên
+dung
+giá
+hay
+giá
+cùng
+dùng
+dùng
+
+Mật khẩu: nhập mật khẩu của người
+root
+giá trị mặc định là
+giao tiếp dành cho các hệ QTCSDL
+Sau khi nhập tên người
+và mật khẩu; hãy chọn Mở để vào cửa sổ làm việc.
+Giao diện sau khi
+nhập thành
+của HeidiSQL như Hinh 17.5.
+Unnamed 
+HeidiSQL Poltable 12.0,0,6468
+Tạp tin
+Chỉnh sỬZ
+Tim kiẽm
+vãn
+Cac
+Cy
+Đến
+Trc giup
+700
+0 KH6 0
+X
+010
+Bọ loc co s8
+BỆ loc
+Mảy chú: 127,0.0,1
+Truy vấn
+Unnamed
+320,0 KiB
+CO sỉ dử lieu (2)
+Cảc biẽn
+Trang thái
+Tiẽn trình
+Lệnh
+information
+258,0 KiB
+Co s0 dử lieu
+Kich cà
+Items
+Lan <
+Tables
+Views
+Func._
+mymusic
+112,0 KiB
+information schema
+208,0 KiB
+75
+2022.
+75
+mymusic
+112,0 KiB
+2022
+danh sách
+làm việc chính: tương tác tạo lập; cập nhật;
+các CSDL đã có
+truy xuất dữ liệu và hiển thị kết
+X
+Bạ loc Regular expression
+36
+SELECT
+EVENT
+SCHENA
+As
+Db
+EVENT NArE
+As
+Name
+FROM infocmation
+schema ,
+EVENTS`
+IHERE
+1
+Connecte
+MariaDE 10,6,4
+Uptime: 14
+0:
+Servertim Oldle
+Hình 17.5. Giao diện làm việc cúa HeidiSQL
+Chú ý: Khi cài đặt HeidiSQL, nếu máy tính kết nối Internet; HeidiSQL sẽ tự
+nhận biết mã
+quốc gia và thiết Iập giao diện với ngôn ngữ tương ứng: Người
+có thể thiết Iập ngôn ngữ bằng công cụ ToolslPreferenceslGeneral.
+Trong các bài học tiếp theo;
+em
+sẽ được hướng dẫn chi tiết các thao tác với
+HeidiSQL để tạo lập CSDL; tạo
+dữ liệu
+như cập nhật và truy xuất dữ liệu:
+1
+LILC-SILE
+MySQL và HeidiSQL là các
+mềm mã
+mở, được nhiều người
+dùng để quản trị các CSDL
+Cần gõ câu truy vấn nào trong cửa sổ Iệnh của MySQL để đọc được toàn bộ thông
+tin
+nhacsi trong CSDL mymusic?
+LUYÊN TÂP
+Thực hành cài đặt MySQL và cài đặt HeidiSSQL.
+VẬN DỤNG
+cập Internet với các cụm từ khoá thích
+để tim hiểu thêm thông tin về MySQL
+và HeidiSQL.
+85
+dùng
+Cổng
+cổng
+dùng
+dùng
+đẳng
+công
+Truy 7
+cong
+bảng
+Nhùng
+Vùng
+Vùng
+quả
+days
+động
+vùng
+dùng
+bảng
+cũng
+nguồn
+phần
+bảng
+Truy
+hợp

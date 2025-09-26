@@ -1,0 +1,317 @@
+BÀl
+31
+THỰC HÀNH
+TẠO PHIM HOẠT HINH
+SAU BÀI HỌC NÀY EM SỄ:
+Tạo được đoạn phim hoạt hình từ ảnh, có hội thoại
+các nhân vật và có phụ đề_
+Để
+thêm tính hấp dẫn của đoạn phim Mùa hè
+nhớ, Nam đã bổ sung
+một đoạn phim hoạt hình vào đầu đoạn phim đó như Hinh 31.1.
+Tanochno
+Iarantn
+aeatn
+7aa
+ehgened
+99
+Phân cảnh 1
+Phân cảnh 2
+Phân cảnh 3
+Phân cảnh 4
+Hình 31.1. Các phân cảnh trong đoạn phim hoạt hình của Nam
+Làm thế nào để thực hiện được đoạn
+hoạt hình có hội thoại giữa các
+nhân vật và phụ đề như Hình 31.1?
+Nhiệm vụ 1. Xây dựng kịch bản, chuẩn bị tư liệu
+Hướng dẫn:
+KÉT NỐL TRCTHỨC
+Để tạo được một đoạn
+hoạt hinh, em cần xây dựng kịch bản cho đoạn
+đó.
+Kịch bản
+được xây dựng sao cho khả thi , phù
+với các tính
+sẵn có
+của
+mềm làm phim mà em đang sử dụng.
+Bảng 31.1là kịch bản chi tiết cho đoạn phim hoạt hình trong hoạt
+Khởi động,
+sẽ là ví dụ sử dụng để hưc
+dẫn trong bài thực hành này:
+31.1. Kịch bản chi tiết của đoạn phim hoạt hình
+Phân cảnh
+Hình ảnh
+Lời thoạilÂm thanh
+Phụ đề
+Tú: Chào Nam! Sao giờ này cậu
+Trưa thứ 7, tại hành
+1
+Tú và Lan
+mới tới?
+câu lạc bộ ngoại khoá
+Nam: Ừ! Vì tớ mải làm một món
+2
+Nam
+bất
+để đem tới cho các
+Không có
+bạn
+3
+148
+giữa
+tăng
+đáng
+phim
+phim
+phim
+phải
+năng
+hợp
+phần
+động
+cũng
+'ớng
+Bảng
+lang
+quà
+ngờ
+
+Em hãy:
+Chủ
+đề
+ý:
+bảo
+vệ
+1)
+nghĩ về ý tưởng cho đoạn phim của minh.
+môi
+trường;
+nếp
+2) Xây dựng kịch bản theo
+như mẫu trên
+văn
+minh;
+văn
+hoá ứng
+3) Chuẩn bị các tư liệu cần thiết theo kịch bản.
+xử
+nơi   công
+tấm
+gương đạo đức; ca ngợi
+tinh bạn;
+Nhiệm vụ 2. Tạo đoạn phim hoạt hinh từ các tư liệu theo kịch bản
+Hướng dẫn:
+Khởi
+mềm làm phim VideoPad.
+Bằng các kiến thức đã học, em hãy tạo đoạn phim hoạt hinh theo
+kịch bản
+mà em đã viết ở Nhiệm vụ 1. Trong
+trình thực hiện; có thể chỉnh sửa lại kịch bản
+cho phù
+Lưu ý: Nên sử dụng tính
+Video Wizard và chọn một mẫu phim
+trong danh sách các mẫu có sẵn.
+Căn chỉnh thời lượng và lựa chọn hiệu ứng giữa
+các
+cảnh cho phù hợp.
+Nhiệm vụ 3. Bổ sung phụ đề và hội thoại
+Hướng dẫn:
+Record
+Nerey
+aacuges
+Recorc Video 
+Ctrl-|
+Bước
+1. Ghi âm lời hội thoại_
+Chọn dải Iệnh Home
+Cepture Screenshct
+Pcrorc Scrcen
+chọn Iệnh Record
+chọn Iệnh Record Narration:
+Pecoic Audio;
+Ctrl-Shitt -|
+Rscorc Nerteticn
+Hộp thoại Record Narration sẽ hiện ra với các tính
+như sau:
+Hình 31.2 Lệnh Record
+trên dải lệnh Home.
+Recvrd Motaian
+Khung xem
+Da
+sai n]
+Waao ReodKe
+đoạn phim
+Các lựa chọn
+en
+400u4 028207
+8t0 00 4? 09u
+eci
+ghi âm
++eednfonsr
+Anad4207,
+609is,627
+Nút lệnh bắt
+Kaldy
+đầu ghi âm Iời
+thoại
+Arageae:
+Eruulo
+5140.60
+0 ?ucco
+@uu:qudu
+Juusc-Jug
+002o ?
+Ee8
+Tạm dừng ghi
+SuelCJwus2
+âm
+Đặt tên cho tệp
+âm thanh thoại
+Kết thúc ghi âm
+Đóng hộp thoại
+Hình 31.3. Hộpthoại Record Narration
+Trước tiên, chọn lựa chọn
+ghi âm khi kết thúc đoạn phim (At the end of
+sequence)
+2
+Tiếp theo, gõ tên cho tệp âm thanh này; chẳng hạn
+'Lời thoại'
+Audio filename:
+Lời toail
+149
+gợi
+Suy
+sống
+bảng
+cộng;
+phần
+động
+đúng
+quá
+hợp
+năng
+phù
+hợp
+phân
+năng
+32?
+dừng
+
+Nháy chọn nút
+để bắt đầu ghi âm Iời thoại. Khi đó,
+vừa quan sát các phân
+cảnh trong phim trên Ngăn xem
+vừa
+Iời thoại tương ứng để ghi âm
+Lưu ý: Lời hội thoại cần
+với các phân cảnh trên
+Do đó
+có thể em sẽ
+cần căn chỉnh Iại thời lượng các phân cảnh tại
+Timeline_
+Trong
+trinh
+âm, có thể nháy chọn Iệnh tạm
+sau đó lại nháy chọn
+để tiếp tục.
+Sau khi ghi âm xong, nháy chọn Iệnh kết thúc
+Khi chọn Iệnh kết thúc;
+đoạn ghi âm vừa thực hiện sẽ được Iưu lại trong ngăn Tư liệu; với tên ta đã đặt trong
+hộp thoại Record Narration (Hinh 31.4).
+sequences
+VideoFlles
+atdio Fles
+Images
+Lai thoai - OO01wav
+Hình 31.4. Tệp Lời thoại-0O1.wav trong
+Tư liệu
+Chọn Iệnh Close để
+Hộp thoại Record Narration sau khi kết thúc ghi âm
+Em sẽ thấy trên ngăn
+Timeline sẽ xuất hiện đoạn ghi
+âm
+em
+vừa thực hiện
+(Hinh 31.5)
+tại
+Timeline
+em có thể
+đổi độ
+các băng hinh
+phân cảnh để căn chỉnh thời Iượng của các phân cảnh cho khớp với lời thoại đã ghi âm.
+Scqucnce 1 <
+Irtre <
+Outro <
+Jmeline
+{0d-0@ 0po
+19*00:70.000
+0*00,20 Dor
+d2o Trac
+Drag
+drop vour video, text
+image clips here to overlay
+Adco Trad
+Audo Trac<
+Hình 31.5. Đoạn âm thanh ghi âm lời thoại trên
+Timeline
+Xem lại đoạn
+tại ngăn Preview; kiểm tra
+chỉnh sửa cho tới khi các lời
+thoại đã
+với các
+cảnh.
+Uoc s07G
+Bước 2 Bổ sung phụ đề
+Thực hiện bổ sung phụ đề cho đoạn phim theo kịch bản
+cách đã học.
+Bước 3. Lưu lại dự án và xuất bản phim hoạt hinh.
+Lưu lại dự án và xuất bản phim hoạt hinh của em.
+LUYÊN TÂP
+Chia sẻ đoạn phim của em với bạn bè,
+nghe các ý kiến góp ý và chỉnh sửa
+nếu cần để đoạn
+hoàn thiện hơn.
+VẬN DỤNG
+Tạo mới một bộ phim hoàn chỉnh phục vụ học tập hoặc
+trí với thời Iượng dưới 3
+phút và đáp ứng những yêu cầu sau:
+Về tư liệu: ảnh, video clip; có nhạc nền góp
+làm bộ phim sinh
+hấp dẫn.
+Về kĩ thuật: có hiệu ứng
+cảnh phù
+có phụ đề, có thuyết minh hoặc hội
+thoại
+các nhân vật.
+150
+đọc
+khớp
+phim.
+ngăn
+quá
+ghi
+dừng
+ngăn
+đóng
+Cũng
+ngăn
+này
+thay
+rộng
+and
+and
+ngăn
+phim
+phân
+khớp
+bằng
+lắng
+cùng
+phim
+giải
+phần
+động
+chuyển
+hợp,
+giữa

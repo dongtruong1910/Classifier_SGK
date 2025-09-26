@@ -1,0 +1,603 @@
+Chủ đề
+Giói thiệu
+4
+các hệ cơ sở dữ liệu
+LUU TRỮ DỮ LIÊU VÀ KHAI THÁC
+BÀI
+70
+THÔNG TIN PHỤC VỤ QUẢN Li
+SAU BÀI HỌC NÀY EM SỄ:
+Biết được sự cần thiết
+lưu trữ dữ liệu và khai thác thông tin từ dữ liệu lưu trữ cho
+các bài toán quản lí.
+Các
+việc
+lí trong thực tế rất đa dạng: quản Ií nhân viên, tài chính;
+thiết bị
+tại các cơ quan; tổ chức;
+lí chỗ ngồi trên các chuyến
+tàu xe
+tại các phòng bán vé;
+lí hồ sơ bệnh án tại bệnh viện;
+Ií
+sinh và kết
+học tập trong các trường .
+Để quản lí kết
+học tập, như em biết,
+lí điểm của từng môn học bao
+điểm đánh giá (ĐĐG) thường
+ĐĐG giữa kì, ĐĐG cuối kì,
+Theo em
+hoạt
+này có cần Iưu trữ dữ liệu không? Nếu có, đó là những dữ liệu gì?
+1. CÂP NHÂT DỮ LlÊU
+Hoạt động
+Thào luân về ghi
+dilên Iôn hoc
+Giáo viên
+môn Toán
+cuốn sổ điểm môn học để ghi lại điểm của
+học sinh
+Iớp 11A (Bảng 10.1). Hãy cung thảo luận để xác định xem có thể khai thác được những
+thông tin gi từ sổ điểm môn học nàỵ: Ngoài việc ghi điểm vào sổ điểm, có thể có
+việc nào khác?
+TE
+17 u
+37
+TUB
+Việc ghi điểm vào sổ điểm được thực hiện thường
+mỗi khi có ĐĐG thường
+xuyên;
+kì
+cuối kì. Việc
+chép
+là
+là lưu trữ dữ liệu điểm-
+Bảng 10.1. Bảng điểm môn Toán lớp 11A (học kì I)
+STT
+Họ và tên
+ĐĐG
+thường
+ĐĐG giữa kì
+ĐĐG cuối kì
+1
+Dương Hồng Anh
+8
+7
+7
+9
+8
+2
+Lương Việt Anh
+5
+6
+5
+5
+5
+3
+Nguyễn Kì Duyên
+7
+8
+0
+10
+9
+4
+Bùi Quý Dương
+5
+7
+7
+6
+6
+5
+Đỗ Hồng Dương
+7
+8
+6
+6
+7
+Việc
+chép điểm có thể có
+sót, nhầm lẫn. Vì
+Có thể
+xoá một dữ liệu điểm.
+Chẳng hạn xoá điểm 0 trong điểm đánh giá
+thường
+của Nguyễn Kì Duyên vi
+học có lí do.
+Có thể
+sửa một dữ liệu nào đó. Chẳng hạn trong danh sách có tên Dương
+Anh nhưng thực tế tên chính xác
+là Dương Hoàng Anh.
+49
+phải
+quản
+công
+quản
+bay
+quản
+quản
+học
+quả
+phải
+quản
+quả
+gồm
+xuyên;
+động
+chép
+dạy7
+dùng
+từng
+những
+công
+xuyên;
+giữa
+ghi
+hay
+gọi
+này
+xuyên
+ghi
+vậy:
+sai
+phải
+nghỉ
+xuyên
+phải
+Hồng
+phải
+
+10.2 Bảng điểm môn Toán lớp 11A (học kì I) sau khi chỉnh sửa
+STT
+Họ và tên
+ĐĐG thường
+ĐĐG giữa kì
+ĐĐG cuối kì
+1
+Dương Hoàng Anh
+8
+7
+7
+9
+8
+2
+Lương Việt Anh
+5
+6
+5
+5
+5
+3
+Nguyễn Kì Duyên
+7
+8
+10
+9
+5
+Bùi Quý Dương
+5
+7
+7
+6
+6
+6
+Đỗ Hồng Dương
+7
+8
+6
+6
+7
+Việc thêm, xoá và chỉnh sửa dữ liệu tương tự như trên là những
+việc thường
+được thực hiện với dữ liệu của tất cả các bài toán
+lí và chúng được gọi chung
+là cập nhật dữ liệu.
+2. TRUY XUÂT DỮ LIÊU VÀ KHAI THÁC THÔNG TIN
+Rõ
+việc ghi chép điểm các môn học như trên không chỉ nhằm mục đích
+lưu trữ. Từ dữ liệu Iưu trữ này; có thể:
+Lập được danh sách học sinh với điểm học kì từ cao
+xuống thấp
+Tìm kiếm và lập danh sách học sinh có điểm học kì >= 7,
+>=8.
+Việc tìm kiếm; sắp xếp
+lọcra các dữ liệu theo những tiêu chí nào đó từ dữ liệu
+đã có thường đươc gọi là
+xuất dữ liệu.
+Một ví dụ phức
+hơn về truy xuất dữ liệu là Iập
+điểm cuối
+kì /
+(Bảng
+điểm
+11A) đòi hỏi ghép dữ liệu từ các
+điểm môn học theo danh sách lớp
+(Hinh 10.1).
+DANH SÁCH LỚP 11A
+STT
+Họ vàtên
+1
+Dương Hoàng Anh
+KET
+12
+Lương Việt Anh
+@
+3
+Nguyến Ki Duyên
+VO
+Sun
+ĐĐG CUỐI KÌ
+MÔN TOÁN LỚP 11A
+ĐĐG CUỐI KÌ
+MÔN ĐỊA LÍ LỚP 11A
+STT
+Họ và tên
+ĐĐG cuối kì
+STT
+và tên
+ĐĐG cuối kì
+1
+Dương Hoàng Anh
+8
+1
+Dương Hoàng Anh
+6
+2
+Lương Việt Anh
+5
+2
+Lương Việt Anh
+8
+3
+Nguyễn Ki Duyên
+9
+3
+Nguyễn Ki Duyên
+7
+BẢNG ĐĐG CÁC MÔN CUÓI HỌC KÌI LỚP 11A
+STT
+Họ và tên
+Toán
+Tin học
+Vật Ií
+Hoá
+Sinh
+Ngữ
+Lịch sử
+Địa lí
+học
+van
+1
+Dương Hoàng Anh
+8
+10
+10
+9
+10
+6
+8
+6
+2
+Lương Việt Anh
+5
+6
+6
+7
+6
+7
+8
+8
+3
+Nguyến Ki Duyên
+9
+10
+10
+10
+8
+6
+7
+7
+Hình 10.1
+Vi dụ truy xuất dữ liệu
+50
+Bảng
+xuyên
+công
+quản
+ràng
+hay
+truy
+bảng
+tạp
+học
+bảng
+Iớp
+Họ
+học
+
+Cũng có những
+việc khác; chẳng hạn Iập bảng phân Ioại kết
+học tập
+như
+Bảng 10.3, đòi hỏi
+phân tích, thổng kê, tinh toán từ dữ liệu đã có để được
+tin cần thiết. Những
+việc kiểu như vậy được gọi là khai thác
+tin từ
+dữ liệu đã có
+10.3.
+kê kết quả trung bình năm học môn Toán
+STT
+Phân loại
+Số Iượng
+Tỉ Iệ
+1
+Giỏi
+8
+20%
+2
+Khá
+16
+40%
+3
+Trung bình
+16
+40%
+4
+Yếu
+0
+0%
+Từ
+bảng điểm của lớp 11A, tương tự như với các môn học, có thể tìm kiếm hoặc
+thống kê theo các tiêu chí khác nhau; để khai thác thông tin phục vụ đánh
+phân
+loại ,
+so sánh kết
+các môn học của
+Quản lí kết
+học tập của học sinh từ
+điểm môn học đến
+điểm chung
+của lớp chỉ là một ví dụ cho thấy nhu cầu lưu trữ dữ liệu và khai thác
+tin rất đa
+dạng. Trong thực tế, nhiều lĩnh vực hoạt
+khác, khối Iượng dữ liệu được Iưu trữ
+và khai thác
+thường xuyên lớn hơn rất nhiều, chẳng hạn ở bệnh viện là dữ liệu về
+các bệnh nhân đến khám chữa bệnh, các loại thuốc; vật tư y tế được mua; sử dụng;
+ở ngân
+là dữ liệu về khách
+Iượng tiền gửi vào rút ra
+ngày; ở các
+trung tâm dự báo thời tiết là các dữ liệu về những
+đổi nhiệt độ, độ ẩm, hướng
+và cường độ
+Chính vì thế, ngày nay dữ liệu đã trở thành đối tượng
+cứU
+của một lĩnh vực khoa học liên ngành mới nổi đó là Khoa học dữ liệu.
+Bài toán quản Ií là bài toán
+biến trong thực tế. Cần
+tổ chức lưu
+trữ dữ liệu để phục vụ các yêu cầu
+lí đa dạng .
+Dữ liệu Iưu trữ có thể được cập nhật thường xuyên; được truy xuất
+theo nhiều tiêu chí khác nhau để thu được các
+tin hữu ích
+Cập nhật dữ liệu là gì? Tại sao dữ liệu cần được cập nhật thường xuyên?
+3. THU THẬP DỮ LIỆU TỰ ĐỘNG
+Hầu hết các hoạt động
+Ií
+truyền
+đều
+nhập dữ liệu thủ
+Trong
+bối cảnh tự
+hoá trên cơ sở máy tính, đặc biệt là sự xuất hiện của các hệ
+kết nối vạn vật (IoT) nói
+và Cách mạng
+nghiệp 4.0 nói chung; rất nhiều
+hoạt
+lí đã thực hiện việc thu thập dữ liệu tự
+8ll9 3467 41/012415
+Hình 10.2. Mã vạch
+51
+quả
+công
+phải
+thông
+thông
+công
+Thống
+Bảng
+giá
+quả
+lớp.
+quả
+bảng
+bảng
+thông
+động
+hàng
+hàng ,
+hàng
+thay
+gió;.
+nghiên
+phổ
+phải
+quản
+thông
+quản
+thống
+phải
+công
+thống
+động
+riêng
+Công
+quản
+động
+động
+
+Ở các siêu thị Iớn; mỗi ngày có hàng nghin khách mua
+nhiều người mua
+chục mặt
+trong số
+trăm mặt
+có trong siêu thị. Nếu nhập dữ liệu
+thủ
+mất nhiều thời gian cho mỗi đơn
+Việc này có thể gây tắc
+tại các quầy thanh toán; làm
+suất bán
+Để khắc phục tinh trạng nàỵ;
+người ta đã tạo các mã vạch mang
+tin về mặt
+dán trên bao b.Tại các
+quầy thanh toán; người thu tiền không cần nhập dữ liệu; chỉ cần đưa
+qua đầu
+đọc mã vạch. Đầu đọc sẽ đọc mã và gửi cho máy tính để Iập đơn
+Toàn bộ dữ
+liệu về
+hoá cung doanh thu được lưu trữ tự
+Dựa trên các dữ liệu đó,
+tính sẽ giúp lập các báo cáo doanh thu,
+thống kê,
+hợp, phân tích để cải thiện
+hoạt
+kinh doanh, báo tồn kho
+đặt thêm
+khi cần), Iượng
+tồn trên
+quầy
+bổ sung từ kho) và nhiều thông tin có ích khác để
+Ií siêu thị
+Một ví dụ khác đó là việc lưu trữ chỉ số tiêu thụ điện. Người ta
+các
+hồ
+đo điện với hộp số cơ khí trước đây
+tơ điện tử . Các
+tơ điện tử có thể
+đều đặn gửi về
+ti điện Iực không chỉ lượng đíện tiêu thụ mà còn cả các giá trị tức
+thời của điện áp,
+tần số và độ Iệch pha,
+Với
+tơ điện tử , nhân viên điện
+lực
+cần phải ghi số thủ
+rồi nhập vào máy tính;
+bớt nhiều
+sức làm hoá đơn tiền điện.
+nhiên lợi ích lớn nhất mà ngành điện có được
+từ
+pháp này là có thể quản lí kĩ thuật qua
+tích dữ liệu từ các
+tơ điện tử
+liên tục gửi về Chẳng hạn có thể biết khu vực nào
+mất điện, khu vực nào
+tải
+để đưa ra
+những quyết định phù
+Quản Ií là hoạt
+rất
+biến.
+Mục đích chính của quản Ií là xử Ií
+tin để đưa ra các
+định
+Vi vậy việc thu thập, Iưu trữ dữ liệu
+có ý nghĩa quan trọng
+đầu
+Việc thu thập dữ liệu tự
+mang lại nhiều lợi ích;
+chỉ
+bớt
+sức thu thập mà còn cung cấp một khối Iượng dữ liệu lớn giúp
+cao hiệu
+của việc ra các quyết định cần thiết.
+Hãy nêu tầm quan trọng của việc thu thập và lưu trữ dữ liệu đối với các bài toán
+quản Ií .
+LUYÊN TÂP
+1. Quản lí điểm chỉlà một ứng dụng
+lí trong trường học. Hãy tim thêm các nhu cầu
+quản lí khác trong nhà trường và chỉ ra hoạt
+lí đó cần những dữ liệu nào.
+2 Người ta thường nói, ở bất cứ nơi nào có một tổ chức là nơi ấy có nhu cầu
+Ií .
+Hãy kể tên một vài bài toán
+Ií mà em biết.
+VẬN DỤNG
+1. Hãy cho một ví dụ về một bài toán quản lí và nêu những dữ liệu mà hoạt
+quản lí đó cần thu thập.
+2. Tại các trạm bán
+việc thu thập dữ liệu về lượng
+bán và doanh thu được
+thực hiện như thế nào?
+52
+hàng,
+hàng
+hàng
+hàng
+hàng
+phải
+nghẽn
+công,
+hàng.
+giảm
+năng
+hàng.
+thông
+hàng
+hàng
+hàng.
+hàng
+động
+máy
+tổng
+(để
+động
+hàng
+hàng
+(để
+quản
+đồng
+thay
+bằng
+công
+công
+công
+dòng
+công
+giảm
+không
+công
+hàng
+tháng
+công
+Tuy
+giải
+phân
+công
+đang
+đang
+quá
+hợp
+phổ
+động
+quyết
+thông
+hàng
+giảm
+động
+không
+công
+nâng
+quả
+quản
+động
+quản
+quản
+quản
+động
+xăng
+xăng

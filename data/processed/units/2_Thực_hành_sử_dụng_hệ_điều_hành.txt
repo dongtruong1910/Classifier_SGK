@@ -1,0 +1,687 @@
+BÀl
+2
+THỰC HÀNH SỬ DỤNG
+HỆ ĐIÊU HÀNH
+SAU BÀI HỌC NÀY EM SẼ
+Sử
+được một số chức
+cơ bản của hệ điều hành cho máy tính cá nhân.
+Sử dụng được một vài tiện ích của hệ điều hành nâng caohiệu quả của máy tính cá nhân.
+Sử dụng được một vài tiện ích cơ bản của hệ điều hành trên thiết bị di động.
+Các thiết bị di
+thực tế
+là
+tính cá nhân. Hệ điều hành của các loại
+máỵ tính cá nhân có nhiều tiện ích khác nhau nhưng giao diện người dùng có
+nhiều điểm tương
+Em hãy chỉ ra một vài điểm tương
+đó
+Nhiệm vụ 1. Sử
+một sổ chức
+co bản của hệ điễu hành cho máy tính
+cá nhân
+Ở Bài 1
+em đã biết hệ điều hành cho máy tính cá nhân như Windows;
+macos
+và Linux. Em hãy thực hành sử dụng các chức năng sau (với hệ điều hành Wndows
+hoặc hệ điều hành mã
+mở Ubuntu):
+Cung cấp môi trường giao tiếp với người sử
+Quản Ií tệp và thư mục
+Hướng dẫn:
+Cung cấp môi trường giao tiếp với người sử dụng.
+Quan sát giao diện đồ hoạ với các cửa sổ_
+các biểu tượng và con trỏ. Mỗi cửa sổ
+biểu tượng đều có tên.
+Con trỏ
+để chọn đối tượng làm việc.
+Nhận biết các biẻu tượng trên màn hinh như: tệp; thư mục; nút Iệnh;
+Barlnrn{
+11ee910) 
+1
+220791/9r;p
+014a:256! 2
+NsMs
+Pai
+Yced
+Chuee
+Veravvals3
+a
+Faon
+Ja
+H08849
+Cửa sổ
+Tev un nhung 1214n Walsinn
+dụng
+tioger n)n. J0&
+Uaw"
+Kik
+04*1142|
+?,crgchu rlonbjfr njra
+'yb
+03
+Rivarn /ucé é" AF 7j4
+'4iRat insrs hno n 1n+7
+ba:rhachzua
+EnU
+Ir#J chj naloib cvin Ihuon3
+Ngưòi dên miên
+đẩ xô đi muc vật dyng
+Ahi,/:s
+u:; Ihú Fxu;
+aeali
+chèn
+chếng bão
+Tcr Irg:tF,
+"Fr cin;
+Biểu tượng của
+Thanh công việc
+Thanh trạng thái
+các đối tượng
+(Taskbar)
+(Status bar)
+Hình 21. Màn hình nền của Windows
+10
+dụng
+năng
+động
+cũng
+máy
+đồng:
+đồng
+dụng
+năng
+nguồn
+dụng
+dùng
+hay
+ứng
+hia)
+Trurg
+hsra
+
+Suviliee
+Libreonicewnilai
+Sopu 1504
+abunlu
+Uotitled
+Ubreoface Wrller
+Thanh trạng thái
+Flle
+Fjlt
+Vica
+Irsrrr
+Format
+Shi;
+Tablc
+Form
+Toals
+Window
+Fdlp
+(Status bar)
+Tsal;
+21Ã
+9
+Delaul:l
+Gbyialicn Se
+1 U $ 4 Az A A'p
+Irarii Uolrr
+209108
+Cửa sổ
+dụng
+Danh
+JlLQ
+mục
+dung
+Hình 2.2 Màn hình nền của Ubuntu
+cập nhanh các
+mềm ứng dụng nhờ thanh
+việc
+nút Start.
+
+Quan sát thanh trạng thái hiển thị các biểu tượng và cho biết trạng thái làm việc
+của máy tính như kết nối mạng, dung Iượng pin;, mức Ioa, chế độ bàn phím
+Thực hành các thao tác làm việc với biểu tượng như nháy chuột; nháy đúp
+chuột, nháy nút
+chuột; kéo thả chuột.
+Quản lí tệp và thư mục.
+Sử dụng tiện ích File Explorer của Windows để quản Ií
+và thư mục.
+Manage
+Snc-i:5 |
+9i:
+Hpn :
+{n: c
+V:
+Aur: Tcel:
+ut
+y tem ~
+JFen
+Gdedtal
+"ocye:tn
+X 4
+09:2E2?? *
+Ec(
+EB srledrpne
+Vùng Iệnh
+Pnnaao
+Vru
+744e
+"s
+Us Bhltil
+W2,
+Fialle
+"aseshetef
+7
+etor;
+Inrer stlechc1
+Ipdarc
+CoraJce
+Ne
+0pen
+See1
+SELF
+saarch 21-4l91
+Các thư mục
+Piizh ?iiu86
+PDF
+PDF
+thường
+KciLCP
+{hollnve
+17,n,1
+YIah Jnt
+KciXLTEAN MniiC:(o1y
+{u
+F4an(F Nii
+71
+K,l
+K""
+(u' 3 , Iwn
+6
+Jik 1 /
+19
+W
+W
+W
+TsF:
+{ncf;a
+[rura
+4(uNt;
+4Nt;
+4(Ni;
+4Mt;
+KF:fisSik
+4WMt;
+(hn;n($
+2iFN
+Lhin(ffn:
+Vani2in
+F?C
+MRSFf1n
+Icatenls
+ThF)C
+7rHccI1
+TIrhsstn
+4c:iLNen
+hozl ( uo
+Scerlcscs
+Ioc /1
+Mra (
+'urs
+Yidep:
+Ia[it:
+E410 (1) /
+5
+8i ]
+Chan
+Ma Ju 0
+Ph4  In .luuu?
+Phanhel
+thé Tir hpc
+tinh
+bai JJc
+tant
+Các tệp và thư mục con
+trong thư mục đang làm việc
+Hình 2.3. Quản li thư mục và tệp bằng tiện ích File Explorer của Windows
+Trong cửa sổ File Explorer; nháy chuột (nháy đúp chuột) vào biểu tượng thư
+mục để xem nội dung bên trong (các tệp và thư mục con).
+Thực hành
+Ií thư mục
+gồm: tạo mới, đổi tên, xoá, di chuyển thư mục.
+11
+ứng
+ứng
+phần
+Truy
+công
+hay
+phải
+tệp
+dùng
+e 
+Fl
+quản
+
+Thực hành
+lí tệp trên Ubuntu
+đổi tên, xoá, di chuyển tệp và
+với tệp chương trinh.
+16 Ge Volerie
+{AchlCP11
+Rercnl
+huC
+Slrcd
+OuTN
+(sdi
+PHÉN
+J6CT
+Opcn With LiorcOtticz Write
+Rctumn
+Hoinc
+UFii
+CHUNC
+Loc-Pd
+Oeen Willohe' apalie liesrn
+Deklop
+Cut
+Cr+x
+Oy
+Uel 1{
+Dccmerb
+Movc to.
+nalhac
+nangtra
+chuholw
+DFl
+Gpy
+
+Donilzj:'
+PNC
+{u
+Lhubl
+bji l5p
+{HU:
+vove In ha-h
+Delele
+1 Music
+[củJoo
+CUngcop
+Dr
+Gchjnc
+12
+Gunnie
+9 Ficlue
+Send-0
+DÉ (UCNG
+Dr CUONG
+drhe-
+Glel t Propctics
+Ctrl+l
+U Yidcvs
+PHAN
+TỔNC TFE
+doxrload-
+56
+{FUONG
+Tintac
+20227829
+Chlyend 
+Chlvend 
+Irsh
+Iocn volume
+Hình 2.4. Giao diện chương trình quản lí thư mục và tệptrên Ubuntu
+Nháy đúp chuột vào biểu tượng của tệp ứng dụng hoặc tệp dữ liệu để kích hoạt
+ứng
+tương ứng.
+Nháy nút phải chuột vào một đối tượng để làm xuất hiện
+chọn gồm các
+Iệnh có thể thực hiện được với đối tượng đó như minh hoạ trong Hinh 2.5.
+Name
+Date mod fied
+Tpe
+(NPRI
+1/79//1 7 14 PMI
+FVftoder
+IF 4.0
+12*5/2017 12 32 AM
+Fiefoder
+Pnan :ich v
+fo der
+Open
+Sach giao khc
+oder
+Sczr with Mizioroft De ender .
+Scratch
+Oder
+THC;
+(u
+I6
+Coj;
+Ceale shcrlcul
+Delete
+R-narc
+KẾI
+P-cferties
+1
+Hình 2.5.
+chọn xuất hiện khi nháy nút phải chuột
+Nhiệm vụ 2 Sử
+môt số tiện ích trên hệ điêu hành
+tính cá nhân nhẵm
+cao hiệu
+sử dụng
+Tiện ích là những phần mềm công cụ
+hỗ trợ nhiều
+việc khác nhau
+nhu
+{ecgor)
+ứng dụng tính toán; chụp ảnh màn hinh
+gõ
+Việt hoặc các
+mềm
+cao hiệu
+làm việc với
+tinh như
+nén tệp
+virus .
+Có một số tiện ích
+được cài đặt cùng với hệ điều hành như
+tiện ích kiểm tra đĩa cứng hay kiểm tra
+Lien
+(cluster)
+kết nối mạng nhưng
+có những tiện
+ich
+không có sẵn, được cài đặt sau: Một
+Đưung
+khi được cài đặt chúng được tích
+(track)
+như một dịch vụ trên hệ điều hành
+VÍ dụ
+cáctiện ích nén dữ liệu zip hay bộ gõ bàn
+phím Unikey:
+Hình 2.6.Tổ chức ghi dữ liệu trên đĩa cứng
+Em hãy thực hành sử dụng tiện ích kiẻm tra đĩa và
+mảnh trên đĩa cứng.
+12
+gồm:
+quản
+chạy
+ứng
+dụng
+dụng
+bảng
+Bảng
+dung
+máy 7
+nâng
+quả
+máy
+công
+tiếng
+phần
+nâng
+quả
+máy_
+quét
+CurB
+cũng
+B'
+hợp
+hợp
+
+Hướng dẫn:
+Đĩa
+ghi dữ liệu theo các đường tròn
+tâm
+là đường ghi (track) mỗi
+đường gồm nhiều cung (sector), mỗi cung
+512 byte dữ liệu: Việc đọc, ghi được
+thực hiện theo đơn vị liên cung (cluster) , thường gồm 8 cung:
+Khi ghi tệp, hệ điều hành sẽ tim các
+trống trên đĩa để
+những
+này
+có thể nằm trên các đường ghi khác nhau làm tệp bịphân mảnh. Khi đó, thời gian
+đọc; ghi tệp
+Iên nhiều lẩn vì đầu từ
+dịch chuyển (một cách cơ học) từ đường
+ghi này sang đường ghi khác. Việc tổ chức lại tệp sao cho các liên cung của một tệp
+được ghi liên tục,
+hoạt
+di chuyển đầu từ sẽ giúp
+tốc độ truy cập đĩa
+cứng: Tiện ích tối ưu hoá (Optimize), còn có tên là
+mảnh (Defragment) cho phép
+thực hiện
+việc nàỵ.
+Do nhiều nguyên nhân;
+có thể xảy ra các lỗi tệp như một liên
+mất liên kết
+với tệp; tạo thành các đoạn dữ liệu "mồ côi"
+có trên đĩa nhưng không khai thác được
+hoặc tinh trạng chồng chéo, khi có vài tệp liên kết đến cùng một liên cung. Ngoài ra
+còn có tinh trạng một số cung bị
+về vật lí (bad sector), đọc ghi không được, cần
+loại khỏi danh sách sử dụng. Tiện ích kiểm tra đĩa (Check disk) dùng để khử các
+lỗi trên để việc đọc; ghi đĩa trở Iại binh thường.
+Các
+bước để
+sửa lỗi
+đĩa
+và
+CONG VIỆC (F:) Prcperties
+mảnh:
+Bước 1.Sử dụng File Explorer
+Security
+Previous Verions
+Quota
+Customize
+và tim danh sách các ổ đĩa: Nháy
+General
+Tools
+Hardware
+Sharing
+nút
+chuột vào ổ đĩa muốn xử Ií
+Enror checking
+rồi chọn Properties.
+This option will check the drive for file
+system eiors
+Bưóc 2 Trong cửa sổ Properties
+Check
+của đĩa
+chọn Tools.
+Bước 3. Chọn Check để kiểm tra
+Optimize and defragment drive
+và khắc phục lỗi đĩa; Chọn Optimize
+Optimizing your computer s drives can help it run
+more efficiently.
+để tối ưu hoá, hợp mảnh.
+To
+Optimize
+Lưu ý: Chức
+mảnh
+1
+chỉ có tác dụng đối với đĩa từ. Việc
+mảnh
+có thể mất nhiều thời
+Hình 2.7.
+Cửa sổ Properties của đĩa
+gian nếu đĩa có dung Iượng Iớn.
+Nhiệm vụ 3. Sử
+một số tiện ích của hệ đỉểu hành cho thiêt bị di
+1. Em hãy kể tên một số các tiện ích của hệ điều hành Android hoặc iOS cho thiết
+bị di
+mà em biết.
+Thiết bị di
+như điện thoại thông minh và máy tính
+cung cấp cho người
+nhiều tiện ích cá nhân như
+Ií danh
+nhắn tin, hẹn giờ, lịch;
+Ií ảnh
+quản Ií tệp
+2 Giao diện quản Ií danh bạ
+tim hiểu trên điện thoại em đang sử dụng để thực hiện các chức
+sau:
+13
+đồng
+gọi
+cứng
+ghi
+vùng
+ghi,
+vùng
+phải
+tăng
+giảm
+động
+tăng
+hợp
+công
+cung
+hỏng
+phải
+hợp
+phải
+cứng,
+năng
+hợp
+cứng
+hợp
+dụng
+động
+động
+bảng
+động
+dùng
+quản
+bạ,
+quản
+Hãy7
+năng
+
+Hiển thị danh bạ.
+1017
+31 
+Thêm một người vào danh bạ với các
+tin
+về số điện thoại, địa chỉ, nhóm; sửa
+tin của một
+người trong danh bạ; chia sẻ
+tin danh bạ
+31
+an
+Olu
+
+Xoá một người khỏi danh bạ.
+cập danh bạ để
+điện thoại nhanh:
+Tn 03#
+Onhnjcri
+ara
+e
+3. Đặt lịch,
+giờ , nhắc việc
+Mở giao diện
+hồ, sau đó đặt một
+việc được
+Goug
+ChaoW
+Cardel
+nhắc hẹn vào một giờ định trước, một ngày định trước.
+Đặt hẹn một
+việc
+ngày để được nhắc
+ngàỵ.
+4. Quản lí ứng dụng
+~
+Xem các ứng dụng được tải và cài trên
+Hình 2.8. Một số biểu tượng
+dụng trên màn hình chinh
+
+Xoá ứng dụng không cần thiết.
+của điện thoại thông minh
+C8icy1
+Giai hleuva dien {hcal
+khoan 08 02910 08
+31
+Gurs e
+Quan / 07a8u 9
+18c gom
+cbchl > Chwren
+Cre e6i (un hfh
+Hình 2.9. Truy cập tiện ích quản lí
+dụng
+LUYÊN TÂP
+NE
+10
+RToC
+1. Tiện ích danh bạ còn có chức năng quản Ií nhóm_
+Mỗi nhóm có thể gồm nhiều
+số điện thoại , mỗi số điện thoại có thể thuộc nhiều nhóm. Hãy thực hiện việc tạo
+nhóm
+xoá nhóm
+kí vào danh bạ
+2
+hồ là một tiện ích cơ bản của hệ điều hành di
+dụng
+không
+chỉ cho phép đặt nhắc hẹn (một Iần hay định kì) mà còn có khả
+đếm thời gian
+chính xác đến 1% giây rất cần cho các hoạt
+cần độ chính xác cao như đo
+các kỉ lục thể thao. Hãy sử dụng các chức
+đếm thời gian tiến
+lùi của tiện
+ích nàỵ.
+VẬN DỤNG
+1. Hinh 2.7là cửa sổ Properties mở theo Tab Tools. Nếu mở theo Tab General em sẽ
+thấy có nút Iệnh của tiện ích dọn đĩa (Disk Cleanup ) . Hãy tim hiểu chức
+và
+cách sử dụng tiện ích
+2. Ngoài cách
+nhập dùng mật khẩu; các thiết bị di
+còn cung cấp nhiều
+phương pháp
+nhập khác như nhận dạng vân
+nhận dạng khuôn mặt
+khấu hinh. Hãy tìm hiẻu các phương pháp đó và so sánh các điểm mạnh,
+điểm yếu của chúng.
+14
+thông
+thông
+thông
+Truy
+gọi
+hẹn
+đồng
+công
+hằng
+công
+hằng
+máy.
+ứng
+T833
+dora
+ứng
+đăng
+Đồng
+Ứng
+động.
+này
+năng
+động
+năng
+hay
+năng
+nàỵ.
+đăng
+động
+đẳng
+tay
+hay
+dùng

@@ -1,0 +1,593 @@
+BÀI
+22
+THỰC HÀNH CẬP NHÂT
+BẢNG DỮ LIÊU CÓ THAM CHIÊU
+SAU BÀI HỌC NÀY EM SẼ:
+Hiểu được cách thức
+dữ liệu đối với các
+có trường khoá ngoài
+~
+trường
+tham chiếu đến một khoá chính của
+khác.
+Khi cập nhật một bảng có khoá ngoài;
+dữ liệu của trường khoá ngoài phải là
+dữ liệu tham chiếu được đến một trường khoá chính của một
+tham chiếu.
+HeidiSQL hỗ trợ kiểm soát điều này như thế nào?
+Nhiệm vụ 1. Cập nhật
+bannhac
+Hướng dẫn:
+a) Thêm mới dữ liệu vào
+bannhac
+Chọn
+bannhac,
+chuột chọn thẻ Dữ liệu; em sẽ thấy
+dữ liệu có
+các trường idBannhac, tenBannhac, idNhacsi nhưng chưa có dữ liệu.
+Unnamed mymusic bannhac{
+HeidiSQL Portable 12.0.0.6468
+Tặp tin
+Chỉnh sửa
+Tin kiẽn
+van
+Cac công cụ
+Đến
+Trg giúp
+#l0 KA60
+mymus
+Bạ lọc bản
+chủ: 127,0.0.1
+Co sở dữ liệu: mymusic
+Unna.
+Table: bannhac
+Dữ liệu
+'vấn*
+my 
+128,0 KiB
+Hien thi tat ca
+Sắp xẽp
+Columns (3/3)
+Loc
+ba..
+48,0 KiB 
+idBannhac
+tenBannhac
+m
+5
+idNhacsi
+2
+ba..
+48,0 KiB
+casi
+16,0 KiB
+nh
+16AKiR
+Bọ lọc Regular expression
+2
+Hình 22.1
+Giao diện thêm mói dữ liệu.
+Thực hiện nhập dữ liệu.
+Trường idNhacsi có kiểu INT, AUTO_INCREMENT nên không cần nhập dữ liệu
+cho trường nàỵ. Nháy đúp chuột vào ô ở trường tenBannhac để nhập tên bản nhạc.
+Unnamed mymusic bannhac|
+HeidiSQL Portable 12.0.0.6468
+Tập tin
+Chỉnh sửa
+Tim kiẽm
+van
+Cac
+Cy
+Đến
+Trg giúp
+2
+@Kho0
+mynus
+Bọ lọc bản]
+Máy chủ: 127,0.0.1
+Ca :8 dữ lieu: mymusic
+Unnamed
+Table: bannhac
+Dữ lieu
+Truy vẩn*
+mymusic
+128,0 KiB
+Hien thi tat ca
+Sắp xẽp
+Columns {3/3)
+Loc
+bann ,
+48,0 KiB
+idBannhac €
+tenBannhac
+idNhacsi
+2
+banth .
+48,0 KiB
+(UL]
+Du kich sông Thao
+casi
+16,0 KiB
+nhacsi
+16,0 KiB
+Bọ lọc Regular expression
+Hình 22.2. Minh hoạ thao tác nhập dữ liệu
+105
+nhập
+bảng
+bảng
+bảng
+bảng
+bỏng
+bảng
+bảng
+nháy
+Truy
+Máy
+Truy 7
+Truy
+cong
+
+Trường idNhacsi là trường khoá ngoài, đã được khai báo tham chiếu đến trường
+idNhacsi của bảng nhacsi;
+vi vậy để đảm bảo tính nhất quán; giá trị
+lệ chỉ có
+thể lấy từ các giá trị của idNhacsi có trong bảng nhacsi. Nháy đúp chuột vào ô nhập
+trường idNhacsi và chọn tên nhạc sĩ trong hộp danh sách.
+Unnamed mymusic bannhacl
+HeidiSQL Portable 12.0.0.6468
+X
+Tập tin
+Chỉnh sửa
+Tim kiẽm
+vĩn
+Cac
+CỤ
+Đẽn
+Trợ giúp
+=leKh00
+X
+Bọ lọc co s
+Bô lcc bản
+Mảy chủ: 127,0.0.1
+Ca sở dữ liệu: mymusic
+Unnamed
+Table: bannhac
+Dừ liệu
+vấn*
+informa
+lien tnl tat cả
+Sắp xẽp
+Columns (3/3)
+Lcc
+mymusic
+128,0 KiB
+idBznnhac
+2
+tenBannhac
+idNhacsi
+bann
+48,0 KiB
+uLL
+Du kich sông ~hao
+banth .
+48,0 KiB
+3: Hoàng Việt
+casi
+16,0 KiB
+4; Nguyén Tài
+nhacsi
+16,0 KiB
+5: Nguyén Văn
+Bộ lọc Regular expression
+Phan Huỳnh
+33
+SELECT
+idNhacsi`
+LEFT(tenNhacsi
+256 )
+FROM
+mymusic
+nhac 6: Phan Nhân
+2: Vin Cao
+Conner
+MariaDB 10.6 Uptime: 14
+Server t
+I1: Đ6 Nhuan
+Hình 22.3. Nhập dữ liệu cho trưòng khoá
+b) Sửa chữa, cậP nhật dữ liệu trong
+bannhac
+Thao tác sửa chữa dữ liệu trong
+bannhac nếu phát hiện có sai sót, tương
+tự như đã được giới thiệu ở Bài 21, chỉ cần
+chuột vào ô dữ liệu muốn sửa
+Sửa
+liệu trường idNhacsi ở
+số 2
+Unnamed mymusic bannhac
+HeidiSQL Portable 12,0,.0.6468
+Tập tin
+Chỉnh sửf
+Tim kiẽm
+vãn
+Cac cong cu
+Đẽn
+Trc giúp
+ekho0
+Bộ loc cc
+Bê loc bản
+Máy chủ: 127,0,0.1
+Co sở dữ liệu: mymusic
+Unnamed
+Table: bannhac
+Dừ liệu
+'vãn'
+informa 
+thi tat ca
+Sắp xẽp (1)
+Columns (3/3)
+Lọc
+mymusic
+128,0 KiB
+idBannhac
+2
+tenBannhac
+idNhacsi
+2
+bann .
+48 0 KiB
+Du kich
+Thao
+banth .
+48,0 KiB
+Truang ca Sông Lô
+2: Văn Cao
+casi
+16 0KiB
+Cue tUNg
+[3; Hoàng Việt
+nhacsi
+16,0 KiB
+Xakhai
+4; Nguyén Tài
+5;
+Nguyển Văn
+X
+Bộ lọc Regular expression
+7; Phan Huỳnh
+54
+SELECT
+idNhacsi
+LEFT( tenNhacsi
+256 )
+FROM
+mymusic
+6; Phan Nhân
+2 Văn Cao
+Conne
+MariaDB 10.t Uptime: 14 days
+Server
+[1: Đ8 Nhuan
+Hình 22.4. Giao diện sửa dữ liệu
+c) Xoá dữ liệu trong
+bannhac
+Thực hiện tương tự các bước ở Bài 21 để xoá các
+dữ liệu trong
+bannhac
+d) Xoá dữ liệu trong
+nhacsi
+Chú ý
+bây giờ
+bannhac đã có dữ liệu với trường idNhacsi tham chiếu
+đến trường idNhacsi của
+nhacsi
+Do
+ta sẽ không thể tuỳ tiện xoá các
+của
+nhacsi. MySQL sẽ kiểm tra và ngăn chặn việc xoá các
+trong
+nhacsi mà
+trị trường idNhacsi đã có trong trường idNhacsi của
+bannhac.
+106
+hợp
+Truy=
+công
+Truy
+days,
+ngoài
+bỏng
+bảng
+nháy
+đúp
+dữ
+dòng
+Truy
+Truy 7
+sông
+bảng
+bảng
+dòng
+bỏng
+rằng
+bảng
+bảng
+vậỵ
+dòng
+bảng
+bảng
+dòng
+bảng
+giá
+
+Ví dụ: idNhacsi của nhạc sĩ Văn Cao là 2 đã có trong các bản nhạc Trường ca
+Lô; Tiến về Hà Nội ở bảng bannhac. MySQL sẽ ngăn chặn xoá
+tương
+với nhạc sĩ Văn Cao ở
+nhacsi_
+Unnamed mymusic bannhac)
+FeidiSQL Poitable 2.0.0.6468
+Tap tin
+Chỉnh sửa
+Tin kiem
+Truyvẩn
+Cc
+cu
+Đến
+Trợ giup
+=l0 Kh 00
+XE
+Bộ loc co
+Bệ loc bản
+Mảy chủ: 127.0.0.1
+Co sở dùliệu: mymusic
+Unnamed
+Table: bannhac
+Dữ liệu
+Truy vãn*
+informa 
+Hien thitât ca
+Sắp xếp (1)
+Columns (3/3)
+Lọc
+mymusic
+128 0KiB
+id3annhac ?
+tenBannhac
+idNhacsi
+5
+bann.
+48 0KiB
+Du kich sông Thao
+oanth 
+48 OKĩB
+ruang caSông Lô
+2
+Eas1
+16 Unnamed: Confirm
+3
+hacsi
+16
+4
+[elete 1 rcw(s)?
+44
+e
+Aovoncing
+OK
+Canccl
+Xóa
+(nniều hà  2 : c2
+Idle
+Hình 22.5. Minh hoạ xoá dữ liệu có tham chiếu
+Nếu
+chọn OK,
+UrilaieJ Erui
+báo lỗi sẽ xuất hiện như
+Grid
+editing error
+Hinh 22.6
+S(u Frrr(12374: ( annnt delete nrunfate a rarert rour:
+foreign key corsraint fzils (mymusic ,bannhac
+CONS FAINT FK banrkac rFacsi FOREIGN KEY
+CiuN-Iacsi  REFERENCES Thiacsi (idNdesi) ONCELEE
+NO ACTON CN UJ?JAT[ NJ ACTIovi
+Hình 22.6. Thông báo lỗi
+O<
+xoá dữ liệu làm mất tính
+Firc scme helo ontnis Errcr {= > Eccsa orgi
+toàn vẹn dữ liệu
+Lưu ý: Hệ QTCSDL chỉ có thể ngăn chặn được các lỗi theo lôgic đã được khai
+báo (ví dụ lôgic tham chiếu khoá ngoài) . Nó không thể ngăn chặn được các Iỗi
+liên quan đến lôgic nào. Ví dụ: Chọn tên nhạc sĩ
+tác bản nhạc Hà Nội niềm tin
+và hi vọng là Phan Nhân hay Đỗ Nhuận thì không sai về lôgic; nếu các em nhập sai
+tên bản nhạc, tên người (tên nhạc sĩ, ca sĩ) thi lỗi này sẽ xuất hiện ở tất cả các danh
+sách kết xuất liên quan như bản nhạc, bản thu âm
+Vi vậy người làm việc với CSDL
+luôn
+có sự cẩn thận, mẫn cán trong
+việc của minh
+e)
+xuất dữ liệu trong
+bannhac
+Việc
+xuất dữ liệu trong
+bannhac là hoàn toàn tương tự như
+xuất dữ
+liệu trong
+nhacsi ở Bài 21
+Hãy thực hành các
+xuất dữ liệu theo thứ tự
+dần của trường idBannhac;
+theo thứ tự tên các bản nhạc.
+Hãythực hành lấy ra danh sách tên các bản nhạc của nhạc sĩ Văn Cao có trong
+bannhac
+Nhiệm vụ 2
+tìm hiểu một chức
+của
+mềm ứng dụng Quản lí dữ liệu âm nhạc
+qua giao diện ở Hinh 22.7, so sánh với những kiến thức vừa được học trong bài thực
+hành và cho nhận xét so sánh
+107
+sông
+dòng
+ứng
+bảng
+cong
+hàng
+thông
+không
+sáng
+phải
+công
+bỏng
+Truy
+bảng
+truy
+truy
+bảng
+giảm
+truy
+bảng
+phần
+Hãy
+năng
+
+U
+FyHjsi:
+C
+0
+numnwiccom indercic
+4
+0
+M'nUSIc MnaGCR
+Nhec?
+Gs
+[arche:
+0r Ju àm
+Loeclt
+GUiN LỶ DAMI / 5/CIICÁC CN NIIJC
+Anhar rhf:
+4;na Dipn; h)hy nn
+Hhal?
+P:an Ner:
+NFas
+Danr ;3: 1 Cac Can ^1): đe {3
+Treng
+ir bannl ::
+Nhjca
+Dusch :inc Traz
+D; Nhuir
+Wulbf>8p
+2
+Tchca
+IaneYis:
+Hw
+é
+Ive
+Metran
+hxcne {ei
+Đ} Nhusr
+9À-N:
+G
+Nhac nc
+Hoanc YIs:
+7nshjlglfJtinl VcPu
+NsusenIÉlu
+Hình 22.7.
+Giao diện Quản lí danh sách các bản nhạc
+Cách tương tác với giao diện này như sau:
+Để nhập dữ liệu bản nhạc mới, người dùng
+nhập tên bản nhạc, chọn nhạc
+sĨ từ hộp danh sách
+dưới sau đó chọn Nhập. Ví dụ nhập
+'Hà Nội niềm tin và hi
+vọng
+chọn nhạc sĩ Phan Nhân và nháy chuột chọn Nhập.
+Để tìm một bản nhạc có thể nhập vài từ của tên bản nhạc,
+có thể chọn
+nhạc sĩ nếu biết;
+sau đó nháy chuột chọn Tìm
+Danh sách các bản nhạc đã có trong CSDL được thể hiện ở
+dưới
+thành nhiều trang, mỗi trang 10
+Có thể nháy chuột vào hộp danh sách trang để
+chọn trang.
+Muốn sửa một bản nhạc nào đó, nháy chuột vào phím radio
+trên
+đó
+tin của bản nhạc sẽ được hiển thị ở phần phía trên của giao diện để người
+sửa chữa,
+đổi ,
+Nháy chuột chọn Nhập để Iưu lại kết
+đổi.
+Muốn xoá một
+nhiều bản nhạc nào đó trong danh sách đã có: nháy chuột
+vào các checkbox
+Ớ
+đầu các
+tương
+và chọn Xoá.
+Hướng dẫn:
+TE
+I0
+R
+dụng Quản lí dữ liệu âm nhạc nói trên là một ứng dụng được thiết kế chuyên
+biệt cho bài toán
+lí dữ liệu âm nhac, giao diện được thiết kế hướng vào những
+nghiệp vụ mà người
+Ií
+thường
+làm
+ngày (không phải là giao diện
+hướng vào từng
+dữ liệu). Tất cả các chức
+nhập mới,
+sửa chữa, xoá, tim
+kiếm được tích
+vào một giao diện. Theo các em:
+Người sử dụng có cần biết, nhớ cấu trúc của
+bannhac,
+nhacsi không?
+Giao diện trên có dễ hiểu, dễ sử dụng không?
+LUYÊN TÂP
+1. Cập nhật dữ liệu vào
+banthuam_
+2
+xuất dữ liệu
+banthuam theo các tiêu chí khác nhau.
+VẬN DỤNG
+Hãy thực hành cập nhật và truy xuất bảng QuậnIHuyện trong CSDL quản lí danh
+sách tên các QuậnIHuyện; Tỉnh/Thành
+108
+Msuyen
+qus
+phải
+phía
+cũng
+bảng
+phía
+dòng
+dòng
+thông
+dùng
+quả
+thay
+thay
+hay
+dòng
+ứng
+Ứng
+quản
+hằng
+quản
+phải
+bảng
+năng
+hợp
+bảng
+bảng
+bảng
+bảng
+Truy
+phố.

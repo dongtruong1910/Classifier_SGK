@@ -1,0 +1,669 @@
+THỰC HÀNH XÁC ĐINH
+BÀl
+18
+cẨÙ TRÚC BẢNG Va CÁC
+TRƯỜNG KHOÁ
+SAU BÀI HỌC NÀY EM SỄ:
+Có được hình
+về
+việc xác định các
+dữ liệu, cấu trúc của chúng và
+các trường khoá trước khi bước vào tạo lập CSDL
+Bài 13, các em đã
+nào thấy được lợi ích khi tổ chức CSDL của website
+âm nhạc với nhiều
+mà
+là một
+với đầy đủ tất cả các
+tin về mỗi bản thu âm (tên bản nhạc, tên nhạc sĩ, tên ca sĩ).
+nhiên, làm thế nào để từ yêu cầu ban đầu (quản lí danh sách các bản thu âm
+với đầy đủ
+tin tên bản nhạc; tên nhạc sĩ, tên ca sĩ) người ta lại đi đến được
+CSDL với các
+như đã trình bày ở Bài 13?
+Nhiêm
+vu. Xác dinh các
+dữ liệu, cấu trúc của chúng và các trường
+khoá cho CSDL của một website âm nhạc
+Hướng dẫn:
+1. XEM XÉT BÀl TOÁN
+xem xét lại bài toán
+lí các bản thu âm nhạc. Ta sẽ quy ước nói đến
+nhạc sĨ
+tác bản nhạc là nói đến tên một nhạc sĩ
+tên một nhóm nhạc sĩ
+tác bản nhạc đó. Tương tự như vậỵ; ta cũng quy ước khi nói đến tên ca sĩ là nói đến
+một ca sĨ
+một nhóm ca sĩ biểu diễn tác phẩm.
+Dưới đây là một ví dụ về một bản
+ghi chép lại
+tin các bản thu âm.
+Uuoa
+Bảng 18.1. Ví dụ về một bản ghi chép các bản thu âm nhạc
+StT
+Tên bản
+Tên
+sĩ
+Tên ca sĩ
+1
+Du kích sông Thao
+Đỗ Nhuận
+Doãn Tần
+2
+Trường ca
+Lô
+Văn Cao
+Lê Dung
+3
+Tinh ca
+Hoàng Việt
+Trần Khánh
+4
+Xa khơi
+Nguyễn Tài Tuệ
+Tân Nhân
+5
+Việt Nam
+hương tôi
+Đỗ Nhuận
+Quốc Hương
+6
+Tiến về Hà Nội
+Văn Cao
+Doãn Tần
+7
+Nhạc rừng
+Hoàng Việt
+Quốc Hương
+8
+Tiếng hát giữa
+Pắc Bó   Nguyễn Tài Tuệ
+Lê Dung
+9
+Trường ca
+Lô
+Văn Cao
+Trần Khánh
+10
+Tiến về Hà Nội
+Văn Cao
+Quốc Hương
+86
+công
+dung
+bảng
+phần
+phải
+bảng
+bảng
+không
+thông
+Tuy
+thông
+bảng
+bảng
+quản
+Cùng
+sáng
+sáng
+hay
+hay
+thông
+nhạc
+nhạc
+Sông
+quê
+rừng
+Sông
+
+2. TẠO LẬP BẢNG
+kết tất cả các
+tin cần
+Ií, viết ra thành
+Số hiệu bản thu âm
+(STT), tên bản nhạc; tên nhạc sĨ
+tác;, tên ca sĨ thể hiện. Từ đó em có thể hình
+dung về một
+dữ liệu tên là banthuam,
+với các trường idBanthuam
+lưu số
+hiệu bản thu âm), tenBannhac
+Iưu tên bản nhạc) , tenNhacsi
+Iưu tên nhạc sĩ),
+tenCasi
+lưu tên ca sĩ) và viết mô tả
+gọn ở dạng:
+banthuam( idBanthuam,
+tenBannhac ,
+tenNhacsi,
+tenCasi)
+Trong bảng nàỵ; trường idBanthuam xác định duy nhất một bản thu âm nên sẽ
+được lấy làm khoá chính của bảng.
+Nhóm cả ba trường tenBannhac,
+tenNhacsi,
+tenCasi
+xác định
+nhất một bản thu âm, nên nhóm các trường nàỵ
+có
+thể
+làm khoá chính của
+nhưng rõ
+idBanthuam là ngắn gọn và
+thuận lợi hơn. Có thể viết lại mô tả
+trên với tên trường khoá chính có
+chân
+như sau:
+banthuam(idBanthuam,
+tenBannhac ,
+tenNhacsi,
+tenCasi)
+3. TÔ CHỨC LAI BẢNG DỮ LIÊU
+Phân tích và sắp xếp lại để hạn chế lượng dữ liệu Iặp lại.
+Một ca sĩ có thể là người thể hiện nhiều bản nhạc khác nhau nên trường tenCasi
+có giá trị lặp lại , tên ca sĩ Iại dài, Iàm Iớn
+Iượng Iưu trữ và khó khăn khi cần sửa
+chữa: Ví
+trong
+18.1 ca sĩ Trần Khánh thểhiệnhai bản nhạc (ở
+số3và9),
+khi cần sửa chữa tên của ca sĩ, sẽ
+tìm sửa ở tất cả những
+có tên ca sĩ
+Để khắc phục hạn chế này; cách làm tốthơnlà Iập
+casi(idCasi, tenCasi)
+với trường khoá là idCasi
+và
+tenCasi trong
+banthuam bởi idCasi
+Nhu
+vậy
+idCasi trong
+banthuam sẽ là
+khoá ngoài tham chiếu đến khoá chính
+idCasi trong
+casi
+1
+banthuam(idBanthuam,
+tenBannhac, tenNhacsi,
+idCasi)
+casi(idCasi,
+tenCasi)
+SÃNG
+18.2
+Bảng casi với hai trưòng khoá idCasi và trưòng tenCasi
+idCasi
+tenCasi
+1
+Trần Khánh
+2
+Lê Dung
+3
+Tân Nhân
+4
+Quốc Hương
+5
+Doãn Tần
+18.3. Bảng banthuam sau khi
+tenCasi bởi idCasi
+idBanthuam
+tenBannhac
+tenNhacsi
+idCasi
+1
+Du kích
+Thao
+Đỗ Nhuân
+5
+2
+Trường ca Sông Lô
+Văn Cao
+2
+3
+Tinh ca
+Hoàng Việt
+1
+4
+Xa khơi
+Nguyến Tài Tuệ
+3
+5
+Việt Nam
+hương tôi
+Đỗ Nhuận
+4
+87
+Tổng
+quản
+thông
+dãỵ:
+sáng
+(để
+bảng
+(để
+(để
+(để
+ngắn
+cũng
+duy
+cũng
+bảng
+dùng
+ràng
+dùng
+bảng
+gạch
+dung
+dụ,
+Bảng
+dòng
+phải
+dòng
+này
+bảng
+bảng
+thay
+bảng
+bảng
+Bảng
+Bảng
+thay
+sông
+quê
+
+6
+Tiến về Hà Nội
+Văn Cao
+5
+7
+Nhạc rừng
+Hoàng Việt
+4
+8
+hát giữa rừng Pắc Bó
+Nguyễn Tài Tuệ
+2
+9
+Trường ca Sông Lô
+Văn Cao
+1
+10
+Tiến về Hà Nội
+Văn Cao
+4
+Tương tự , một bản nhạc có thể có nhiều bản thu âm khác nhau do những ca sĩ khác
+nhau thể hiện. Ví dụ, trong Bảng 18.1, bản nhạc Trường ca
+Lô xuất hiện ở
+số 2 và số 9.
+Do đó
+cách tốt hơn là tạo
+bannhac ( idBannhac ,
+tenBannhac ,
+tenNhacsi) với trường khoá là idBannhac và
+cặp (tenBannhac, tenNhacsi)
+trong
+banthuam bởi idBannhac.
+banthuam (idBanthuam,
+idBannhac ,
+idCasi)
+casi(idCasi,
+tenCasi)
+bannhac ( idBannhac,
+tenBannhac, tenNhacsi)
+18.4. Bảng bannhac với trường khoá idBannhac
+idBannhac
+tenBannhac
+tenNhacsi
+1
+Du kích
+Thao
+Đỗ Nhuân
+2
+Trường ca
+Lô
+Văn Cao
+3
+Tinh ca
+Việt
+4
+Xa khơi
+Nguyễn Tài Tuệ
+5
+Việt Nam
+hương tôi
+Đỗ Nhuận
+6
+Tiến về Hà Nội
+Văn Cao
+7
+Nhạc
+Hoàng Việt
+8
+hát
+rừng Pắc Bó
+Nguyễn Tài Tuệ
+18.5. Bảng banthuam sau khi sử dụng trường idBannhac
+idBanthuam
+idCasi
+11
+am  [ idBanhac    idc
+5
+2
+2
+2
+3
+3
+1
+4
+4
+3
+5
+5
+4
+6
+6
+5
+7
+7
+4
+8
+8
+2
+9
+2
+1
+10
+6
+4
+Tên nhạc sĩ trong
+bannhac bị Iặp lại do một nhạc sĩ có thể
+tác nhiều
+bản nhạc; Ví dụ, trong
+18.1
+nhạc sĩ Văn Cao xuất hiện trong hai
+số 2
+và số 6; vì vậy lại lập
+nhacsi(idNhacsi,
+tenNhacsi) và
+thế trường
+tenNhacsi trong
+bannhac bởi idNhacsi.
+88
+Tiếng
+sông
+dòng
+bảng
+thay
+bảng
+Bảng
+sông
+Sông
+Hoàng
+quê
+rừng
+Tiếng
+giữa
+Bảng
+bảng
+sáng
+Bảng
+dòng
+bảng
+thay
+bảng
+
+18.6. Bảng nhacsi với trưòng idNhacsi
+idNhacsi
+tenNhacsi
+1
+Đỗ Nhuân
+2
+Văn Cao
+3
+Hoàng Việt
+4
+Nguyễn Tài Tuệ
+Bảng 18.7.
+bannhac sau khi
+trường idNhacsi
+idBannhac
+tenBannhac
+idNhacsi
+1
+Du kích
+Thao
+1
+2
+Trường ca
+Lô
+2
+3
+Tinh ca
+3
+4
+Xa khơi
+4
+5
+Việt Nam
+hương tôi
+1
+6
+Tiến về Hà Nội
+2
+7
+Nhạc rừng
+3
+8
+Tiếng hát giữa rừng Pắc Bó
+4
+Các
+dữ liệu thu được bây giờ sẽ là:
+casi(idCasi,
+tenCasi)
+nhacsi(idNhacsi,
+tenNhacsi)
+bannhac (idBannhac,
+tenBannhac
+idNhacsi)
+banthuam(idBanthuam,
+idBannhac,
+idCasi)
+idCasi
+tenCasi
+idNhacsi
+tenNhacsi
+Trần Khánh
+Đỗ Nhuân
+0
+Lê Dung
+TRIThUE
+2
+Văn Cao
+3
+Tân Nhân
+3
+Hoàng Việt
+4
+Quốc Hương
+0G SonG
+4
+Nguyễn Tài Tuệ
+0
+Doãn Tần
+idBannhac
+tenBannhac
+idNhacsi
+idBanthuam
+idBannhac
+idCasi
+1
+Du kích sông Thao
+5
+2
+Trưởng ca
+Lô
+2
+2
+2
+2
+3
+Tinh ca
+3
+3
+3
+1
+4
+Xa khơi
+5
+4
+4
+3
+5
+Việt Nam quê hương tôi
+1
+5
+5
+4
+6
+Tiến về Hà Nội
+2
+6
+6
+5
+7
+Nhạc
+3
+7
+7
+4
+8
+Tiếng hát giữa rừng Pắc Bó
+4
+8
+8
+2
+9
+2
+1
+10
+6
+4
+Hình 18.1. Các
+dữ liệu sau khi đưọc tổ chức lại
+89
+Bảng
+Bảng
+dùng
+sông
+Sông
+quê
+bảng
+Sông
+rừng
+bảng
+
+4. CÁC LOẠl KHOÁ
+Mỗi
+đã có một khoá chính (tên trường được gạch chân)
+Khoá ngoài của các
+bannhac:
+idNhacsi tham chiếu đến idNhacsi trong
+nhacsi ,
+banthuam:
+idBannhac tham chiếu đến idBannhac trong
+bannhac;
+idCasi tham chiếu đến idCasi trong
+casi.
+Có thể tóm tắt lại về cấu trúc các
+và quan hệ của các
+theo tham chiếu
+từ khoá ngoài đến khoá chính ở
+sơ đồ như Hình 18.2
+casi
+banthuam
+bannhac
+nhacsi
+idCasi
+idBanthuam
+idBannhac
+idNhacsi
+tenCasi
+idBannhac
+tenBannhac
+tenNhacsi
+idCasi
+idNhacsi
+Hình 18.2 Cấu trúc các
+của CSDL website âm nhạc
+và quan hệ tham chiếu khoá ngoài=
+khoá chính
+Khoá cấm
+lặp giá trị (Unique): Cặp (tenBannhac; idNhacsi) trong bảng
+bannhac
+được trùng lặp
+trị. Cặp (idBannhac; idCasi)
+không được
+trùng lặp giá trị. Để ghi nhớ điều này người ta
+nói
+các trường này
+đặt
+khoá cấm trùng lặp_
+5. VỂ CÁC KlỂU DỮ LIỆU CỦA CÁC TRƯỜNG
+Để đơn
+các trường khoá chính thường có kiểu INT và tự
+giá trị
+(AUTO_INCREMENT).
+ÉTULTRithic
+Các trường tenNhacsi, tenCasi; tenBannhac có thể chọn là xâu kí tự có độ dài
+tối đa 255 kí tự (VARCHAR (255)).
+UoCsotG
+Em hãy chỉ ra những Iợi ích có được khi tổ chức CSDL âm nhạc với các
+như đã
+trình bày trong bài học.
+LUYÊN TÂP
+1. Có thể có những nhạc sĩ,
+ca sĨ
+tên nên người ta muốn
+Ií thêm
+tin ngày sinh của các nhạc sĩ,
+ca sĩ. Để làm được việc đó, CSDL cần
+đổi như
+thế nào?
+2. Nếu muốn
+lí thêm thông tin nơi sinh của nhạc sĩ,
+ca sĩ (tên tỉnh/thành
+phố)
+CSDL cần
+đổi như thế nào?
+VẬN DỤNG
+Thực hiện các bước phân tích để thiết lập mô hình dữ liệu cho một bài toán
+Ií
+thực tế, vÍ dụ quản lí danh sách tên quậnJhuyện của các tỉnh thành
+90
+bảng
+bảng:
+bảng
+bảng
+bảng
+bảng
+bảng
+dạng
+bảng
+trùng
+giá
+không
+cũng
+rằng
+phải
+cũng
+giản;
+tăng
+động
+bảng
+quản
+trùng
+thông
+thay
+quản
+thay
+quản
+phố.

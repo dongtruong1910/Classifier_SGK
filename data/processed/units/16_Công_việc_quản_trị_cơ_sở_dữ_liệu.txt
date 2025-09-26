@@ -1,0 +1,567 @@
+Chủ đề
+5
+Huưóng nghiệp vói tin
+CÔNG VIỆC QUẢN TRỊ
+BÀI
+76
+CƠ SỞ DỮ LIÊU
+SAU BÀl HỌC NÀY EM SẼ:
+Hiểu được các
+vệc cần thực hiện
+các kiến thức và kĩ
+cần thiết
+để quản trị CSDL, các
+học có liên quan và nhu cầu xã hội đối với
+việc
+quản trị CSDL
+Có thể tìm kiếm
+khai thác và trao đổi thông tin hướng nghiệp liên quan đến
+vệc quản trị CSDL
+Trong các tổ chức; những CSDL phục vụ
+tác
+lí có thể rất Iớn, mỗi CSDL
+có thể gồm rất nhiều bảng với những quan hệ phức
+Không
+ai cũng biết
+rõ CSDL của đơn vị mình, ngay cả với những nhân viên tin học nếu không tim
+hiểu chi tiết. Vậy làm thế nào để có thể vận hành
+trì cho các CSDL hoạt
+thông suốt; luôn sẵn sàng đáp
+được nhu cầu khai thác? Có cần những cán
+bộ chuyên trách quản trị CSDL không?
+1. NHÀ QUẢN TRỊ CƠ SỞ DỮ LlỆU
+Hoạt động 1
+Quản tri co sở dữ liệu là gi?
+Quản trị là hoạt
+hỗ trợ song song với một hoạt
+cơ bản để thực hiện tốt
+nhất hoạt động cơ bản. Ví dụ, nếu hoạt
+cơ bản là làm
+mềm thi
+trị
+dự án
+mềm sẽ là điều phối nhân lực, thiết bị, tài chính; giám sát tiến độ và
+chất lượng để làm ra
+mềm tốt, chi phí
+lí và đúng thời hạn.
+Nếu hoạt
+cơ bản là khai thác các CSDL phục vụ ứng
+tin học thì theo
+em, hoạt
+trị CSDL tương ứng gồm những công việc gì?
+Quản trị CSDL có mục đích đảm bảo cho các hoạt
+liên quan đến CSDL
+thông suốt,
+an toàn và có hiệu
+cao
+Như vậỵ; có thể nói vai trò quan trọng nhất
+liên quan tới
+việc quản trị CSDL của một tổ chức là việc đảm bảo để các CSDL
+trong tổ chức ấy luôn ở trạng thái sẵn
+khi cần. Nhiệm vụ này thường liên quan
+đến việc
+sát định kì các hoạt
+và xử lí sự cố đối với các CSDL Theo quy
+định về ngành
+người thực thi hoạt
+trị CSDLđược gọi là nhà quản trị
+CSDL mà trong thực tế thường được
+đơn
+là người quản trị CSDL. Nhà
+trị CSDL có những nhiệm vụ chính như' sau:
+Cài đặt và cập nhật các hệ QTCSDL
+Nói chung,
+các hệ QTCSDL thường được các nhà cung cấp cập nhật thường
+xuyên để bổ sung tính năng và vá lỗi.
+Bên cạnh đó
+theo thời gian; các
+nghệ
+77
+học
+công
+cùng
+năng
+ngành
+công
+công
+quản
+công
+phải
+tạp
+duy
+động
+ứng
+động
+động
+phần
+quản
+động
+phần
+phần
+hợp
+động
+dụng
+quản
+động
+động
+quả
+công
+sàng
+giám
+động
+nghề,
+quản
+động
+giản
+quản
+gọi
+công
+
+CSDL có thể lạc hậu; cần được
+cấp. Thực tế, nhiều cơ quan; tổ chức đã buộc
+Ioại bỏ các hệ QTCSDLkhông còn thích hợp để
+thế bằng các hệ QTCSDL
+có khả
+làm việc tốt hơn. Việc nâng cấp không chỉ là việc cài đặt
+mềm
+trị CSDL mới mà còn
+chuyển đổi CSDL; bao gồm cả
+đổi dữ liệu.
+Tạo lập và điều chỉnh CSDL
+Thiết kế CSDL là một
+khác có liên quan mật thiết đến quản trị CSDL. Nhà
+quản trị CSDL có thể
+tham gia tạo lập và điều chỉnh các CSDL phục vụ cho các
+ứng dụng; Iập hồ sơ về CSDLđể phục vụ cho hoạt động
+trì và
+cấp hệ
+sau
+Đảm bảo tài nguyên cho các hoạt động CSDL
+Cần cung cấp đầy đủ tài nguyên như máy tính có
+suất thích
+có bộ nhớ
+Iưu trữ đủ Iớn cùng các phương tiện kĩ thuật kèm theo. Việc
+không chỉ được thực
+hiện khi khởi tạo CSDL mà cần được thực hiện thường xuyên theo mức
+trưởng,
+mức độ khai thác dữ liệu và tiến triển của
+CSDL_
+Việc đảm bảo tài nguyên là một phần của hoạt
+lập kếhoạch phát triển CSDL
+Đảm bảo an toàn; bảo mật
+Ở các tổ chức đã tin học hoá, dữ liệu có tầm quan trọng đặc biệt; cần được bảo
+vệ tốt. Khi
+thiết bị, ta có thể sửa chữa
+mua mới; khi
+phần mềm có lỗi, ta có
+thể
+cấp; cài đặt lại; nhưng mất dữ liệu do
+thiết bị
+dữ liệu bị đánh cắp
+bị sửa với mục đích xấu thì có thể làm tê liệt hoạt
+thậm chí có thể làm sụp đổ
+toàn bộ tổ chức sở hữu dữ liệu:
+Do
+việc đảm bảo an toàn, bảo mật cho dữ liệu
+là một hoạt
+quan trọng hàng đầu trong quản trị CSDL
+Nhà
+trị CSDL
+với
+những người thiết kế hệ
+và các bộ
+phận nghiệp vụ để phân quỵền sử dụng dữ liệu đến từng nhóm người dung, sau đó
+sử dụng hệ QTCSDL để thiết Iập
+truy cập dữ liệu; điều chỉnh
+cập
+dữ liệu khi có biến
+về nhân sự
+nghiệp vụ.
+Nhà
+trị CSDL phải thường
+tạo các bản sao lưu dữ liệu dự phòng để
+khi gặp sự cố có thể khôi phục dữ liệu, nhất là các sự cố liên quan đến
+cứng:
+Thường xuyên
+sát phát hiện sớm các sự cố dữ liệu để khắc phục kịp thời.
+Ngoài các
+việc chính đã nêu trên, các nhà
+trị CSDL có thể tham gia các
+hoạt
+xây dựng các quy trình và tư vấn về các vấn đề có liên quan
+đến CSDL
+Quản trị CSDLlà hoạt
+nhằm đảm bảo cho việc sử dụng CSDL thông
+suốt và hiệu
+Quản trị CSDL có các nhiệm vụ:
+Cài đặt và
+cấp các hệ QTCSDL;
+Tạo lập, đíều chỉnh CSDL;
+Đảm bảo tài nguyên cho các hoạt
+CSDL;
+Đảm bảo an toàn và bảo mật cho dữ liệu.
+1. Kể ra các nội dung
+trị CSDL
+2. Trong ba nhóm đối tượng những người làm
+mềm
+sử dụng
+mềm
+Ií và
+trị CSDL; ai là người chịu trách nhiệm chính mỗi
+việc sau
+Cập nhật dữ liệu, Thiết kế dữ liệu,
+Sao lưu dữ liệư?
+78
+nâng
+phải
+thay
+phần
+quản
+năng
+chuyển
+phải
+nghề
+phải
+thống
+duy7
+nâng
+nàỵ.
+công
+hợp,
+này
+tăng
+công
+nghệ
+động
+hỏng
+hay
+hỏng
+nâng
+hay
+động
+vậỵ
+động
+thống
+quản
+phối
+phải
+hợp
+quyền
+quyền
+truy
+động
+hay
+quản
+xuyên
+phần
+giám
+quản
+công
+động
+nghiên
+cứU,
+động
+quả.
+nâng
+động
+quản
+phần
+phần
+quản
+quản
+công
+đây:
+
+2. PHẨM CHẨT VÀ NĂNG LỰC CỦA NHÀ QUẢN TRỊ CSDL
+Hoạt động 2
+Tim hiểu các kiên thức và ki
+cân có cùa nhà quàn trị CSDL
+1
+Căn cứ vào các
+việc cần thực hiện để
+trị CSDL,
+em hãy đề xuất
+những kiến thức, kĩ
+và
+phẩm chất cần có của nhà
+trị CSDL.
+2 Có thể học kiến thức và rèn luyện kĨ
+trị CSDL ở đâu?
+Nhà
+trị CSDL cần có nền
+tốt về CSDL; hiểu được các mô hinh CSDL
+nhiên; kĩ năng làm việc trên các hệ
+cụ thể đặc biệt cần thiết.
+Để quản trị CSDL trên thực tế, điều quan trọng nhất là
+làm chủ được một
+hệ QTCSDL, biết cài đặt; biết thiết lập các tham số cần thiết; thành thạo ngôn ngữ
+quản trị. trong đó có
+ngữ truy vấn SQL
+ngữ có thể làm việc được với
+tất cả các hệ QTCSDL hiện đại .
+Nhà quản trị CSDL có thể phải tham gia thiết kế hoặc điều chỉnh cấu trúc của
+CSDL khi
+cấp phần mềm. Cho dù họ
+nhất thiết phải tham gia thiết kế
+CSDL nhưng biết thiết kế Ià điều rất quan trọng để
+trị tốt các CSDL.
+Việc cài đặt hệ QTCSDLbao giờ cũng được thực hiện trên một hệ điều hành cụ
+thể, có liên quan đến mạng
+tinh nên có hiểu biết tốt về hệ điều hành và mạng
+tính là một điểm
+cho nhà quản trị CSDL
+Nhà
+trị CSDL cần có một số
+'phẩm chất cần thiết sau:
+Tính cẩn thận
+tỉ mỉ, kiên trì. Cùng với khả
+phân tích; các phẩm chất này
+giúp nhà quản trị CSDL phát hiện và xử lí sự cố tốt hơn.
+Tinh thần ham học.
+với kĩ
+ngoại ngữ và tìm kiếm thông
+phẩm
+chất này giúp nhà quản trị CSDL có khả năng tự học để nắm bắt được những
+nghệ mới liên quan đến quản trị CSDL
+Ở bậc đại học; các chuyên ngành có liên quan nhiều đến
+quản trị CSDL
+là Các hệ
+tin và
+phẩn mềm; ở đó sinh viên được đào tạo
+chuyên sâu về CSDLvà phân tích và thiết kế hệ thống. Hầu hết các trường đại học có
+đào tạo
+nghệ thông tin đều có các chuyên ngành trên. Các kiến thức khác như
+hệ điều hành và mạng
+tính được học ở mức cơ bản. Một vài
+trường đại học mở
+cả chuyên
+tin học quản lí. Một số trường đại học đào tạo chuyên ngành CSDL
+có thể
+dạy các hệ QTCSDL cụ thể
+sinh viên có thể tiếp cận chúng qua
+các bài thực hành và các dự án nhỏ.
+'nhung sinh vi
+Có nhiều cơ hội để bổ sung kiến thức và rèn luyện kĩ năng
+trị CSDL như
+tham gia các khoá học của các trung tâm đào tạo; lấy chứng chỉ
+trị CSDL của
+các
+nổi
+như IBM
+Microsoft, Oracle
+hoặc thực tập ở các
+ti tin học.
+Nhà quản trị CSDL cần có kiến thức
+cơ bản về CSDL, biết thiết kế
+CSDL và sử dụng thành thạo hệ QTCSDL
+Tính cách tỉ mỉ, cẩn thận, kiên nhẫn, kĩ
+tích rất cần thiết với
+nhà quản trị CSDL khi
+xử lí tinh
+huống:.
+Khả
+học tập suốt đời, giúp nhà quản trị CSDL
+cao bản lĩnh
+nghiệp
+Để trở thành nhà
+trị CSDL tốt, cần được học kiến thức một cách
+bài bản ở các trường đại học chuyên ngành; rèn luyện kĩ
+trong các
+khoá học
+nghiệp về quản trị CSDL; về các hệ QTCSDL cụ thể và
+rèn luyện trong
+việc thực tế
+1. Hãy kể ra các phẩm chất và
+lực cần có của một nhà
+trị CSDL.
+2 Cần làm gì để có các kiến thức và kĨ
+cần thiết về quản trị CSDL
+79
+nBng]
+quản
+công
+quản
+năng
+quản
+năng
+quản
+tảng
+thống
+Tuy
+phải
+ngôn
+ngôn
+nâng
+không
+quản
+máy
+máy7
+cộng
+quản
+năng
+Cùng
+năng
+tin,
+công
+nghề
+thống
+thông
+Công
+nghệ
+công
+máy
+ngành
+không
+quản
+quản
+tiếng
+hãng
+công
+năng
+phân
+phải
+năng
+nâng
+nghề
+quản
+năng
+nghề
+công
+quản
+năng
+năng
+
+3. CƠ HỘl VIỆC LÀM
+Hoạt động 3
+Nhu câu tuyển dung nhân lyc quàn tri_CSDL
+Em hãy sử dụng cụm từ khoá
+dụng quản trị cơ sở dữ liệu để tim kiếm
+tin trên mạng về nhu cầu tuyển dụng liên quan tới
+việc
+trị CSDL_
+Đã từ lâu; ở những nơi có mức độ tin học hoá cao như các tổ chứctài chính, ngân
+bảo hiểm
+các cơ quan nhà nước cung cấp các dịch vụ
+các
+ti tin
+lớn,
+đều cần các nhà
+trị CSDL để đảm bảo các hệ
+ứng dụng hoạt
+thông suốt.
+Với sự phát triển nhanh chóng của Internet; rất nhiều ứng dụng trực tuyến có quy
+mô lớn đã và đang được triển khai như các sàn thương mại điện tử, các mạng xã
+hội, các hệ
+học tập, giải trí có các CSDL lớn và phức
+Việc đảm bảo cho
+các CSDL của các ứng dụng đó luôn hoạt
+tốt là một trong những yêu cầu cốt Iõi
+để cung cấp dịch vụ một cách tin
+Những nhà
+trị CSDL ở các tổ chức đó rất
+được trọng dụng.
+Cuộc Cách mạng
+nghiệp 4.0 có một nội
+quan trọng là
+đổị số,
+theo đó toàn bộ các quy trinh nghiệp vụ của tổ chức chuyển đổi số được tin học hoá
+trên nền
+những CSDL tích hợp, nhất quán và chia sẻ được. Nhu cầu tuyển
+nhà
+trị CSDL sẽ
+nhanh cùng với
+trinh
+đổi số
+Sở hữu
+đại học đúng chuyên ngành,
+có trong
+các
+chứng chỉ về quản
+trị CSDL của các hãng danh
+có kinh nghiệm thực tế sử dụng các hệ QTCSDL
+chắc chắn sẽ mang lại nhưng cơ hội làm việc tại những nơi có đíều kiện làm việc tốt
+và thu nhập cao. Các hiểu biết và kĩ
+trị CSDL
+sẽ hết sức hữu ích cho
+tất cả những ai có nhu cầu phát triển
+lực chuyên môn ở những bậc học cao hơn
+liên quan tới tin học như Khoa học
+tính, Hệ
+tin
+Khoa
+dữ liệu,
+Nhu cầu nhân Iực quản trị CSDL
+theo nhu cầu phát triển các ứng
+dụng tin
+sử
+CSDL
+Có thể tìm được rất nhiều địa chỉ
+nhờ
+cụ tìm kiếm trên
+Internet:
+Tại sao nhu cầu nhân lực về quản trị CSDL ngày một tăng?
+LUYÊN TÂP
+1. Hãy tim danh sách ít nhất 5 trường đại học có đào tạo CSDL
+tin học quản lí.
+2. Hãy tìm một số địa chỉ cung cấp các dịch vụ đào tạo để cấp chứng chỉ về CSDL
+của các
+ti như IBM, Oracle; Microsoft.
+VÂN DUNG
+1. Hãy tìm ba địa chỉ
+dụng nhà quản trị CSDL trong ngành
+hàng.
+2. Hãy tim ba địa chỉ
+dụng nhà
+trị CSDL trong các
+ti tin học
+80
+tuyển
+thông
+quản
+công
+hàng ,
+công,
+công
+hay
+thống
+quản
+học
+động
+thống
+tạp
+động
+quản
+cậy.
+chuyển
+công
+dung
+tảng
+dụng
+chuyển
+quản
+tăng
+quá
+bằng
+tay
+tiếng ,
+quản
+năng
+cũng
+năng
+thống
+máy7
+thông
+học
+tăng
+học
+dụng
+tuyển
+dụng
+công
+hay
+công
+tuyển
+ngân
+tuyển
+quản
+công

@@ -1,0 +1,346 @@
+[
+  {
+    "knl_id": "1.1",
+    "knl_name": "Duyệt, tìm kiếm và lọc dữ liệu, thông tin và nội dung số",
+    "assigned_units": [
+      7
+    ],
+    "topk_units": [
+      7,
+      7,
+      7,
+      7,
+      12
+    ]
+  },
+  {
+    "knl_id": "1.2",
+    "knl_name": "Đánh giá dữ liệu, thông tin và nội dung số",
+    "assigned_units": [
+      7
+    ],
+    "topk_units": [
+      11,
+      12,
+      7,
+      7,
+      5
+    ]
+  },
+  {
+    "knl_id": "1.3",
+    "knl_name": "Quản lý dữ liệu, thông tin và nội dung số",
+    "assigned_units": [
+      12,
+      11
+    ],
+    "topk_units": [
+      12,
+      11,
+      10,
+      12,
+      11
+    ]
+  },
+  {
+    "knl_id": "2.1",
+    "knl_name": "Tương tác thông qua công nghệ số",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      5,
+      9,
+      9,
+      12
+    ]
+  },
+  {
+    "knl_id": "2.2",
+    "knl_name": "Chia sẻ thông tin và nội dung qua công nghệ số",
+    "assigned_units": [
+      6,
+      12
+    ],
+    "topk_units": [
+      6,
+      9,
+      12,
+      6,
+      12
+    ]
+  },
+  {
+    "knl_id": "2.3",
+    "knl_name": "Sử dụng công nghệ số để thực hiện trách nhiệm công dân",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      9,
+      9,
+      9,
+      12
+    ]
+  },
+  {
+    "knl_id": "2.4",
+    "knl_name": "Hợp tác thông qua công nghệ số",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      12,
+      10,
+      9,
+      9
+    ]
+  },
+  {
+    "knl_id": "2.5",
+    "knl_name": "Thực hiện quy tắc ứng xử trên mạng",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      9,
+      9,
+      9,
+      9
+    ]
+  },
+  {
+    "knl_id": "2.6",
+    "knl_name": "Quản lý danh tính số",
+    "assigned_units": [
+      9,
+      16
+    ],
+    "topk_units": [
+      9,
+      16,
+      15,
+      16,
+      9
+    ]
+  },
+  {
+    "knl_id": "3.1",
+    "knl_name": "Phát triển nội dung số",
+    "assigned_units": [
+      5,
+      9,
+      25,
+      8,
+      29
+    ],
+    "topk_units": [
+      5,
+      9,
+      25,
+      8,
+      29
+    ]
+  },
+  {
+    "knl_id": "3.2",
+    "knl_name": "Tích hợp và tái lập nội dung số",
+    "assigned_units": [
+      12
+    ],
+    "topk_units": [
+      5,
+      16,
+      12,
+      11,
+      12
+    ]
+  },
+  {
+    "knl_id": "3.3",
+    "knl_name": "Thực thi bản quyền và giấy phép",
+    "assigned_units": [
+      3
+    ],
+    "topk_units": [
+      3,
+      3,
+      12,
+      9,
+      7
+    ]
+  },
+  {
+    "knl_id": "3.4",
+    "knl_name": "Lập trình",
+    "assigned_units": [
+      1
+    ],
+    "topk_units": [
+      14,
+      1,
+      1,
+      5,
+      3
+    ]
+  },
+  {
+    "knl_id": "4.1",
+    "knl_name": "Bảo vệ thiết bị",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      16,
+      15,
+      9,
+      5,
+      9
+    ]
+  },
+  {
+    "knl_id": "4.2",
+    "knl_name": "Bảo vệ dữ liệu cá nhân và quyền riêng tư",
+    "assigned_units": [
+      15,
+      9
+    ],
+    "topk_units": [
+      15,
+      16,
+      9,
+      15,
+      9
+    ]
+  },
+  {
+    "knl_id": "4.3",
+    "knl_name": "Bảo vệ sức khỏe và an sinh số",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      9,
+      9,
+      12,
+      9
+    ]
+  },
+  {
+    "knl_id": "4.4",
+    "knl_name": "Bảo vệ môi trường",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      9,
+      9,
+      9,
+      7
+    ]
+  },
+  {
+    "knl_id": "5.1",
+    "knl_name": "Giải quyết các vấn đề kỹ thuật",
+    "assigned_units": [
+      5
+    ],
+    "topk_units": [
+      5,
+      15,
+      5,
+      1,
+      16
+    ]
+  },
+  {
+    "knl_id": "5.2",
+    "knl_name": "Xác định nhu cầu và giải pháp công nghệ",
+    "assigned_units": [
+      5
+    ],
+    "topk_units": [
+      7,
+      5,
+      9,
+      5,
+      2
+    ]
+  },
+  {
+    "knl_id": "5.3",
+    "knl_name": "Sử dụng sáng tạo công nghệ số",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      9,
+      5,
+      7,
+      16
+    ]
+  },
+  {
+    "knl_id": "5.4",
+    "knl_name": "Xác định các vấn đề cần cải thiện về năng lực số",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      7,
+      5,
+      16,
+      9
+    ]
+  },
+  {
+    "knl_id": "6.1",
+    "knl_name": "Hiểu biết về AI",
+    "assigned_units": [
+      1
+    ],
+    "topk_units": [
+      9,
+      1,
+      7,
+      15,
+      1
+    ]
+  },
+  {
+    "knl_id": "6.2",
+    "knl_name": "Sử dụng AI có đạo đức và trách nhiệm",
+    "assigned_units": [
+      9
+    ],
+    "topk_units": [
+      9,
+      7,
+      15,
+      2,
+      9
+    ]
+  },
+  {
+    "knl_id": "6.3",
+    "knl_name": "Đánh giá các công cụ AI",
+    "assigned_units": [
+      7
+    ],
+    "topk_units": [
+      7,
+      7,
+      7,
+      9,
+      9
+    ]
+  }
+]

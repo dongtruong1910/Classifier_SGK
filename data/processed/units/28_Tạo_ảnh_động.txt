@@ -1,0 +1,433 @@
+BÀI
+28
+TẠO ẢNH ĐỘNG
+SAU BÀI HỌC NÀY EM SẼ:
+Thực hiện được các thao tác tạo ảnh
+từ mô hình lớp ảnh.
+Em đã
+nhin thấy hinh ảnh chuyển
+nhưng không phải một đoạn
+chưa? Nếu đã từng thấy; em gặp ở đâu?
+1. CÁC THAO TÁC XỬ LÍ TRÊN LỚP ẢNH
+GIMP hỗ
+tạo ảnh gif từ các lớp ảnh mà ta đưa vào. Các lớp ảnh được hiển thị
+lần Iượt từ lớp dưới
+mỗi lớp ảnh tương ứng với một khung hinh
+Do vậy để làm
+một tệp tin ảnh
+ta cần nhiều lớp ảnh và cần thực hiện nhiều thao tác xử Ií trên
+các lớp khác nhau. Những thao tác thường được thực hiện là:
+Mở một
+nhiều tệp làm lớp ảnh mới: chọn Iệnh File
+~
+Open as Layers.
+Chọn đường dẫn đến thư mục chứa ảnh,
+chọn các ảnh muốn mở rồi nháy nút Open:
+Ta
+có thể mở thư mục chứa ảnh,
+chọn và kéo vào màn hinh làm việc của GIMP
+Khoá
+Khi một
+đã sửa xong và muốn
+đảm bảo không bị
+sửa nhầm khi
+sửa
+các lớp
+khác,
+em thực hiện khoá Iớp lại bằng cách: nháy
+Lock
+>
+Kênh Alpha
+chuột vào lớp muốn khoá trong hộp thoại Layer
+Điếm ánh
+Vịtrí và kích thước lớp
+rồi nháy chuột vào thuộc tính mà em muốn khoá
+Hình 28.1. Các thuộc tính khoá
+(Hình 28.1)
+Gom cụm: Khi muốn thực hiện một thao tác
+NG
+nào đó cùng lúc trên nhiều lớp ta nháy chuột vào
+Ô
+thứ hai (hinh sợi dây xích) bên
+trái
+của các lớp muốn cùng thực hiện.
+Gộp lớp: Trong khi thực hiện việc chỉnh sửa ta có thể tạo ra nhiều lớp để xử lí
+từng
+nhỏ
+các lớp sau đó có thể gộp lại để tránh
+Ií
+nhiều lớp
+cách nháy nút
+chuột vào tên lớp và chọn Merge Down
+Lớp được chọn sẽ
+được gộp với lớp ngay bên dưới.
+Giả sử em đang làm việc với bốn lớp ảnh như'
+FIG 11
+Hinh 28.2, Iớp nào có thể thực hiện được Iệnh
+Merge Down? Vi sao các lớp còn lại không thực
+FIG_11_7 jpg #1
+hiện được?
+FIG_11_7 jpg
+layer 1
+Hình 28.2
+133
+động
+từng
+động
+phim
+trợ
+cùng,
+động
+hay
+cũng
+lớp:
+lớp
+vuông
+tay
+phần
+bằng
+phải
+quản
+quá
+phải
+5jpg
+
+2. THIÊT LẬP ẢNH ĐỘNG TỪ LỚP ẢNH
+Hoạt động 1
+Ảnh và video
+Mỗi khi
+cài đặt một
+mềm mới trên điện thoại
+máy tính; trong thời gian
+chờ đợi em sẽ thấy có hình
+tròn quay;
+hồ cát hoặc một thanh chạy
+dần. Hãy phân tích một trong các biểu tượng để xem trong mỗi ảnh ta cần những
+ảnh thành
+nào?
+Để bắt đầu tạo ảnh
+em mở ảnh bằng Iệnh File
+>
+Open as Layers. Ta có
+thể tạo ảnh
+đơn
+như trong phần 1 đã đề cập
+cách chọn Iệnh Filters
+Animation
+Playback. Ảnh
+được tạo gồm các ảnh đã mở, mỗi khung hinh là
+một Iớp ảnh; hiện Iần Iượt theo thứ tự từ dưới Iên trên.
+Em có thể thiết Iập thời gian xuất hiện cho mỗi khung hinh
+cách thêm vào
+sau tên lớp tương ứng cụm "(Xms)"trong đó X là số mili-giây mà ta muốn hiển thị
+hình trước khi chuyển sang lớp tiếp theo.
+Luu ý
+thời gian của các khung
+hình khác nhau có thể được đặt khác nhau: Ví dụ: Lớp có tên Ià Frame
+1
+(1OoOms)
+sẽ được hiển thị 1 giây (1000 mili-giây) trước khi chuyển sang hình tiếp theo.
+Để xuất ra tệp ảnh
+em chọn File
+Export As và gõ tên tệp với
+mở
+là gif (loại tệp trong Select File Type là By Extension) rồi nháy nút Export. Hộp
+thoại xuất tệp hiện ra (Hinh 28.3), trong đó có ba nội dung cần chú ý:
+Nháy vào ô As Animation để tạo ảnh
+Nháy vào ô Loop forever nếu muốn ảnh lặp lại sau khi hiển thị một Iượt từ đầu
+đến cuối. Nếu không nháy vào ô này; ảnh chỉ
+một Iần rồi dừng.
+Nhập giá trị vào ô màu xanh để xác định số
+dừng
+các khung hinh
+chua được đặt thời gian.
+TuT
+T
+no
+Sau khi kiểm tra thông tin;
+em nháy vào nút Export để Iưu tệp tin.
+U0
+U
+0
+U
+Lưu ý: Nếu trong các ảnh đã tải có ảnh
+mà kích thước lớn hơn khung của hinh
+Export Image as GIF
+khi thực hiện Iệnh xuất sẽ có
+GIF Options
+2
+báo:
+The image you are trying to export
+Ipterlace
+as
+a
+GIF
+contains layers which extend
+GIF commert:
+Created with GIMP
+beyond the actual borders of the image.
+Nháy chon để tạo ảnh động
+nháy nút
+để cắt các lớp này cho vừa
+As animation
+với khung hinh.
+Animated GIF Options
+Loop forever   Nháy chon nếu muốn anh lặp lại
+Ngoài ra, GIMP còn cung cấp một số
+Delay betveen frames where unspecified   500
+mnilliseconds
+hiệu ứng để làm ảnh sinh động hơn
+Frame disposal where unspecitied:
+don't care
+@Use delay entered above for all frames
+Để thêm hiệu ứng cho ảnh; em chọn
+7Use disposal entered above for all frames
+Filters
+~
+Animation và chọn trong các
+Help
+Export
+Cancel
+hiệu ứng có sẵn; ví dụ hiệu ứng Bend:
+Hình 28.3. Hộp thoại xuất
+tệp ảnh động
+134
+phần
+phải
+hay
+đồng
+tăng
+vòng
+phần
+động,
+bằng
+giản
+động
+động
+bằng
+phía
+rằng
+khung
+phần
+động,
+rộng
+động
+chạy
+mili-giây a
+giữa
+thông
+động,
+Crop
+
+Blend (Hiệu ứng chuyển
+mờ dần
+Frame 6
+các layer): Hiệu ứng này cần ít nhất 3 Iớp, lớp
+dưới
+là lớp nền; hinh ảnh sẽ được chuyển
+Frame 5 (1O0OOms)
+dần dần từ Iớp 2 Iên
+trên
+Giữa 2 khung
+Frame 4
+hinh tương ứng với 2lớp ảnh gốc có một số khung
+hinh trung gian
+Iượng trong ô Intermediate
+Frame 3 (5OOms)
+frames) được tạo
+ra
+cách
+hoà trộn lớp
+Frame 2 (1OOOms)
+nguồn, lớp đích và lớp nền:
+Frame 1
+Hình 28.4. Danh sách lớp ảnh
+Nếu em tạo ảnh
+với các lớp như Hình 28.4 và giá trị
+between frames
+where unspecified là 2000 thì thời gian xuất hiện của mỗi khung hình bao lâu?
+3. THỰC HÀNH
+Nhiệm vụ 1 Tạo hinh tròn
+các nét như Hinh 28.5
+Hướng dẫn:
+Bước 1
+Chọn File
+New rồi nhập 500 vào hai ô Width
+và Height rồi
+OK.
+Bước 2.
+Chọn màu
+cho màu nổi,
+chọn công cụ tô
+màu
+hoặc nhấn tổ
+phím Shift+B rồi tô màu cho
+vừa tạo
+Hình 28.5. Hình tròn
+Bước 3. Nháy nút phải chuột vào lớp vừa tạo rồi chọn New
+tạo bỏi các nét
+Layer; đặt tên lớp là Layer 1
+Bước 4. Chọn màu xám nhạt cho màu nổi (ví dụ dcdcdc) và màu xám đậm cho
+màu nền (ví dụ 7f7f7f) .
+Tp
+Bước 5. Nháy chuột vào công cụ Rectangle Select Tool
+và vẽ một
+chọn.
+Trong
+tuỳ chọn
+cụ: nháy chọn vào ô Rounded corners, đặt Radius
+30 và xác định vị trí vùng chọn: Position 235, O; Size 30, 90.
+Bước 6. Nhấn tổ
+Shift + Brồi tô màu cho
+chọn vừa tạo (Hinh 28.6a).
+Bước 7. Chọn Duplicate layer
+trên Layer 1.
+Bước &. Nháy chuột vào lớp ảnh mới (Layer 1 copy) rồi chọn
+cụ Flip
+chọn Vertical trong tuỳ chọn
+cụ rồi nháy chuột vào lớp ảnh Layer 1 copy (Hinh
+28.6b)-
+Bước 9. Nháy nút
+chuột vào lớp Layer 1 copy và chọn Merge Down.
+Bước 10.
+Chọn Duplicate layer
+trên Layer 1
+Bước 11. Chọn Iệnh Unified Transform Tool
+trong hộp
+Cụ
+'(nhấn tổ hợp
+Shift + T); giữ chuột bên ngoài khung hinh và quay sao cho hinh quay 3 bước (tương
+ứng với góc quay 450) rồi nháy vào nút Transform (Hinh 28.6c) .
+Bước 12. Nháy nút
+chuột vào lớp Layer 1 copy và chọn Merge Down.
+Bước 13. Thực hiện lại các bước 10,
+11, 12 với góc quay 900 để thu được
+còn thiếu (Hinh 28.6d)
+135
+động
+giữa
+cùng
+Iớp
+cùng
+(số
+bằng
+động
+Delay
+bẵng
+nháy
+trắng
+hợp
+Iớp
+vùng
+phần
+bằng
+công
+hợp
+phím
+vùng
+công
+công
+phải
+công
+phải
+phần
+
+a)
+b)
+c
+d)
+Hình 28.6. Các bước vẽ hình tròn
+Nhiệm vụ 2 Tạo ảnh động biểu tượng chờ
+hinh trong Nhiệm vụ 1
+Hướng dẫn:
+Bước 1. Chọn Duplicate layer
+trên Layer 1.
+Bước 2 Chọn
+cụ tạo
+chọn có màu tương tự Fuzzy Select Tool
+(hoặc nhấn
+U) trên
+cụ rồi nháy vào nét gạch ở vị trí 12giờ. Toàn bộ nét
+này sẽ được chọn:
+Bước 3. Nhấn tổ
+phím Shift + B để tô màu, nháy chuột vào ô BG color fill
+để tô
+màu nền màu xám nhạt. Rồi đưa con trỏ chuột Iên vùng đã chọn và nháy
+chuột để tô.
+Bước 4
+Chọn Duplicate layer
+trên Layer 1
+Bước 5. Nháy chuột vào
+vừa tạo và kéo lên trên
+Bước 6. Nhấn phím U và nháy chuột vào nét
+Ở vị trí
+1
+giờ
+Bước 7. Nhấn tổ hợp phím Shift+B rồi di chuột Iên
+vừa chọn và nháy chuột.
+Bước 8. Lặp lại các bước 4, 5, 6,
+7 thêm 6 lần; mỗi lần tô một gạch lần Iượt theo
+thứ tự trên
+tròn
+Ta thu được 8 ảnh Iần Iượt theo thứ tự từ dưới Iên trên như
+Hinh 28.7.
+Hình 28.7. Các lóp ảnh
+làm ảnh
+nhiệm vụ 2
+Bước 9. Xoá lớp Layer 1.
+Bước 10. Chọn Iệnh File
+"
+Export As, nhập tên cho tệp ảnh là Waiting.gif, kiểm
+tra các
+số và nháy chọn Export để xuất ra tệp ảnh
+Waiting.gif.
+Lưu ý: Ta có thể vào xem ảnh tại vị trí đã Iưu hoặc xem trước
+GIMP
+Iệnh Filter
+Animation
+back và nháy chọn nút hình tam
+để xem
+LUYÊN TÂP
+1. Để
+đổi thời gian xuất hiện của khung hình trong một tệp ảnh
+em làm
+thế nào?
+2. Một tệp ảnh mở trong GIMP có 5 lớp ảnh: Nếu
+hiệu ứng Blend với số
+hinh trung gian là 5 thi số Iượng khung hinh do GIMP tạo ra để làm trung gian là
+bao nhiêu?
+VẬN DỤNG
+Vẽ và tạo ảnh
+hình
+nảy trên mặt đất.
+136
+dùng
+công
+vùng
+phím
+hộp
+công
+gạch
+hợp
+bằng
+Iớp
+cùng
+gạch
+vùng
+vòng
+dùng
+động
+thông
+động
+bằng
+bằng
+giác
+Play
+động
+thay
+dùng
+khung
+quả
+động
+bóng
+đang

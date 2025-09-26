@@ -1,0 +1,602 @@
+BÀI
+26
+CÔNG CU TINH CHỈNH MÀU SẮC
+VÀ CÔNG CU CHỌN
+SAU BÀI HỌC NÀY EM SẼ
+Biết các tham số biểu diễn màu của ảnh số
+Biết một số
+cụ chọn đơn giản_
+Thực hiện được một số lệnh chỉnh màu đơn
+Khi em đi in ảnh, nhiều khi ảnh nhận được trông rất xỉn màu, khác xa tấm hinh mà
+em đã chọn. Có bao giờ em thắc mắc và hỏi cửa
+tại sao?
+1 CÔNG CỤ TINH CHỈNH MÀU SẮC
+Hoat
+1
+Màu sác cua ành
+Nhóm của
+đi
+vườn hoa Tết nhưng đến nơi đã muộn; ảnh chụp được như
+Hinh 26.1. Theo em bức ảnh
+gặp vấn đề gì? Cần làm gì để ảnh
+hơn?
+ast
+Hình 26.1
+Vườn hoa Tết
+GIMP cung cấp một số
+cụ để tinh chỉnh màu sắc cho ảnh số.
+Em có thể
+chỉnh màu và ánh
+cho toàn bộ ảnh
+'từng
+Để sử dụng các
+Cụ
+nháy chuột chọn Color rồi chọn tên Iệnh tương ứng, một
+điều khiển tương ứng
+hiện ra. Nháy chuột chọn Preview để xem trước kết
+và bỏ chọn để xem hình gốc.
+Chọn Reset nếu muốn bỏ qua các
+đổi đang thực hiện. Một số
+Cụ
+thường
+là Brightness-Contrast (chỉnh độ sáng và độ tương phản) Color
+Balance
+(chỉnh cân
+màu) , Hue,
+Levels,
+Curves ,
+a)
+cụ chỉnh độ
+và độ tương
+(Brightness-Contrast)
+Cụ
+này được sử dụng để điều chỉnh độ
+và độ tương
+của lớp hoặc
+của vùng ảnh đang được chọn (Hinh 26.2a) Em
+độ sáng
+cách
+giá trị trên ô Brightness, giá trị
+lớn thì ảnh
+Tương tự với độ
+tương phản; em
+độ tương
+cách
+đổi giá trị trong ô Contrast.
+122
+công
+giản.
+hàng
+động
+Hằng
+chụp
+này
+đẹp
+công
+phần:
+sáng
+hay
+công
+này
+bảng
+quả
+thay
+công
+dùng
+bằng
+Công
+sáng
+Phản
+phản
+Công
+sáng
+giảm
+bằng
+tăng,
+tăng,
+giảm
+càng
+càng
+sáng
+bằng
+giảm
+phản
+tăng
+thay
+
+dễ sử dụng,
+Cụ
+không thich
+để sửa ảnh phức
+cụ Levels
+có thể giúp điều chỉnh một cách chi tiết hơn, do vậy nếu muốn điếu chỉnh ảnh
+cụ Levels
+em có thể nháy chuột vào nút Edit this Settings as Levels
+dưới ô Contrast_
+b)
+cụ cân
+màu (Color Balance)
+cụ cân
+bằng màu
+để cân bằng màu của layer (Iớp) hoặc một phần ảnh
+đang chọn (Hinh 26.2b).
+cụ này thường dùng để hiệu chỉnh các màu nổi trội.
+Trước hết cần chọn dải màu theo độ
+mà em muốn
+đổi
+Sau đó điều
+chỉnh
+trị của từng kênh màu: Có ba dải độ
+Shadows (chỉnh các điểm ảnh
+tối) , Midtones (chỉnh các điểm ảnh trung binh) và Highlights (chỉnh các các điểm
+ảnh sáng) .
+c)
+cụ chỉnh mâu sẩc (Hue-Saturation)
+cụ chỉnh màu sắc được sử dụng để điều chỉnh
+màu, độ bão hoà và độ
+cho từng mảng màu trên mộtlayer 
+một vùng ảnh đang được chọn (Hinh 26.2c).
+Để chỉnh màu sắc; chọn một màu trong số sáu màu để chỉnh. Sáu tuỳ chọn màu
+chỉnh gồm ba màu cơ bản red-đỏ, green-xanh lục,
+blue-xanh lam và ba màu in cơ
+bản là cyan-xanh Iơ, magenta-hồng và yelow-vàng: Nếu chọn Master thi tất cả các
+màu đều được
+đổi .
+Sau khi chọn màu tinh chỉnh
+em thực hiện
+đổi giá trị Hue để đổi
+màu
+trên
+tròn màu; Lightness để đổi độ
+và Saturation để đổi độ bão hoà của
+màu đang chọn.
+Brightncss-Contrast
+Color Balance
+Hue-Szturation
+Adjust Brightness and Contrast
+Color Balance
+Hue-Saturation
+1mg_21207122_ 72541j99-5 (Lesson 83c;
+Ikig_2C2C0122 17254COjpy-5 (Lesson d<lo
+IMg_ 20230122 1725400jp5-5 (Lesson B.xcf)
+"resets:
+Prezets:
+Prezetz:
+Brightness
+Select Range to Adjust
+Select Primary Color to Adjust
+Contrast
+Shadows
+RI THcl
+Edit these Settingz as Levels
+Midtones
+R
+Ilending Cptisrs
+Ighlights
+9Y
+M
+@review
+Spltyiew
+Adjust Color Levels
+SkG
+[Master
+Cyan
+0.or Red
+G
+Llelp
+Reset
+@K
+Crncel
+Magcnta
+0.0; Grcen
+'Yellow
+002 Ulue
+a
+@verlap
+5.07
+Reset
+Adjust Selected Color
+Preserve Jumínosity
+Hue
+2of
+Blending Options
+Lightnzss
+2.oF
+Preview
+Split zie"
+Saturalion
+Do;
+Help
+Reset
+QK
+Cancel
+Reset Colcr
+Blending Options
+b)
+Mode
+ace
+Opacity
+'02.0
+Preview
+Split yiew
+Help
+Resel
+@K
+Canzel
+C
+Hình 26.2
+Một số
+Cụ
+biến trong
+Colors
+Nếu em muốn làm màu của các
+hoa thược dược đỏ hơn thi
+cụ gì?
+123
+Tuy
+công
+hợp
+tạp
+Công
+bằng
+phía
+công
+bẵng
+Công
+Công
+dùng
+Công
+sáng
+thay
+giá
+sáng:
+Công
+Công
+tông
+sáng
+hay
+thay
+thay
+tông
+vòng
+sáng
+Range
+Rep
+phổ
+bảng
+công
+bông
+dùng
+công
+
+2 VAI TRÒ, Ý NGHĨA VÀ CÁCH THIÊT LẬP VÙNG CHỌN
+Hoạt động 2
+Tin hiêu
+chon
+Với bứcảnh
+táo màu đỏ (Hinh 26.3a) em cónghĩ ra cách chỉnh màu trên toàn bộ
+ảnh để thu được trái táo gồm hai nửa với màu sắc khác nhau
+dụ như Hinh 26.3b)
+không?
+a
+b)
+Hình 26.3. Trái táo
+chọn có vai trò quan trọng trong việc chỉnh sửa ảnh.
+chọn cho phép
+em chia nhỏ hinh ảnh để thực hiện các thao tác (Iệnh xử lí) khác nhau trên từng phần
+Nếu
+có
+chọn thì các Iệnh chỉnh sửa ảnh được thực hiện cho toàn
+bộ ảnh
+Ba
+Cụ
+thường được
+để tạo vùng chọn như sau:
+Công cụ
+Chức năng
+Cách thực hiện
+Tạo một
+chọn hình chữ
+Rectangle
+nhật. Phím tẳt R
+Bước
+1
+Kéo
+thả
+chuột   để
+tạo
+Select Tool
+vùng chọn.
+Bưóc 2 Điều chỉnh kích thước của
+một vùng chọn hình tròn
+vùng chọn-
+Ellipse
+hoặc hình elip. Phím tắt E.
+Select Tool
+Voi CUoc $ONG
+Kéo thả chuột bao quanh vùng cần
+Tạo một vùng chọn có hinh
+chọn hoặc nháy chuột Iên ảnh để
+Free
+dạng tuỳ ý.
+tạo
+ra các đíểm xác định đường
+Select Tool
+bao kín cho vùng chọn_
+Nhấn giữ các phím Alt+Ctrl và kéo thả
+chọn để cắt và di chuyển
+chọn
+tới vị trí mới. Nhấn giữ các phím Alt+Shift và kéo thả
+chọn để sao chép và di
+vùng chọn tới vị trí mới.
+Với các
+cụ chọn hình chữ nhật hoặc hình elip và đang có một vùng chọn: Nhấn
+phím Shift để tạo vùng chọn mới thì
+chọn mở
+thêm vùng chọn mới; Nhấn
+giữ phím Ctrl để tạo
+chọn thi
+chọn được trừ bớt đi
+chọn mới.
+Vùng chọn giúp em chỉnh sửa trong
+của ảnh
+Nếu ảnh có hình một chiếc đĩa hinh tròn;
+em
+cụ nào để chọn chiếc đĩa đó?
+Phím tắt chọn
+cụ đó là gì?
+124
+vung
+quả
+(ví
+hay
+Vùng
+Vùng
+riêng .
+không
+vùng
+công
+dùng
+vùng
+Tạo
+vùng
+vùng
+vùng
+công
+giữ
+vùng
+rộng
+vùng
+vùng
+vùng
+phần
+từng
+dùng
+công
+công
+
+3. THỰC HÀNH
+Nhiệm vụ 1. Chỉnh độ
+độ tương phản và mâu sẩc cho ảnh trong Hinh 26.4
+Hướng dẫn:
+Ảnh gốc hơi mờ và
+màu hơi Iạnh so
+cảnh binh minh_
+Trước tiên ta sẽ
+và độ
+phản giúp ảnh rõ
+hơn
+Sau đó, ta sẽ chỉnh màu để ảnh
+ấm hơn phù
+với khung cảnh binh minh.
+Với ảnh nàỵ, dải màu nên chỉnh là dải
+trung binh và cao
+Chi tiết các bước thực hiện như sau:
+Bước 1. Chọn Colors
+Brightness-Contrast.
+Bước 2
+đổi giá trị trong hai ô Brightness và Contrast (Hình 26.6) cho đến
+khi thu được kết
+hợp lí. Với hinh này các giá trị là 42 và 59.
+Hình 26.4. Ảnh gốc trong Nhiệm vụ 1
+Hình 26.5. Sau khi chỉnh độ
+và độ tưong phản
+RET NOI TRI TH Úw
+Brightness-Contrast
+65016
+Adjust Brightness and Contrast
+IMG_0654jpg copy #1-82 ([FIG_8_S1exponte
+Presets:
+71
+Brigh
+42
+Save Settings as Named
+Contl
+59
+Enter a name for the preset
+Ble
+B&d
+Pre
+ỵiew
+QK
+Cancel
+He
+49y5<
+sdcel
+Hình 26.6. Lưu các thiết lập
+125
+sáng
+tông
+với
+tăng
+sáng
+ràng
+tương
+hợp
+Thay
+quả
+sáng
+
+Lưu ý: Sau khi thiết đặt giá trị độ
+và độ tương phản; em có thể lưu các thiết
+đặt
+để sử dụng lần sau
+cách nhấn vào nút + bên
+ô Presets. Hộp thoại
+xuất hiện để đặt tển cho cách thiết đặt này và nháy nút OK để Iưu lại (Hinh 26.6)
+Lần sau muốn sử dụng các tham số như thiết đặt này chỉ cần chọn tên đã nhập ở ô
+Presets
+Bưóc 3. Chọn Colors
+Color Balance
+Bước 4. Trên hộp thoại Color Balance, lần Iượt chọn từng dải màu và
+đổi
+trị trong các ô phía dưới cho đến khi ảnh có màu sắc ưng ý. Trong Hinh 26.7 ảnh
+được sửa màu trong dải màu trung binh, giá trị các ô Red, Green; Blue lần Iượt là 3,
+=
+11 và 10. Các thiết lập này
+có thể lưu lại để sử dụng sau này như với
+Cụ
+Brightness-Contrast.
+Hình 26.7.Ảnh sau khi chỉnh Color Balance
+Nhiệm vụ 2. Thực hành
+vùng chon và thực hiện các lệnh chỉnh độ sẩc
+nét và cân
+màu cho
+đã chon cho ảnh trong Hoạt
+1
+Hướng dẫn:
+IE
+vùng €
+1
+Hul
+Ảnh gốc được
+khá tối, cần được chỉnh
+cho toàn bộ ảnh. Ảnh có các
+với màu sắc chủ đạo khác nhau rõ
+do vậy nên tạo các vùng chọn và chỉnh
+sửa màu sắc trên từng vùng
+vì chỉnh màu
+cho cả ảnh
+Bưóc 1. Chọn
+cụ Brightness-Contrast để
+độ
+và độ tương phản
+(Hinh 26.8).
+Bưóc
+2
+Chọn
+cụ Rectangle
+Select
+Tool
+(trên hộp
+cụ hoặc
+nhấn phím R) rồi tạo
+chọn chứa hoa thược dược.
+Hình 26.8. Sau khi
+độ
+độ tưong
+126
+sáng
+bằng
+phải
+này
+thay
+giá
+cũng
+công
+tao
+bẵng
+động
+chụp
+sáng
+vùng
+ràng,
+thay
+chung
+công
+tăng
+sáng
+công
+công
+vùng
+tăng
+phản
+sáng
+
+Bước 3. Chọn Colors
+Hue-Saturation, chỉnh các thành
+màu cho đến khi
+phù hợp.  Trong Hinh 26.9, giá trị Lightness và Saturation của màu Green là 16.
+Hình 26.9
+Ảnh sau khi chỉnh màu
+Hình 26.10. Chọn
+hoa vi-ô-lét
+hoa thược dưọc
+cụ chọn tự do
+Bước 4. Chọn
+cụ Free Select Tools
+trên hộp
+Cụ
+sau đó nháy chuột
+để tạo
+chọn chứa
+hoa vi-ô-let (Hinh 26.10).
+Bước 5. Chọn Colors
+Color Balance; điều chỉnh dải Midtones của màu Blue
+để phần hoa đậm hơn rồi nháy chuột vào nút OK để
+đổi màu sắc trên ảnh
+(Hình 26.11).
+Ngoài cách sử dụng Color Balance; em có thể sử dụng
+cụ Hue-Saturation;
+Levels;
+để
+đổi màu sắc. Trong trường
+này; ta muốn thành phần màu
+xanh lam của các điểm ảnh
+Iên nên khi sửa đều sửa trên kênh Blue.
+KE
+Hình 26.11. Ảnh sau khi chỉnh màu hoa Vi-ô-lét
+LUYÊN TÂP
+1. Em hãy thực hiện
+đổi các
+trị điều khiển của mỗi
+cụ trong bài và ghi
+lại tác
+của các tham số đó
+2 Thực hiện chỉnh ảnh
+táo để có kết
+là trái táo như Hinh 26.3b trong
+Hoạt
+3
+VẬN DỤNG
+Chọn một bức ảnh phong cảnh em đã chụp trong điều kiện ánh
+kém. Thực hiện
+các chỉnh sửa cần thiết để bức ảnh
+và
+hơn
+127
+phần
+bằng
+vùng
+công
+công
+công
+vùng
+vùng
+thay
+công
+thay
+hợp
+tăng
+thay
+giá
+công
+động
+quả
+quả
+chụp
+động
+sáng
+sống
+động
+đẹp

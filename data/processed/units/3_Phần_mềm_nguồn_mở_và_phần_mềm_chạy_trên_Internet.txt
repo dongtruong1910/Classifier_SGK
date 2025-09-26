@@ -1,0 +1,950 @@
+PHẨN MÊM NGUỖN MỞ
+BÀI
+3
+VÀ PHÂN MỂM CHẠY
+TRÊN INTERNET
+SAU BÀI HỌC NÀY EM SẼ:
+Trình bày được một số khái niệm và so sánh
+mềm
+mở với
+mềm
+thương mại; nêu được vai trò của
+mềm
+mở và phần mềm thương mại
+đối với sự phát triển của
+thông tin.
+Làm quen với
+mềm
+trên Internet.
+Với ngôn ngữ Iập trinh bậc cao, chương trinh được viết dưới dạng văn bản gần
+với
+ngữ tự nhiên
+Văn bản này
+là mã
+Để máy tính có thể
+được trực tiếp, chương trinh được dịch thành dãy Iệnh máy gọi là mã
+Mã
+rất khó đọc hiểu nên việc dịch sang mã máy còn giúp bẳo vệ chống đánh
+cắp ý tưởng
+sửa đổi
+mểm: Phẩn mềm chuyển giao dưới dạng mã
+thường được
+là phần mềm
+Vào những năm 1970, trong một số trường đại học ở Mỹ đã xuất hiện việc chia sẻ mã
+nguồn để
+phát triển phần mềm, dẫn tới sự ra đời của
+mềm
+mở
+một xu hướng có ảnh hưởng Iớn tới sự phát triển của
+mềm sau nàỵ
+Theo em, lợi ích đốj với
+trong việc chia sẻ mã
+là gì?
+1. PHẨN MỂM NGUN MỞ
+Hoạt động 1
+Tim hiêu các câch chugên giao
+mêm
+Cách thức
+chuyển giao
+mềm cho người sử
+theo chiều hướng "mở dần
+như sau:
+ToTcugg Song
+1.Bán
+phần mềm dưới dạng mã máỵ:
+2 Cho sử
+dụng
+mềm miễn
+có điều kiện hoặc không điều kiện, không cung
+cấp mã nguổn.
+3. Cho sử dụng
+mềm tự do, cung cấp cả mã
+để có thể sửa,
+cấp
+phát triển và
+giao (phân phối ) lại
+mềm
+Hãy thảo luận xem lợi ích của người
+được
+dần như thế nào theo hướng
+mở nói trên
+a) Phôn loai
+mểm theo cách chuyển giao sử
+Các loại
+phần mềm tương ứng với ba cách thức
+giao trong Hoạt
+1
+được gọi Iần Iượt là:
+Phần mềm thương mại (commercial software) là
+mềm để bán. Hầu hết
+các
+mềm thương mại là loại
+để bảo vệ ý tưởng và
+sửa
+đỗi. Phần mềm soạn thảo văn bản Microsoft Word và phần mềm chỉnh sửa ảnh
+Photoshop  .
+là các ví dụ
+mềm thương mại.
+15
+phần
+nguồn
+phần
+phần
+nguồn
+công
+nghệ
+phần
+chạy
+nguồn.
+ngôn
+gọi
+chạy
+máy.
+máy
+phần
+hay
+máy
+nguồn
+gọi
+đóng
+phần
+nguồn
+cùng
+phần
+nghệ
+công
+đồng
+nguồn
+cộng
+phẫn
+phần
+dụng
+phần
+phí
+nguồn
+phần
+nâng
+chuyển
+phần
+dùng
+tăng
+phỗn
+dung
+chuyển
+động
+phần
+phần
+nguồn
+chống
+đóng
+phần
+
+Phần mềm tự do (free software) là phần mềm
+chỉ miễn phí mà còn được
+tự do sử dụng mà không
+xin phép. Phần mềm tự do có thể ở dạng mã
+hoặc
+mã
+Hình 3.1 cho
+thấy một
+của trang web cho phép tải
+mềm làm việc với
+các tệp pdf. Bản Acrobat Reader là phần mềm tự do ở dạng mã máy; chỉ có thế đọc;
+ghi chú và in văn bản: Nếu người
+muốn có các tính
+cao hơn như soạn
+thảo
+một ảnh thành một bản pdf, kí, theo dõi vết chỉnh sửa, chuyển định dạng,
+thì
+mua bản thương mại Acrobat Pro DC.
+Kcomuonco
+Acrobat Reader
+Acrobat Pro Dc
+Thefree global stafdarđ fer relably viewingr printing.
+Thecomplete POF productivity solution with all the
+signing and commenting 0n PDF documents_
+functionallty of Acrobat Reader plus more
+View comment and print
+View, comment and print
+Edit PDF text and Images
+Edit PDF text andímages
+Scan
+Scan
+45
+Sign; Tragk, #nđSend
+Slgn , Tragkr and Send
+Convert PDFs (Into file tyPes like Word,
+Convert PDFs (into file types llke Wore,
+PowerPoint; and Exccl)
+Powverpolnt and Excell
+Download Rcadcr
+Try Acriobat Pro DC
+Hình 3.1
+Acrobat có bản tự do Acrobat Reader và bản thương mại Acrobat Pro DC
+Phần mềm
+mở (open-source software) là phần mềm được cung cấp cả
+mã
+để người
+có thế tự sửa đổi , cải tiến; phát triển,
+lại theo một
+quy định
+là giấy phép được nêu dưới
+thường, phần mềm
+mở
+là tự do và
+không được bảo hành.
+Một số
+mềm mã
+mở được giới thiệu trong bộ sách
+khoa này có
+thể kể tới đó là Inkscape; GIMP; môi trường Iập trình cho ngôn ngữ Python;
+b)
+phêp đôi với
+mềm
+mở
+Khi sử
+mỗi loại
+mềm nói trên; người
+cần tuân thủ các điều kiện
+được phép sử dụng; thường được
+là "giấy phép
+với
+của từ "license" trong
+Anh. Ví dụ, khi trả tiền cho mỗi giấy phép;
+mềm thương mại chỉ được phép
+cài trên một số lượng máy tính nhất định.
+Hoạt động 2
+Giây phêp đôi với phân mêm nguôn mở
+Theo quy định về bản
+các tác
+của
+mềm có quyền bảo vệ
+mềm bị sửa đổi gây phương hại đến uy tín và danh dự của tác
+Nếu là người đầu
+tư
+các tác giả còn giữ cả quyền tạo bản sao; sửa đổi ,
+mềm,
+giao sử dụng,
+Em hãy so sánh
+sử dụng
+mềm
+mở với quy định về bản
+và
+cho biết một số điểm mâu thuẫn.
+16
+không
+phải
+máy
+nguồn.
+phần
+phần
+dùng
+năng
+quét
+phải
+nguồn
+nguồn
+phối
+dùng
+phân
+nguồn
+đây
+Thông
+gọi
+phần
+nguồn
+giáo
+Giây
+nguổn
+Phẫn
+phần
+dụng
+dùng
+nghĩa
+gọi
+tiếng
+phần
+quyền,
+giả
+phần
+chống
+phần
+giả.
+quyền
+cấp
+phần
+nâng
+chuyển
+quyền
+phần
+nguồn
+quyền
+
+Chính vì sự mâu thuẫn
+quy định về bản
+và
+sử dụng
+mềm
+mở mà cần có giấy phép cho
+mềm
+mở
+Giấy phép sẽ cung cấp
+cho người dùng các quyền vốn bị cấm bởi các quy định bản quyền_
+Giấy phép không chỉ đề cập đến
+sử dụng mà còn liên quan đến nhiều vấn
+đề khác như:
+Các tác
+có được miễn trừ bảo hành
+không, có bị kiện vì những sai sót
+của
+mềm
+không.
+Người sửa đổi
+mềm có bắt buộc
+bốrõ các tác
+trước đó
+không, bản sửa đổi có
+khai dưới dạng nguổn mở
+không:
+Có nhiều loại giấy phép
+mềm
+mở, trong đó giấy phép
+GNU GPL (GNU General Public License) được áp dụng
+rãi nhất. Nó có những
+quy định không chỉ đảm bảo
+tiếp cận của mọi người đối với các
+mềm
+nguồn mở mà còn đảm bảo sự phát triến bền vững của
+mềm nguồn mở . Giấy
+phép GNU GPL 3.0 phát hành năm 2007 (xem
+WWW
+gnu.orgllicenseslgplhtml ) có
+một số nội dung
+chú ý sau:
+Được sao chép và phân
+mềm; có
+yêu cầu trả phí cho việc
+giao đó nhưng phải thông báo rõ
+về bản quyền gốc và
+báo miễn
+trừ trách nhiệm bảo hành:
+Được sửa đổi và phân
+bản sửa đổi với điều kiện
+bố mã
+sửa đổi , nêu rõ đó là bản đã được
+đổi , chỉ rõ các thành phần được
+đổi;
+thời
+áp dụng giấy phép GNU GPL cho chính
+đổi đó
+Nói cách
+khác
+phần mềm có nguỗn gốc từ việc sửa đổi một phần mềm
+mở theo GPL
+là
+mềm
+mở theo GPL.
+Phần mềm thương mại
+để bán, người
+mua
+được
+quyền sử dụng: Hẩu hết phẩn mềm thương mại được bán ở
+mã
+là
+mềm
+Phần mềm
+mở là
+mềm được cung cấp cả mã
+mà
+người
+có
+quyền sử dụng,
+đổi và phân
+Iại theo các "giấy
+phép
+thích
+Giấy phép
+GNU GPL là giấy phép điển hình đối với
+mềm
+mớ
+Nó đảm bảo
+tiếp cận của người sử dụng đối
+với mã
+để
+đổi hoặc phân
+lại; bảo đảm
+miễn trừ của các tác
+về hậu
+sử dụng phẩn mềm; bảo đảm
+tên của các tác
+tham gia phát triển; đảm bảo sự phát
+triến bền vững của phần mềm nguồn mở
+cách
+bố rõ
+các thay đổi của các phiên bản và buộc phần phát triển dựa trên
+mềm nguồn mở theo giấy phép GPL
+mở theo GPL.
+1. Em hãy cho biết ý nghĩa của yêu cầu "người sửa đổi,
+cấp phần mềm
+mở phải
+bố rõ ràng
+nào đã sửa, sửa thế nào so với bản gốc".
+2. Ý nghĩa của yêu cầu "phần mềm sửa đổi một phần mềm
+mở theo GPL
+phải mở theo giấy phép của GPL" là
+17
+quyền
+quyền
+phần
+giữa
+nguồn
+phần
+nguồn
+quyền
+giả
+hay
+phần
+hay
+phần
+giả
+phải
+công
+hay
+phải
+công
+hay
+phần
+nguồn
+công
+cộng
+rộng
+quyền
+phần
+phần
+đáng
+phối
+phần
+quyền
+chuyển
+ràng
+thông
+phối
+nguồn
+phải
+công
+phần
+thay
+thay
+đồng
+phần
+phải
+thay
+nguồn
+phần
+nguồn
+phải
+cũng
+dùng
+phải
+mới
+dùng
+dạng
+nguồn
+gọi
+phần
+đóng .
+máy
+nguồn
+phần
+nguồn
+phối
+dùng
+thay
+hợp.
+phần
+công
+cộng
+nguồn
+quyền
+nguồn
+phối
+quyền
+dùng
+thay
+giả
+quả
+quyền
+giả
+đứng
+bằng
+công
+ràng
+phần
+cũng
+phải
+nguồn
+nâng
+phần
+công
+nguồn
+cũng
+gì?
+
+2. VAI TRÒ CỦA PHẨN MỂM THƯƠNG MẠl VÀ PHẨN MÊM
+NGUỔN MỞ
+Phần mềm nguồn mở đã trở thành cơ hội cho những ai muốn có những
+pháp
+mềm tốt với đầu tư thấp. Đến nay; hẩu như lĩnh vực nào của tin học
+có
+các
+mềm
+mở có thể
+thế được các
+mềm
+3.1
+là một số ví dụ vể
+mềm
+mở và
+mềm thương mại
+chức
+3.1. Phần mềm thương mại và
+mềm
+mở có thể
+thế
+Phần mềm nguồn mở
+Lĩnh vực
+Phần mềm thưong mại
+cùng chức năng
+Word
+Excel và PowerPoint
+Writer,
+Calc
+và
+Impress
+Phần mềm văn phòng
+(của Microsoft)
+(trong bộ OpenOffice)
+Linux
+và
+các
+phiên
+bản
+Wndows (của Microsoft)
+(Ubuntu,
+Red Hat,
+Hệ điều hành
+Android
+(cho
+hầu
+hết
+các
+iOS (cho iPhone, iPad)
+điện thoại thông minh
+khác)
+Oracle, SQL server (của
+Hệ quản trị cơ sở dữ liệu
+MySQL,
+PostGreSQL
+Microsoft)
+Phần mềm xử lí ảnh
+Photoshop (của Adobe System)
+GIMP
+Hoạt động 3
+Vai tro cta
+phẫn mêm thuong mai và phân mễm nguôn mở
+Hãy thảo Iuận xem
+mềm
+mở có
+thế hoàn toàn được
+mềm
+thương mại hay không? Tại sao?
+Phần mềm thương mại có hai loại:
+TRITHỨC
+Phần mềm "đặt
+mềm
+may-đo
+được thiết kế theo yêu cầu của
+khách
+Ví dụ
+mềm điều khiển một dây chuyền Iắp ráp
+phần mềm
+đặt xe trên thiết bị di
+của các
+taxi là các ví dụ về phần mềm đặt hàng. Điều
+quan trọng là
+mềm đặt
+không những được thiết kế chính xác theo yểu cầu,
+mà còn được bảo hành theo
+Phần mềm
+gói" được thiết kế dựa trên những yêu cầu chung của nhiều
+người. Chúng_được viết rất hoàn chỉnh và kèm theo
+cụ cài đặt tự
+giúp
+người dùng dễ sử dụng. Người bán không có trách nhiệm sửa chữa nâng cấp theo
+cầu của
+người
+nhưng có thể
+cấp định kì. Phần mềm xử lí ảnh
+Photoshop,
+mềm soạn thảo văn bản Microsoft Word là các ví dụ về
+mềm
+thương mại
+gói.
+Rõ
+là
+mềm
+mở không thể
+'thế đươc cho phần mềm thương
+mại trong thực tế.
+Mỗi phẩn mềm
+mở đáp ứng nhu cầu chung của nhiều
+người; trong khi đó những nhu cầu
+vốn phong phú hơn rất nhiều so với những
+nhu cầu chung thì
+mềm
+'đặthàng" mới có thể đáp ứng được.
+Một điều quan trọng là chính các
+mềm thương mại mới đem lại
+tài
+chính chủ yếu để
+trì các tổ chức làm
+mềm
+18
+giải
+phần
+cũng
+phần
+nguồn
+phần
+nguồn
+Bảng
+thay
+đóng:
+phần
+phần
+nguồn
+cùng
+năng
+phẩn
+nguồn
+Bảng
+thay
+dòng
+nguồn
+phần
+phần
+thay
+(phần
+hàng
+phần
+từng
+hàng .
+hay
+động
+hãng
+phần
+hàng
+đồng.
+hợp
+"đóng
+công
+động
+yêu
+từng
+dùng
+nâng
+phần
+phần
+đóng
+phần
+nguồn
+ràng
+thay
+nguồn
+riêng.
+phần
+phần
+nguồn
+phần
+duy
+
+Cần Iưu ý,
+mềm thương mại thường liên quan đến những
+pháp
+của người
+cấp, nên người
+dễ bị lệ thuộc vào nhà cung cấp cả về giải pháp
+cũng như hỗ trợ kĩ thuật.
+3.2 So sánh phẩn mềm thương mại và phần mềm
+mở
+Phần mềm thưong mại
+Yếutố
+Phần mềm nguồn mở
+nguồn
+Mất chi
+mua
+mềm và
+Chi phí
+Chỉ mất phí
+giao nếu có
+phí
+giao
+Hỗ trợ kĩ thuật
+Có
+Không, nhưng có thể được hỗ
+từ
+Tính minh bạch
+Khó kiểm soát những gì được
+Có thể kiểm soát được mã nguồn
+cài cắm bên trong
+Sự phụ thuộc của
+Bị phụ thuộc vào nhà cung cấp
+Được cộng đồng phát triển theo
+người
+về giải pháp và hỗ trợ kĩ thuật
+chuẩn chung, không
+thuộc
+vào
+ai
+1. Ưu điểm của
+mềm thương mại:
+Phần mềm dạng
+'đặt hàng'
+đáp ứng nhu cầu
+và người
+được hỗ trợ kĩ thuật.
+Phần mềm "đóng gói" có tính hoàn chỉnh cao, đáp ứng nhu cầu
+rãi
+2 Ưu điểm của
+mềm
+mở: chi phí thấp; minh bạch; không bị
+phụ thuộc nhiều vào nhà cung cấp.
+3
+Vai trò của hai loại
+mềm:
+Phần mềm thương mại là nguồn thu nhập chính của các tổ chức,
+cá
+nhân làm
+mềm chuyên nghiệp, góp
+tạo ra thị trường
+mềm phong phú, đáp ứng các nhu cầu
+của cá nhân; tổ chức và
+các nhu cầu chung của xã hội.
+Phần mềm
+mở giúp những người có nhu cầu được sử dụng
+mềm
+chung chất Iượng tốt, ổn định với chi phí thấp
+1. Choví dụ về phần mềm
+gói và phần mềm đặt
+Ưu điểm của phần mềm
+thương mại là gì?
+2. Cho ví dụ về một
+phần mềm thương mại và một
+mềm
+mở có thể
+thế. Ưu điểm của
+mềm nguồn mở là gì?
+3. PHẨN MÊM CHAY TRÊN INTERNET
+Hoạt động 4
+Phân mêm
+trên Internet
+Phần mềm
+trên Internet là gì? Em hãy cho một ví dụ về
+mềm như' vậỵ:
+Hãy nêu ưu điểm của
+mềm chạy trên Internet.
+19
+phần
+giải
+riêng
+dùng
+cung
+nguồn
+Bảng
+đóng
+phần
+phí
+chuyển
+chuyển
+đồng
+trợ
+cộng
+phụ
+dùng
+riêng
+phần
+riêng
+dùng
+rộng
+phần
+nguồn
+phần
+phần
+phần
+phần
+riêng
+nguồn
+phần
+dùng
+đóng
+hàng.
+phần
+nguồn
+phần
+thay -
+chay
+phần
+chạy
+phần
+
+Phần mềm chạy trên Intemnet được hiểu là
+mềm cho phép sử dụng qua
+Internet mà
+không cần
+cài đặt vào máỵ.
+Phần mềm
+trên Internet (phần mềm trực tuyến) rất
+biến, chẳng hạn
+mềm mạng xã hội, thư điện tử và các ứng dụng mua sắm trên mạng
+Lợi ích
+của các
+mềm này là có thể sử dụng ở bẩt cứ đâu, bất cứ nơi nào; bất cứ
+tính nào miễn là có kết nối Internet, chi
+rẻ hoặc không mất phí.
+Ví dụ: Google cung cấp nhiều phần mềm trực tuyến, trong đó
+mềm Google
+Docs giúp soạn thảo văn bản; Google Sheets giúp tạo lập các bảng tính; Google
+Slides giúp trình chiếu trực
+cÓ thể
+thế cho Word,
+Excel
+PowerPoint
+của Microsoft.
+Lưu ý: Để sử dụng được các
+mềm trực tuyến của Google; cần có tài khoản
+Google và truy cập trang docs.google com
+sheets google.com; slides.google.com_
+Ví dụ khi truy cập trang
+docs.google.com để
+soạn
+Docs
+Scorch
+#
+(D
+thảo văn bản, em sẽ nhận
+Start = nciy doconcnt
+Ternp ale gallory
+được trang màn hinh;
+trên là
+các mẫu
+Văn bản,
+phía dưới là
+các văn bản
+của em đã soạn từ trước,
+@lark
+Rosump
+Rasuma
+LBtsr
+Projact Fropcsal
+Cl
+So-itnr:
+(:i;
+nếu có. Nếu muốn sửa văn
+Recent documants
+Ownej by eii-uiie
+0
+D
+bản đã có thi chỉ cần nháy
+chuột chọn văn bản đó, còn
+nếu muốn tạo mới thì nháy
+chuột chọn biểu tượng
+thể
+Hình 3.2
+cập Google Docs
+như Hinh
+3.2
+Em
+có
+soạn thảo tương tự như Word. Văn bản được lưu tự
+trên
+không gian lưu trữ của
+em trên đám mây của Google_
+KETNỐL TRI THỨC
+1. Em hãy nêu những ưu điểm của
+mềm
+trên Internet.
+UP
+u
+VO
+2 Em hãy nêu tên một
+mềm trực tuyến khác với các
+mềm đã nêu trong bài .
+LUYÊN TÂP
+1. Có thể nói
+'Phần mềm
+mở ngày
+phát triển thì thị trường
+mềm
+thương mại
+suy
+không? Tại sao?
+2 Phần mềm ở các trạm ATM (rút tiền tự động) có
+là phần mềm trực
+không?
+VẬN DỤNG
+1.
+Em hãy tim trên Internet và cho biết tên một số
+mềm đồ hoạ
+mở và
+một số
+mềm đồ hoạ thương mại.
+2. Nói chung, các môi trường Iập trinh trên ngôn ngữ Python đều không có chức
+biên dịch để
+mã
+thành mã máỵ. Các chương trinh Python đều
+ở dạng mã
+Liệu có thể coi mọi
+mềm viết
+Python đều là
+mềm nguồn mở
+không?
+20
+phần
+phải
+phổ
+chạy
+phần
+phần
+máy
+phí
+phần
+tuyến
+thay
+hay
+phần
+phía
+Truy .
+động
+1 ta phần_
+chạy
+phần
+phần
+nguồn
+phần
+càng
+giảm
+càng
+hay
+tuyến
+phải
+phần
+nguồn
+phần
+chuyển
+nguồn
+năng
+nguồn.
+phần
+bằng
+phần
+hay

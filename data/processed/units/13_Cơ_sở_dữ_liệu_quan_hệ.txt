@@ -1,0 +1,804 @@
+BÀl
+13
+CƠ SỞ DỮ LIỆU QUAN HỆ
+SAU BÀl HỌC NÀY EM SỄ:
+Hiểu được mô hình CSDL quan hệ
+Hiểu được các thuật ngữ và khái niệm liên quan: bản
+trường (thuộc tính),
+khoá, khoá chính, khoá ngoài; liên kết dữ liệu.
+Trong bài trước các em đã biết khái niệm CSDL
+Đã có khá nhiều mô hình
+CSDL khác nhau. Từ những năm 1970,
+Frank Codd ( 1923
+
+2003) đã đề
+xuất mô hinh CSDL quan hệ. Mô hinh này nhanh chóng trở thành mô hinh được
+biến nhất, nó xuất hiện trong hầu khắp các ứng dụng
+li, kể cả trong
+các ứng dụng thư tín điện tử , mạng xã hội,
+Vậy mô hình CSDL quan hệ là gì?
+1. KHÁl NIỆM CƠ SỞ DỮ LIỆU QUAN HỆ
+Hoạt động 1
+Tin hiêuvê môt CSDL
+tin âm nhac
+Một CSDL các bản nhạc; trên một website âm nhạc; được tổ chức như mô tả trong
+Hình 13.1, gồm có danh sách các tên nhạc sĩ với mã (định danh) là Aid (Hinh 13.1a)
+danh
+sách
+các tên
+ca
+sĨ với mã (định danh) là Sid (Hinh
+13.1b )
+danh
+sách các
+bản nhạc với tên bản nhạc;
+mã nhạc sĩ (tác
+bản nhạc) và mã
+Mid
+định danh
+bản nhạc (Hinh 13.1c)
+danh sách các bản thu âm gồm có mã bản nhạc và mã ca sĩ
+(Hinh 13.1d) Hãy quan sát và trả Iời các câu hỏi sau:
+UC
+1.
+Nhạc sĩ
+tác bản nhạc "Trường ca
+Lô" là nhạc sĩ nào? Nhạc sĩ
+tác
+bản nhạc "Xa khơi'
+là nhạc sĩ nào? U UU
+SuTg
+2.
+Bản thu âm trong Hinh 13.1d tương ứng với dòng 0005 TN là bản thu âm của bản
+nhạc nào, do ca sĩ nào thể hiện?
+Nhạc sĩ
+Ca sĩ
+Bản nhạc
+Bảnthu âm
+Aid
+TenNS
+Sid
+Tencs
+Mid
+Aid
+TenBN
+Mid
+Sid
+1
+Đỗ Nhuận
+TK
+Trần Khánh
+0001
+1
+Du kích sông Thao
+00O1
+TK
+2
+Văn Cao
+LD
+Lê
+0002
+2
+Trường ca sông Lô
+0001
+LD
+3
+Hoàng Việt
+TN
+Tân Nhân
+0003
+3
+Tinh ca
+0005
+TK
+4
+Nguyễn Tài Tuệ
+QH
+Quốc Hương
+0004
+4
+Xa khơi
+0005
+TN
+0005
+1
+Việt Nam quê hương tôi
+0004
+QH
+a)
+b)
+0006
+2
+Tiến về Hà Nội
+0005
+QH
+c)
+d)
+Hình 13.1
+CSDL âm nhạc
+64
+ghi ,
+Edgar
+phổ
+quản
+dùng
+thông
+giả
+sáng
+sông
+sáng
+Dung
+
+CSDL này được xây dựng nhằm đáp ứng nhu cầu tim kiếm các bản nhạc;, bản
+thu âm lưu trữ trong hệ
+theo tên bản nhạc, tên nhạc sĩ
+tên ca sĨ. Có thể
+thấy tất cả các dữ liệu của CSDL này được tổ chức ở dạng các bảng gồm các
+và các cột. Mỗi
+Iưu trữ dữ liệu của các đối tượng có các thuộc tính (được hiểu
+là các đặc tính xác định đối tượng) giống nhau; mỗi đổi tượng một
+Dữ liệu của
+mỗi thuộc tính được
+trong một cột. Ví dụ bảng Nhạc sĩ lưu trữ những
+tin liên
+quan đến nhạc sĩ với các cột thuộc tinh là mã định danh (Aid) và tên nhạc sĩ ( TenNS)
+Còn bảng Ca sĩ mang
+tin của các ca sĨ với các cột thuộc tính là mã định danh
+(Sid) và tên ca sĩ ( TenCS)
+Mỗi
+có quan hệ với một số bảng còn lại
+qua một thuộc tính nào đó:
+Bản nhạc và
+Nhạc sĩ có chung thuộc tính Aid, bảng Bản thu âm và
+Bản nhạc có chung thuộc tính Mid.
+Từ các phân tích trên, có thể thấy Hình 13.2 chính là tóm tắt cách tim câu trả Iời
+cho các câu hỏi nêu trong Hoạt
+1 .
+Nhạc sĩ
+Ca sĩ
+Bản nhạc
+Bản thuâm
+Aid
+9TenNS
+Sid
+Tencs
+Mid
+Aid
+TenBN
+Mid
+Sid
+1
+Đỗ Nhuận
+TK
+Trẩn Khánh
+00O1
+1
+Du kích sông Thao
+0001
+TK
+2
+Văn Cao
+LD
+Lê
+0002
+2
+Trưởng ca sông Lô
+0001
+LD
+3
+Hoàng Việt
+TN
+Tân Nhân
+0003
+3
+Tinh ca
+0005
+TK
+4
+Nguyễn Tài Tuệ
+QH
+Quốc Hương
+0004
+Xa khơi
+00o5
+TN
+00o5
+1
+Việt Nam quê hương tâi
+0002
+QH
+0006
+2
+Tiến về Hà Nội
+0002
+QH
+Hình 13.2. Quan hệ giữa các
+trong CSDL âm nhạc
+Mô hình tổ chức dữ liệu thành các
+dữ liệu của các đối tượng có các thuộc
+tính giống nhau,
+có thể có quan hệ với nhau theo cách tương tự như trên được gọi
+mô hình dữ liệu quan hệ và các CSDL tương ứng được
+là CSDL quan hệ
+Sau đâỵ; chúng ta sẽ chỉ xem xét các CSDL quan hệ. Vi
+để cho
+gọn, nếu
+không gây nhầm Iẫn; ta sẽ
+thuật ngữ CSDL
+cho CSDL quan hệ
+CSDL quan hệ là CSDL Iưu trữ dữ liệu dưới dạng các
+có quan hệ
+với nhau.
+1. Hãy chỉ ra các cột của bảng Bản nhạc.
+2
+Bản thu âm và
+Ca sĨ có chung thuộc tính nào?
+2. MỘT SỔ THUẬT NGỮ, KHÁl NlỆM LIÊN QUAN
+a) Bỏn
+trường
+Về mặt cấu trúc, CSDL quan hệ tổ chức Iưu trữ dữ liệu dưới dạng các
+gồm
+các
+và cột. Mỗi
+của
+được
+là một bản ghi (record) là tập
+các
+tin về một đối tượng cụ thể được quản lí trong
+Mỗi cột trong
+được gọi là trường (field) thế hiện thuộc tính của đối tượng được quản lí trong
+65
+thống
+hay
+hàng
+bảng
+hàng.
+ghi
+thông
+thông
+bảng
+thông
+bảng
+bảng
+bảng
+động
+Dung
+bảng
+bảng
+gọi
+ngắn
+vậy
+dùng
+thay
+bảng
+Bảng
+bảng
+ghi,
+bảng
+bảng
+hàng
+hàng
+gọi
+hợp
+bảng
+bảng
+thông
+bảng:
+
+Nói cách khác mỗi hàng là một bản ghi chép dữ liệu cho một đối tượng; gồm một bộ
+giá trị
+trong các trường tương ứng với các thuộc tính của đối tượng.
+Ví dụ,
+Nhạc sĩ có bốn bản
+là (1, Đỗ Nhuận)  (2,
+Văn Cao) (3, Hoàng
+Việt), (4, Nguyễn Tài Tuệ)
+này có hai trường dữ liệu là Aid và TenNS. Cũng nói
+mỗi bản ghi của
+này có hai thuộc tính là Aid và TenNS.
+Nhờ sự nhất
+về cấu trúc như thế, việc thực hiện các thao tác dữ liệu (cập
+nhật,
+xuất dữ liệu) sẽ có nhiều thuận lợi.
+b) Khoá chính
+Mỗi
+có thể có một
+một nhóm trường mà giá trị của chúng tại các bản
+ghi không
+nhau, xác định
+nhất một bản ghi,
+nói cách khác là bộ
+trị của
+chúng cho phép xác định phân biệt các bản ghi của bảng. Trường
+nhóm trường
+ấy được gọi là khoá của bảng:.
+Ví dụ, ở
+Nhạc sĩ, trường Aid có giá trị
+biệt tại mỗi bản ghi của
+nó
+là khoá của
+Nhạc sĩ.
+Một
+có thể có nhiều khoá. Người ta có thể chọn (chỉ định) một khoá trong
+các khoá đó làm khoá chính của bảng và thường chọn khoá có số trường ít nhất.
+Ví dụ,
+Ở
+Bản nhạc; nhóm ba trường Mid, Aid,
+TenBN có
+trị không trùng
+nhau tại các bản
+chúng làm thành một khoá của
+Bản nhạc. Mỗi bản nhạc
+được
+biệt bởi Aid và TenBN; vi vậy nhóm hai trường Aid và TenBN
+làm thành một khoá của
+Bản nhạc. Mỗi giá trị của trường Mid cũng xác định
+phân biệt một bản nhạc vì vậy Mid
+là một khoá của
+Bản nhạc. Để chọn
+khoá chính của
+rõ
+chọn Mid là tốt hơn cả
+Khoá chính xác định
+nhất bản ghi nên có vai trò quan trọng trong sắp xếp, truy xuất dữ liệu.
+c) Khoá ngoài
+Mỗi
+(A) có thể có trường
+nhóm các trường (k) làm thành khoá chính
+ở một
+khác (B). Khi đó k được gọi là khoá ngoài của bảng A.
+Hai
+Avà B
+được
+là có quan hệ với nhau qua khoá ngoài k của
+A
+Ví dụ: Trường Aid trong bảng Bản nhạc là một khoá ngoài của
+này vì Aid là
+khoá chính ở
+Nhạc sĩ.
+d) Liên kết dữ liêu
+VOI cUÔc SN G
+Có thể
+khoá ngoài của
+để thực hiện ghép nối dữ liệu hai
+với
+nhau. Người ta
+việc ghép nối như thế là liên kết (join) dữ liệu theo khoá. Ví dụ:
+Có thể liên kết
+Bản nhạc với Nhạc sĩ theo trường Aid để biết được tên nhạc sĩ
+tác bản nhạc.
+Nhạc sĩ
+Bản
+Bảng NB
+Aid
+TenNS
+Mid
+Aid
+TenBN
+Mid
+Aid
+TenNS
+TenBN
+1
+Đỗ Nhuận
+0001
+1
+Du kich sông Thao
+0001
+Đỗ Nhuận
+Du kích sông Thao
+2
+Van Cao
+0002
+2
+Trưởng ca sông Lô
+0002
+2
+Vản Cao
+Trường ca sông Lô
+3
+Hoang Việt
+0003
+3
+Tinh ca
+0003
+3
+Hoàng Việt
+Tinh ca
+4
+Nguyễn Tài Tuệ
+0004
+4
+Xa khơi
+0004
+Nguyễn Tài Tuệ
+Xa khơi
+0005
+Việt Namn quê hương tôi
+0005
+Đỗ Nhuận
+Việt Nam quê hương tôi
+0006
+2
+Tiến vê Hà Nội
+0006
+2
+Van
+Tiến về Hà Nội
+Hình 13.3. Mô tả liên kết dữ liệu hai
+Nhạc sĩ và Bản nhạc
+Nếu liên kết bảng Bản thu âm với
+Ca sĩ theo khoá Sid và liên kết với
+NB theo khoá Mid, sẽ có được kết
+là một
+với dữ liệu đầy đủ nhất.
+66
+ghi
+bảng
+ghi
+Bảng
+bảng
+quán
+truy
+bảng
+hay
+giá
+trùng
+duy
+hay
+bảng ,
+bảng
+phân
+bảng
+bảng
+bảng
+giá
+bảng
+ghi,
+cũng
+phân
+cũng
+bảng
+bảng
+cũng
+bảng
+nàỵ
+ràng
+duy
+bảng
+hay
+bảng
+bảng
+bảng
+gọi
+bảng
+bảng
+bảng
+bảng
+dùng
+gọi
+bảng
+sáng
+nhạc
+Cao
+bảng
+bảng
+Bảng
+quả
+bảng
+
+Bản thu âm
+Ca sĩ
+Bảng NB
+Mid
+Sid
+Sid
+Tencs
+Mid
+Aid
+TenNS
+TenBN
+0001
+TK
+TK
+Trẩn Khánh
+0001
+1
+Đỗ Nhuận
+Du kích
+Thao
+0001
+LD
+LD
+Lê Dung
+0002
+2
+Văn Cao
+Trường ca sông Lô
+00o5
+TK
+TN
+Tân Nhân
+0003
+3
+Hoàng Việt
+Tinh ca
+00o5
+TN
+QH
+Quốc Hương
+0004
+4
+Nguyễn Tài Tuệ
+Xa khơi
+0002
+QH
+00o5
+1
+Đổ Nhuận
+Việt Nam
+hương tôi
+0002
+QH
+0006
+2
+Văn Cao
+Tiến về Hà Nội
+Bảng NBC
+Mid
+Sid
+Tencs
+Aid
+TenNS
+TenBN
+0001
+TK
+Trần Khánh
+1
+Đỗ Nhuận
+Du kích sông Thao
+0001
+LD
+Lê Dung
+2
+Văn Cao
+Trường ca sông Lô
+00o5
+TK
+Trần Khánh
+3
+Hoàng Việt
+Tình ca
+0005
+TN
+Tân Nhân
+4
+Nguyễn Tài Tuệ
+Xa khơi
+0002
+QH
+Quốc Hương
+1
+Đỗ Nhuận
+Việt Nam
+hương tôi
+0002
+QH
+Quốc Hương
+2
+Văn Cao
+Tiến về Hà Nội
+Hình 13.4. Môtả liên kết dữ liệu ba
+Quan sát
+NBC (Bản thu âm
+Bản nhạc
+"
+Ca sĩ), em lại thấy những điều
+quen thuộc: Bản thu âm thứ hai là bản thu âm do ca sĩ Lê Dung thể hiện bản nhạc
+Trường ca
+Lô của nhạc sĩ Văn Cao, bản thu âm thứ năm là bản thu âm ca sĩ
+Quốc Hương thể hiện bản nhạc Việt Nam
+hương tôi của nhạc sĩ Đỗ Nhuận.
+Lí do tạo CSDL âm nhạc với bốn bảng Nhạc sĩ, Ca sĩ, Bản nhạc; Bản thu âm như
+ở Hình 13.1
+vì chỉ lập một
+tự
+NBC có thể được nêu ngắn gọn
+như sau:
+VE
+IR
+T
+Nếu chỉ lập một
+nhu
+NBC, dữ liệu tên các ca sĩ, tên các nhạc sĨ và
+tên các bản nhạc có thể Iặp lại nhiều lần với độ dài xâu kí tự khá lớn; gây ra dư thừa
+dữ liệu; tiêu tốn không gian Iưu trữ và dễ mắc lỗi làm mất tính nhất quán của dữ liệu:
+chẳng hạn ở
+trên ghi là Văn Cao;
+dưới là Van Cao,
+Mỗi lần sửa đổi tên
+một ca sĩ
+chẳng hạn cần
+tầm soát sửa đổi ở rất nhiều
+khác.
+Bằng cách lập bốn
+Nhạc sĩ, Ca sĩ, Bản nhạc; Bản thu âm như ở Hinh 13.1
+mỗi lần thay đổi một tên nhạc sĩ hay một tên ca sĩ ta chỉ cần sửa đổi một lần ở
+Nhạc sĩ
+Ca sĨ và khi thực hiện liên kết sẽ có được Bảng NBC với đầy đủ
+dữ liệu đã sửa đổi .
+e) Các trường vò dữ liệu
+Hãy
+xem xét một
+phức
+hơn
+bảng điểm thi tiếng Anh ở một trung
+tâm ngoại ngữ.
+13.1.
+điểm thi
+Anh
+SBD
+và tên
+Giới tính
+Ngày sinh
+Điểm
+Mã kì thi
+1
+Phan Việt An
+Nam
+17/10/2005
+6,25
+A1001
+2
+Trần
+Anh
+Nam
+11/09/2004
+8,00
+A1001
+67
+sông
+quê
+quê
+bảng
+Bảng
+sông
+quê
+bảng
+Bảng
+thay
+tương
+bảng
+Bảng
+dòng
+dòng
+phải
+dòng
+bảng
+bảng
+bảng
+hay
+bảng
+cùng
+tạp
+tiếng
+Bảng
+Bảng
+Họ
+Duy
+
+3
+Bùi Thị Hương
+Nữ
+20/03/2006
+9,50
+A1001
+4
+Đỗ Hồng Hoa
+Nữ
+15/09/2005
+7,75
+A1001
+5
+Nguyễn Văn Khoa
+Nam
+22/11/2003
+7,25
+A1001
+Giả sử người ta chỉ thiết lập một
+trong CSDL để lưu trữ dữ liệu từ
+điểm
+trên, với tên
+là bangdiem và các trường tương ứng Ià sbd, hoten, gt; ngaysinh;
+diem
+makithi. Chúng ta
+tích các đặc điểm dữ liệu trong các trường
+Trường sbd có các giá trị là các số nguyên.
+Trường hoten có các
+trị là xâu kí tự, độ dài giới hạn; ví dụ không
+64 kí tự.
+Trường gt chỉ có hai giá trị là Nữ hoặc Nam
+có thể xem nó là trường có giá trị
+lôgic là đúng ( 1) hoặc sai (0) tương ứng
+thế cho các giá trị là Nữ hoặc Nam
+Trường ngaysinh có các giá trị Ià ngàylthángInăm:
+Trường diem có các
+trị kiểu số thập phân có tối đa 5 chữ số với 2 chữ số
+sau dấu phẩy thập
+Trường makithi có các
+trị kiểu xâu với độ dài 5 kí tự .
+Những phân tích trên cho thấy mỗi trường có các dữ liệu
+một kiểu: Chúng
+được
+là kiểu dữ liệu của trường: Trường sbd có kiểu số nguyên; trường hoten có
+kiểu xâu kí tự độ dài không
+64 kí tự; trường gt có kiểu lôgic, trường ngaysinh có
+kiểu ngày tháng, trường diem có kiểu số thập phân, trường makithi có kiểu xâu kí tự
+độ dài cố định 5 kí tự.
+Việc xác định kiểu dữ liệu của các trường có mục đích:
+Hạn chế việc
+phí
+lượng lưu trữ dữ liệu.
+Kiểm soát tinh đúng đắn về lôgic của dữ liệu được nhập vào bảng: Chẳng hạn
+sẽ
+thể nhập các kí tự dạng chữ vào trường sbd, không thể
+giá trị số vào
+trường ngaysinh;
+KẾT NỐL TRL THỨ C
+1. Hãy chỉ ra khoá chính của
+Ca sĩvà
+Bản nhạc.
+2. Hãy chỉ ra các khoá ngoài của
+Bản nhạc và
+Bản thu âm
+LUYÊN TÂP
+Cho CSDL học tập có các
+sau: Hocsinh (họ tên, số CCCD; số thẻ học sinh
+ngày sinh; địa chỉ) , monhoc (tên; mã môn), Diem
+thẻ học sinh;
+mã môn
+năm
+học kì, loại điểm, điểm) trong đó Ioại điểm chỉ các loại ĐĐG thường xuyên; ĐĐG
+giữa kì, ĐĐG cuối kì.
+Hãy xác định
+các khoá chính và các khoá ngoài của từng bảng, có thể Iấy số
+CCCDlàm khoá chính được không.
+VẬN DỤNG
+Trong kì thi tốt nghiệp trung học
+học sinh được đánh số báo danh; có
+thể thi một số môn, được chia vào các phòng thi được đánh số,
+sau khi chấm sẽ
+có điểm thi với các môn
+kí dự thi. Em hãy đề xuất một số bảng dữ liệu và các
+trường làm khoá chính và khoá ngoài cho các
+đó.
+68
+bảng
+bảng
+bảng
+cùng
+phân
+này.
+giá
+quá
+thay
+giá
+phân.
+giá
+cùng
+gọi
+quá
+lãng
+dung
+không
+nhập
+bảng
+bảng
+bang
+bảng
+bảng
+(số
+phổ
+thông,
+đăng
+bảng

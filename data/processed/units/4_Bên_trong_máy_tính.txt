@@ -1,0 +1,718 @@
+BÀI
+BÊN TRONG MÁY TÍNH
+SAU BÀI HỌC NÀY EM SẼ:
+Nhận diện được một số thiết bị trong thân máy với chức
+và các thông số đo
+hiệu
+của chúng.
+Nhận biết được sơ đồ của các mạch lôgic AND; OR, NOT và giải thích được vai trò
+của các mạch lôgic đó trong thực hiện các tính toán nhị phân.
+Trong chương trinh tin học ở các lớp dưới ,
+Bệ nhở ngoai
+các em đã biết cấu trúc chung của máy
+tính bao gồm: bộ xử lí trung tâm
+bộ nhớ
+trong; bộ nhớ ngoài, các thiết bị vào
+ra
+mach chinh
+nhiên, hầu hết các em mới chỉ nhin
+2
+Bộ xử Ii trung tâm
+thấy các thiết bị bên ngoài như màn hình
+ẵ
+1
+bàn phím; chuột; máy chiếu, bộ nhớ ngoài
+Bộ nhở trong
+(đĩa cứng rời
+thẻ nhớ USB)
+Em
+có biết
+cụ thể trong
+thân
+có
+Hình 4.1. Sơ đồ cấu tạo chức
+những bộ phận nào không?
+của máy tính điệntử
+1. CÁC THIỂT BỊ BÊN TRONG MÁY TÍNH
+Hoạt động 1
+Các thiềt bị bên trong
+tính
+Dưới đây là
+một số thiết bị bên trong thân máỵ;
+em có biết chúng là các thiết bị
+gì không?
+V0LGuo
+0IlG
+40
+19
+a
+b)
+d)
+Hình 4.2. Một sốthiết bị bên trong thân máy tính
+Tất cả các thiết bị bên trong thân máy được gắn với một
+mạch,
+là
+mạch chính (mainboard) như trong Hinh 4.3.
+21
+năng
+năng
+Bảng
+Tuy
+hay
+máy
+năng
+máy)
+01B
+d
+(intel)
+CORE
+X-series
+bảng
+gọi
+bảng
+
+72
+1
+8
+Các
+kết nốì
+Hình 4.3. Bên trong máy tính
+a) Bộ xử lí trung tâm
+Bộ xử lí trung tâm (Central Proccessing Unit
+CPU) còn được gọi là bộ xử lí là
+thành
+quan trọng nhất của máy tính, đảm nhận việc thực hiện các chương trinh
+máy tính. CPU được cấu tạo từ hai bộ
+chính:
+Bộ số học và lôgic (Arithmetic & Logic Unit; viết tắt là ALU): thực hiện tất cả các
+phép tính số học và lôgic trong máy tính_
+Bộ điều khiển (Control Unit):
+bộ các thiết bị của máy tính
+đảm
+bảo máy tính thực hiện
+chương trinh_
+CPU có một
+hồ xung, tạo ra các xung điện áp gửi đến mọi thành
+của
+máy để
+bộ các hoạt động. Mỗi phép tính sẽ được thực hiện trong một số
+hồ
+Vi thế người ta thường
+tần số
+hồ xung, thường là GHz ( 1 tỉ xung
+một giây) để đánh giá tốc độ của CPU.
+Ngoài ra, CPU còn có thêm một số thành
+khác như thanh ghi (register) và
+bộ nhớ đệm (bộ nhớ
+cập nhanh
+cache)
+Thanh ghi là vùng nhớ đặc biệt được dùng để lưu trữ tạm thời các Iệnh và dữ liệu
+đang được xử lí cho phép CPU
+cập tới với tốc độ rất nhanh. Bộ nhớ đệm là một
+bộ nhớ nhỏ chứa dữ liệu được nạp trước từ bộ nhớ trong nhằm
+thời gian đọc
+dữ liệu.
+Thời kì đầu, mỗi máy tính chỉ có một đơn vị xử lí,
+sau này người ta chế tạo các
+máy tính có nhiều đơn vị xử lí được
+trong
+một chíp. Mỗi đơn vị xử Ií
+như thế được
+là một Iõi hoặc một nhân (core) CPU đa Iõi cho phép máy tính xử
+lí nhanh hơn vì có thể thực hiện song song nhiều
+việc
+b) Bộ nhớ trong ROM và RAM
+Tuỳ theo cách sử dụng, bộ nhớ trong (memory) chia thành hai loại RAM (Random
+Access Memory) và ROM (Read Only Memory)
+RAM
+là bộ nhớ có thể ghi được,
+để ghi dữ liệu tạm thời trong khi
+các chương trình nhưng không giữ được Iẩu dài (khi tắt máỵ; dữ liệu trong RAM sẽ
+bị xoá)
+22
+RAM
+8
+(or
+8
+CPU
+;
+{
+cổng
+9
+phần
+phận
+phối
+đồng
+hợp
+đúng
+đồng
+phần
+đồng
+xung
+đồng
+đồng
+dùng
+phần
+truy
+truy
+giảm
+gói
+đóng
+cùng
+gọi
+công
+dùng
+chạy
+
+ROM là bộ nhớ được ghi
+phương tiện chuyên
+các chương trinh
+chỉ có thể đọc mà không thể ghi
+xoá. ROM không cần nguồn nuôi nên có
+thể Iưu dữ liệu và chương trình lâu dài. Nó thường được dùng để lưu các dữ liệu hệ
+thống cố định và các chương trinh kiểm tra hay khởi
+máy tính.
+Các tham số của bộ nhớ trong thường là:
+Dung lượng của bộ nhớ (dung lượng nhớ) tính theo MB, GB, vÍ dụ 8 GB, 16 GB
+32 GB
+Thời gian
+cập trung binh của bộ nhớ là thời gian cần thiết để
+đọc
+tin. Việc
+thời gian
+cập bộ nhớ trong có ý
+quan trọng để
+cao hiệu suất
+thể của máy tinh.
+So với RAM,
+ROM thường có
+Iượng nhỏ hơn và thời gian truy cập trung
+bình lớn hơn
+c) Bô nhớ
+Bộ nhớ ngoài có thể đặt bên trong
+bên ngoài thân máỵ: Bộ nhớ ngoài thường
+là đĩa từ (đĩa cứng, đĩa mếm) , đĩa thễ rắn (Solid ` State Disk
+
+SSD)
+đĩa quang
+Bộ nhớ ngoài
+để Iưu dữ liệu lâu dài , không cần
+nuôi, giá thành rẻ hơn
+RAM và có dung Iượng Iớn.
+Các tham số đo hiệu
+của bộ nhớ ngoài
+giống
+như bộ nhớ trong bao gồm:
+Dung lượng của bộ nhớ thường tính theo GB
+TB. Các bộ nhớ ngoài cỡ TB
+ngày nay đã rất
+biến.
+Thời gian truy cập trung binh là thời gian cần thiết để ghi
+đọc dữ liệu.
+Đĩa
+cứng là thiết bị điện cơ nên tốc độ
+cập chậm hơn nhiều so với đĩa SSD nhưng
+vẫn nhanh hơn nhiều so với đĩa quang
+Các thiết bị bên trong máy tính được gắn trên
+mạch chính, gồm
+có bộ xử lí, bộ nhớ trong, bộ nhớ ngoài và có thể gắn thêm các
+mạch mở
+Bộ xử lí là nơi thực hiện các phép toán và điều khiển toàn bộ máy tính
+hoạt
+theo chương trình: Tốc độ của bộ xử lí đo
+tần số xung
+nhịp, thường được tính theo đơn vị GHz. Bộ xử Ií có thể có nhiều Iõi ,
+mỗi Iõi là một đơn vị xử lí , cho phép thực hiện
+thời nhiều nhiệm vụ
+Bộ nhớ trong là nơi chứa dữ liệu trong khi máy hoạt
+còn bộ nhớ
+ngoài chứa dữ liệu lưu trữ. Các
+số quan trọng nhất của bộ nhớ là
+dung Iượng nhớ, thường được tính theo KB, MB hoặc GB và thời gian
+truy cập trung bình
+1. Có thể đo tốc độ của CPU
+số phép tính thực hiện trong một giây không?
+2. Giá tiền của mỗi thiết bị nhớ có
+là một thông số đo chất Iượng không?
+2 MACH LÔGIC VÀ VAI TRÒ CỦA MẠCH LÔGIC
+CPU là thiết bị quan trọng nhất bên trong thân máỵ: Về bản chất, nó là một mạch
+điện tử được
+để biến đổi
+lí) các dữ liệu nhị phân. Cách thức xử lí dữ liệu
+của CPU được dựa trên cơ sở hoạt
+của các mạch lôgic.
+23
+bằng
+dùng,
+ứng
+dụng
+hay
+động
+hay
+truy
+ghi
+hay
+giảm
+thông
+truy
+nghĩa
+nâng
+tổng
+dung
+ngoâi
+hay
+hay
+nguồn
+dùng
+năng
+cũng
+hay
+phổ
+hay
+truy
+bảng
+bảng
+rộng
+bằng
+động
+đồng
+động
+thông
+bằng
+phải
+(xử
+dùng
+động
+
+a) Một số phép toán lôgic và thể hiện vật li của chúng
+Các phép toán lôgic và hệ đếm nhị phân đã được nêu trong chương trinh lớp 10
+đối với định hướng khoa học máy tính. Ở đây ta chỉ nêu một cách ngắn gọn các kiến
+thức về lôgic và số học nhị phân mà các em theo định hướng tin
+ứng dụng chua
+được giới thiệu.
+Các đại Iượng lôgic là các đại Iượng chỉ nhận một trong hai
+trị Iôgic là
+và "Sai", được thể hiện tương ứng bởi các bit 1 và 0.
+Trên các đại Iượng Iôgic người ta xây dựng một số các phép toán lôgic;, trong đó
+có phép
+(kí hiệu là OR hoặc v
+phép nhân (kí hiệu là AND hoặc ^) phép phủ
+định Iôgic (kí hiệu là NOT hoặc một dấu
+ngang trên đối tượng
+định) phép
+hoặc loại trừ (kí hiệu là XOR hoặc €) như trong Bảng 4.1
+4.1-
+Một số phép toán lôgic
+x AND y
+x OR y
+NOT x
+x XOR y
+X
+y
+XA y
+XV y
+X
+x @ y
+1
+1
+1
+0
+0
+1
+0
+0
+1
+0
+1
+0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+0
+Như vậy;
+Phép nhân hai đại lượng Iôgic chỉ nhận
+trị
+1 khi và chỉ khi cả hai đại Iượng
+x VÀ y đều
+1
+Phép
+hai đại lượng Iôgic chỉ
+1 khi và chỉ khi ít nhất một trong hai đại
+Iượng x HOẶC y
+1 
+Phép
+định một đại lượng lôgic sẽ cho giá trị ngược lại. Phủ định của 0 là 1
+và
+định của 1 là 0
+Phép hoặc loại trừ XOR (OR EXCLUSIVE) của hai đại lượng Iôgic cho kết
+bằng 1 khi và chỉ khi hai đại Iượng đó có giá trị khác nhau.
+Có thể
+dựng các mạch điện hoặc điện
+tử để thực hiện các phép toán lôgic. Để dễ hinh
+dung; ta minh hoạ qua các rơ le (relay) điện từ
+nhưng thực tế các mạch xử lí trong máy tính là
+mạch điện tử hoặc vi mạch có cùng tính
+Ikl
+Ikz
+Rơ le điện từ có một cuộn cảm ứng, khi được
+Hình 4.4. Mạch điện thực hiện
+cấp điện chúng sẽ hút các tiếp điểm để
+một
+phép nhân lôgic
+mạch điện khác. Rơ le như thế
+là loại thường
+mở, chỉ
+mạch khi được cấp điện. Còn Ioại rơ
+le
+thường
+sẽ luôn
+mạch, khi được cấp
+điện rơ le sẽ tách các tiếp điểm để ngắt mạch.
+Ikz
+Sơ đồ mạch lôgic AND.
+Hình
+4.4 là mạch
+Ikil
+điện mắc nối tiếp hai rơ le K1 và K2 với một
+điện
+ước trạng thái có
+điện có
+trị
+Hình 4.5. Mạch điện thực hiện
+lôgic
+1
+còn trạng thái
+có
+điện
+cÓ
+phép cộng lôgic
+24
+học
+giá
+"'Đúng'
+cộng
+phủ
+gạch
+Bảng
+giá
+bằng
+bằng
+cộng
+bằng
+phủ
+phủ
+quả
+xây
+năng
+đóng
+gọi
+đóng
+đóng
+đóng
+bóng
+dòng
+giá
+QUy
+không
+dòng
+
+giá trị lôgic 0. Dễ thấỵ; chỉ khi cả 2 rơ Ie có đíện
+(tương ứng với
+trị lôgic 1) thì chúng mới
+mạch và đèn mới có điện (nhận
+trị lôgic 1).
+lxJ
+Như vậy trạng thái Iôgic của đèn chính là kết
+phép nhân trạng thái lôgic của K1 và K2
+Sơ đồ mạch lôgic OR. Tương tự,
+SƠ'
+đồ mạch
+Hình 4.6. Mạch điện thực hiện
+điện như Hình 4.5 cho phép thực hiện phép
+phép
+định lôgic
+lôgic. Chỉ cần ít nhất một trong hai rơ le có điện là
+mạch
+đèn sáng:
+Sơ đồ mạch lôgic NOT
+một rơ le
+thường
+như Hinh 4.6. Khi cấp điện
+cho rơ le (ứng với giá trị Iôgic 1) thi nó sẽ ngắt mạch điện (cho giá trị lôgic 0) và ngược
+lại, khi không cấp điện cho rơ le (ứng với
+trị lôgic 0) thì mạch điện cho đèn lại
+(cho giá trị Iôgic 1).
+Các mạch điện có đầu vào và đầu ra được
+để thể hiện các giá trị lôgic được
+chung là các mạch lôgic
+mạch số.
+Nói cách khác; mạch lôgic là một mạch
+thực hiện được các biến đổi lôgic. Những mạch lôgic thực hiện các phép toán lôgic
+cơ bản như AND, OR, NOT, XOR
+được
+là các
+lôgic (lôgic gate). Mỗi
+như thế đều có một kí hiệu
+như sau:
+p
+p
+FR
+R
+9=
+9
+AND
+OR
+Cổng NOT
+Cổng XOR
+R =pAq
+R =pVq
+R = p
+R = p0q
+Hình 4.7. Ki hiệu một số
+lôgic cơ bản
+Tất cả các thiết bị số đều phải
+mạch lôgic_
+có mạch lôgic sẽ
+có
+thiết bị số trong đó có
+tính điện tử_
+Vì vậy mạch lôgic rất quan trọng:
+b)
+cộng trên hệ nhị
+TA
+X
+y
+Hệ nhị phân chỉ
+hai chữ số 0,
+1
+Mỗi số trong
+0
+0
+0
+hệ nhị phân được biểu diễn
+một dãy chữ số nhị
+phân; ví dụ số 19 ở hệ thập phân được viết trong hệ nhị
+0
+phân là 10011. Trong hệ thập phân
+một chữ số ở
+10
+thứ k tính từ
+có giá trị được nhân với 1Ok-1. Trong
+hệ nhị phân cũng tương tự,
+trị của chữ số 1 ở
+Hình 4.8. Bảng cộng
+thứ k tính từ
+sẽ là 2k-1
+Ví dụ giá trị của số 10011 sẽ là:
+1
+1
+0
+1 x 24 + 1 x 21 + 1 x 20 = 16 + 2 + 1 = 19
++1
+1
+1
+1 1 0
+1
+Trên hệ nhị phân; có thể thực hiện các phép tính số
+UU
+học
+thường. Để
+các số nhị phân;
+từng chữ số,
+có thể có nhớ sang
+bên trái .
+Hình 4.9
+hai số
+cộng trên hệ nhị phân như trong Hinh 4.8.
+có nhiều chữ số
+Trong bảng
+ta thấỵ; chỉ trong trường hợp X và y đều
+1, phép
+sẽ
+phát sinh số nhớ
+1. Các trường hợp khác số nhớ
+0
+Ví dụ phép
+6 với 7 trong hệ nhị phân được minh hoạ trong Hình 4.9 với hai
+Iần có nhớ sang
+bên trái .
+25
+giá
+đóng
+giá
+quả
+cộng
+phủ
+đóng,
+Dùng
+đóng
+giá
+đóng
+dùng
+gọi
+hay
+cổng
+cổng
+gọi
+riêng
+Cổng
+Cổng
+cổng
+dùng
+Không
+không
+máy
+Phân
+Phép
+x + Y
+dùng
+bằng
+hàng
+phải
+giá
+hàng
+phải
+phải
+thông
+cộng
+cộng
+Cộng
+Bảng
+hàng
+bằng
+cộng,
+cộng
+bằng
+bằng
+cộng
+hàng
+
+c) Minh hoa
+mạch lôgic xây
+mạch điện thực hiện phép cộng 2 bit
+Hoạt động 2
+hai bit
+trong Hinh 4.8 cho thấy việc
+hai số 1 bit có thể cho kết
+là một số
+2 bit nếu phép
+có nhớ. Khi
+hai số nhiều bit; thì số nhớ được
+tiếp vào
+bên trái .
+y
+X+y = zt
+Số nhớ z
+Kết
+t
+ẵ
+9
+0
+0
+0
+1
+1
+1
+0
+1
+0
+1
+1
+1
+10
+1
+0
+Em hãy cho biết z và t là kết
+của phép toán lôgic nào của X và ỵ
+Ta hình
+mạch lôgic
+hai số
+bit là mạch có hai đầu vào (x; y) và hai đầu
+ra (z, t). Có thể thấy z chính là x ^ Y; còn t
+chính là x € ỵ
+Như vậy mạch lôgic thực hiện phép
+cộng sẽ như Hình 4.10.
+2
+XIy
+xBy
+Hình 4.10. Mạch lôgic thực hiện phép cộng
+Ở trên đã có sơ đồ các
+lôgic AND; OR, NOT. Có thể chứng minh được
+XOR
+như mọi
+lôgic đều có thể
+được từ các
+AND, OR, NOT.
+Nói cách khác, bất cứ mạch Iôgic nào
+có thể
+dựng được từ các
+AND;
+OR, NOT.
+Mạch lôgic
+mạch số là các mạch điện
+điện tử có đầu vào và
+đầu ra thể hiện các giá trị Iôgic.
+Mọi mạch lôgic đều có thể xây dựng từ
+các
+AND; OR và NOT.
+nn
+Tấtcả các thiết bị số, gồm cả máy tính đều được chế tạo từ các mạch lôgic:
+1. Thế nào là một mạch lôgic?
+2. Nêu tầm quan trọng của mạch Iôgic.
+LUYÊN TÂP
+1.
+Tính X v y và x ^
+y với hai bộ giá trị của (x, y) là (0, 1) và (1, 0)
+2 Thực hiện những phép
+các số nhị phân nhiều chữ số sau đây rồi
+các
+số sang hệ thập
+Ví dụ 111 + 110 = 1101, chuyển thành 7 + 6 = 13.
+a) 1010 + 101
+b) 1001 + 1011.
+VẬN DỤNG
+Có một chỉ số đo hiệu
+của máy tính là flops (floating operation per second)
+Hãy tìm hiểu flops là gì và tại sao lại ít
+với máy tính cá nhân.
+26
+dũng
+dựng
+Công
+Bảng
+quả
+cộng
+cộng
+cộng
+cộng
+cộng
+hàng
+quả
+quả
+dung
+cộng
+cổng_Z
+cổng
+tổng
+cổng7
+cổng
+cũng
+hợp
+cổng
+cũng
+xây
+hay
+hay
+cổng
+chuyển
+cộng
+phân:
+quả
+dùng

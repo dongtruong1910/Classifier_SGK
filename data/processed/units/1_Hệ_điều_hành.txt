@@ -1,0 +1,671 @@
+Chủ đề
+tính và xã hội
+1
+tri thức
+HỆ ĐlÊU HÂNH
+BÀI
+SAU BÀl HỌC NÀY EM SẼ:
+Trinh bày được sơ lược lịch sử phát triển của các hệ điều hành thông dụng cho PC.
+Chỉ ra được một số đặc điểm của hệ điều hành cho thiết bị di
+Trình bày được một cách khái
+mối quan hệ giữa
+cứng, hệ điều hành và
+mêm
+dụng
+như vai trò của mỗi thành
+trong hoạt
+chung
+của cả hệ thống.
+Khi chưa có hệ điều hành; con người
+can thiệp vào hầu hết quá trinh hoạt
+động của máy tính nên hiệu
+khai thác sử dụng máy tính rất thấp. Sự ra đời
+của hệ điều hành đã giúp khắc phục được tinh
+đó. Việc sử dụng máy tính về
+cơ bản được thực hiện
+qua hệ điều hành
+Em hãy chỉ ra một số
+việc
+mà hệ điều hành thực hiện
+1. LICH SỬ PHÁT TRIỂN CỦA HÊ ĐlỂU HÀNH
+MÁY TÍNH CÁ NHÂN
+Hoạt động 1
+Tin hiêu cac chức
+cùa hê điêu hành
+Hệ điều hành của các loại máy tính nói chung có năm nhóm chức năng sau:
+Quản lí thiết bị (CPU, bộ nhớ hay thiết bị ngoại vi)
+1G
+Quản lí việc lưu trữ dữ liệu (quản lí tệp và thư mục) 
+Tổ chức thực hiện các chương trình, điều
+tài nguyên cho các tiến trinh xử Ií
+trên máy tính. Nói cách khác, hệ điều hành là môi trường để
+các ứng dụng.
+Cung
+môi trường giao tiếp với người sử dụng.
+Cung cấp một số tiện ích giúp
+cao hiệu
+sử dụng máy tính như định dạng
+đĩa, nén tệp, kiểm tra lỗi đỉa cứng, cấu hinh kết nối mạng,
+Theo em
+nhóm chức
+nào thể hiện rõ nhất đặc thù của hệ điều hành máy tính
+cá nhân?
+Khác với các máy chủ; siêu máy tính do kĩ sư vận hành, máy tính cá nhân dành cho
+người
+nên sự thân thiện, dễ sử dụng là tiêu chí quan trọng nhất. Quá
+trinh hình thành và phát triển của hệ điều hành máy tính cá nhân có liên quan chặt chẽ
+tới tiêu chí này và được thể hiện ở hai điểm chính sau:
+Giao diện đồ hoạ.
+Cơ chế "plug & play" để tự
+nhận biết thiết bị ngoại vi khi khởi
+tính_
+5
+Máy
+động 
+phần
+quát
+phần
+phần
+động
+ứng
+cũng
+phải
+quả
+trạng
+thông
+công
+năng
+phối
+chạy
+cấp
+quả
+nâng
+năng
+phổ
+dùng
+thông
+động
+động
+máy
+
+Có thể nói cơ chế plug & play ("cắm và
+còn được hiểu là "cắm vào là chạy")
+là bước
+triển hết sức quan trọng của hệ điều hành máy tính cá nhân. Thời kì đấu;
+thiết bị ngoại vi nhiều khi gây phiền phức cho người sử dung, bởi lẽ mỗi thiết bị ngoại
+vi của một
+đòi hỏi
+có một
+mềm điều khiển
+việc cài đặt không
+luôn dễ
+với những người ít hiểu biết biết về tính
+của thiết bị ngoại vi và
+hoạt
+của nó.
+Cơ chế plug & play giúp hệ đíều hành nhận biết các thiết bị ngoại vi
+ngay khi khởi
+máy và có thể hỗ
+cài đặt các chương trinh điều khiển một cách
+tự
+Về giao diện; ban đầu hệ điều hành máy tính cá nhân sử dụng giao diện
+lệnh,
+người
+gõ các Iệnh, chẳng hạn trong hệ điều hành DOS, Iệnh:
+"erase C:Idulieuldanhsach. txt"
+sẽ xoá tệp danhsach .txt nằm trong thư mục dulieu của ổ đĩa C. Mặc dù đơn
+nhưng
+DOS thiếu tính trực quan; đòi hỏi người dùng
+nhớ cú pháp của từng câu lệnh.
+Bước phát   triển   tiếp
+theo
+Ic: kmkdir
+dulieu
+của hệ điều hành là
+S4
+Ic: Icd
+dulieu
+giao diện đồ
+hoạ với các đối
+Kc:|dulieusdir
+tượng thể hiện
+hinh ảnh-
+Volume
+in
+drive
+C has
+no label
+Một số thành
+cơ bản của
+Volume
+Serial
+Number is
+8951-8910
+giao diện đồ hoạ bao
+Directory of C:ldulieu
+Cửa sổ là một vùng hình
+04/16/2022
+05: 04
+PH
+<DIR>
+104/16/2022
+05:04 PH
+<DIR>
+chữ nhật trên
+màn
+hình
+dành
+0 File(s)
+0
+bytes
+cho một ứng
+Cửa sổ có
+2 Dir(s)
+13,962,616,832 bytes
+thể phóng
+to
+thu
+nhỏ,
+ẩn
+đi
+Idulieu>
+hoặc
+lại
+Hình 1.1. Giao diện lệnh của DOS
+Biểu tượng dễ
+nhớ, cho phép quan sát đối tượng dưới dạng đồ hoạ.
+Chuột là phương tiện chỉ định điểm làm việc trên màn hình thể hiện bởi một con
+trỏ màn hinh.
+Giao diện đồ hoạ có tính trực quan, giúp người sử dụng giao tiếp với máy dễ
+hơn. Các hệ điều hành cho máy tính cá nhân
+ngày
+thân thiện; một số hệ
+điều hành đã hỗ trợ giao tiếp
+giong nói.
+Hai
+máy tính cá nhân chủ đạo là dòng Mac (MacBook, iMac) sử dụng hệ điều
+hành đồ hoạ macOS của Apple và
+PC sử dụng hệ điều hành đồ hoạ Windows
+của Microsoft. Sau đây chúng ta sẽ tim hiểu kĩ hơn lịch sử phát triển của một hệ điều
+hành thương mại và một hệ điều hành
+mở
+biến nhất.
+a) Hệ điều hành Windows
+Wndows đã trải qua nhiều phiên bản
+Sau
+là một số phiên bản quan trọng,
+đánh dấu các mốc phát triển của Windows.
+Phiên bản
+1
+của Windows phát hành
+2ai
+Fsdevh6n
+vào năm 1985 với
+diện đồ hoạ.
+Waiel FPeh:t
+990 8
+201400
+Earovsiyt8K
+Phiên bản 3, phát hành năm 1990 bắt
+Dil)
+Csilin4
+31611
+đầu có khả
+đa nhiệm
+cho phép
+nhiều chương trinh
+thời
+giúp
+cao hiệu
+máy tính. Chức
+kéo thả
+tiện lợi bắtđầu có từ
+bản 3.1. Các tính
+năng làm việc với mạng bắt đầu có từ phiên
+Hình 1.2. Giao diện đ
+của Windows
+bản 3.11
+6
+chạỵ"
+phát
+phần
+phải
+hãng
+riêng;
+phải
+dàng
+năng
+động
+động
+trợ
+động .
+dòng
+phải
+dùng
+giản;
+phải
+dụng
+bằng
+phần
+gồm:
+free
+dụng.
+đóng
+gợi
+dàng
+càng
+càng
+bằng
+dòng
+dòng
+nguồn
+phổ
+đây
+giao
+năng
+chạy
+đồng
+nâng
+quả
+năng
+phiên
+hoạ
+
+Trong
+10 năm đầu, về cơ bản Windows chỉ là một vỏ bọc đồ hoạ và từ
+đó
+các dịch vụ của DOS. Chỉ từ phiên bản Windows 95 (1995) nhiều tính
+cơ bản của hệ điều hành mới được tích hợp trực tiếp vào Wndows
+những
+thế Windows 95 còn có giao diện
+giao tiếp tiện Iợi. Nhiều
+cụ bắt đầu có từ
+phiên bản này hiện nay vẫn được
+nhu
+chọn Start; thanh trạng thái Taskbar
+và biểu tượng shortcut. Cơ chế plug & play lần đầu tiên được sử dụng.
+Năm 2001,
+Microsoft phát hành Windows XP với nhiều cải tiến đáng kể về giao
+diện và hiệu suất làm việc với một
+cấp quan trọng để
+trên các bộ xử lí tiên
+tiến thế hệ 64 bit. Đây là một trong các
+iên bản hệ điều hành thành
+nhất của
+Microsoft với số người sử dụng rất Iớn.
+Các phiên bản Windows 7 (2009),
+Windows 8 (2012) Wndows 10 (2015) và
+Windows 11 (2021) là một thế hệ mới với những
+đổi lớn so với Wndows XP về
+độ an toàn; ổn định và hiệu
+sử dụng tài nguyên. Chúng dễ
+hơn và hầu như
+không còn lỗi bất thường như các phiên bản trước.
+Wndows gần như thống trị thị trường hệ điều hành máy tính cá nhân. Một
+kê vào năm 2018 cho thấy hơn 86% người
+máy tính sử dụng Wndows.
+b) Hệ đỉều hành LINUX và các phiên bản
+LINUX có nguồn gốc từ hệ điều hành UNIX
+một hệ điều hành đa nhiệm (có thể
+thời nhiều chương trinh) và đa người dùng (nhiều người có thể làm việc
+thời) được phát triển từ 1969. UNIX đã chứng tỏ được tính hiệu quả, ổn định và
+an toàn cao. Phần Iớn các phiên bản UNIX thương mại đều có giá thành khá cao.
+tưởng
+dựng một hệ điều
+hành
+kiểu UNIX
+trên các
+tính cá nhân
+được quan tâm từ giữa những năm 1980
+nhưng chỉ thực sự thành
+với hệ điều
+hành LINUX, do Linus Torvalds viếtvào năm
+1991.
+Phiên bản LINUX 1.0 được
+bố
+chính thức năm 1994 dưới dạng mã
+mở cho phép bất cứ ai cũng có thể sử dụng
+và phát triển thêm. LINUX đã khởi đầu trào
+lưu
+mềm
+mở, có ảnh hưởng rất
+Hình 1.3. Màn hình nền của Ubuntu
+0
+lớn đến sự phát triển của
+nghệ thông tin sau nàỵ:
+LINUX được
+người
+đánh
+cao và sử dụng
+rãi. LINUX
+không chỉ
+cho máy tính cá nhân mà còn
+cho cả máy chủ và các thiết bị
+nhúng
+các thiết bị có phần mềm đượctích
+vào
+cứng và được thiết kế riêng
+như ti vi, xe ô tô tự lái
+Đối với máy tính cá nhân; đã có nhiều biến thể khác nhau ra đời từ LINUX như
+RedHat (viết năm 1994 và
+hành
+rãi năm 1999), Suse (1996), Ubuntu (2004)
+thậm chí hệ điều hành Android của
+lớn điện thoại di
+cũng được xây dựng
+trên Iõi của LINUX.
+Các hệ điều hành máy tính cá nhân phát triển theo hướng ngày
+dễ
+sử dụng; thể hiện ở các điểm sau:
+Giao diện thân thiện; từ giao diện
+Iệnh
+sang giao diện đồ
+hoạ và tích hợp với nhận dạng
+nói .
+Khả
+nhận biết các thiết bị ngoại vi với cơ chế plug & play giúp người
+sử dụng không cần quan tâm tới tình điều khiển của thiết bị ngoại v.
+7
+vòng
+gọi
+năng
+Không
+đẹp,
+công
+bảng
+dùng
+nâng
+chạy
+phie
+công
+thay
+quả
+dùng
+thống
+dùng
+đồng
+chạy
+đồng
+xây
+chạy
+máy
+công
+công
+nguồn
+phần
+nguồn
+công
+đồng
+cộng
+dùng
+giá
+rộng
+dùng
+dùng
+phần
+hợp
+phát
+rộng
+phần
+động
+càng
+chuyển
+dòng
+tiếng
+năng
+
+Các hệ điều hành
+dụng nhất trên máy tính cá nhân là MacOS trên
+máy MAC và Windows trên dòng máy PC. Đặc biệt Linux và các
+biến thể của nó như RedHat;
+Suse
+Ubuntu là hệ đíều hành nguồn
+mở
+mang đến cho người
+các hệ điều hành mạnh mẽ,
+tin cậy và
+chi phí thấp
+1. Nêu các nhóm chức năng chính của hệ điều hành.
+2. Nêu các đặc điểm cơ bản của hệ điều hành máy tính cá nhân.
+2 HỆ ĐIỂU HÂNH CHO THIỄT BI DI ĐÔNG
+Hoạt động 2
+Môt sỗ đặc điểm cùa hệ điêu hành cho thiễt bị di
+Điện thoại
+minh, máy tính
+(gọi chung là thiết bị di động) thực chất là các
+máy tính cá nhân. Sự khác nhau giữa hệ điều hành cho thiết bị di
+và hệ điều
+hành của
+tíinh có
+gốc từ sự khác biệt về tính
+tác dụng của hai loại
+thiết bị này. Hãy cùng thảo luận để chỉ ra những điểm khác nhau đó
+Ra đời sau máy tính nhưng điện thoại
+minh và máy tính
+được
+cập
+nhanh, thúc đẩy mạnh mẽ tiến trình tin học hoá xã hội.
+Điện thoại thông minh không chỉ dùng để nghe,
+mà còn được trang bị rất nhiều
+tiện ích như
+ảnh, quay phim; định vị, ghi nhận tinh trạng sức khoẻ.
+Do tính di
+mà hệ điều hành cho thiết bị di
+chú trọng đến khả
+kết
+nối mạng không dây như wifi, Internet di
+(dịch vụ 3G
+4G, 5G,
+.) bluetooth
+tiếp gần NFC.
+Các thiết bị di
+lớn nhỏ; gọn và giao tiếp
+biến nhờ các thao tác vuốt,
+chạm; lắc;
+Chúng thường được
+bị màn hình cảm ứng, bàn
+ảo và nhiều
+cảm biến để tạo các giao tiếp
+ứng dụng độc đáo.
+Có nhiều hệ điều hành cho các thiết bị di động nhưng
+biến hơn cả là iOS của
+Apple dùng cho iPhone; iPad và Android của Google
+cho hầu hết các
+điện
+thoại khác_
+Một số khác biệt của hệ điều hành cho thiết bị di động so với hệ điều hành
+cho
+cá nhân:
+Giao diện đặc biệt thân thiện nhờ nhận dạng hành vi của người
+qua các cảm biến.
+Dễ
+kết nối mạng di
+Nhiều tiện ích hỗ
+cá nhân_
+Hai hệ điều hành
+biến cho thiết bị di
+làiOS của Apple và Android
+của Google.
+1. Vi sao hệ điều hành di
+ưu tiên cao cho giao tiếp thân thiện và kết nối mạng
+di động?
+2. Kể tên ba tiện ích thường có trên thiết bị di
+và chức
+của nó
+8
+thông
+dòng
+hay
+dùng
+dộng
+bảng
+thông
+động
+nguồn
+máy 7
+năng,
+'phổ
+bảng
+thông
+gọi
+chụp
+động
+động
+năng
+động
+hay
+giao
+phần
+phổ
+động
+phím
+trang
+hay
+phổ
+dùng
+dòng
+máy
+dùng
+thông
+dàng
+động
+trợ
+phổ
+động
+động
+động
+năng
+
+3. QUAN HỆ GIỮA HỆ ĐlỂU HÀNH, PHẨN CỨNG VÀ PHẨN MỂM
+ỨNG DUNG
+Hoạt động 3
+Vai trò cua hệ diều hanh
+Có
+không trường
+mềm
+trên một thiết bị không có hệ điều hành?
+Khi nào cần
+có hệ điều hành?
+Thời kÌ mới có máy tính, chưa có hệ điều hành, người sử dụng phải nạp thủ
+chương trinh vào bộ nhớ như gõ Iệnh
+nhập chương trinh được mã hoá trên
+giấy hoặc bìa đục lỗ,
+sau đó nhấn một phím trên bàn điều khiển và đợi kết quả.
+Ngày nay; có nhiều thiết bị được điều khiển bởi các bộ vi xử Ií,
+cài sẵn chương
+trinh ghi trong bộ nhớ ROM, bật Iên là chạy không cần hệ điều hành.
+Ví dụ hệ
+điều khiển Iò vi
+cho phép người dùng chọn lựa các chế độ nấu ăn:.
+nhiên cách này chỉ phù
+với những thiết bị chuyên dụng, chỉ làm một việc,
+thích hợp với các thiết bị đa
+như máy tính có khả
+thực hiện nhiều
+việc.
+Với thiết bị đa
+người dùng có nhu cầu nạp nhiều
+mềm
+dụng và dữ liệu vào bộ nhớ ngoài (cần tổ chức dữ liệu),
+chọn
+mềm để
+giao diện làm việc)  Khi
+Ngưởi
+cần điều
+tài nguyên cho các ứng dụng như
+bộ nhớ,
+suất CPU, các thiết bị ngoại vi. Cần có hệ
+điều hành để đáp ứng các nhu cầu trên.
+Hệ điều hành
+cung cấp các dịch vụ điều khiển máy tính để thực hiện
+Phẩn mềm úng dụng
+các
+việc cơ bản mà nhiều chương trinh ứng
+cần đến. Vi dụ; hệ điều hành có các dịch vụ tim kiếm tệp
+Hệ đíều hành
+trong bộ nhớ ngoài, mở tệp, ghi dữ liệu vào tệp và
+tệp
+Các ứng dụng muốn ghi dữ liệu vào tệp không tự
+điều khiển máy tính làm những
+việc trên mà chỉ
+Fhẩn cứng (CPU, bộnhở
+thiêt bị vàolra)
+các dịch vụ do hệ điều hành cung cấp để thực hiện.
+Như vậỵ;
+cứng là thiết bị xử lí
+tin, hệ điều
+Hình 1.4. Mối quan hệ giữa
+hànhlàmôi trường trung gian giúp phần mềm ứng dụng khai
+phần
+phần mềm
+dụng và hệ điều hành
+thác
+Quan hệ
+hệ điều hành; phẩn cứng và
+mềm ứng dụng được minh hoạ trong Hinh 1.4.
+Hệđiều hành là môi trường để
+mềm ứng dụng khai thác hiệu
+cứng.
+1. Nêu lí do thiết bị xử lí đa
+cần có hệ điều hành.
+2 Nêu mối quan hệ
+cứng;
+mềm ứng dụng và hệ đíều hành.
+LUYÊN TÂP
+1. Em hiểu thế nào về tính thân thiện của hệ điều hành?
+2 Hệ điều hành cung cấp môi trường giao tiếp với người sử dụng như thế nào?
+Môi trường giao tiếp đó thể hiện như thế nào trên hệ đíều hành Windows?
+VẬN DỤNG
+1. Em hãy tìm hiểu xem ngoài máy tính còn có thiết bị điện gia dụng nào sử dụng hệ
+điều hành không.
+2. Thực ra
+Linux là hệ điều hành có
+nguồn gốc từ hệ điều hành UNIX. Hãy tim hiểu
+lịch sử của hệ điều hành Linux để biết thêm về hệ điều hành UNIX.
+9
+phần
+hay
+hợp
+chạy
+phải
+công
+hay
+bẳng
+thống
+sóng
+Tuy
+hợp
+không
+năng
+năng
+phần
+công
+năng
+ứng
+phần
+(cần
+dung
+chạy
+phối
+chạy
+công
+công
+dụng
+đóng
+công
+gọi
+phần
+thông
+cứng
+ứng
+phần
+giữa
+cứng.
+phần
+phần
+phần
+quả
+năng
+phần
+phần
+giữa

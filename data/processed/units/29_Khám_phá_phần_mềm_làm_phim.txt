@@ -1,0 +1,604 @@
+BÀI
+29
+KHÁM PHÁ PHẨN MÊM
+LÀM PHIM
+SAU BÀI HỌC NÀY EM sẼ:
+Tạo được các đoạn phim, nhập tư liệu từ ảnh và video có sẵn, biên tập được
+đoạn phim
+Vụ
+tập và
+trí.
+Bạn Nam làm một đoạn phim để kể lại những điều thú vị diễn ra trong kì
+hè
+của minh
+Tư liệu được sử dụng trong phim là các ảnh; video mà Nam đã
+và
+quay trong kì
+ấy. Em có mong muốn làm được một đoạn phim như vậy không?
+Xin cảm on
+dà theo dui Viuleal
+Ki nghi >
+unk
+Đoạn phim
+Một số hình ảnh trong phim
+Một video
+Đoạn phim
+mở đâu
+trong phim
+kết thúc
+Hình 29.1
+Hình ảnh một vài cảnh trong đoạn phim của Nam
+1. KHÁM PHÁ PHẨN MỂM LAM PHIM
+Ngày nay; việc tạo các đoạn phim cho các mục đích khác nhau không chỉ là nhu
+cầu của các tổ chức, doanh nghiệp
+mà
+dần trở thành nhu cầu khá
+biến của
+mỗi cá nhân. Nếu như trước đây; ta chỉ biết đến các sản phẩm do các nhà làm phim
+chuyên nghiệp làm ra, thì ngày nay; có thể dễ
+tim thấy rất nhiều các đoạn phim
+được tạo ra bởi các cá nhân, đăng tải trên mạng Internet với nhiều thể Ioại nội dung,
+mục đích phong phú, hình thức
+rất hấp dẫn và chuyên nghiệp
+Để đáp
+nhu cầu của người
+nhiều
+phần mềm đã cho ra đời các
+ứng dụng làm phim với những tinh
+hiện đại, hữu ích. Chỉ cần vào Internet, gõ từ
+khoá tim kiếm, chẳng hạn
+mềm làm phim'
+ta có thể nhận về
+gợi ý
+Mỗi
+mềm làm phim đểu có những ưu điểm riêng; tuy nhiên; hầu hểt chúng đểu
+cung cấp một số tính
+cơ bản như cho phép tạo ra các
+cảnh phim từ các
+tư liệu đầu vào như' ảnh hay video clip; mỗi phân cảnh được thiết đặt thời Iượng xuất
+hiện trên phim; thiết lập hiệu ứng chuyển cảnh; ghép âm thanh làm nhạc nền;
+phụ đề,
+để tạo thành một đoạn
+hoàn chỉnh_
+Giao diện chung của một
+mềm làm
+thường có bố cục với các thành
+chính như Hinh 29.2
+1) Thanh công cụ: chứa các nút Iệnh để thiết lập các tính
+các thao tác
+chỉnh sửa phim
+2) Ngăn tư liệu: chứa các tệp ảnh; tệp video clip; tệp âm thanh, . là đầu tư liệu vào
+cho phim
+3) Ngăn xem trước đoạn phim và các Iệnh chỉnh sửa, điều khiển đối tượng đang
+xem trước
+4) Con trỏ thời điểm.
+137
+phục
+học
+giải
+nghỉ
+chụp
+nghỉ
+phổ
+đang
+dàng
+cũng
+ứng
+dùng 
+hãng
+năng
+'phần
+hàng
+ngàn
+phần
+năng
+phân
+Iồng
+tiếng
+phim
+hay
+phần
+phim
+phần
+năng
+hay
+
+Nc
+Fore
+02s
+Scqusnre
+Evel
+2j1o
+Efort
+FCe
+Suu
+F
+F
+F -
+X ,
+Coen
+3i0 Ka(
+8e Prcfd
+Exoytvi1e
+MdApr;
+Mddcriegh
+celrk
+Ad Tave
+add Tide
+Qecid
+Natane
+Yceo Efr5
+Iraqe Erprr
+Pa: EAc
+Terehar
+Transhen
+Celee
+0o Pravlen
+Video Tzcnals <
+Anh 5 Png (Vicec Track 1)
+Meeho Bn
+Sequ nce Plieya Schuetcl
+Cequenuec
+Kidecfleg
+nuo oFiles
+Fors
+2
+3
+a
+149
+A0
+Ar7 J Erq
+aon ' Eng
+jo00 côc
+001.10
+2-0.20 cog
+Ar 54/79
+@rk:
+Uuue1a228
+AszecKodd;
+3
+Maldh Control
+Spil
+Jgo
+~uisosn
+Ouvo <
+5
+10524
+Ooc*07 100
+0 0C:2 ).000
+@oc:J7od
+0-0:26loo
+10o'28 Oo0
+170,26 Coo
+Vio M
+Video Trer1
+X
+X
+X
+1.5j0
+1,5j0
+15u0
+Lso
+0ooo
+Linkcd ^ujid
+1on 07 no
+Tof'02 Ofo
+Tof070go
+Yigcofadv 11,34 9 NCHSjfowarc
+Hình 29.2
+Giao diện chính của
+mềm làm
+VideoPad
+5) Ngăn tiến trình: đây là khu vực giúp theo dõi ,
+lí toàn bộ trình tự cũng như
+các thành
+của phim. Có hai chế độ hiển thị trong ngăn tiến trinh:
+Hiển thị theo Phân cảnh (Story board) (Hinh 29.2) Là chế độ hiển thị đơn
+giúp quan sát trực quan chuỗi các phân cảnh trong phim. Mỗi phân cảnh có thể là một
+ảnh hoặc một video clip_
+Con số chỉ thời Iượng dưới mỗi
+cảnh thể hiện thời gian
+xuất hiện trên phim của phân cảnh đó. Nút Iệnh
+các phân cảnh dùng để thiết
+lập hiệu ứng chuyển cảnh và thời gian diễn ra hiệu ứng.
+Hiển thị theo
+thời
+(Timeline) (Hinh 29.3) Là chế độ hiển thị toàn bộ
+các thành
+của đoạn
+dưới
+các lớp (track) theo
+trinh tự thời gian
+của phim
+S
+Sequence
+3
+Inijo <
+Ourro <
+nmellne
+poC:oq Jo
+0 0o;*10,J0)
+O:00 Z0 CoC
+Aesored 2
+Draq and drr your videc, text and (naqe clips here to ovenzy
+4o20 Trad:
+Qudio Trj 1
+Asotree 2
+Drag
+vour audio ips here to
+Hình 29.3. Ngăn tiến trình hiển thịở chế đ
+thòi gian
+Mỗi đoạn phim có thể có nhiều lớp khác nhau. Ví dụ đoạn phim trên Hình 29.3 có
+hai lớp:
+Video track
+hình số 1, bao
+các ảnh và các video clip
+Audio track 1:
+Âm thanh số 1, bao gồm đoạn âm thanh được sử dụng làm
+nhạc nền cho
+Tại mỗi thời điểm, đoạn phim sẽ thể hiện
+thời các lớp đối tượng nàỵ: Chẳng
+hạn, tại thời điểm con trỏ đang đứng ở Hinh 29.3, phim sẽ hiển thị
+cảnh tại
+Video track 1 và âm thanh nhạc nền ở Audio track 1
+138
+219
+Jntro
+phần
+phim
+quản
+phần
+giản,
+phân
+giữa
+Dòng
+gian
+phần
+phim
+dạng
+đúng
+and
+drop
+Dòng
+gồm
+Băng
+1: lớp
+lớp
+phim.
+đồng
+phân
+
+Có thẻ tạo ra các đoạn phim
+cách sử dụng
+mềm làm phim
+Phần mềm làm phim có các tính
+giúp sắp xếp các tư liệu (ảnh
+video clip, âm thanh) theo một trinh tự, thời Iượng nhất định tạo thành
+chuỗi các phân cảnh để làm thành một đoạn phim hoàn chỉnh
+Hinh 29.2 là giao diện
+mềm làm phim mà Nam sử dụng để thực hiện đoạn
+"Kì nghỉ hè
+nhớ" . Quan sát và chỉ ra:
+a) Các
+cảnh
+ứng với các ảnh trong ngăn Tư liệu.
+b) Thời lượng của mỗi phân cảnh.
+c) Thời Iượng của cả đoạn phim
+2 THỰC HÂNH TẠO VÀ BlÊN TẬP MỘT ĐOẠN PHIM TỪ
+8
+TƯ LlÊU ẢNH VÀ VIDEO CÓ SĂN
+Hướng dẫn thực hành sau đây sử dụng
+mềm VideoPad của nhà sản xuất
+NCH Software; phiên bản không thương mại để minh hoạ. Các em có thể tải
+mềm này từ địa chỉ https:Iwww .nchsoftware com/ideopadlindex html và thực hành
+cá nhân hoặc theo nhóm
+Nhiệm vụ 1. Chuẩn bị tư liệu và kịch bản phim
+Hướng dẫn:
+
+Chuẩn bị tư liệu đầu vào cho đoạn phim: khoảng 5 ảnh và
+1 video clip. Nếu tải
+từ mạng Internet; cần Iưu ý về bản quyền của chúng.
+Xây dựng ý tưởng, kịch bản phim
+Xác đỊnh thứ tự các
+đoạn. Nên đặt tên
+cho các tư liệu theo thứ tự phân đoạn
+kiến, chẳng hạn Ảnh 1, Ảnh 2
+Video 1,
+Video 2
+KẾTMẾ
+IRLTAMC
+Nhiệm vụ 2. Tạo đoạn phim từ tư liệu đã chuẩn bị
+Hướng dẫn:
+Vii CUOc SONG
+Bước 1. Khởi
+phần mềm VideoPad
+Bước 2. Chọn Iệnh Video Wizard tại màn hình khởi
+của VideoPad. Đây là
+tính
+hỗ trợ tạo phim đơn
+và nhanh nhất theo các mẫu có sẵn của
+mềm. Khi hộp thoại Video Wizard hiện
+làm theo
+hướng dẫn tại Hình 29.4.
+Videodad Viaco {dtor
+vrzard
+Selecl , Temnplale
+Các mẫu
+nhóm
+Fll Jicuo
+Full Video (mẫu phim
+có ba đoạn)
+Bot Binndcy
+Butr Jav Cortet
+Ctretrn9
+Srony C7na1i 09
+Groduchion
+1. Chọn một mẫu bất kì
+(chẳng hạn Vacation)
+Ronmplic
+Mldufrg Floves
+Sie  Fb
+Soculion
+2 Nháy chọn Select để
+Sslec
+aree
+bắt đầu
+Hình 29.4. Giao diện chọn mẫu video có sẵn
+139
+bằng
+phần
+năng
+phần
+phim
+đáng
+phân
+phim
+phần
+phần
+phân
+dự
+động
+động
+phần
+giản
+năng
+ra,
+phim
+
+Bưóc 3.
+Tạo video theo mẫu đã chọn.
+Bước 3.1. Chọn tư liệu đầu vào tại hộp thoại Add Content (Hinh 29.5)
+WvideoPed Vidleo Edtor
+Wizaie
+JAdc Filcs To Your Projcc
+Local D
+Árh k nghlhè
+Search Anh < nchi he
+Add Content
+Organize
+Ne" lolder
+This PC
+3D Objccts
+Add Files 
+Dcsktop
+Anh
+Ant: 2
+Ảnh 3
+Dccumcnts
+Drag image(s) or video file(s) here
+Dcwnloads
+Mus <
+Fsures
+445
+Mdeo
+File Datre: "Anh 1" 'Ànn /" "Arha" "Anh4 *À
+Cormnen Vicec Files
+Next
+Cancel
+Qper
+Caluel
+Hình 29.5. Hộp thoại Add Content và Add Files to Your Project
+1. Nháy chọn Add Files.
+2 Hộp thoại Add Files to Your Project hiện
+mở thư mục chứa các tư liệu, chọn
+các ảnh và video tư liệu rồi chọn Open. Các ảnh và video được chọn sẽ được đưa vào
+hộp thoại Add Content. Ở bước
+có thểbổ sung hoặc xoá các tư liệu nếu cần
+3.
+Tiếp tục chọn Next để sang bước tiếp theo
+Bước 3.2
+Chọn âm thanh; nhạc nền cho
+Sau bước chọn ảnh và video clip đầu vào là bước chọn âm thanh hoặc nhạc nền
+cho phim với các Iựa chọn như Hình 29.6.
+VidesPedv dec EJitor
+Ada Music
+UERITKU @
+Use Theme Music
+Sử dụng nhạc nền đi kèm mẫu
+No Music
+LgacNyoun Music
+Không sử dụng nhạc nền
+Tải nhạc nền của em
+Add Mue
+Drag audio fill(s) here
+Chọn tệp âm thanh từ máy tính
+Tải nhạc từ Thư' vện của phẩn mềm
+Loac From Stock Ubrary
+Preview Theme Mlusic
+Nghe thử nhạc nền của mẫu
+Nll
+Carecl
+Hình 29.6. Chọn âm thanh; nhạc nền cho phim
+Ở bài thực hành này, hãy thử Iựa chọn "Sử dụng nhạc nền đi kèm mẫu'
+(Use
+theme music) rồi chọn Ỉệnh Next để
+chuyển sang bước tiếp theo.
+Bước 3.3.
+Biên tập đoạn phim mở đầu (Intro).
+140
+ra,
+này
+phim.
+
+videoFad videc Editor
+Wlzard
+Intro
+Our Incredible
+Mẫu đoạn mở đầu gồm
+Vacation
+1 ảnh và 2
+chữ
+select Heq & for Intrc:
+2 Gõ nội dung chữ xuất
+04 Hne Fle Ear We [olostodin drcr
+hiện trên đoạn mở đẩu
+Lnter intfo le
+MÙa hé
+1. Tích chọn ảnh muốn
+Rerconano ceaco
+Mangn
+3. Chọn màu chữ
+đưa vào đoạn mở đầu
+aahnechrilt Laht Ccadencod
+4. Chọn phông chữ
+Anh 3 prg
+5. Nháy chọn Next để
+chuyển sang bước
+Nert
+Cancei
+tiếp theo
+Hình 29.7.Biên tập đoạn mở đầu phim (Intro)
+Bước 3.4. Biên tập đoạn phim kết thúc (Outro) .
+Thực hiện tương tự Bước 3.3
+Bước 3.5. Xem trước đoạn
+vừa tạo
+Sau khi thực hiện xong các bước trên;
+mềm cho phép ta xem lại đoạn phim
+vừa tạo (Hinh 29.8).
+WideoFad Video Ed icr
+8izu c
+Quay lại các bước trước
+Preview
+để sửa lại nếu cẩn
+K
+nuuununul
+G
+Mùa hè
+G
+nho
+Kết thúc
+trinh tạo
+đoạn phim
+0 6oooo
+0.60.270
+Các nút điều khiển để
+Record Narralian:
+xem trước đoạn phim
+Hình 29.8. Xem lại đoạn
+vừa tạo
+Bước 4.
+chọn Create để kết thúc
+trình tạo đoạn phim (Hình 29.8)
+Bước 5. Lưu lại và xuất bản phim 
+Sau bốn bước trên, phần mềm sẽ hiện ra giao diện như Hinh 29.2 Em có thể
+xem lại đoạn
+của minh ở
+xem trước.
+Luưu lại dự án làm
+của minh, đặttên dự án theo cấu trúc < Tên phim> . <Ngày
+tạoz .vpj.
+Ta sẽ quay lại dự án này để làm cho đoạn phim thêm hấp dẫn ở các tiết
+học sau.
+141
+dòng
+Cheaau
+phim
+phần
+dang
+quá
+phim
+Nháy
+quá
+phim
+ngăn
+phim
+
+Nháy chọn Iệnh Export Video trên thanh
+cụ (Hinh 29.2) để xuất bản phim
+vừa tạo với các lựa chọn
+ý như Hinh 29.9 dưới đây:
+Fxport Videc
+1. Đặt tên cho đoạn phim
+Export File Settings
+Export Fie Name:
+[Mua Fè zánc rhá
+Save to Folder:
+CWUsersWeoevicecs
+Setas Defut Locaton
+2 Chọn đường dẫn tới thư
+Preset:
+Custom
+mục lưu đoạn phim
+File Fomat:
+'Mp4
+DefaytQwib Lelesz
+7
+0
+3. Chon định dạng đoạn phim
+Rezoluticn:
+Auto Match Content {1024x 900)
+chẳng hạn .mp4
+Widesrreen Fit:
+Stetch
+Frame Rare:
+Vanable (SmartMax 45frs)
+Dung lượng đoạn phim ước
+Subtite:
+Overlay
+tính. Dung lượng này phụ
+Esutoted Fle $ ze;
+21,35MB
+15,0ge fee on C;
+thuộc độ dài phim và định dạng
+tệp phim
+4.
+chọn Create để tạo
+Create
+Cancel
+đoạn phim
+Hình 29.9
+Các lựa chọn xuất bản video
+Chúc mừng em đã hoàn thành đoạn phim đầu tiên của của minh
+LUYÊN TÂP
+KẾT NỐLTRLTHỨC
+Mở tệp dự án
+em vừa tạo được
+mềm VideoPad. Tại
+Tư liệu,
+lần lượt mở các trang Sequences, Video Files, Audio Files, Images; quan sát danh
+sách tư liệu tại mỗi trang đó, Iập
+nhận xét theo mẫu dưới đây:
+TT
+Trang
+Lưu trữ tư liệu gồm
+3 chuỗi phân cảnh chính: (1) Đoạn phim mở đầu; (2) Đoạn
+1
+Sequences
+phim chính; (3) Đoạn phim kết thúc .
+2
+Video Files
+3
+Audio Files
+Images
+VẬN DỤNG
+Tạo mới một đoạn phim với tư liệu đầu vào là các ảnh và video khác; hoặc với tệp
+nhạc nền khác theo ý thích của em.
+142
+công
+gợi
+Nháy
+bằng
+phần
+phim
+ngăn
+bảng

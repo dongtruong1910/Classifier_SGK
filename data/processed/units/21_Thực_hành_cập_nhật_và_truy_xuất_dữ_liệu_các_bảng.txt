@@ -1,0 +1,841 @@
+BÀI
+21
+THỰC HANH CÂP NHÂT VÀ
+TRUY XUẤT DỮ LIỆU CÁC BẢNG
+SAU BÀI HỌC NÀY EM SỄ:
+Biết cách cập nhật và truy xuất CSDL
+Cập nhật và truy xuất dữ liệu là hai
+việc chính khi làm việc với một CSDL
+HeidiSQLhỗ
+việc thực hiện các
+việc đó như thế nào với những
+đơn
+không có khoá ngoài?
+Nhiệm vụ. CậP nhật
+nhacsi
+Hướng dẫn:
+1. THÊM MỚI DỮ LIỆU VÀO BẢNG NHACSI
+Chọn
+nhacsi,
+chọn thẻ
+Dữ liệu,
+em sẽ thấy
+dữ liệu có hai trường
+idNhacsi và tenNhacsi nhưng chưa có dữ liệu.
+Taptn
+Chirk ,úa
+Tim kien
+Truyvãn
+Cảc
+(5
+Eẽn
+r? giủp
+C
+Elekde
+X> '
+04
+01
+Fyniific
+Yolor bng
+chu: 127,001
+Ca :0 dừlièu: mymJziz
+Unnamed
+Jabe nhacs
+Cùlệu
+Trjyvin
+mymusc
+112 OKB
+hantheo
+FIFn -F|ttri
+SrxFr
+( nlunng (}')
+Icr
+bannhac
+32 0KB
+idacsi
+tenNka-si
+bao-huan
+48 OKB
+casi
+16.0KB
+nhazsi
+16,dKE
+~Hình 21.1
+Giao diện của thẻ dữ liệu
+Để thêm vào một
+dữ liệu mới có thể nhấn phím Insert hoặc chọn biểu tượng
+nháy nút
+chuột Iên
+dữ liệu của bảng và chọn Chèn hàng. Một
+dữ liệu
+sẽ xuất hiện. Tiếp theo nháy đúp chuột vào từng ô trên
+đó để
+dữ liệu tương ứng cho từng trường.
+Trường idNhacsi là có kiểu INT, AUTO_INCREMENT (tự
+điền giá trị) nên
+không cần nhập dữ liệu cho trường nàỵ: Nháy đúp chuột vào ô ở cột tenNhacsi để
+nhập tên Nhạc sĩ, nhấn phím Enter, sau đó nhấn phím Insert để nhập
+mới .
+[nnarnsd myntiir nhacen
+Heidisi % Hortah F I/lin.'u6h
+"ptin
+Chỉnh zửa
+Tin kiem
+Truyvãn
+Cảc
+Cu
+Đến
+Trợ gij?
+0
+3l0kh0 0
+XE
+1
+010 =
+myylsc
+Ec lọc
+Má,cnf; * Z7.C.0.1
+Cus6dìlieu; nly'Lsic
+Unnzmcd
+Table: nhazsi
+IJilỆ
+van
+mymusic
+112 0 KiB
+72p thec
+Iliể) thịtố: =
+Sắpxêp
+Cclunns (2 221
+Loc
+h;rnhar
+ViKik
+dlals
+2
+leiNhacsi
+barthuam
+28,0 KiB
+(WULL)
+{os
+16,0 KiD
+nhacsi
+16,0 KiB
+Bệ l?z
+(Rczalar =xprcssion
+109
+Select
+FROM
+Iynu>_(
+Ihacsi`
+LIM_- 10ee;
+rl;21
+Connectel
+MaraDB 1C.6,4
+Uptime: 13 days C9,
+Servertn Odle
+Hình 21.2
+Giao diện thêm mới dữ liệu
+100
+công
+bảng
+trợ
+công
+giản,
+bảng
+bảng
+bảng
+{crg
+Msy
+hàng
+phải
+hay
+vùng
+hàng
+rỗng
+hàng
+nhập
+động
+hàng
+cong
+bảng
+Tncy
+
+tin
+Chỉnh sửa
+Tim kiẽm
+vấn
+Cảc công cụ
+Đến
+Trc giúp
+@Ka 00
+XB
+mymus
+Bọ loc bản
+Mảy chủ: 127,0.0.1
+Cc sở dữ lieu: m
+Unnamed
+Table: nhacsi
+Dừ liệu
+mymusic
+128,0 KiB
+Hiển thị tất cả
+Sắpxẽp
+Cclumns (2/2)
+bann.
+48,0 KiB
+idNhacsi
+2
+tenNhacsi
+banth .
+48 0 KiB
+Đó Nhuân
+casi
+16,0 KiB
+ULL
+nhacsi
+16,0 KiB
+X
+Bộ lọc Regular expression
+Hình 21.3. Giao diện kết
+dữ liệu
+Tiếp tục thực hành nhập thêm dữ liệu để nắm vững những thao tác nhập dữ liệu:
+2. CHỈNH SỬA DỮ LIỆU TRONG BẢNG NHACSI
+Giả
+sử dữ liệu nhập
+Unnamed mymusic nkacsil
+HeidiSOL Pcrtable 12.0.0.6468
+cÓ
+sai
+sót
+cần
+sửa lại
+tin
+Chỉnh sửa
+Tim kiẽm
+văn
+Cảc công cụ
+Đẽn
+Trợ giúp
+chẳng
+hạn
+tên
+nhạc
+sĨ
+=lekho 0
+X
+Hoàng
+Việt
+thiếu
+dấu
+mymJs
+Bôloc bản
+Mảy chủ: 127.0.0.1
+Ca sở dừ liệu: "
+Unnamed
+Table: nhacsi
+Dứ lieu
+Việt như Hinh 21.4
+mymusic
+128,0 KiB
+20
+Hien thi tatcả
+Sắpxẽp
+Coljmns (2/2)
+barn..
+48,0 KiB
+idNhacsi
+tenNhacsi
+barth .
+48,0 KiB
+Đó NhJân
+cas
+16,0 KiB
+Văn Cao
+nhvcsi
+16,0 KiB
+Hoang Viêt
+Nguxgn Tai Tuê
+Hình 21.4. Minh hoạ dữ liệu có lỗi
+Em
+có thể nháy đúp
+Unramed mmusic nhacsi}
+Heidis?L Portable 12.0.26163
+V
+X
+chuột vào
+ô dữ liệu cần
+Tặp tin
+chinn ala
+Tm kiFn
+vin
+:jr chrc Fu
+fen
+Trg gitin
+Le
+=lekeeex
+B29 Q
+sửa và nhập lại.
+7riu?
+Bvlvc ba 
+'chú: 127.02.1
+Casà di lieu: mymusic
+Urramed
+Tahle: rharc
+Cc lieu
+vin
+mymusic
+128 € KiB
+20
+Misn €a tât ca
+SêF zép
+C3umns (2/2)
+Zos
+KET
+N
+bann. .
+48 C KiB
+idMhacsi
+tenNhacsi
+banth.
+48 0 KiB
+95AFuặ7
+(ii
+16 0 KiB
+Van | an
+V0
+nhacs
+16 0 KiD
+Hnerg VIef
+Hình 21.5. Kết quả sửa lỗi
+3. XOÁ DÒNG DỮ LIỆU TRONG BẢNG NHACSI
+Để xoá các
+dữ liệu trong
+3
+Hoảng Việt
+nhacsi, hãy đánh dấu những
+muốn
+Nguyen Tài Tue
+chọn: giữ phím Shift và nháy chuột để
+5
+Nguyen Vàn Tý
+chọn những
+liền nhau hoặc nhấn
+6
+Phan Nhan
+giữ   phím
+CtrI
+và
+chuột để chọn
+7
+Phan Huynh Điéu
+những dòng tách rời nhau.
+Hình 21.6. Thao tác đánh dấu dữ liệu
+Nhấn tổ
+phím Ctrl+Delete trên
+bàn phím hoặc chọn biểu tượng
+để
+Unnamed: Confirm
+xoá. Phần mềm sẽ có Iời nhắc yêu cầu
+Delete 4 rcw(s)?
+khẳng định muốn xoá.
+Nếu chắc chắn muốn xoá, nháy chuột
+OK
+Cancel
+chọn OK.
+Hình 21.7. Thông báo nhắc xác nhận
+yêu cầu xoá dữ liệu
+101
+Tap
+Truy 7
+quả
+nhập
+Tàp
+Truy
+tiếng
+Tru'
+May
+Tru
+bảng
+dòng
+dòng
+dòng
+nháy
+hợp
+
+4. TRUY XUẨT DỮ LIỆU TỪ BẢNG NHACSI
+a)
+xuẩt đơn
+Để xem toàn bộ dữ liệu trong bảng nhacsi,
+chỉ cần chọn bảng nhacsi và thẻ
+Dữ liệu.
+Unnamed| nymus c nhacsil
+HediS2L Portable 12.0.0.
+X
+Tậptin
+Chỉnk sử'
+Jim kiẽm
+Truv vãn
+Cac
+CU
+Đẽn
+TỢ giúp
+[
+#leKA60@X
+mynus
+Bọ lọc bản
+Mảy chủ; 1270.0.1
+Unnamed
+Co sẳ dÊ liệu; nymusic
+mymusic
+128,0 KiB
+Tabls; macsi
+Dỳ licu
+vãr
+oan1 ,
+48,0 KiB
+Pxếp
+Zolumrs (2/2)
+Lọc
+Jan:h.
+48,0 KiB
+idNhacsi
+tenvhacsi
+Zasi
+16,0 KiB
+Đẻ Nhuận
+nharsi
+16,0 KiB
+Vằ1 Czo
+Hoảng Việt
+Nguygn Tà Tuê
+5
+Nguyẻn Văn Tý
+6
+Phan Nhân
+Phan Fuỳrh ĐiẾu
+Bọ lọc Regular expression
+207
+SELECT
+FROM
+iDymusic
+nhacsi
+LIMIT 1888;
+13 ;11
+Cuni
+MarisDB
+Uplirne; -4u
+Sere Oljle.
+Hình 21.8. Giao diện hiển thị dữ liệu trong
+b) Truy xuẩt và
+xếp kểt quả theo thứ tự
+Nhìn trong danh sách dữ liệu kết xuất, có thể thấy binh thường dữ liệu được kết
+xuất theo thứ tự
+dần của trường khoá chính idNhacsi . Nếu muốn kết xuất theo
+thứ tự
+dần của idNhacsi , hãy nháy chuột vào ô idNhacsi. Hinh tam
+màu đen
+sẽ xuất hiện và dữ liệu được kết xuất theo thứ tự
+dần của idNhacsi_
+nhacsi (8r x Zc)
+idNhacsi 7
+tenNhacsi
+13
+Truong Quý Hải
+oa
+12
+Nguvén Đinh Thi
+11
+Quôc Bảo
+10
+Viet Anh
+CUÔc SỐNG
+9
+Thẽ Song
+8
+Bùi ĐứcHạnh
+Văn Kỷ
+6
+Tran Tien
+Hình 21.9. Kết
+sắp xếp dữ liệu
+SC€:P
+2b (
+ip-hrk
+122122
+22a
+Lul, <
+Lufllo -
+slu l2l
+c) Tim kiếm
+[28288le
+tenNhe:: | =
+Ghrt-2t|-1
+oonrTsatfiaR*41-
+PeyeUlc,t:tie
+tenNhe:s
+Để lấy ra danh sách dữ liệu thoả mãn
+7
+lil:
+hmni
+Leutll 
+4
+'a5n _+L
+t:nNlh::s Is1U1
+một yêu cấu nào đó có thể thực hiện các
+:he'Fa19
+Ia:
+PnNk,
+FRTNi
+0
+'Jnsn 4; Fan96,6,7
+cho,
+2h-l:
+Fenn6,:
+Shat :n|-6
+thao tác tạo bộ lọc: Nháy nút
+chuột vào
+"nJ,ij"gyakn
+LsuNlo -
+shl2l
+2
+Ct--
+tenNhe:s
+dữ liệu tenNhacsi , chọn Quick Filter,
+Heilingg
+Deutlo,:n
+82] 11n9 'his hers)ej:hen
+t:nNh:?s LkE * 
+rồi chẳng hạn chọn LIKE "%-
+Nhập vào
+Gclaapse?
+t $
+YnNk,-f IN [
+V Gk
+X
+Tenmy
+kí tự P_
+"l. -
+{ illjj Ju C
+Solfer
+Hình 21.10.
+chọn đ thiết lập bộ lọc
+102
+giản
+Truy
+cong
+Truy
+bảng
+spp
+tăng
+giảm
+giác
+giảm
+quả
+36
+phải
+vùng
+Bảng
+
+PFecit
+ter- ?lue
+2Nusilke %
+CK
+Fúv
+Hình 21.11
+Thao tác thiết lập bộ lọc
+Kết
+thu được như Hinh 21.12 là danh sách hai nhạc sĨ và có chữ P trong tên.
+Unnamed mymusic nhacsi 
+HeidiSQL Portable 12.0.0.6468
+Tập tin
+Chỉnh sửz
+Tim kiẽm
+vấn
+Cảc
+CỤ
+Đẽn
+Trợ giúp
+0 Kho0
+X
+mymus
+Bọ lọc bản
+chủ: 127,0.0.1
+Co sở dữ liệu; mymusic
+Unnamed
+Table: nhacsi
+Dữ lieu
+'vấn
+mymusic
+128,0 KiB
+tca
+Sắp xẽp
+Columns (2/2)
+Lọc
+bannhac
+48,0 KiB
+Bọ lọc găn đâ} tenNhacsi LIKE
+Tao bộ lọc nhiều cột
+banth.
+48,0 KiB
+tenNhacsi
+LIKE
+3P%
+casi
+16,0 KiB
+Apply filter
+Don
+nhacsi
+h6,0 KiB
+idNhacsi
+tenNhacsi
+Phan Nhân
+Phan Huynh Điếu
+Bọ lọc Regular expression
+235
+SELECT
+FROM
+mymusic
+nhacsi
+WHERE tenNhacsi
+LIKE
+3P3
+236
+SHON TABLE SIATUS LIKE
+nhacsi
+12 ; c2
+Conne
+MariaDB 10 Uptime: 14 day
+Server Oldle
+Hình 21.12.
+Kết quả lọc dữ liệu
+Để xoá bộ lọc chọn Dọn
+và Lọc.
+Tiếp theo
+Hicn thi tât cà
+Sỉpxếp
+Columns (2/2)
+Loc
+Bạ lọc gần đà} tenNhacsi LIKE '%P%'
+Tac bộ loc nhieu cột
+tenNhacsi
+LIKE
+'SPg
+"6
+2
+Apply filter
+Dọn dẹp
+Hinh 21.13. Xoá bộ lọc đã thiết lập
+VI
+G
+5.TRUY XUÂT DỮ LIÊU VỚI CÂU TRUY VẨN SQL
+Ngoài việc sử dụng các thao tác qua giao diện trực quan như đã hướng dẫn ở
+trên
+có thể nhập câu truy vấn SQL để truy xuất dữ liệu một cách linh hoạt hơn.
+Cấu trúc cơ bản câu truy vấn vào một
+dữ liệu như sau:
+SELECT
+danh_sách
+các_trường
+FROM
+tên
+bảng
+[WHERE
+biểu_thức_điều_kiện]
+[ORDER
+BY tên_trường_1 [Asc|DESc],
+[tên_trường_2
+[ASC | DESC],-]
+]
+Trong đó:
+danh
+sách
+các_trường
+2
+liệt kê các tên trường
+cách nhau bởi dấu
+phẩỵ. Nếu muốn lấy tất cả các trường
+kí tự
+tên_bảng:
+khi làm việc với nhiều CSDL
+thời, tên trường
+bao gồm
+cả tên CSDL; vÍ dụ: mymusic.bannhac.
+103
+quả
+Truy 7
+công
+Máy
+Truy
+dẹp
+dẹp7
+cũng
+bảng
+ngăn
+dùng
+đồng
+phải
+
+biểu
+thức_điều_kiện: là biểu thức lôgic xác lập các điều kiện với các giá
+trị của các trường dữ liệu.
+Ví dụ: tenNhacsi
+LIKE
+P%
+AND
+(idNhacsi-2
+OR
+idNhacsi-6)
+Cặp dấu [ ] biểu thị nội dung bên trong nó là một Iựa chọn có thể dùng hoặc
+không
+ASC | DESC :
+nghĩa là Asc hoặc DESC
+ASC
+là viết tắt của Ascending
+=
+dần,
+DESC là viết tắt của Descending _
+dần.
+Ý
+nghĩa của câu truy vấn trên; với đủ các lựa chọn là: Lấy ra tất cả các
+dữ
+liệu, mỗi
+là
+trị của các trường trong danh
+sách_các
+trường từ
+tên
+bảng ởđó các
+trị thoả mãn biểu
+thức_điều_kiện, kết quả
+vấn được sắp
+xếp theo thứ tự tên_trường_1
+[Asc | DESC] ,
+tên_trường_2
+[AsC | DESC ]
+Ví dụ:
+SELECT
+idNhacsi,
+tenNhacsi
+FROM
+nhacsi
+WHERE
+tenNhacsi
+LIKE
+P% '
+ORDER
+BY
+tenNhacsi
+Mở CSDL mymusic; chọn thẻ Truy vấn, nhập câu truy vấn trên và chọn
+Kết quả
+nhận được như Hình 21.14
+Unamed mymusic)
+Feid SQL Portable 12.00.6468
+Tạptin
+Chỉnn sửa
+Tim kiăm
+vấn
+Cac còng cụ
+Đến
+Trợ giúp
+=lekho 0
+X
+ _
+890
+3ộ lọc ban
+củ; 1270,01
+CusỶdữ lệu; m}usiL
+vẩn'
+Unnamed
+SELECT
+idMhacsi,
+tenlhacsi
+Filter
+2
+FROK
+nhacsi
+mymusic
+128,C KiE
+3
+MHERE tenNhacsi LIKE
+'P3
+Cc
+bann 
+48.0 KiE
+4
+ORDER BY tenNhacsi
+Sc
+5
+banth .
+48 0 KiE
+5
+5
+casi
+16,€ KiE
+njocsi (2-
+2c)
+nhacsi
+16,0 KiE
+idhIalsi
+IerNhaci
+1
+Phzn Huynh Đléu
+C Song
+Phzn Nhán
+X
+Bị Iọc Regu ar expression
+48
+SeLECT
+idNhacsi, tenMhacsi
+FRON
+Jhacsi
+WhERE tenlhacsi
+LIKE
+P*
+ORDER BY tenNhacsi
+41
+Affecteo
+Cons
+Founc
+Fons:
+Vocoinos:
+curorion for
+1
+quecy:
+0  000
+SeC
+Connectec
+NarizDD 10.6,4
+Uptime 19days, 11,1  @ Server -im Oldl:
+Hình 21.14. Giao diện nhập và thực hiện câu
+vấn dữ liệu
+LUYÊN TÂP
+1. Cập nhật dữ liệu vào
+casi
+2
+xuất dữ liệu
+casi theo các tiêu chí khác nhau.
+VẬN DỤNG
+Thực hành cập nhật và truy xuất dữ liệu
+TỉnhlThành
+trong CSDL
+Ií
+danh sách tên QuậnIHuyện, Tỉnh/Thành
+104
+dùng
+tằng
+giảm
+dòng
+giá
+bảng
+dòng
+giá
+truy 7
+Truy
+Truy
+Mảy
+truy
+bảng
+bảng
+Truy
+phố
+bảng
+quản
+phố.

@@ -1,0 +1,975 @@
+BÀl
+20
+THỰC HÀNH TAO LÂP
+CÁC BẢNG CÓ KHOÁ NGOÀI
+SAU BÀI HỌC NÀY EM SỄ:
+Biết cách tạo mới các
+có khoá ngoài.
+Các em đã biết; khoá ngoài có tác dụng liên kết dữ liệu
+các bảng. Khi tạo
+có khoá ngoài, việc thiết lập khoá ngoài được thực hiện như thế nào?
+Nhiệm vụ. Tạo lập
+bannhac với cấu trúc:
+bannhac
+(idBannhac,
+tenBannhac ,
+idNhacsi) ,
+Các trường idBannhac,
+idNhacsi
+kiểu INT ,
+Trường tenBannhac kiểu
+VARCHAR
+(255)
+Hướng dẫn:
+1. KHAI BÁO BẢNG BANNHAC VỚI CÁC TRƯỜNG
+IDBANNHAC; TENBANNHAC
+Chọn thẻ Tạo mới,
+chọn Bảng. Nhập tên: bannhac; chọn Thêm mới để thêm
+trường dữ liệu; một trường với tên mặc định Column1 sẽ xuất hiện phía dưới.
+Unnamed mymusicl
+HeidiSQL Portable 12.0.0.6460
+"
+Tạp tin
+Chỉnh sửa
+Tin kiẽm
+Yan
+Cảc
+Cu
+Đẽn
+Trc giúp
+KAe
+6 X
+020
+Bộ loc cc
+Bệ lẹc bản
+Mảy chủ: 127,.0.0.1
+Cc s& dừ lieu: mymusic
+Table; [Untitled]
+vẩn
+Unnamed
+Basic
+Tuy chon
+Indexes {0)
+Ml Foreign
+(0)
+Check constraints
+infcrma
+Tên:
+bannhad
+mymusic
+32,0 KiB
+casi
+16,0 KiB
+Binh luan:
+nhacsi
+16,€ KiB
+Côt:
+Thêm mci
+Xóa
+Up
+Dowvn
+Tên
+Kiéu dử liệu
+Length /Set
+Unsign 
+Allow NULL
+Zerofill
+Mặc định
+Trợ giúp
+Hủy bẻ
+Luu
+Bệ loc Regular expression
+51
+SELECT
+FROM infornation_schema
+REFERENTIAL_CONSTRAINTS NHERE
+(ONSTRAINT_SCHEMA=
+mymusic'
+52
+SELECT
+FROM inforration
+schena
+KEY
+COLUNN USAGE
+WHERE
+TABLE
+SCHEMA='mvmusic
+AND
+TABLE
+Connecte
+MariaDB 10.6,4
+Uptime 13
+03;
+Server tim Oldle
+Hình 20.1
+Khai báo
+mói
+95
+bảng
+giữa
+bảng
+bảng
+Truy 7
+cong
+Truy
+keys
+days;
+bảng
+
+Nhập tên: idBannhac,
+Jnnamcdinyynjic'
+Aci: SCLPJzblc 122034:8
+chọn
+kiểu
+dữ
+liệu
+INT,
+Tap : -
+Chinh :Ua
+Tlm <ien
+v:r
+Cảc cong -u
+Đé-   To ?iúp
+89
+|ekho < X> +
+04
+bỏ
+đánh
+dấu
+Ô
+Allow
+uluclu,
+Bé UL :ar
+Mlfvcri:
+7720 |
+C-sPdil ?l mjmii r
+ ~able [Lulilleji
+Tryvin
+NULL, nháy chuột vào ô
+Urramcd
+Das <
+Tùy cho1
+Irca0
+Forc ;nkw:(0)
+{hcckczrsicint;
+informa.
+len
+annher
+No
+default để chọn giá
+MyEnusic
+220kiB
+Fasi
+Is@ Kin
+B.| lual ;
+trị
+mặc
+định
+là
+AUTO
+1Fac:i
+15,0 KiB
+26z
+~m mci
+0X:
+Up
+Down
+INCREMENT.
+If1
+Kirn dir
+4u
+16-2t-6
+LInfign.
+Allau[n
+{Aohi
+Ela - din -
+isZannber
+IlT
+Al T)_NCRfy-NT
+Tc giu?
+Hủ; bó
+Lcu
+{òlcc Eegular &Fterr =r
+SelesT
+FROK
+fuinaliun
+SLhena.REfERENICL
+COHS RLI{T: NHEre
+(ONS PAIVT SCHENA=
+nnus
+AND
+Sfifft
+FROR
+Sachatina
+{rhpra.Kfy Foiimn
+EgC Vfrf
+Anit
+'iicx
+DuDlsic
+Ayn
+Anit Yhhf
+Crnar-ed
+MArrialn I664
+11 /ay5 041 0fersr time
+dl:
+Hình 20.2 Khai báo trưòng kiểu INT
+Để
+khai
+báo
+thêm
+[lnna nf/ "ymii f - Ileidiss]i -rrahleVlih-;
+7
+trường   tiếp
+theo
+nhấn
+ertin
+ShieF 51 7
+Zrlifn
+yvin
+Cjc rinJru
+Fr-
+Tr zivip
+0
+2
+=lekheoex -
+00
+CtrltInsert hoặc nháy nút
+B6 oc:0
+B6 oc pir
+Yay _hu I2Cu]
+Lu;}uulẸu: ',1 u8
+T:blc |U-:t cd]
+Iyven
+chuột vào
+dưới
+Uuielllel
+Easic
+Jy€1:-
+7
+4(er?!)
+22
+Orasf
+4)
+C-eck consrai 133 (ui
+i13-11
+Ter:
+bannac
+dòng idBannhac và chọn
+MyMl
+322K}
+163K3
+Finh /
+in:
+Add column.
+nha=s
+16,21J
+Tim ma 0 Xo'
+Up
+cnr
+Nhập:
+tenBannhac ,
+T:u
+Kauju ieu
+Le ! 4/34
+Uriyrl
+Allu NJLI
+Zaulill
+Wac Cinh
+idna 3 - -ac
+IN
+Ain) INCffiil r
+chọn kiểu VARCHAR-
+độ
+tnna
+Fac
+{4rfiir
+75:
+dài 255, giá trị mặc định là
+CF
+Hjybo
+Lcu
+kí tự
+Bol;z
+ar
+C<piC; cn
+{ELEC  CONSTAIN-JVIE , CHECK_CIEE FRon
+d-crrat-on_:crera
+CieckCNSTR [Ts
+LHERE {ONS RAINT
+Cuunesled
+MaiaDB 10.64
+L+line 13 -ays [Q:1 @Szive'
+Lle
+Hình 20.3. Khai báo trường kiểu VARCHAR
+2. KHAI BÁO CÁC TRƯỜNG LÀ KHOÁ NGOÂI
+Các trường là khoá ngoài của
+là các trường tham chiếu đến một trường
+khoá chính (k) của một
+khác vi vậy cần được khai báo giá trị mặc định phù
+với giá trị tương ứng của k.
+UnnamefnymJsiz Lannhac'
+FeidisQl Poraale /200,6168
+Ví dụ; bảng bannhac;,
+Tap tir
+Chỉrhsua
+Tim k em
+Truyvir
+Cảc conc cu
+Đen
+Tro q úp
+trường
+idNhacsi
+tham
+0
+Lekaoo
+XE
+o1
+[clcc cos
+Do loc bin
+Mở/cnú: 127.0C.1
+Ccsc dùliịL: mrnusic
+chiếu đến trường idNhacsi
+Unnamci
+oble Lanrhac
+ZừliệJ
+ver'
+(kiểu INT) của
+nhacsi
+'la.
+Dasic
+Têy ch?n
+Indee8
+D Fcreign keys211
+Che-k -cnsta
+mymur (
+24)KB
+nên giá trị của trường này
+bann.
+43,o1B
+Icn:
+baanhac
+bant ,
+49KB
+Fir hh an:
+cũng là INT và
+trị mặc
+Cosi
+15 )KD
+định
+là
+một
+SÔ
+nguyên,
+nhac.i
+1; )KiR
+Cct:
+Ihznrgi
+Xca
+Up
+Dc{v
+hạn là 0
+T
+Kénulilien
+Ivski
+Inniyji_
+Ellur klJi /
+7figi
+Vai
+idBanrhac
+INT
+11
+auto
+2
+tenD, 7n.
+VAFCII-R
+255
+idkhacsi
+IT
+Tro q úc
+Huyba
+Luu
+Rụk": | Rry da Fr;uFssi n
+SHON
+FNGTNFS
+27
+SIOA CCLLATIOY
+Connecte
+MariaDE 10,6.1
+pzine: 16 Jay: 22
+Serertn
+UIdle
+Hình 20.4. Khai báo trường sẽ là khoá
+của bảng
+96
+Iru;
+Ftin)e
+phần
+phải
+key?
+cevi
+Irog
+rỗng
+RcgJ
+bảng
+bảng
+hợp
+Truy
+bảng
+giá
+chẳng
+14 9
+ngoài
+
+3. KHAI BÁO CÁC TRƯỜNG KHOÁ
+a) Khai báo khoá chính: idBannhac
+nút
+phải chuột vào ô idBannhac; chọn Creat new index, chọn PRIMARY .
+Sac chép
+Ctrl+C
+selected columns
+Paste columns
+Add column
+Ctrl+Ins
+Remove column
+Ctrl+Del
+Move up
+Ctrl+u
+Move down
+Ctrl+D
+Create new index
+PRIMARY
+Hình 20.5. Bảng chọn đ khai báo khoá chinh
+b) Khai báo khoá
+chổng
+lặP
+Cặp (tenBannhac; idNhacsi) không được trùng lặp giá trị nên
+khai báo khoá
+cấm trùng Iặp. Đánh dấu hai trường này;
+nút
+chuột vào vùng đánh dấu và
+chọn Create new index , chọn UNIQUE
+Unnamed mymusic {
+HeidiSQL Portable 12.0.0,6468
+Tập tin
+Chỉnh sửa
+Tim kiẽm
+vấn
+Các cong cụ
+Đẽn
+Trợ giúp
+00
+#le Khp0
+X
+010
+mymus
+Bộ lọc bản
+Mảy chủ: 1270.21
+Cc sẳ dữ liệu: mymusic
+Table: [Untitled]
+vẩn
+Unnamed
+Basic
+chọn
+Indexes (1)
+B/d Foreign
+(0)
+Check constraints (0)
+mymusic
+32,0 KiB
+Them mai
+Xóa
+Type / Length
+Algorithm
+16,0 KiB
+Dọn dẹp
+Up
+2PRIMARY KEY
+PRIMARY
+nhacsi
+16,0 KiB
+Down
+idBannhac
+Cẹt:
+Them moi
+Xoa
+Up
+Dovn
+Tên
+Kieu dữ lieu
+Length/
+Unsign_
+Allow NULL
+Zerofill
+Mẳc đinh
+idBannhac
+INT
+AUTO_INCREME 
+2
+tenBannh. .
+VARCHAR
+255
+idAlbacri
+IAIT
+Sao chép
+Ctrl+C
+selected columns
+Paste columns
+Add column
+Ctrl+Ins
+55
+SELECT CONSTRAINT_NAME ,
+Remove column
+Ctrl+Del
+schema
+CHECK CONSTRAINTS
+WHERE
+CONSTRAINT
+Mcve up
+Ctrl+U
+time: 14
+10:0
+Server time
+Cyldle
+Mcve down
+Ctrl+D
+Create new index
+2
+PRIMERY
+Addto index
+2
+KEY
+2
+UNIQUE
+2
+FULLTEXT
+2
+SPATIAL
+Hình 20.6. Giao diện khai báo khoá cấm
+lặp
+97
+Nháy
+Copy
+trùng
+phải
+phải
+nháy
+Truy7
+Truy
+Tuy
+keys
+Tên
+casi
+Copy
+days
+trùng
+
+c) Khai báo các khoá ngoâi
+Để khai báo khoá ngoài idNhacsi, chọn thẻ Foreign
+Unamef mymusic'
+HeidiSQl Portzble 12.0.0.6468
+tin
+Chinh sửa
+Tim kiếm
+Truy vãr
+Ca: cong cu
+Đến
+Tro giúp
+1o0
+#|0 Kho 0
+X
+6l0
+mymus
+Eọ lọc bản
+Mảy chủ: 127,0.0.1
+Co sởdữ liệu: mymusic
+Table: [Untitled]
+ván
+Unnamed
+Basic
+chọn
+Indexes {2)
+82 Foreign keys ( )
+Check constraints (0)
+mymusic
+32,0 KiB
+Ihen mci
+Key n..
+Columns
+Referencetable
+Foreign col
+On UPDATE
+01 DELETE
+casi
+16,0 KiB
+Xóa
+7
+NO ACTIOV
+NO ACTION
+nhacsi
+16,0 KiB
+Cọn dep
+Cót:
+Thém moi
+Xéa
+Up
+[owvn
+Tên
+Kieu dừ liệu
+Length/ -
+Unsign_
+Allow NUL
+Zerofill
+Mảc đin1
+2
+idBannhac
+INT
+AUTO INCREME
+2
+2
+terBannh..
+VARCHAR
+255
+12
+3
+idNhacsi
+NT
+Trợ giúp
+Hủy oả
+Luu
+Bộ lọc Regular expressicn
+55
+SELECT (ONSTRAIN _NAME, CAECK_CLAUSE
+FROM
+inrormation
+schena
+CHECK CONSTRAINTS
+IHEFE (ONSTRAINT
+Connectec
+MariaDB 10.5,4
+Uptime: 14
+10,1
+Server time Oldle.
+Hình 20.7.
+Khai báo khoá ngoài
+Nháy chuột vào ô dưới
+Columns và chọn trường khoá ngoài là idNhacsi rồi
+chọn OK.
+Unnamed mymus c{
+HeidiSQL Portable 12.0.0.6468
+Tặp tir
+CFỈnh sJa
+7m kiem
+vẳn
+Cac zong cu
+2en
+Trợ giúp
+0o
+#l0kho 0
+XE
+C
+0
+010
+mymus
+Bộ loc bảr
+Maj chủ: 127,C.0.1
+Ca sởdữ liệu: mymusic
+Table: [Untitled]
+vấn
+Innamed
+Ba;ic
+4
+chọn
+Indexes (2)
+v
+key: (1)
+Checkconstraint; (0)
+mymusir
+32,0 KiB
+Thém mci
+Key n
+Columns
+Reference table
+Foreig1 col
+On UPDATE
+On DELETE
+casi
+16,0 KiB
+Xóa
+DGF
+idBannh:
+RO ACTION
+NO ACTION
+nhacs
+16,0 KiB
+Dọn dẹp
+tenBannt
+@nhassi
+Cô:
+Tn
+Up
+Dovn
+Ursign 
+Alow NULL
+Zerofill
+Mặc đinh
+idDannhaz
+IN
+AUTO_INCREML
+CK
+Hủy
+2
+tenBannh .
+VA
+2
+3
+idNFacsi
+INT
+Trc giúp
+Hủy bả
+Luu
+X
+Bọlọc Regular expression
+55
+SELECT CONSTRAINT_NAME
+CHECK_CLAUSE
+FROM
+infocmation
+schena
+CHECK_CONSTRLINTS
+WHERE CONSTRAINT
+Connectec
+MariaDB 10.5,4
+Uptime: 14 days 10,1
+Serve time Olcle
+Hình 20.8. Chọn trưòng là khoá
+Nháy chuột vào ô phía dưới Reference table để chọn
+tham chiếu là nhacsi
+và chọn OK.
+98
+Key.
+Tap
+Truy
+Tuy 
+days,
+dòng
+Truy
+TrLy 
+FJreiyn
+Tuy
+Kiểl
+Tên
+gth / .
+ngoài
+bảng
+
+Unram:d mymusiz|
+HeidiSQL Portable 12.00.6468
+V
+X
+Tàp tin
+Chỉnh sửa
+Tim kiẽm
+Truyvấn
+Cảc cong cu
+Đến
+Trc giup
+=lekhop
+X
+032
+S
+mynus
+Bò lọc bản
+Míy chủ: 127.0.0.1
+Cc s dữ liêJ; rymJsic
+Table [Untitled]
+Truy vãn
+Ilnnamed
+Easic
+Tuy chon
+Indexes (2)
+E Fureiyn
+Check constraints {0)
+mymusic
+320 KB
+Thên mci
+Key 1
+Cclumns
+Reerencetable
+Foreign ccl 
+On UPDATZ
+On DELETE
+casi
+160KB
+Xía
+M
+idNhacsi
+NO ACTION
+NO ACTICN
+nhacsi
+160KB
+Dọn dẹp
+cas
+nhacsi
+Cệt;
+Thên nci
+Xéa
+UF
+Dcwi
+Tên
+Kiẽu dử liệu
+Length/
+Unsign_
+Allcw NULL
+Zerofill
+Mặc định
+2
+idBannhac
+INT
+AUTO_INCREME 
+2
+2
+tenBannh .
+VARCHAR
+255
+5
+3
+idNhacsi
+INT
+Trợ giúp
+Hử; bẻ
+Luu
+X
+Bộ Iọc Regular expression
+55
+SELECT CONSTRAINT_NAME ,
+CHECK CLAUSE FROM
+informat-on schema
+CHECK CCNSTRA-NTS
+KHERE CONSTRAINT
+Cunnecle
+MariaDB 10.6,4
+Uplimue; 12 davs, 10,1
+Server litu (lule,
+Hình 20.9
+Chọn
+tham chiếu
+Tiếp theo chọn trường tham chiếu trong bảng nhacsi
+Unramzdimymusiz!
+HeidiSQL Portable 12.00.6468
+V
+X
+Tập tin
+Chỉnh sửa
+Tim kiẽm
+Truyvãn
+Cac
+cụ
+Đến
+Trợ giup
+100
+=lenho0
+X
+0
+01c
+5
+mymus
+Bo loc bản
+Míy chủ: 127.0.0.1
+Ca sả dừ liêJ; rymJsic
+Table [Untitled]
+'vấn
+Ilnn-med
+Easic
+chon
+Indexes (2)
+BA Fureiyn keys (1)
+Check constraints {0)
+mymusic
+320 KB
+Thên mci
+Key 1
+Cclumns
+Reerencetable
+Foreign ccl 
+On UPDATZ
+On DELETE
+casi
+160KB
+XSa
+M 5
+idNhacsi
+nhacsi
+Ehg
+NO ACTION
+NO ACTICN
+nhacsi
+160 KB
+Dọn dẹp
+tenNhac:
+Cct;
+Thêm nci ( Xéa
+UF
+Tên
+KiẽL dữliệu
+Leng-h/ .
+Unsign.
+Zerofill
+Mác đinh
+idBannhac
+INT
+AUTO_INCREME
+OK
+Hửy
+2
+2
+tenBannh .
+VARCHAR
+255
+94 3
+idVhacsi
+INT
+Trợ giúp
+Hử} bẻ
+Luu
+uILG
+X
+Bọ lọc Regular expression
+56
+SELECT
+FROM
+irformation schera
+COLUNNS
+WHERE
+ABLE_SCHEMA='mymusic
+AND TABLE NAME=' nhacsi
+0I
+Cunnellel
+MariaDB 10.6,4
+Uplirne; 12 davs, 10,1
+Seivei lifuu ()lule.
+Hình 20.10. Chọn trưòng tham chiếu
+Cuối
+nháy chuột chọn Lưu để kết thúc khai báo và khởi tạo
+bannhac
+LUYÊN TÂP
+Hãy tạo Iập
+banthuam .
+VẬN DỤNG
+Hãy
+tạo lập bảng   QuậnIHuyện
+trong
+CSDL quản
+Ií
+tên
+QuậnIHuyện
+Tỉnh/Thành
+99
+key>
+bảng
+cong
+Truy
+Tuy
+bảng
+cùng
+bảng
+phố .

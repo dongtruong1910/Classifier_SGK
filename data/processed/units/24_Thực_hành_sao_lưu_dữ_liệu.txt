@@ -1,0 +1,666 @@
+BÀl
+24
+THỰC HÀNH
+SAO LƯU DỮ LIỆU
+SAU BÀI HỌC NÀY EM SỄ:
+Nắm được các thao tác sao lưu và phục hồi dữ liệu.
+Như đã biết, để tổ chức đảm bảo an toàn CSDL phục vụ
+tác
+lí của một
+tổ chức, cần
+dựng chính sách an toàn dữ liệu với những kế hoạch về tất cả
+các phương án sự cố có thể xảy ra và giải pháp hạn chế, khẳc phục. Chính sách
+an toàn dữ liệu
+bao
+những quy định vềý thức, trách nhiệm đối với
+những người vận hành hệ
+Về giải pháp
+mềm
+các hệ QTCSDL đều
+có chức
+hỗ
+sao lưu dữ liệu dự phòng một cách thường xuyên theo quy
+định và phục hồi dữ liệu khi có sự cố. Có thể khai thác sử dụng nhóm chức
+này như thế nào?
+Nhiệm vụ 1. Thực hành sao lưu CSDL
+Hướng dẫn:
+Nháy chuột chọn thẻ Các
+cụ; chọn Xuất cơ sở dữ liệu dưới dạng SQL
+Nháy chuột để đánh dấu vào CSDL mymusic ở phía trái và đánh dấu vào các ô
+có
+là khi phục hồi CSDL thi xoá đối tượng cũ (nếu có) trước khi tạo đối
+tượng mới (Create)
+Data chọn Delete + insert để khi phục hồi thì xoá dữ liệu cũ đi (nếu có)
+trước khi chèn vào dữ liệu đã sao lưu.
+TRLTAUc
+Unnaned mymurc'
+Held S(L Portable I2CUbJ,e
+Tạp tin
+Chỉnh sfo
+Tin kiẽm
+van
+Cac
+Cl
+Dẽn
+Trc giup
+502,9290
+Tlush
+010
+B6 loc -0 sc
+Bo loc bảng
+Quản ế tái khoản
+Iuy vin
+Innamed
+Ien
+Bdo -rì
+00
+D: cp nhot
+Erqine|
+inforrnatio15
+Trink chỉrh !ửa
+2-07-03 23,17A2
+2022-07-011615.5'
+InnoDl
+mymusiz
+ICO(KB
+Laurck conmand line
+20-05 21823}
+Innolll
+Lornkac
+40 @ KD
+7-07-05 )12907
+InnoDl
+Xujt ra sà dir hệ" drni dạng Sy
+Lorthjan
+49,0 KB
+2-07-03 22.0842
+2022-07-0412 09.5:
+InnoDI
+Xuat Imi dir lieui
+Ca5
+16,0 KB
+2-07-03 22.37 31
+2022-07-0416041
+InnvDI
+Fh;ra
+IbuiKk
+Nhap tJfileCsV
+tnecai
+320KB
+Irvei (les ir lu TEXTBLCB edr
+Cói đặt
+Bú Icel
+(Zejulai Expi2siu"
+63
+/*240101
+SET SQL_YODE-IFNULL(SOLC_LOCIL_SQ _MCOE,
+64
+1*a407m3
+54 [
+UimF
+/unF=
+FuiII
+Cerjv)
+JMt _{(JuF ,
+{ysrfm
+;
+Dunp database object: to
+Connectec
+Ma-ia)B 10.64
+Uptime: 20 days 134 @ Server time Oldle
+Hình 24.1
+Giao diện sao lưu dữ liệu
+Tiếp theo; chọn kiểu output là
+1
+tệp các câu truy vấn SQL: Single.sql file
+vào tên tệp sao Iưu; ví dụ là C:ITempl_mymusic.sql.
+Chọn Export để thực hiện việc sao lưu.
+113
+quản
+công
+xây
+phải
+gồm
+cũng
+thống.
+phần
+năng
+trợ
+năng
+công
+nghĩa
+Drop,
+dòng
+cong
+"ruy
+bảng
+Nhập
+
+Cuối
+là sao chép và Iưu lại tệp
+mymusic.sql
+Lưu ý: Cũng có thể thực hiện sao lưu một
+CSDL (một số bảng), bằng cách chỉ
+chọn những
+muốn sao lưu.
+Tcblctocl:
+Jl { Uulemed
+Basli
+Sujler
+SCL c:pot
+Tnf ch' >03 9àn
+Intormabon ;-he-a2
+Dsahose(f)
+Jnmr
+Bcr"t
+rymusic
+P::
+Table:i
+Drop
+Klcrezte
+hnnhsr
+[Ila:
+Jdez
+insert (-rurcate €xisting data)
+Eanthuzm
+426 SiE
+Va< NSE:Tsile:
+1,.02 '
+KB (=5
+(iu;
+casi
+152 <iE
+rhacsi
+15 ? <IE
+Outplt:
+5i-9f .sqlf lc
+Leluai
+32 - GE
+Ten tep;
+CnTem:! mymusis:9l
+Szlectcd sb cct; sizc: Ieo0KJB
+Đcng
+Hình 24.2
+Giao diện chọn
+để sao lưu
+Nhiệm vụ 2. Thực hành
+hổi (restore) CSDL
+Hướng dẫn:
+Sau đâỵlà mộtví dụ phục hồi mymusic trên một máy mới , chưa có CSDL mymusic.
+có thể xoá CSDL mymusic
+có đi để thực hành khôi phục CSDL mymusic
+từ tệp sao lưu
+mymusic.sql.
+U arned
+Faj SCL -urlazle 12 026163
+"ip:r
+Ch'-hsue
+Zmkin
+T-yvan
+C:Cengcu
+Jen
+Tre !iúp
+L
+#1ohhoo(X> 7
+0l
+"ac
+Evlvrcu:u
+3- lv_beny
+Vay Lh-; 12708;
+T-Yven'
+Ilnnsmrd
+Mhj Yru:ju?lgu(n
+Q Cee sien
+Tranq :- Ji
+Tent-hid Lệnh thònq k
+Casrilau
+<ic- cà
+Irems
+Iin <
+Iasle:
+vicns
+Tun :
+Proc _
+KETksnrnnnc
+B6 Pc
+Jr3p=cn
+DROP DataBilse
+qusil
+5HOK Dntabses
+7
+Mera) -
+J:tue
+deys
+0 serer bn:Cula <
+Hình 24.3. Minh hoạ xoá CSDL
+Nháy chuột chọn thẻ Tập tin; chọn Load SQL file
+(hoặc nhấn Ctrl+0)
+Urrlel1163 (
+deidisl-P_llabl? I2uulu
+tin
+Chin- :t
+Tim lijm
+vin
+Car rỎrnrụ
+FFn
+Tra -ivip
+Tacho
+an vfhicr
+2
+@kh0q?xy
+7058
+Ke -ci zen
+chù
+2
+Tryvan'
+L2;c Mgi
+Ct-~N
+Nhử:
+dữ liệu ( !
+(óc bi:n (97.
+Ton; tha (555)
+Tien 0I-h() Ui
+Ta-taf tnrvnmo
+Gtrl
+2o5c :clifu
+<ic" cỗ
+Item:
+Lin ? "
+Table:
+Viens
+F-nc
+P-2
+{fng-ab Juyvan
+2:1+2
+icforma: on_:chema
+2o30 KiB
+2022
+79
+U:eall 4u2 / Lb;
+Inrd 47
+fil = .
+5te1n
+Rur 5CL
+5
+Luu
+Od-<
+Sr a5 sninfrf
+Xus.lep Le dEl
+Nhệp: le rà d?t .
+Tvsl
+129
+Bv
+Keyu j BP2411
+5/1/1
+FKIK{
+nlaefafion
+SFnfi:
+HA-
+in
+Ofnatisn
+S-Fra
+iai
+NaNI
+ScL[CT
+ID
+UsEs
+72s
+Do
+{ohnyd
+TEME
+uc
+LcfT
+InFo
+51220) K5
+I-fo
+TkI
+Lojd 50-6 c ,
+Con
+EC(
+Lzrio?3 15,.64
+Jctimc 2-dje 140
+Sovou-Ol:lc
+Hình 24.4.
+chọn tải lên tệp SQL (dữ liệu sao lưu)
+114
+cùng
+phần
+bảng
+Ti?
+apcn
+bảng
+phục
+Cũng
+đang
+Ecgu
+Tar
+Inn
+Mv
+23
+Bảng
+
+Chọn tệp đã sao lưu
+UnJamed; - | eidiz02-Porto:
+120036?
+Tip : -
+Chinh sử2
+Tin <ie-
+Tryven
+Cú: €613 €u
+JEn
+Tre giu,
+là
+mymusic.sql.
+Nháy
+C
+9
+0
+=lehAO
+0
+5
+chuột
+chọn
+Nội
+aloc ra ,
+n;lnc -in
+Nảy chu: 127,06,1
+Truy Ya1
+_rymisic <
+Open.
+Urramed
+2c&2K:
+26
+ter
+tệp
+mymusic_data
+Ilunajan
+aa0:
+Cunui Lulouu: =
+:uC(u' = FCr
+Wtf _
+Columns
+NhoP 1141 4182 1
+11wn
+0n?ic
+sẽ được tải
+vào cửa sổ
+26
+Erente DaIReASE IF
+NCT EXISTS
+nyiusil
+SoL'u-stions
+bF
+Cn1=1
+2
+9QL<s ords
+vấn.
+Ginn1ng
+Fnft
+{ar {awif Aytisf
+Sn :Fet
+Daop
+AULL
+F
+Lu,1 ?
+bannhe
+Q-er - 53cy
+ffatf Tabi
+MI Fx-ss
+ecnnhae
+Did Qjar ,7 le
+Dé
+Oc Recule- =p ession
+SLLLI1
+LV
+R
+e|
+DJ'
+Ce=
+Vil
+41l
+LLF/ (
+1Mi0
+'1zuu)
+4
+Lfio
+AL
+[y,linv fil:
+"":
+{Tes;Cinu:
+issvl
+(4,5 %25,ialu Query
+Luu
+FMlyuKg:u"
+Elel
+MallauB 1u;
+Jpe2"drv?
+;
+Dseivei Linn OIJ €
+Hình 24.5. Tải lên một tệp sao lưu
+0 aner{
+HajSCLPJ .Lle Izlv:8
+Nháy chuột chọn
+Iap . 7
+Chunh.6:
+bai
+l sai
+Sllliiy
+Cl
+tai
+Irv ?Iup
+để
+thực
+hiện   truy
+vấn.
+2 =i0Kho0
+X .
+"A_e
+[6lo:<3s;
+Zaloc
+L1fy €FÍ:- 7501
+7y "In"
+Myrirr sqi
+7
+na-aecl %
+Sau đó nhấn
+F5 để
+làm
+Ilrnamci
+Flel ,
+Inlurla
+Ui
+Durpinv Vulsluee
+2(Cruir
+$9
+Unup{l
+20-rns
+tươi lại danh sách CSDL
+mmuic
+foo < n
+IJkiy
+Va
+Alani
+VI1
+Gyciis
+6o-func: cns
+23
+CREATE
+DA-aBhSE
+IF
+NOT
+EXIS-5
+Annusic
+70{619?
+Cannhac
+6,0 < B
+Iisf
+{Q-kenvords
+Khi đó CSDL mymusic đã
+Zanthu:n
+4ogo
+Snippets
+Es
+Fuce
+Fr
+2001e
+Junusic,{ennndc
+Fasi
+16,0 :R
+URUF
+1ull
+Lls >
+ennhae
+Juc-;histary
+được khởi tạo với đầy đủ
+har-!
+Ilv ~ B
+CREATE
+Table
+IF
+HO
+EXIETS
+va
+nnna
+Tr
+IAR
+@iito InfafMfir
+"ll :Jucvp 
+2-eloei
+22,0 <D
+{e
+annha<
+varchar{255
+NoT NULL D[FaULS
+các
+như
+Hình 24.6,
+10 
+0C
+Io,22)
+aT
+NULL cethult
+< 3rdpfri
+Hinh 24.7
+{6 luc seyula BPre:
+Un
+Shod IR-GGER5
+FRon
+queC
+fiffT
+EvEnT
+SHE
+4<
+Ffht_Hanf K5
+Karr
+TioM
+nfaf9a
+On_=ehora
+FCfn<
+Wafrf
+EvEnT
+(OConnestec
+MaraCB-2.64
+Uptime 20
+1a2 @SErertm Qld :
+Hình 24.6. Kết
+khôi phục CSDL
+Jv arterifiyi L: L Darii' 9c;
+FeiUiju_ Purlelle I2,n1.8
+lap
+Chuirt .4 :
+Wein
+Ily <jri
+Zlluiyll
+bei
+I :uP
+9
+0
+210k400
+X >
+AdQ Q
+ESE
+[alo:€3s?
+Z2loc
+Wáy Fhir: 1,7061
+Casdirif  mm /ic
+Ket
+Ilcnamci
+Te-le tenn 196
+0:le-
+~lyvin^
+Inlurria
+2il
+11 HJi tit r ;
+S:nrin
+Fd Fr{44,4)
+oc
+mymuisic
+Iao < n
+iLBaunl a-
+l BaiI &
+Ny a.i
+ij  Yua
+Laruieau
+1€,0 < B
+fm € sin: Ló
+Voi
+Canthu:r
+Jo <d
+Pus Zuaila- Uzu
+Fav
+1f0 < R
+J
+Inty n'
+:hlaca
+Ilu < B
+NS venstafIJo
+2-eloe
+22,0 < D
+N1l u? UuaH;NJ
+{e:i) (616
+{6luc ~eyulai Bpre: Ui
+SeLE:T (OSTUIN_NLE
+CHEC'_Cluse
+FROH
+iv laliu
+hEna
+CheCk
+EnsRT
+Lhere
+COIBTRAINT
+SfiffT
+Tnoy
+yonf
+han€
+66
+TntT
+1ana;
+1:1
+Conne-tec
+MarialB-2.61
+Uptime 20da,E 1/22 @S-rertm Qld =
+Hình 24.7. Kết
+truy xuất
+sau khi khôi phục
+LUYÊN TÂP
+Thực hành sao lưu và phục hồi
+banthuam của CSDL mymusic.
+VẬN DỤNG
+Giả sử cần di
+một CSDL từ máy tính này sang máy tính khác; em sẽ làm
+thế nào?
+115
+dung
+truy
+benz
+Eno
+ha
+bảng
+dơ 5
+quả
+bens
+thrn
+quả
+bảng
+bảng
+chuyển

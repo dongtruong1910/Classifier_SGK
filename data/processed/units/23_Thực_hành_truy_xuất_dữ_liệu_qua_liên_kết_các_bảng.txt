@@ -1,0 +1,694 @@
+BÀI
+23
+THỰC HÀNH TRUY XUÂT DỮ
+LIỆU QUA LIÊN KỄT CÁC BẢNG
+SAU BÀI HỌC NÀY EM SỄ:
+Hiểu được cách thức
+xuất dữ liệu qua liên kết các bảng .
+Các bảng có thể có quan hệ với nhau; thể hiện qua khoá ngoài. Nhờ vậy có thể
+truy xuất dữ liệu từ các bảng khác theo mối quan hệ. Việc này sẽ được thực hiện
+cụ thể như' thế nào trong giao diện của một hệ QTCSDL?
+Nhiệm vụ 1. Lập danh sách các bản nhạc với tên bản nhạc và tên tác
+Hướng dẫn:
+bannhac có cấu trúc:
+bannhac (idBannhac, tenBannhac, idNhacsi, idTheloai)
+Trong số các trường này
+có trường tenNhacsi.
+Làm thế nào lập được danh
+sách các bản nhạc
+với tên nhạc sĩ sáng tác bản nhạc ấy?
+Tên nhạc sĩ nằm trong
+nhacsi, lưu trữ ở trường tenNhacsi
+nhacsi
+(idNhacsi,
+tenNhacsi)
+bannhac có khoá ngoài là idNhacsi tham chiếu đến trường khoá chính
+idNhacsi của
+nhacsi .
+Để
+vấn hai bảng qua liên kết khoá, câu
+vấn SQL với mệnh đề JOIN có
+cấu trúc như sau:
+71
+170
+Tud
+SELECT danh_sách_tên_trường_của
+2
+01lG
+U
+FROM tên
+0
+INNER JOIN tên
+b
+ON
+tên
+a.tên
+trường_a
+=
+tên
+b.tên_trường_b
+[WHERE
+1
+[ORDER
+BY
+]
+;
+Ví dụ: Để lấy ra danh sách các bản nhạc gồm tenBannhac; tenNhacsi,
+câu
+vấn:
+SELECT
+bannhac. tenBannhac,
+nhacsi.tenNhacsi
+FROM
+bannhac
+INNER
+JOIN nhacsi
+ON bannhac.idNhacsi
+
+nhacsi.idNhacsi;
+Vào HeidiSQL,
+chọn CSDL mymusic,
+chọn thẻ
+vấn và
+vào câu truy
+vấn trên. Nhấn F9 trên bàn phím hoặc nháy chuột vào biểu tượng
+hoặc nháy nút
+chuột, chọn
+109
+truy ]
+già
+Bảng
+không
+cùng
+bảng
+Bảng
+bảng
+truy
+truy
+bang
+bảng _
+bang _
+bảng
+bảng _
+dùng
+truy
+Truy
+nhập
+phải
+Chạy .
+
+Uru cmet }r vr Iusic ban'Iac{ - ~tiJliSOL Pv
+20.0.G4G8
+J
+X
+Tar tin
+Ch'nh <
+Tr) kiem
+Truy van
+Cc
+9u
+9*1
+Tr? giỂp
+4
+=l0 Kh0
+XE '
+1Q (
+012
+Rnlo- cos
+36lcc nan
+Vảv chu;12l.v,1
+:c:àdửlẹL: mymlsic
+Innamed
+Totlz Jornhac
+Dừ licc
+Iuvvar*
+SELEZT
+bannkac.
+nhazsi
+ZenNhacsi
+lzcr
+FROM Ucmi Idl EnvER JOIN Ilalsi
+mymusic
+12g0KiB
+OK
+banrhas-ionhacsi
+Fhacsiidhoacs=
+Danr. .
+40,0 Kid
+Jant1.
+42 0 KiB
+R:sutel (Cr
+4d)
+29,
+1G0 RiB
+Jhacsi
+IbuKiB
+1j3377732
+"enBannhac
+ijvhsczi
+tnvhacsi
+Dukid sonu Tu
+EẻNu51
+52
+'scrc Lo
+Vaacao
+Tinac
+bing Vift
+Zakis
+OMsn-ai718
+Vizt Nem
+hưong tai
+Eê Njjsn
+7ne@Nvi
+Và1 Cav
+Nhacrin?
+YoengViet
+hảt giờa rừng B5Bó
+'bguyén-ai -ué
+R?loc Regu/a-Fxrnssicn
+24
+Ajjecteo
+Fws
+Fojnc
+Toys
+Wornings
+Vuforion
+tcr
+Gvecy
+[e
+se:
+r?:ee {2461(Conncctc
+Mar zDB 10.52
+Uot mc: 15 dz/: 0d
+0 Scrcrtin ( ) Iclz
+Hình 23.1. Kết
+vấn liên kết hai
+theo trường khoá
+Nếu muốn ở dữ liệu kết xuất có cả trường idNhacsi của
+nhacsi nhằm có
+thể đối chiếu một cách tường minh
+không khó; chỉ cần đổi tên hai trường (cùng
+tên) ở hai bảng để phân biệt.
+SELECT
+bannhac. tenBannhac,
+bannhac .idNhacsi
+as
+idNs
+BN_
+nhacsi.idNhacsi
+as
+idNS
+NS,
+nhacsi
+tenNhacsi
+FROM
+bannhac
+INNER
+JOIN
+nhacsi
+ON
+bannhac.idNhacsi
+2
+nhacsi.idNhacsi;
+Unnamed ny-u:cLa-nkaz
+HeidisCl Portab e1222.9/63
+Tap tin
+Chinh virr
+Zmk7-
+Vn
+Cac
+5v
+OFr
+Trạ ji r
+Lokhoo
+X>
+olu
+15
+3oloc ccs
+Bc lac bin
+chù:I2{ 0u1
+Cơ:ởduhsu:rymu;<
+ablz: brnrh:<
+Dclc-
+Tr_Y vEn
+Unramcd
+Selel
+ban
+hcc.-cnban
+ne=
+banahs€
+1dNhac
+2=
+ahy
+3ii
+Fill -
+nracsi
+iancacsi
+0s id S_NS ,
+nhac
+cnhhossi
+informa.
+FFOW
+banJhsc INNER JOIN nhocsi
+rymusir
+1214 sin
+ON hannh
+bann_
+42,6 CiE
+benu
+42 - <iB
+Result =1 (*
+Ac)
+{o:i
+13 <iu
+tcn?an-har
+DdIE_EN
+id SJIs
+:thcji
+nhacsi
+133 <iB
+Dukch €829 Tha
+{8Mw81
+Mhzcnn:
+Kanc Vist
+TznvehNg
+Yaica_
+Iznghit Jur-n? '@cBó
+[ƯẺn
+Iuc
+Tihula
+HarVizi
+Truzng ca SEng Lò
+venCe
+Viet Yam
+10-g toi
+CNu6n
+ỵakhzi
+Tu en=8 Tue
+36 lq2 kcju a-Cxprciaizn
+Affecteo
+Fews
+8
+Fsu:o
+Foas:
+uErnln?s:
+[urot:?n fcr
+Qvecy '
+0,282
+5e5
+r1: (56 (9} B
+Con-eztsc
+Naria[B1224
+Lpt mz 15225 025 @ Jeretin  Q dle
+Hình 23.2 Kết quả
+vấn liên kết hai bảng với khoá đối chiếu
+Lưu ý:
+HeidiSQL có hỗ
+người  dùng khi nhập
+các câu truy vấn theo các
+phương thức:
+Dùng màu sắc để trợ giúp quan sát cú pháp của câu truy vấn (syntax coloring) .
+Mỗi khi người dùng nhập một tên
+và dấu chấm ( .) HeidiSQL sẽ hiển thị
+ngay danh sách các tên trường của bảng để người
+lựa chọn.
+110
+"latlz
+Fanc
+nfcmp -
+ILcng
+Qe
+7279
+quả
+bảng
+truy
+bảng
+cũng
+"ny
+cang
+Hy
+quE
+truy
+trợ
+bảng
+dùng
+
+Unnamed  mymusic nhacsil
+HeidiSQL Portable 12.0.0.6468
+Tặp tin
+Chỉnh sỦa
+Tim kiẽm
+vấn
+Các
+Cụ
+Đẽn
+Trợ giúp
+J0o
+@Kho0
+X
+010
+Bo loc cd sd
+Be
+Mảy chủ; 127,0.0.1
+Co sẳ dữ liệu; mymusic
+Table: nhacsi
+Dừ liệu
+Truy vãn*
+mymusic
+96,0 KiB
+1
+SELECT
+Filter
+2
+bannhac ,
+bannh .
+48,0 KiB
+3
+Tolumn:
+nhacsi
+16,0 KiB
+4
+int
+idBannhac
+IQL func."
+5
+varchar
+tenBannhac
+theloai
+32,0 KiB
+int
+idNhacsi
+nt
+idThelcai
+Result =1 (3r
+3c)
+idBannhac
+2
+tenban
+Nôì vd
+Nhó
+8
+Đế gid
+Bọ loc Regular exprl
+251
+Affecteo
+Fois
+Founo
+Fows :
+3
+Wornings:
+Durotion
+for
+1
+query:
+6,000
+SeC-
+252
+SHOly
+CREATE
+TABLE
+mymusic
+nhacsi
+T2 : c1o (65 B)
+Connectec
+MariaDB 10.6,4
+Uptime: 18
+12.0
+Server time
+Idle
+Hình 23.3. Một
+diện hỗ trợ người
+của HeidiSQL
+Hãy thực hành
+Lập danh sách bao
+idBannhac, tenBannhac; tenNhacsi từ tất cả các bản
+nhạc có trong bảng bannhac
+Lập danh sách bao gồm idBannhac, tenBannhac từ tất cả các bản nhạc của
+nhạc sĩ Đỗ Nhuận có trong
+bannhac.
+Nhiệm vụ 2. Lập danh sách các bản thu âm với đủ các thông tin idBanthuam,
+tenBannhac, tenCasi
+Hướng dẫn:
+RET NỐI TRI THỨC
+Để truy vấn được nhiều hơn hai
+theo liên kết khoá ngoài, hãy lặp lại mệnh
+đề JOIN trong câu truy vấn SQL theo cấu trúc như sau:
+SELECT
+danh
+sách
+tên_trường_của
+3
+FROM tên
+9
+INNER
+JOIN
+tên
+b
+ON
+tên
+a.tên
+trường_a
+=
+tên
+b.tên_trường_b
+INNER
+JOIN
+tên_bảng_c
+ON
+tên
+bảng_x. tên_trường_x
+=
+tên
+C.tên
+trường_c
+[WHERE
+1
+[ORDER
+BY
+] ;
+Trong đó tên_bảng_x. tên_trường_x là tên trường của bảng a
+bảng b
+Nhiệm vụ 3. Tim hiểu một chức
+của ứng
+Quản lý dữ liệu âm nhạc
+Qua giao diện trong Hình 23.4
+em
+hãy tìm hiểu một chức
+của ứng dụng
+Quản lý dữ liệu âm nhạc,
+so sánh với
+những kiến thức vừa được
+và cho nhận xét
+so sánh.
+111
+Truy 7
+cong
+loc
+bảng
+days
+giao
+dùng
+gồm
+bảng
+bảng
+bảng
+bảng _
+bảng _
+bảng
+bảng _
+bảng_
+hay
+năng
+dung
+năng
+học
+
+mv}r usi:
+4
+C
+0
+Tymueic rom/index p-
+D :
+MYMUSIC MIANAGER
+Nhac si
+Ca si
+Ean nhac
+Bảr thJán
+Logout
+UUẢN LÝ DAAH SÁLHCÁC BẢN IHU ÀM
+Zan nhac:
+Chor
+2a>
+Chor
+NFan
+Tim
+Koa
+Dajh sfck cár ban thu àin dacé
+1
+Ma
+Binrnaz
+Ca si
+DJkiclsô % Thdo Đ/ Nuê
+Iran Kkal
+7kich
+Than :) 'hiai'
+Doãn Tan
+Iruờrg  sàng Lò, Vaw Cao
+Le Vung
+Trườrg ca
+L5, TEn C.o
+Tran Kháh
+Xa khci,
+Mwer 72 Jue
+1n Nhan
+Tineca
+Hairg Ve
+Ira ? Khaah
+vict Nam qui huong tò , Đ6 Muên
+(lõc Huorg
+Tieug hel giửa
+Pác 2é Va Ễn Tai Zsc
+1é
+Xakhci Vuoe I2 Ive
+Ihuzg Huyen
+10
+Tienvề Ila Nci VEn Cao
+QLóc Ilubr g
+QUAN [Ỷ DANII SÁCII CAc DAN Tiiu Ax
+QUẢN LỶ DANH SÁCH caC B/
+Fir "lr:
+6on
+Bàa nh-c:
+CJy Đan sultar c:
+Casi;
+Ca s
+Cfcn
+Dukich
+Tne) [5 { uan
+"unt
+Ii Sn?;:
+Ie. innoni
+Fah ce |loàn8 vIst
+Tran <hár-
+Yakcl
+Nguyen Ia1 Iue
+Sac~ cac ha- thu am Gero
+Lc
+Durg
+Me
+vij Mnju?Iunfn} I;%, Rf sInki ,
+Tan N-an
+5
+krosons ta
+ervella NC
+var Cac
+M2
+Ek
+"F
+Nhac
+Hcargnet
+Cuklch sôn; F3q 2u6-Huunk
+Tujrgc 3918
+~hal +ẵ1i" 3 Fir RẺ  riD
+Tu
+DoEn Tan
+Ila Na Niem Tav
+"cng. Fnen NFsr
+Cuklch
+Taq uên Thanh
+Wuorzca 3826
+Cảy Ban Gcifar Cua
+stor Hara Phanenen
+Yuong ra 5on?Ls Tnucng --ve
+Ke Jhvi
+CS1 Ilc Cen Cer Ilen -J212 F1a1/ riah DiFu
+Tirh ca Zaaw T:
+Orh 3ao ber
+Fn4) Auynl Đleu
+vidd Nua  Iup
+6P Tsfi
+Hình 23.4. Mô tả giao diện Quản lý danh sách các bản thu âm
+Cách tương tác với giao diện này tương tự như với giao diện Quản lý Bản nhạc ở
+Bài 22 (Hinh 22.7), chỉ khác ở chỗ khi nhập bản thu âm, chỉ có thể chọn tên bản nhạc;
+tên ca sĩ từ hộp danh sách với những tên đã có trong CSDL
+Danh sách các bản thu
+âm có đầy đủ các
+tin
+minh tên bản nhạc; tên nhạc sĩ và tên ca sĩ thể hiện.
+Theo các em:
+KẾT
+T2
+Te
+Người sử
+có cần biết, nhớ cấu trúc của
+trong CSDL không?
+Giao diện trên có dễ hiểu, dễ sử
+không? 0
+Hinh thức nhập dữ liệu như vậy có hỗ
+tính nhất
+dữ liệu không?
+LUYỆN TẬP
+1. Lấy danh sách các bản thu âm với đầy đủ các
+tin, idBanthuam, tenBannhac;,
+tenTheloai , tenNhacsi , tenCasi.
+2. Lấy danh
+sách
+các bản
+thu
+âm
+với
+các
+tin idBanthuam
+tenBannhac;
+tenTheloai_
+tenCasi các bản nhạc của nhạc sĩ Văn Cao.
+3. Lấy danh
+sách
+các bản
+thu
+âm
+với
+các thông tin idBanthuam
+tenBannhac;,
+tenTacgia,
+tenTheloai các bản nhạc do ca sĩ Lê Dung thể hiện.
+4. Lấy danh
+sách
+các bản thu
+âm
+với
+các
+tin idBanthuam
+tenBannhac,
+tenTacgia,
+tenCasi các bản nhạc do ca sĩ Lê Dung thể hiện thuộc thể loại Nhạc
+trữ tinh.
+VẬN DỤNG
+Thực hành
+xuất bảng QuậnlHuyện qua liên kết với
+Tỉnh/Thành
+112
+7ans;
+55-g
+Seng
+9g
+Durig
+br7
+CFcn
+SF
+Fune
+sôn;
+Nhuns
+thông
+tường
+bảng
+dụng
+dụng
+trợ
+quán
+thông
+thông
+thông
+phố.
+bảng
+truy

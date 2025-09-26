@@ -1,0 +1,784 @@
+BÀI
+79
+THỰC HÀNH TAO LẬP
+CO SỞ DỮ LIỆU VÀ CÁC BẢNG
+SAU BÀl HỌC NÀY EM SỄ:
+Biết tạo mới mật CSDL, thực hiện thông qua giao diện của phần mềm khách quản
+trị CSDL HeidiSQL
+Tạo được các bảng không có khoá ngoài, chỉ định được khoá chính cho mỗi bảng,
+khoá cấm trùng lặp cho những trường không được có
+trị trùng lặp _
+Việc đầu tiên để làm việc với một CSDL là tạo Iập
+Với HeidiSQL, việc tạo Iập
+CSDL và các bảng đơn
+được thực hiện như thế nào?
+Nhiệm vụ. Tạo lập CSDL
+mới tên là mymusic, khởi
+nhacsi,khai
+báo các khoá cho các
+như thiềt kế ở Bâi 18
+Hướng dẫn:
+1. TAO LÂP CSDL MYMUSIC
+Nháy nút
+chuột ở
+danh sách các CSDL đã có, chọn thẻ
+mới, chọn
+Cơ sở dữ liệu. Nhập mymusic; chọn OK.
+Bộ mã kí tự mặc định là Unicode 4 byte: utf8mb4, đối chiếu so sánh xâu theo
+utf8mb4_general
+ci .
+mã Iệnh phía dưới sẽ thấy xuất hiện câu
+vấn SQL tương ứng:
+Tao co sd dừ liệu 
+7
+X
+RITKUC
+Ièn:
+mymusid
+Đgi chiẽu
+utf8mb4_general
+
+ci
+Dlc_IG
+chủ mẳc đinh: utf8mb4_general_ci
+Unnamedimymusic:
+HeidiSQL 11.3.0.6447
+OK
+Hủy
+Tạp tin
+Chỉnh sửa
+Tim kiẽm
+vấn
+Cảc
+mà CREATE:
+myrusic
+Bộ lọc bảng
+CREATE DATABASE
+nyhusic
+/*{40108 COLLATE
+Unnamed
+mymusic
+0 B
+Hình 19.1
+Tạo lập CSDL mymusic
+2. TAO LÂP BẢNG
+a) Khai báo tạo lập
+các trường và kiểu dữ liệu
+Tạo lập
+nhacsi (idNhacsi ,
+tenNhacsi), idNhacsi kiểu INT tenNhacsi kiểu
+VARCHAR (255)
+Nháy nút
+chuột ở
+danh sách các CSDL đã có, chọn thẻ Tạo mới, chọn
+Nhập tên: nhacsi,
+chọn Thêm mới để thêm trường: Một trường với tên mặc
+định Column1 sẽ xuất hiện phía dưới.
+91
+giá
+giản
+bảng
+tao
+bảng
+này
+phải
+vùng
+Tạo
+vùng
+truy 7
+Máy
+Truy
+còng
+bỏng,
+bảng
+phải
+vùng
+Bảng
+
+Unramec myrnusic 
+HeidiSQL Portable 120C.6163
+Tap ln
+Chỉnh ,Uc
+Trkicrn
+Tuy vẳn
+Ccc ccll4 cẸ
+Eêl
+Tự qiúp
+Jna
+[
+4
+Le KA60
+X
+0
+0 J0
+K
+Rạ lọ- r7sỳ
+Fc Ior hanJ
+Máy chú 127,0.0.1
+C !0 dữlieu: mymus €
+Tahle: [UIntitler ]
+Yár*
+"y
+(Ol
+mymusic
+JD
+Basic
+Iuy zhen
+Inceres {U)
+E Fcreign kevs (U'
+Chezkzonstraints (U)
+Cac
+Tên:
+nhacsi
+Binh luặn:
+Cọt:
+Thzm mgi
+Xóa
+Jon
+en
+KieJ dú hẹu
+Lenjth/>et
+Allzw NU.
+Zer?
+Mảc đ1nn
+Binh |
+(clumn 1
+INI
+Nace;uIt
+Trợ ciúp
+HủyÈả
+LJu
+Bộ ọc Regular expreszipn
+175
+SHOW TRIGGERS FROR
+mnymusic
+176
+SELECT
+EvEvT Sciicxe AS
+D?
+[yENT NeMc A5
+Yonc
+FRCM infornazion
+Sckeno.
+EVENTS
+VIICRE
+EVENT Sciickg
+(onnected:
+Varial)y Il)h2
+Ilrtme: I/cays 1*-8 (Servertime: Cld €
+Hình 19.2
+Khai báo tên
+thêm mới một trường
+Nhập Tên: idNhacsi , chọn kiểu dữ liệu INT, bỏ đánh dấu ô Allow NULL
+Unramec myriusic 
+HeidiSQL Portabl: 12,0 C.6463
+Tậptr
+Chinh :Ử:
+Trliếm
+vĩn
+Cac
+(l
+Eên
+Trợ giúP
+2Elko
+X E
+0a0
+6B
+Dệ loz cs53
+[c lcc
+Maycni:- 27,0.0.1
+Cc :c dừ ièu: rymusic
+Tab € .Untit cd]
+Yan"
+mymusic
+k
+Bzsic
+Tùy chur
+'dexe: (o)
+%
+Fureiqn <eYs (0,
+Chzck cunslidir L: {0)
+En:
+rhac:i
+Binn luar:
+Cot:
+Taim mG
+Xi,
+Tnna
+ONo Isfalltva 1 F
+Ten
+Kcu dử licu
+Lenqth Sct
+Unsiqned
+Allove NLLL
+Zer?
+OCustomtext:
+idNhacs
+INT
+ONULL
+Expreccion
+Tr? giup
+Hủy bẻ
+LUU
+1
+Jnurcate:
+Ec loc Fegulzr expression
+175
+Shol TRIGGER5 Fror
+MyMuisic
+
+0AUTO_INCREMENT
+176
+SFIFCT
+FvFvT Schfxe As
+0a
+FvenT
+Neme As
+ane
+FRGM
+infocna_
+On
+Screma
+FvFvts
+K
+Hừy
+Connectcd;
+NariaDJ 1062
+UFt me: 17 cays 1324 @ Servertime;
+Hình 19.3. Khai báo trường kiểu INT, not NULL
+Chọn AUTO_INCREMENT,
+dưới nhãn Mặc định và chọn OK, để có kết
+nhu
+Hinh 19.4.
+Ten
+Kieu dữ liệu
+Length Set
+Unsigned
+Allcw NULL
+Zero_
+Mac dinh
+idNhacsi
+INT
+AUTO_INCREMENT
+Hình 19.4. Khai báo trưòng AUTO_INCREMENT
+Để thêm khai báo trường tiếp theo; nhấn CtrltInsert hoặc nháy nút
+chuột
+vào
+dưới
+idNhacsi và chọn Add column.
+Nhập: tenNhacsi; chọn kiểu VARCHAR; độ dài 255, giá trị mặc định là kí tự
+92
+Truy 
+Up
+Unsig:
+bảng,
+~ruv
+cêng
+bing
+Tuy
+(ec F
+quả
+phải
+phần
+dòng
+rỗng
+
+Unrdr I2d'r Vrusic{
+FdiSQ-Pu lable 120.0,(4c8
+rtn
+( hinh sira
+lim kiFm
+Inlvjn
+Fac
+Fu
+#JFr
+Ic gup
+@KhQe
+XE
+Uig
+S
+8
+Bộ
+ọc co -ả
+Bo cc
+chủ; 127,0.21
+Cu ,6 JìliệJ; MIY'T Lsic
+Tzblc: [Untitlcd]
+Tuy vẵn
+mymusir
+DR
+Basic
+TJy chon
+Indexe; (() A Torcizn
+iC)
+Checkconst zints (0)
+Các [
+Ter:
+nhacsi
+3inh Ijan:
+Cst
+Then nci
+Xa
+Up
+Down
+Tér
+Kicu dừlicu
+Length Set
+Unsigred
+4 low NULL
+Zero.
+Mặc Jinh
+Dink
+idNnjcsi
+NT
+AUTD_INCFEMENT
+tznNnacsi
+W:lkiF
+DfC Mai
+Text
+VAR( HL{Mi
+VARCHAR
+1vanabl--length cnng. Mreprecents tFF
+CHAR
+raxmum {clumn
+length 1n characzers
+Ihe
+rangect MIsUto 62,535. Ihe effectne
+TINYTExT
+178
+raxmun
+length ot
+VAKLHA{I {Lbjectto
+TEXT
+tremaxmur) row s12e (3),3}: bytes, whIch 15
+shared amopoallcolumn-Larctbecharacter
+Iviet 8Du Ic0:
+Pume
+7 days 1352
+Servrertric;
+dle.
+Hình 19.5. Khai báo trường kiểu VARCHAR
+b) Khai báo khoá chinh
+Sac chép
+Ctrl+C
+selected columns
+Án định idNhacsi là khoá chính:
+Paste columns
+Nháy nút phải chuột vào
+khai
+Add column
+Ctrl+Ins
+báo idNhacsi và chọn Create new
+Remove column
+Ctrl+Del
+index
+PRIMARY.
+Move up
+Ctrl_U
+Move down
+Ctrl+D
+Create new index
+PRIMARY
+Add to index
+2
+KEY
+2
+UNIQUE
+2
+FULLTEXT
+2
+SPATIAL
+Hình 19.6.
+chọn để khai báo khoá chính
+KẾT NẼ#
+cần phải làm gi trong trường hợp chọn nhầm trường làm khoá chính, chẳng hạn
+chọn nhẩm trường tenNhacsi như Hình 19.7?
+Uo
+Unnamed mymusic}
+HeidisQL Portable 1200,6463
+Tập tin
+Ch'nn :ủa
+Tim kiến
+vấn
+Các
+(Ụ
+Đến
+Tro giúp
+I00
+=lekhoo
+X
+010
+5
+[
+my
+Bc lec bán
+Mảy cnủ: 1270.2.1
+Co sà dừ liệu: mymusic
+Table: [Un:itleJ]
+van'
+Unramcd
+Basic
+chon
+Indexes (1)
+'creignkeys {0j
+Checkconstrzirts (0)
+wymusic
+0 3
+Thenruci
+XSc
+Ten
+Type
+Lenqth
+Alqorith 7
+Dọr dẹo
+Up
+2
+PRIMERY KEY
+PRIMARY
+Dowjr
+:enNracs
+Côt:
+Zhêm mởi
+Xéa
+Jp
+Dowr
+TFn
+KiFu dirli?u
+lengtk/SF-
+1lrw NlJI |
+7erof II
+Mặr dịnh
+idNhacsi
+INT
+JUTO_INCREMENT
+tenNhscsi
+VARCIIAR
+255
+Trợ giúp
+FỉrhF
+fl
+D? cc Regular exfressicn
+78
+439:
+Abstroct
+Error Messjge (ho code:0 M5?8515
+Conrected
+MariaDB 10.6.4
+Uptimz 1 day; 0.01
+Servrer -ime
+Mdle
+Hình 19.7. Minh
+khai báo nhầm khoá chính
+93
+rang
+bing
+May
+ker:
+Copy
+dòng
+Bảng chạu !
+Truy
+{òn9
+Tuy ]
+Tuv
+Unsgn_
+hoạ
+
+Để sửakhoá chính
+Ur ar eur vrt-sic{ - Hziuis? P_llalle 12.0.0 646?
+Ta- lis
+cinh : úa
+Tirn bizrn
+van
+Ca- -Úl4 cụ
+{a
+Tru qiu-
+đã
+khai
+báo
+nhầm
+C 6
+0
+#l0hhp0X>
+9
+BSe; €
+này;
+hãy
+nháy
+đúp
+my
+Bo oc ban
+MAoy c-ir I, /(2 21
+Casàdi IIr Ty-IKsic
+12 Tabls: 'Lntit edl
+Invy*-
+Unnamed
+chuột vào ô tenNhacsi
+49=
+v :h?n
+Inzee:f1)
+De 1-ragn <ev(u
+(herk c-nsra nk ()
+mymuslc
+03
+Ihcmngi
+Koj
+Typ?{ Le'1qU1
+Al4-iUv
+Ở
+dưới
+Ô
+PRIMARY
+X Dụ"J-P
+2-RIYARY KEY
+PR LIARY
+Dcws
+Keanhnrs
+KEY
+Ở
+trên
+và
+Mhacsi
+Coc
+Thcamzi 0 Xóz
+tc-NJacsi
+chọn
+lại
+idNhacsi
+Tzn
+Kié. d?liệu
+Lang llvsel
+Urviz" _
+Elvw NIULL
+Zarli |
+kac đir |
+(Hinh 19.8):
+idNhac:
+NT
+AUTC IKCREMENT
+ccnNhacsi
+VARCHAR
+255
+Tyciup
+bo
+Luu
+Bụ luc|
+#pei_1
+Hình 19.8.
+Thao tác
+749:
+Absril(
+n791
+Mes>uye
+Cha{-Ue:6 "29:522
+sửa khoá chính
+(O(orne-ted
+Mla-in
+7/2 = 2
+[ph -nc
+drax
+01a)-
+0'"
+Mf
+0
+di:
+Sau đó
+chuột
+Un' at =ut _t_sic{ - HeiJis2 P_ilalle 12.0.0 G46?
+Ta- lin
+C' irh ,Úa
+Tirn Viern
+van
+Ca_ _Unycu
+{ai
+Tn 4iu:
+vào ô bên cạnh dưới ô
+2
+9
+O
+=i0hho0izxy -
+570
+BLr SE
+PRIMARY (Hinh 19.9)
+my
+Bo oc bản
+cri{ 2 21
+Fasadi II TY~Isic
+E Tabls: 'Lntit edl
+Inry*-=
+Uunarne]
+1a9:
+y -h?n
+Inzee:'1)
+De / -ragn <vs (
+(herkc-nsra nk (l)
+mymuslc
+03
+Thim nai 0 3òJ
+"yp?! 26'14u1
+Aly-iiUrn
+X Den d:r
+"RIVARYKEY
+PR LIARY
+DC"
+N-a-si
+Cct
+Thenm:i 0 Xó:
+Up
+Jqn
+T-r
+Sif 2hau
+| ~ru Ilvsi
+[lrri_1
+4lu Nui|
+3-gi
+Lar dir |
+IdlIhacsi
+INT
+AUTO INCREME 
+tenN-acsi
+WAR-HAF
+255
+yciup
+FúY bú
+Luu
+Bự luc
+a1
+~Hesi_1
+Hình 19.9. Kết quả
+729
+Aoe LfL L
+5:
+es
+Ure
+Churrue:6
+642
+chỉnh sửa khoá chinh
+(O(orneted
+Kla-
+1il :2
+Uph -nr
+drvs9.n4
+0 'r"
+me
+dl:
+c) Lưu kết
+Jnnjmzd ~Tytuscnnassi
+HaidiSQL Ponaclc 1200.6-6?
+TaP: n
+Chink sua
+Tm j:m
+Invvdn
+Cac canc (Ụ
+{en
+Tro qicP
+Cuối
+cùng
+chọn
+=lekuo
+X> -
+9
+33
+Lưu để
+lưu
+lại
+khai
+RsI .
+Mảs chu; 127221
+Cz sc dứ liiu m;rusic
+Tall-: uh4 <
+Di lièu
+Tuy
+Urnamed
+3a.
+Tuv
+In:Cxcs( )
+04 Faeiyr key? @)
+Celllun bai L (
+báo
+nhacsi .
+mymuslc
+16,oKB
+ThNm ma
+Tfs /
+Fn
+2lg rlFo
+uhassi
+IgoKB
+hiển thị phía trái
+XD:n :ca
+PRIMIERY KFY
+"RI{ARY
+RTRFF
+U
+Dsan
+sẽ xuất hiện tên
+C?t:
+Thém mai 0xoa
+U =
+Do'sy
+nhacsi  dưới
+tên
+ciéu :ừ lieu
+Lergth; Set
+Jnsig 7e3
+Allaiv NU ,
+Zersfil
+Mac d nh
+CSDL mymusic (Hinh
+idNhacsi
+INT
+11
+AUTO IMCRENE
+2
+tcnNhjc:
+VAFCFAR
+255
+19.10)
+Tv,i
+Fus I
+1
+Bò loz Fcculjr =xprcss or
+Hình 19.10. Kết
+9=
+SeLEZ- CONSIRAINIT Nare
+CHECK ClUSE
+FFON
+inrormatlor
+Sehera
+CHEC< CENsTpis Ts
+WheRe COnSTraINT
+tạo lập
+Conncctcd
+MzrizDB IC,6,-
+Uztir-€
+dy: @l/1
+Scvcrtmc
+Idlc.
+LUYÊN TÂP
+Khai báo tạo lập bảng casi như thiết kế ở Bài 18
+VẬN DỤNG
+Hãy Iập CSDL quản lí tên các Quận/Huyện, Tỉnh/Thành
+của Việt Nam. Tạo bảng
+Tỉnh/Thành
+94
+7uy
+phần
+Fúy
+Reyu
+nháy
+7uy
+MAn
+Requ
+"y
+quà
+Yar
+Jụn
+bảng
+vùng
+bảng
+dòng
+quả
+bảng
+phố
+phố.

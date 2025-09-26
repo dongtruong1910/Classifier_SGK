@@ -1,0 +1,537 @@
+BÀl
+74
+SQL
+9
+NCÔN NGỮ TRUY VÂN
+CÓ CẪU TRÚC
+SAU BÀI HỌC NÀY EM SỄ:
+Hiểu được ở mức nguyên lí: CSDL và các bảng được tạo lập, được thêm mới; cập
+nhật và
+xuất dữ liệu qua SQL
+Ởbài trước các em đã biếthệ QTCSDL với vai trò là mộtbộ
+mềm hỗ trợ khởi
+tạo; cập nhật,
+xuất CSDL để người
+có thể cập nhật; truy xuất CSDL
+Ngày nay người ta thực hiện
+việc đó chủ yếu
+qua ngôn ngữ truy vấn
+có cấu trúc SQL Sự khác biệt của việc sử dụng SQL so với việc truy xuất dữ liệu
+ngôn ngữ Iập trình là gì?
+1. LỢl ÍCH CỦA NGÔN NGỮ TRUY VÂN
+Hoạt động 1
+Thào luận vê hai cách truy xuât dữ liệu
+Để lấy danh sách các bản nhạc do nhạc sĩ Văn Cao (mã định danh Aid = 1),
+tác
+trong bảng dữ liệu Bản nhạc, ta có thể thực hiện theo một trong hai cách sau:
+một ngôn ngữ lập trinh, viết chương trinh mở tệp chứa
+dữ liệu Bản nhạc;,
+rồi lần lượt Iấy ra
+nhóm dữ liệu liên quan đến từng bản nhạc, sau đó tách
+phần Aid để kiềm tra; nếu Aid =
+thì đưa ra tên bản nhạc (TenBN)
+Dùng ngôn ngữ truy vấn; viết "CHỌN TenBN TỪ Bản nhạc VỚl Aid = 1"rồi gửi cho
+hệ QTCSDL thực hiện
+CsMTG
+Sự khác biệt cơ bản trong cách
+vấn nhờ ngôn ngữ truy vấn so với lập trinh trực
+tiếp theo em là gì?
+Với cách thực hiện thứ nhất trong Hoạt
+1,
+người
+biết rõ cấu trúc
+tệp dữ liệu, từ đó lập trinh Iấy ra đoạn dữ liệu liên quan tới
+bản nhạc để xử Ií .
+Việc làm này rất mất
+sức, lại dễ nhầm Iẫn. Đây là kiểu Iập trinh
+'theo thủ tục" vì
+biết rõ thủ tục
+cập dữ liệu để xây dựng thuật toán:.
+Hơn thế nữa; ở một bài
+toán khác có nội
+tương tự, vÍ dụ lập danh sách các học sinh có điểm trung binh
+môn Toán trên 8 lại
+viết lại chương trinh với một thủ tục tương tự.
+Với cách thực hiện thứ hai trong Hoạt
+1
+người
+chỉ cần viết ra yêu cầu
+dưới dạng một câu
+vấn
+~
+muổn làm gì, chứ không
+cách để thực hiện
+cầu ấỵ: Mọi việc còn lại sẽ do hệ QTCSDL giải quyết: tiếp nhận yêu cầu ở
+xâu truy vấn rồi Iấy ra kết
+theo
+yêu cầu.
+Ngôn
+truy vấn định chuẩn cho việc định nghĩa, cập nhật; truy xuất và điều
+khiển dữ liệu từ các CSDL quan hệ là SQL (Structured Query Language) được xây
+69
+truy
+phần
+truy
+dùng
+công
+thông
+bằng
+sáng
+bảng
+Dùng
+từng
+truy
+phải
+động
+dùng
+từng
+công
+phải
+truy
+dung
+phải
+động
+dùng
+phải
+nghĩ
+truy
+yêu
+dạng
+quả
+đúng
+ngữ
+
+dựng từ những năm 1970. SQL đã trở thành ngôn ngữ truy vấn tiêu chuẩn mà hầu
+hết các hệ QTCSDL đều sử dụng: Điều đó có
+là chúng ta có thể
+SQL
+để thao tác trên hầu hết các hệ QTCSDL
+biến như Oracle; SQL server, MySQL,
+PostGreSQL,
+SQL có ba thành
+'phần là DDL (Data Definition Language
+
+ngữ
+định nghĩa dữ liệu) , DML (Data Manipulation Language
+
+ngữ thao tác dữ liệu)
+và DCL (Data Control Language
+
+ngôn ngữ kiểm soát dữ liệu).
+Chúng ta sẽ sử dụng SQL để minh hoạ cách thức
+trị CSDL
+2.KHỞl TẠO CSDL
+Thành
+DDL của SQL cung cấp các câu
+vấn khởi tạo CSDL; khởi tạo
+bảng, thiết lập các khoá; tóm tắt trong các
+sau.
+14.1. Các câu truy vấn CSDL
+Câu truy vấn DDL
+Ý nghĩa
+CREATE DATABASE
+Khởi tạo CSDL
+CREATE TABLE
+Khởi tạo bảng
+ALTER TABLE
+đổi định nghĩa bảng
+PRIMARY KEY
+Khai báo khoá chính
+FOREIGN KEY.
+REFERENCES.
+Khai báo khoá ngoài
+Các kiểu dữ liệu được sử dụng cho các thuộc tính của các
+trong SQL
+14.2 Kiểu dữ liệu
+Kiểu dữ liệu
+Ý nghĩa
+Xâu kí tự có độ dài cố định n kí tự , nếu xâu có ít hơn
+CHAR (n)
+CHARACTER (n)
+n kí
+các kí tự trống được thêm vào phía bên phải
+VARCHAR (n)
+Xâu kí tự có độ dài
+đổi, không vưọt quá n kí tự
+BOOLEAN
+KE9
+Kiểu lôgic có giá trị Đúng (1)
+Sai (0)
+INT
+INTEGER
+Số nguyên
+REAL
+VD
+Số thực dấu phẩy động
+DATE
+Ngày tháng, dạng 'YYYY-MM-DD'
+TIME
+Thời gian, dạng 'HH:MM:SS'
+Ví dụ: Khởi tạo CSDL âm nhạc, đặttên là music và khởi tạo các bảng Nhạc sĩ, Bản
+nhạc có tên tương ứng là nhacsi và bannhac.
+CREATE
+DATABASE music;
+Khởi tạo CSDL music
+CREATE
+TABLE
+bannhac
+Khởi tạo bảng bannhac
+Mid
+CHAR(4) ,
+Aid
+INT,
+TenBN
+VARCHAR
+(128)
+) ;
+Thêm khoá chính Mid
+ALTER
+TABLE bannhac
+ADD
+PRIMARY
+KEY (Mid);
+cho bảng bannhac
+CREATE
+TABLE
+nhacsi
+Khởi tạo bảng nhacsi
+Aid
+INT
+TenNS
+VARCHAR
+(64)
+Các dấu chấm phẩy
+được
+) ;
+dùng để kết thúc câu
+vấn
+70
+nghĩa
+dùng
+phổ
+ngôn
+ngôn
+quản
+phần
+truy
+bảng
+Bảng
+Thay
+bảng
+Bảng
+hay
+tự ,
+thay
+hay
+hay
+truy
+
+1. Hãy viết câu truy vấn tạo
+Ca sĨnhư đã mô tả trong Bài 11với tên
+là casi .
+2. Hãy viết câu truy vấn thêm khoá chính Sid cho
+casi .
+3. CÂP NHÂT VÀ TRUY XUÂT DỮ LlÊU
+Thành phần DML của SQL cung cấp các câu truy vấn cập nhật và
+xuất dữ
+liệu
+Sau đây là một vài câu truy xuất dữ liệu để minh hoạ.
+14.3. Câu
+xuất dữ liệu
+Câu truy xuất dữ liệu
+Ý nghĩa
+SELECT
+<dữ liệu
+cần
+lấy>
+<dữ liệu cần
+có thể là danh sách các trường
+FROM <tên
+hàm nào đó với các biến là trường trong bảng
+WHERE <điều kiện
+chọn >
+Chỉ định chọn chỉ các dòng thoả mãn điều kiện xác định
+ORDER
+BY
+<tên
+trường>
+Sắp xếp các
+kết
+theo thứ tự chỉ định
+INNER
+JOIN
+Liên kết các
+theo điều kiện
+Một số câu
+vấn cập nhật dữ liệu cho trong Bảng 14.4.
+14.4. Các câu
+vấn cập nhật dữ liệu
+Câu truy vấn cập nhật dữ liệu
+Ý nghĩa
+INSERT
+INTO
+<tên
+Thêm dữ liệu vào bảng <tên bảng> với
+trị Iấy
+VALUES
+<danh sách giá trị>
+từ <danh sách giá trị>
+DELETE FROM
+<tên
+Xoá các
+trong bảng <tên bảng> thoả mãn
+WHERE
+<điều
+kiện>
+<điều kiện>
+UPDATE
+<tên
+Cập nhật <giá trị> cho trường có tên là <tên trường>
+SET
+<tên trường>
+
+trị>
+trong bảng <tên bảng>
+Ví dụ:
+KET MOTTRT
+Chọn ra từ bảng bannhac các dòng có
+SELECT Mid,
+TenBN
+<
+Aid
+=
+1, ở mỗi dòng chỉ lấy giá trị các
+FROM bannhac
+Y
+cột Mid và TenBN. Sắp xếp các
+kết
+WHERE
+Aid-1
+theo thứ tự TenBN.
+ORDER
+TenBN;
+Chọn   lấy tất
+cả
+các
+từ
+SELECT
+bannhac . TenBN ,
+nhacsi.TenNS
+bannhac, liên kết với
+nhacsi theo
+FROM
+bannhac
+INNER
+JOIN
+nhacsi
+khoá Aid, ở mỗi dòng lấy cật TenBN
+Ở
+ON bannhac.Aid
+2
+nhacsi
+Aid;
+bảng bannhac
+và
+cột TenNS ở
+nhacsi.
+INSERT
+INTO
+nhacsi
+VALUES
+Thêm vào bảng nhacsi hai
+mới.
+(5,
+Phú
+Quang' ) ,
+(6,
+Phan Huỳnh
+Điểu' ) ;
+DELETE
+FROM
+bannhac
+Xoá
+có Mid = '0005' trong
+WHERE
+Mid
+=
+0005
+;
+bannhac.
+UPDATE
+nhacsi
+đổi
+trị cột TenNS thành 'Hoàng
+SET
+TenNS
+=
+Hoàng
+Hiệp
+Ở
+có cột Aid = 6 trong
+WHERE
+Aid
+=
+6;
+nhacsi.
+71
+bảng
+bảng
+bảng
+truy
+Bảng
+truy
+lấy?
+hay
+bảng>
+dòng
+quả
+bảng
+truy
+Bảng
+truy
+bảng>
+giá
+bảng>
+dòng
+bảng?
+<giá
+dòng
+quả
+by
+dòng
+bảng
+bảng
+bảng
+dòng
+bảng
+dòng
+giá
+Thay
+Hiệp
+dòng
+bảng
+
+Giả sử đã có
+diemtoan
+11A, trong đó có cộttb ghi điểm trung bình môn Toán
+của tất cả các học sinh lớp 11A. Khi đó câu truy vấn sau lấy ra điểm trung binh
+môn Toán của tất cả các học sinh lớp 11A.
+SELECT AVG(tb) FROM diemtoan
+11A;
+1. Hãy viết câu truy vấn Iấy tất cả các
+của
+nhacsi_
+2. Hãy viết câu truy vấn thêm các
+cho
+casi với các giá trị là ('TK', 'Nguyễn
+Trung Kiên') , ('QD', 'Quý Dương') ('YM'; 'Y Moan').
+4. KlỂM SOÁT QUYỂN TRUY CẬP
+Thành
+DCL của SQL cung cấp các câu truy vấn kiểm soát
+người
+đối với CSDL; tóm tắt trong Bảng 14.5.
+14.5. Câu
+vấn kiểm soát
+người
+Mẫu câu truy vấn
+Ý nghĩa
+GRANT
+Cấp quyền cho người
+REVOKE
+Thu hồi
+đối với người
+Ví dụ:
+GRANT
+select
+Cấp quyền dùng
+vấn SELECT đối với tất cả các
+ON
+music.*
+bảng trong CSDL music cho người
+guest.
+TO guest
+REVOKE create,
+alter
+Thu hổi
+CREATE và ALTER cho bảng bannhac
+ON
+music.bannhac
+trong CSDL music đối với người dùng mod.
+FROM
+mod
+;
+To
+1. Hãy viết câu truy vấn cấp
+UPDATE đối với tất cả các bảng trong CSDL music
+cho
+người
+mod.
+ÂNG
+2. Hãy viết câu
+vấn thu hồi quyền DELETE đối
+nhacsi trong CSDL music cho
+người
+mod.
+LUYÊN TÂP
+1. Hãy viết câu truy vấn tạo bảng Bản thu âm (banthuam) như đã mô tả trong Bài 13.
+2. Viết câu truy vấn tạo khoá ngoài Mid và Sid cho
+banthuam_
+3. Viết câu truy vấn lấy ra tất cả các
+trong liên kết
+banthuam với
+bannhac, mỗi
+lấy các cột: Mid, Sid của
+banthuam và cột TenBN của
+bannhac.
+VẬN DỤNG
+Viết câu
+vấn lấy ra tất cả các
+trong liên kết
+banthuam với
+bannhac và
+casi, mỗi
+lấy các cột: Mid, Sid của
+banthuam
+cột
+TenBN của bảng bannhac và TenCS của
+casi .
+72
+bảng
+cộng
+bảng
+dòng
+bảng
+dòng
+phần
+quyền
+dùng
+quyền
+Bảng
+truy
+dùng
+dùng
+quyền
+dùng
+truy
+dùng
+quyền
+quyền
+dùng
+bảng
+truy 7
+dùng
+bảng
+bảng
+bảng
+dòng
+bảng
+dòng
+bảng
+bảng
+bảng
+truy
+dòng
+bảng
+bảng
+dòng
+bảng

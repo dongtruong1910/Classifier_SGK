@@ -1,0 +1,696 @@
+BÀl
+5
+KỄT NÔI MÁY TÍNH
+VỚI CÁC THIỄT BỊ SỔ
+SAU BÀI HỌC NÀY EM SẼ:
+Biết mật số thông số cơ bản của thiết bị vào
+
+ra
+thông dụng, cách kết nối với
+tính
+như tuỳ chỉnh được một vài chức
+cơ bản để
+cao hiệu
+và
+đáp ứng nhu cầu sử
+hiểu và giải thích được một số
+số cơ bản của các thiết bị số
+dụng
+trong các tài liệu để kết nối chúng với máy tính.
+Các thiết bị số có khả
+trao đổi dữ liệu với máy tính rất đa dạng. Trong số đó,
+một số thiết bị không có khả
+xử lí
+thông tin độc Iập, chúng chỉ làm việc khi
+được kết nối với máy tính. Việc kễt nối máy tính với các thiết bị số được thực hiện
+như thế nào, cần
+tuỳ chỉnh gi khi kết nối
+với nhau?
+1. MỘT SỔ THIỄT BỊ VÀO
+G
+RA THÔNG DỤNG
+Hoạt động 1
+Các thiết bị sỐ có thể kêt nôi vôi
+tính
+Hãy kể ra một số các thiết bị có thể kết nối với máy tính và nêu chức
+của nó.
+Các thiết bị vào
+
+ra là nhóm các thiết bị ngoại vi đa dạng và phong
+nhất của
+máy tính. Các thiết bị vào cho phép nhập dữ liệu vào
+tính như bàn phím, chuột,
+máy đọc mã vạch; máy
+ảnh
+camera số; các thiết bị ra chuyển
+tin từ
+tính ra
+ngoài như màn hinh, máy in;
+chiếu.
+Một số thiết bị có khả
+trao đổi
+tin hai chiều với máy tính có thể được coi vừa là thiết bị vào; vừa là thiết bị
+vÍ dụ các bộ nhớ ngoài kết nối
+theo cổn
+USB
+0AlG
+a) Một sổ thiêt bị vào thông
+Bàn phím là thiết bị
+dụng nhất để
+dữ liệu. Bàn
+rời có thể kết
+nối không dây hoặc có dây với máy tinh
+cáp. Nếu nối
+cáp thì chỉ cần cắm
+không
+thiết lập gi thêm.
+Chuột.  Trong các thiết bị chỉ định đối tượng làm việc trên màn hình (pointing
+device) có loại luôn gắn với máy tính như bàn cảm ứng (trackpad), bi lăn (trackball) 
+có loại được kết nối với máy tính từ bên ngoài như' chuột.
+Chuột là thiết bị vào rất
+biến vì dễ điều khiển chính xác.
+Hai
+số quan
+trọng nhất của chuột là phương thức kết nối (có dây hoặc không
+và độ phân
+đo
+dpi (dots per inch), là số điểm
+rẽ mà chuột xác định được khi dịch
+chuyển được một inch (2,54 cm).
+nhiên khi sử dụng thì tốc độ của chuột lại rất quan trọng. Tốc độ thể hiện tỉ lệ
+giữa khoảng cách con trỏ màn hinh di chuyển được so với khoảng cách di chuyển
+của chuột trên mặt bàn: Khi chỉnh sửa ảnh cần thực hiện những di chuyển rất nhỏ, do
+vậy sẽ khó làm việc nếu tốc độ chuột
+cao
+Vì thế, cần biết tuỳ chỉnh chế độ làm
+việc của chuột.
+27
+máy
+cũng
+năng
+nâng
+quả
+dụng.
+Đọc
+thông
+thông
+nẵng
+năng
+phải
+chúng
+mêy
+năng
+phú
+máy7
+quét
+thông
+máy
+nẳng
+máy
+thông
+ra,
+cổng
+dụng
+thông
+nhập
+phím
+bằng
+bằng
+cổng,
+phải
+đúng
+phổ
+thông
+dây)
+giải ,
+bằng
+riêng
+Tuy
+quá
+
+Để tuỳ chỉnh chế độ làm việc của
+Mouse
+chuột,
+em cần
+mở tiện ích Setting;
+Select your prmary button
+Kclatcd scttings
+chọn nhóm chức
+Devices
+sau
+Len
+Adjust mouse & CUISOI size
+đó chọn Mouse để làm xuất hiện cửa
+Gsor speee
+Adlitional rouse: aptiosns
+số tuỳ chỉnh chuột như' Hình 5.1. Ví
+dụ để tănglgiảm tốc độ của chuột chỉ
+Roll the ncuse Yhel to scioll
+cần kéo con trượt trên thanh "Cursor
+Muluple hnes al a lme
+Choose hove many lincs to saoll cach tumnc
+speed" sang phảiltrái;  chọn Iại
+nút
+ưu tiên là
+(right)
+vi trái (left)
+dưới vị trí "Selectyour primary button'
+Hình 5.1
+Tuỳ chỉnh chuột máy tính
+cho người thuận
+trái. Ngoài ra còn nhiều tuỳ chỉnh khác như chọn hinh
+của
+chuột, chọn để lại
+không để lại vết di chuyển trên màn hình của chuột;
+b) Thiêt bị ra
+Màn hình là thiết bị ra
+biến nhất.
+Có nhiều loại
+màn hình
+sử dụng các
+nghệ khác nhau như' đèn chân không
+(CRT), tinh thể
+(LCD), LED
+plasma
+Nhưng dù
+nghệ gi thì chúng đều
+có một số thông số chung như sau:
+Hình 5.2 Màn hình máy tính
+Kích thước: được đo
+độ dài đường chéo màn hinh, tính theo inch.
+Độ phân giải: thể hiện bởi số điểm ảnh theo chiều ngang và chiều dọc của màn
+hinh. Ví dụ, độphân
+VGA: 640 * 480 pixel, độ phân
+Full HD: 1920 x 1080 pixel.
+Số điểm ảnh
+lớn thì màn hinh
+nét.
+Khả
+thể hiện màu: loại đơn sắc (monochrome) chỉ có hai màu;
+còn loại
+màu 24 bit có thể thể hiện được khoảng 16,7 triệu sắc màu khác nhau.
+Tần số
+hinh ảnh trên màn hình được tạo lại liên tục. Tần số
+là số lần
+hiển thị lại hình ảnh trong một giâỵ. Khi tần số
+cao, thời gian tái hiện hinh ảnh
+hơn thời gian lưu ảnh trên
+mạc, ảnh sẽ không bị giật; đỡ mỏi mắt. Tần số
+quét thường là 50 Hz, 60 Hz, 75 Hz
+100 Hz
+Thời gian phản hồi: là khoảng thời gian cần thiết để có thể đổi màu một điểm
+ảnh. Những màn hinh có chất Iượng tốt có thể có thời gian
+hồi là
+1
+ms.
+Có thể tuỳ chỉnh màn hình, chủ yếu là độ
+Đối với màn hinh rời,
+việc tuỳ
+chỉnh thực hiện qua các nút trên màn hinh. Đối với máy tính xách
+có thể chỉnh
+trên bàn
+VÍ dụ
+F11 để
+và F12 để
+Máy in. Có nhiều loại máy in.
+Máy in kim sử dụng một hàng kim gõ vào băng mực để lại vết trên giấy: Các chữ
+hay hình vẽ được tạo thành từ một lưới các điểm nên máy in kim còn
+là
+in ma
+trận (matrix printer)
+máy in điểm (dot printer) .
+chất Iượng ảnh rất thấp nhưng
+chua có phương pháp nào tốt hơn khi
+in hoá đơn có nhiều liên.
+Máy in laser
+tia laser để tạo ra sự
+đổi điện áp trên bề mặt của một
+tĩnh điện tương tự với hình cần in.
+Sau đó
+tĩnh điện sẽ hút các hạt mực
+siêu nhỏ rồi áp vào mặt giấy, đốt
+để tạo thành bản in. Máy in laser được
+biến để in tài liệu:
+Máy in phun sẽ phun các hạt mực màu nước siêu nhỏ để tạo ảnh. Máy in loại
+này thích hợp để in ảnh màu; phông bạt quảng cáo với kích thước đa
+và chi
+thấp.
+28
+năng
+phải
+thay
+tay
+dáng
+hay
+phổ
+công
+lỏng
+hay
+dùng
+công
+bằng
+giải
+giải
+càng
+càng
+năng
+quét:
+quét
+quét
+ngắn
+võng
+hay
+phản
+sáng
+tay
+giảm
+phím;
+phím
+sáng
+tăng
+sáng
+máy
+gọi
+hay
+Tuy
+phải
+dùng
+thay
+trống
+trống
+nóng
+dùng
+phổ
+dạng
+phí
+
+Máy in nhiệt in trên giấy cảm ứng
+nhiệt; vùng giấy bị làm nóng đổi sang
+màu đen
+Máy in nhiệt thường
+để in hoá đơn bán
+Dù đa dạng nhưng các máy in đều
+có
+những thông số chung như sau:
+Độ phân
+tính
+dpi là số
+a)
+in kim
+b)
+in laser
+điểm ảnh trên một inch
+theo cả hai
+chiều ngangldọc tương tự như cách
+tạo ảnh trên
+màn hinh
+Máy in laser
+hay in phun có thể đạt được từ 300
+dpi đến 600 dpi hoặc hơn; trong khi đó
+máy in kim hay in nhiệt có độ phân
+thấp hơn nhiều.
+c) Máy in phun
+d) Máy in nhiệt
+Kích thước giấy có thể in được.
+Hình 5.3. Một số loại
+in
+Máy in khổ giấy A4
+biến nhất. Các
+máy in phông, bạt có thể in được khổ lớn đến vài mét.
+Tổc độ in thường tính theo số trang in được trong một
+Các máy in laser có
+thể in vài chục trang một phút, máy in phun có thể mất vài phút cho một trang.
+Khả
+in màu.
+Cách kết nối với máy tính
+Kết nối máy in với máy tính: Một số loại máy in khi kết nối với máy tính, trước Iần
+sử
+đầu tiên đòi hỏi
+cài đặt trình điều khiển (driver) do
+sản xuất máy in
+cung cấp. Nếu
+in kết nối với máy tính
+cáp thì cần chọn cáp đúng loại. Nếu
+kết nối máy in với máy tính qua mạng (có dây
+không dây) thi có thể còn
+tuỳ
+chỉnh các tham số kết nối mạng.
+Máy tính có thể kết nối được với nhiều thiết bị số, trong đó có các thiết
+bị vào
+ra
+thường chỉ làm việc được khi kết nối vớí máy tính
+Mỗi thiết bị vào
+ra đều có những thông số đặc trưng
+Việc hiểu
+các thông số này giúp ta Iựa chọn thiết bị phù
+Trong trường
+cần thiết có thể
+tuỳ chỉnh chức
+của thiết bị theo nhu cầu sử
+dụng để đạt hiệu
+tôt hơn
+1. Nêu và giải thích ý nghĩa các
+số của màn hình.
+2. Nêu và giải thích ý nghĩa các
+số của máy in.
+2. KẾT NỔI MÁY TÍNH VỚI THIÊT BI Sổ
+Hoạt động 2
+kêt nôi cúa
+tinh
+Xem Hình 5.4
+rồi
+cho
+biết
+tên các
+kết
+nối
+của
+máy tính
+A
+B
+E
+Hình 5.4. Một số
+kết nối của máy tính
+29
+dùng
+hàng .
+bằng
+giải
+Máy
+Máy
+giải
+máy
+phổ
+phút.
+năng
+phải
+dụng
+hãng
+bằng
+máy
+phải
+hay
+riêng
+hợp-
+hợp
+phải
+năng
+quả
+thông
+thông
+Cổng
+máy
+cổng
+cổng
+
+a) Các
+kểt nổi
+Các
+A
+B
+để kết nối với thiết bị ra như màn hinh hoặc máy chiếu có
+tên lần lượt là
+VGA và
+cổng HDMI.
+VGAkhông dùng tín hiệu số mà
+tín hiệu tương tự để truyền hinh ảnh
+tới màn hinh hoặc máy chiếu; không truyền âm thanh.
+Cổng HDMI truyền tin hiệu số, truyền
+thời cả âm thanh và hinh ảnh với
+lớn nên có thể truyền video với độ phân giải cao.
+Các
+C,
+D
+E đều thuộc họ
+USB (Universal Serial Bus). Đặc điểm
+chung của phương thức truyền dữ liệu USB là truyền tuẩn tự, đa năng: Với tốc độ
+được cải thiện nhanh
+USB đã
+thế và giúp loại bỏ nhiều
+khác được
+trước đây như
+COM,
+Paralel
+cho máy in,
+PSI2 cho bàn
+và chuột.
+Flà
+mạng. Nhiều thiết bị có thể kết nối với máy tính qua mạng.
+b) Kết nổi máy tính với thiêt bị sổ
+Không có một phương thức kết nối chung nào cho các thiết bị số với máy tính.
+Nói chung,
+các thiết bị số được cung cấp kèm theo tài liệu kĩ thuật, nêu rõ các đặc
+tính của thiết bị
+cách sử
+và cách liên Iạc với nhà sản xuất để được hỗ trợ.
+Vì
+vậy; cần đọc kĩ các tài liệu kĩ thuật hoặc nhờ các chuyên gia tư vấn để biết cách sử
+dụng tốt nhất.
+Nhờ cơ chế plug & play nên việc kết nối máy tính với các thiết bị số
+qua các
+mạng ngày nay dễ dàng hơn nhiều:  Trong nhiều trường
+chỉ cần cắm
+cáp kết nối là có thể sử dụng thiết bị ngay; ví dụ chuột
+bộ nhớ ngoài (USB, ổ đĩa
+rời
+). Trong một số trường
+khác, cần thiết lập các tham số kết nối.
+Ví dụ 1. Kết nối máy tính với
+ảnh để làm việc với ảnh.
+Máy ảnh số có thể hỗ trợ một số cách kết nối khác nhau với máy tính: qua cáp
+USB, wifi hoặc bluetooth.
+Hinh 5.5 minh hoạ việc kết nối máy tính với máy ảnh qua cáp nối USB
+Khi cắm
+cáp nối với máy tính,
+ảnh sẽ hiện
+báo
+mode; Mass Storage" với ý
+nghĩa bộ nhớ được chia sẻ qua
+USB.
+U
+"USB 1
+nrfs
+Us8 Drore IH)
+Sachxuai Ban Jyhoccoba ^
+Hene
+Oote m ndd ed
+Sgk 10
+DCIN
+Qooicsik
+1i heu
+MP_RSS
+Vdwiwpn
+Panlie
+Valigisyu
+InisPC
+JD Qbjgcis
+Dezyfc D
+Hình 5.5. Kết nối máy ảnh với máy tính đ lấy ảnh
+Khi đó có thể truy cập thẻ nhớ của máy ảnh như một bộ nhớ ngoài.
+tiện ích
+File Explorer; ta có thể mở thư mục DCIM,
+nơi chứa các
+ảnh để xem
+xoá, sao
+chép
+các tệp ảnh trong máy ảnh số (Hinh 5.5).
+Ví dụ 2 Kết nối máy tính với thiết bị số qua bluetooth
+Bluetooth là phương thức kết nối
+dây trong khoảng cách gần (dưới 10 m)
+để truyền tệp, thu phát âm thanh
+video hoặc điều khiển thiết bị.
+Tại mỗi thời điểm, mỗi thiết bị chỉ có thể kết nối qua bluetooth với một thiết bị khác:.
+30
+cổng
+cổng
+dùng
+cổng 7
+Cổng
+dùng
+đồng
+băng
+thông
+cổng
+cổng
+cổng
+thay
+dùng
+cổng
+cổng
+cổng
+dùng
+phím
+Cổng
+cổng
+dụng
+thông
+cổng
+hay
+hợp,
+hay
+hợp
+máy
+thông
+máy
+cổng
+Dùng
+tệp
+không
+hay
+
+Trướckhi kết nối với một thiết
+Eluetooth & cther devices
+1435 000
+136_
+bị nào, máy tính
+điện thoại
+ad Bluetcott 01 other device
+Eluetooth
+Dc
+minh cần phải ghép đôi
+(pairing) với thiết bị đó để trao
+Juocta
+Bât
+9u
+đổi tham số kết nối. Đối với máy
+Vauv drrrveahle
+MFIi )P - i(2}
+Dản báp t1l6t bl ban mcénkẻt nêl Jang @cFỗớộ
+<
+qhépcil, Thizi bỊ cúa ber (Calexy HolelDt 5G cúa
+tính cá nhân cần
+tiện ich
+Kien Joci dang nen th vaicacnebingin
+6
+Mouse keyboad
+& pen
+Setting sau đó chọn
+Bluetooth
+Blurlcoll Muuse MJse N337/84535
+Caculetbl dl phep d01
+and others devices'
+đối với điện
+Puirej
+88
+BT-B9
+Kemorecontrol
+thoại thông minh cần chạy tiện
+ích Setting và chọn kết nối với
+88
+My €a
+Audio
+bluetooth.
+Giao
+diện
+làm
+việc
+ALNS
+8g
+BKscurd CSP-9001
+Paired
+với bluetooth
+trên máy tính
+cá
+Bs Spekker
+Pured
+Yun;eng
+nhân và điện thoại
+minh
+được minh hoạ trong Hinh 5.6.
+Hình 5.6. Giao diện ghép đôi và kết nối với bluetooth
+Những thiết bị bluetooth nào đã
+trên PC và trên điện thoại thông minh
+ghép đôi từ trước được hiển thị sẵn.
+Nếu muốn kếtnối với thiết bị đã được ghép đôi sẵn; chỉ cần bật bluetooth của thiết
+bị đó rồi chọn tên thiết bị và đợi thông báo thành
+Để làm việc với một thiết bị mới, ta cần ghép đôi theo các bước sau:
+2
+Bật chức năng bluetooth của thiết bị rồi tìm thiết bị
+cách chọn
++Add blue-
+(
+tooth or other device
+hoặc
+Dò
+Khi thấy hiện tên thiết bị bluetooth muốn ghép đôi, hãy chọn.
+Một số thiết bị
+bluetooth có thể gửi một mã xác thực; yêu cầu gõ lại mã đó rỗi mới ghép đôi .
+Để kết nối một thiết bị số với máy tinh; cần tìm hiểu tài liệu kĩ thuật để
+nắm được các
+số và cách kết nối .
+1. Cách kết nối thiết bị số với máy tính có phụ thuộc vào loại thiết bị không?
+2 Em hiểu thế nào về tham số kết nối?
+LUYÊN TÂP
+Voi Ctoc SONG
+1. Thựchiện kết nối máy tính với một điện thoại
+minh qua cổng USB để Iấy ảnh
+từ điện thoại về máy tính tương tự như Ví dụ 1.
+2
+Thực hiện kết nối máy tính
+điện thoại di
+với một tai
+hay một loa
+bluetooth theo Ví dụ 2 Sau đó hãy bật nhạc từ máy tính hay đện thoại đề trải
+nghiệm âm nhạc phát tới thiết bị bluetooth:
+VÂN DUNG
+1
+Tìm hiểu máy
+ảnh theo các gợi ý sau: Máy
+là thiết bị ra
+vào? Mô tả
+chức năng. Những
+khác nhau để chế tạo máy
+nếu có. Các
+số của máy
+ảnh là gì?
+2
+Tim hiểu máy chiếu theo các
+ý sau: Máy chiếu là thiết bị ra
+vào? Mô tả
+chức
+Tim hiểu những
+khác nhau để chế tạo
+chiếu.
+Các
+số của máy chiếu là gì?
+3. Máy chiếu khi kết nối sẽ trở thành màn hình mở
+của máy tính. Có thể
+chính ti vi
+minh làm màn hinh mở
+của máy tính. Hãy tim hiểu cách kết
+nối ti vi với máy tính để làm màn hinh mở
+theo
+ý như bài Vận dụng 2
+31
+hay
+thông
+chạy
+thông
+công
+bằng
+thông
+thông
+động
+nghe
+hay
+quét
+quét
+hay7
+công
+nghệ
+quét
+thông
+quét
+gợi
+hay
+năng.
+nghệ
+công
+máy
+thông
+rộng
+dùng
+thông
+rộng
+rộng
+gợi
